@@ -1,0 +1,231 @@
+= Rails Models Reverse Engineering
+
+Rmre is utility gem for creating Ruby on Rails, at the moment only ActiveRecord, models
+for legacy databases. Besides creating all models it sets proper table name and primary
+key if tables and columns naming doesn't follow Rails convention. It also tries to read
+all foreign keys data from a database if DBE is MySql, PostgreSQL, Oracle or MS SQL and
+sets models relationships on a basic level through belongs_to and has_many declarations.
+
+= Installation
+
+Rmre can be installed with
+
+  gem install rmre
+
+= How to use
+
+Rmre is very simple to use:
+
+  rmre -a mysql2 -d my_database -u my_username -p my_password -o /path/where/models/will/be/created
+
+That's all! Of course there is standard help which you can print at any time:
+
+  rmre --help
+
+or
+
+  rmre -h
+
+I believe that command line options are self explanatory especially if you are familliar
+with Ruby on Rails database handling. Apart from Ruby on Rails related options there are
+several that should be explained.
+
+== MS SQL options
+
+Options:
+
+  -m or --mode
+  -n or --dsn
+
+are user for setting ODBC specific arguments. First one must be used with MS SQL and must
+be set to ODBC and the second one is data source name.
+
+== General options
+
+Otput directory can be set with:
+
+  -o /path/to/target/directory
+  --out /path/to/target/directory
+
+otherwise Rmre will create models in the directory where it is started.
+
+Rmre can also filter tables for which it will create models. Filtering is very basic and
+it mathes whether name of the table starts with passed patterns:
+
+  -i ec_,vi_
+  --include ic_,vi_
+
+with create models only for tables names with prefixes ec_ or vi_.
+
+== Test databases
+
+If you want to try *Rmre* and you do not have sample database you can use
+_Sakila_ at http://dev.mysql.com/doc/sakila/en/sakila.html#sakila-installation for MySQL and
+_Pagila_ at http://pgfoundry.org/projects/dbsamples for PostgreSQL.
+
+== Configuration file
+
+Rmre will automatically generate sample configuration file if it is invoked with +-f+ switch
+without file name:
+
+  rmre -o /tmp/test -f
+
+Rmre creates two files +/tmp/test/rmre_db.rb+ and +/tmp/test/rmre_db.yml+. First file is sample
+how configuration and all models created by Rmre can be loaded and how connection to database
+can be established.
+
+  require "yaml"
+  require "active_record"
+
+  dir = File.join('/tmp/test', '*.rb')
+  Dir.glob(dir) { |file| require file }
+
+  def connect
+    settings_file = './rmre_db.yml'
+    exit unless File.exists?(settings_file)
+    settings = YAML.load_file(settings_file)
+    ActiveRecord::Base.establish_connection(settings[:db])
+    ActiveRecord::Base.connection
+  end
+
+File comes in handy if you want to quickly check how generated models work. Just require this file
+when you start IRB and you're ready to go:
+
+  irb -r/tmp/test/rmre_db.rb
+  >> connect
+  >> ... test your model here
+
+Second file is sample configuration file which can be used to set databse connection, output path
+instead of setting them through command line options. Generated file is:
+
+  ---
+  :db:
+    :username: ''
+    :password: ''
+    :port:
+    :timeout: 5000
+    :adapter: adapter_name
+    :database: db_name
+  :out_path: /tmp/test
+
+After setting values in configuration file Rmre can be started with just one option - path to
+configuration file.
+
+  rmre -f /tmp/test/rmre_db.yml
+
+== If table names do not fit in Rails naming convention
+
+Rmre uses ActiveSupport inflections to create names of the model. This can have side effect
+if table name ends with letter 's' and is not actually plural. Final file and class name will be
+truncated like for example for table name +generated_des+. Converting this name to singular
+form and forming file name will result in +generated_de.rb+ and model name will be GeneratedDe.
+Both of these are wrong. For that purpose Rmre allows defining additional inflections in the
+configuration file which can be used to properly convert (or leave as they are) table names
+to singular and plural form. Inflections can be defined in Rmre configuration file.
+
+  :inflections:
+  - :plural:
+    - (.*)_des$
+    - \1_des
+    :singular:
+    - (.*)_des$
+    - \1_des
+  - :plural:
+    - (.*)_fis$
+    - rmre_\1_d
+    :singular:
+    - (.*)_fis$
+    - rmre_\1_d
+
+Array given in +:inflections+ key must contain hashes and each hash must contain two keys
++:plural+ and +:singular+. Values for each key is array with two elements. First element is
+regular expression which will be used to match table names and second element is regular expression
+used to transform table name to plural or singular form. In the above example first hash will keep
+all table names wich end with +_des+ string as they are. This means for table +generated_des+ resulting
+file and model names will be +generated_des.rb+ and +GeneratedDes+. Second inflection will convert
+all names that end with +_fis+ by prepending string +rmre+ and appending suffix +_d+. For
++tone_fis+ table resulting file and class names will be +rmre_tone_d+ and +RmreToneD+.
+
+= Copying databases
+
+Rmre gem has built-in support for copying databases (structure and data). This feature is
+currently experimental.
+
+During copy, Rmre will create primary keys on target tables. Since Rmre uses ActiveRecord,
+composite primary keys are not supported.
+
+Copying structure between different RDBMS can be tricky due to different data types.
+Some adapters do not convert all types to Rails value. Example is oracle_enhanced adapter
+which for 'LONG' column type sets column's type to nil but keeps sql_type as 'LONG'. Rmre
+handles these cases through Rmre::DbUtils module. Currently it properly converts Oracle's
++raw+ and +LONG+ types to MySQL's +binary+ and +text+. Support for more conversions will
+be added (if I find or get info about needed conversions). However if you write your own
+script and do not use +db_copy+ runner you can set additional conversion rules by adding
+values to Rmre::DbUtils::COLUMN_CONVERSIONS hash.
+
+Keys in this hash are target sdapter names and values are hashes with source column type
+as key and target column type as value:
+
+  COLUMN_CONVERSIONS = {
+      "Mysql2" => {
+        :raw => :binary,
+        "LONG" => :text
+      }
+    }
+
+In order to copy one database to another RDBMS you must start db_copy with +-f+ option
+and with path to YAML configuration file. Full sample of configuration file is:
+
+  :source:
+    adapter: sqlserver
+    mode: dblib
+    dataserver:
+    host: localhost
+    port: 1433
+    database: source_db
+    username: source_username
+    password: source_pass
+    timeout: 5000
+  :target:
+    adapter: mysql2
+    encoding: utf8
+    reconnect: false
+    database: target_db
+    pool: 5
+    username: target_username
+    password: target_pass
+    host: localhost
+  :verbose: true
+  :force: true
+  :skip_existing: false
+  :skip:
+    - do_not_copy_table_1
+    - do_not_copy_table_2
+
+Source and target options are standard Rails configurations for source and target databases.
+Parameter +:verbose+ is optional and can be omitted. If set to try will db_copy will pring out
+progress during copy. This parameter can be set also by passing +-v+ options to db_copy
+
+  db_copy -f /path/to/config/file.yml -v
+
+Value from file will override the one given on the command line.
+
+Next optional parameter is +:force+. If it is set to true Migrator class will force table creation
+Similar to +verbose+ parameter this value can be set by passing +-o+ option to db_copy and value
+from configuration file will override the value given on the command line.
+
+Parameter +:skip_existing+ signals db_copy to skip tables that already exist in target database.
+
+If you do not want to copy some tables add them to the array +:skip+ in configuration file.
+
+There is a big probability that db_copy will not be able to copy database which is not Rails compliant.
+Reasons for this are numerous: unsupported column types, composite primary keys, etc. If you face such
+a problem create an issue and I will try to implement support for various special cases. However if used
+on Rails compliant databases db_copy should be able to peform full copy between any of supported RDBMS.
+
+= TODO
+
+* Improve filtering
+* Write more tests
+* Foreign key support for other DBEs (firebird, SQLite, Sybase,...)
+* Probably much more which I cannot remember right now

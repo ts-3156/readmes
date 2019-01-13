@@ -1,0 +1,122 @@
+h1. dm-redis-adapter
+
+This is a <a href="http://datamapper.org">DataMapper</a> adapter for the <a href="http://redis.io/">Redis</a> key-value store.
+
+Redis is a very fast key-value store with some interesting data structures added, and oh so much more. You can have a key that is a SET, LIST, STRING or HASH that is binary safe. Data structures like SET and LIST allow for even more interesting things. Redis is a fabulous and fast engine for data structures, and you can read more about it here: <a href="http://code.google.com/p/redis/">redis</a>. Redis is also a persistent data store, and can be used in large-scale environments with master-slave replication and consistent hashing on the client side. Redis makes everyone happy and has been known to cause sunshine to spontaneously break out in clouded areas.
+
+<a href="http://datamapper.org">DataMapper</a> is a brilliant ORM that is based on the <a href="http://www.martinfowler.com/eaaCatalog/identityMap.html">IdentityMap</a> pattern.  Usage of DataMapper resembles that of ActiveRecord, the popular ORM bundled with Ruby on Rails, but with some very important differences. A quote from the DM wiki: "One row in the database should equal one object reference. Pretty simple idea. Pretty profound impact." Having an identity map allows for very efficient queries to the database, as well as interesting forms of lazy loading of attributes or associations.
+
+Marrying DataMapper to Redis allows for schema-less models, you can add fields at any time without having to create a migration.  DataMapper also allows us to store non-native Redis types in the db, like Date fields.
+
+h1. Upgrading
+
+Please note that as of version 0.5.3 of the gem, the key names that are used for storage have changed and break compatibility with previous versions!
+
+h1. Changelog
+
+* v0.10.1 Bugfixes and reduced runtime dependency (thanks @JonMidhir and @rabbit!)
+* v0.9.0  Fixes for composite keys being indexed (thanks @fringley)
+* v0.8.4  Fixes for composite keys (thanks @krider2010)
+* v0.8.2  Updates to RedisAdapter#initialize to support URI. (thanks @thentenaar)
+* v0.8.1  Dependency updates by @jof to support newer versions of the redis gem.
+* v0.8.0  Updates by @sfeu to support composite natural keys.
+* v0.6.4  Adding the Gemfile so that rake commands work (thanks @kellydunn!)
+* v0.6.3  Fixes a problem with non-index, non-key queries (thanks @thecurator!)
+* v0.6.2  Fixes a problem with 'destroyed' objects (thanks @snovotny!)
+* v0.6.1  Fixes a problem with deleting an object and not having it deleted from an assosciation (thanks @sheuer!)
+* v0.6.0  Refactor and change to the way that model names are stored in redis
+* v0.5.3  Support for inheritance via sfeu and ujifgc, this version *breaks compatibility* with previous versions of the gem
+* v0.4.0  Support for dm-core v1.1.0
+* v0.3.0  Updates to support ruby 1.9.2 (thanks arbarlow!)
+* v0.2.1  Fixes to sorting
+* v0.1.1  Update to redis-rb v2.0.0
+* v0.1    Update to store records as redis hash values
+* v0.0.11 Updates to support newer versions of the redis client, support for JSON datatypes
+
+h1. Install
+
+Prerequisites:
+* Redis:
+** <a href="http://code.google.com/p/redis/">Redis, >= v3.0 series</a>
+
+Install the dm-redis-adapter:
+<pre>
+  <code>
+    > gem install dm-redis-adapter
+  </code>
+</pre>
+
+h1. Usage
+
+Setup your adapter, define your models and properties:
+
+<pre>
+  <code>
+    require 'rubygems'
+    require 'dm-core'
+    require 'dm-redis-adapter'
+
+    DataMapper.setup(:default, {:adapter  => "redis"})
+
+    class Cafe
+      include DataMapper::Resource
+
+      property :id,     Serial
+      property :name,   Text
+    end
+
+    Cafe.finalize
+
+    Cafe.create(:name => "Whoahbot's Caffienitorium")
+  </code>
+</pre>
+
+Now you can use redis in a ORM style, and take advantage of all of the amazing things that DataMapper offers.
+
+If you want to do finds on specific String fields, add an index:
+
+<pre>
+  <code>
+    class Coffee
+      include DataMapper::Resource
+
+      property :id,            Serial
+      property :description,   String, :index => true
+    end
+
+    Coffee.create(:description => "Notes of crude oil and sulphur")
+    Coffee.first(:description => "Notes of crude oil and sulphur") # will now work
+  </code>
+</pre>
+
+Validations on unique fields are now supported through indices and dm-validations:
+
+<pre>
+  <code>
+    class Crumblecake
+      include DataMapper::Resource
+      validates_is_unique :flavor
+
+      property :id,      Serial
+      property :flavor,  String, :index => true
+    end
+
+    Crumblecake.create(:flavor => "snozzbler")
+    Crumblecake.new(:flavor => "snozzbler").valid? # false (of course!  Who ever heard of a snozzbler crumblecake?)
+  </code>
+</pre>
+
+h1. Badass contributors
+
+* <a href="http://github.com/thentenaar">Tim Hentenaar (thentenaar)</a>
+* <a href="http://github.com/aeden">Anthony Eden (aeden)</a> Gem cleanup, update to jeweler
+* <a href="http://github.com/sr">Simon Roset (sr)</a> Fixes for edge dm-core
+* <a href="http://github.com/cehoffman">Chris Hoffman (cehoffman)</a> Fixes for Ruby 1.9, bundler for development deps, fixes for sorting
+* <a href="http://github.com/bpo">brian p o'rourke (bpo)</a> Updates for newer versions of redis client and DM JSON type support, move to hash storage
+* <a href="http://github.com/arbarlow">Alex Barlow (arbarlow)</a> Fixes for ruby 1.9.2
+* <a href="http://github.com/jof">Jonathan Lassoff (jof)</a> Fixes to support textual keys
+* <a href="http://github.com/sfeu">Sebastian Feuerstack (sfeu)</a> Fixes to support inheritance
+* <a href="http://github.com/sheuer">Stephen Heuer (@sheuer)</a> Fixes to deleted assosciations
+* <a href="http://github.com/snovotny">Steve Novotny (@snovotny)</a> Fixing a bug with 'destroyed' objects
+* <a href="http://github.com/thecurator">Andrew Janssen (@thecurator)</a> Fixing a bug with non-index, non-key queries
+* <a href="http://github.com/krider2010">Claire (@krider2010)</a> Update version of redis gem dependency, fixes for composite keys.

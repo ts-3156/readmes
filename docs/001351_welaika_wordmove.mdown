@@ -1,0 +1,303 @@
+# Wordmove
+
+![logo](https://raw.githubusercontent.com/welaika/wordmove/master/assets/images/wordmove.png)
+
+Wordmove is a gem that lets you automatically mirror local WordPress
+installations and DB data back and forth from your local development machine to
+the remote server.
+
+Wordmove has also a neat hook system which enables you to run arbitrary commands
+before and after push/pull actions. Local and remote commands are both supported, but remote
+ones will be run only if using SSH protocol. Read the [dedicated wiki page](https://github.com/welaika/wordmove/wiki/Hooks) for more info.
+
+[FTP support has been discontinued](https://github.com/welaika/wordmove/wiki/FTP-support-disclaimer), thus most recent features won't work,
+while base functionalities are granted.
+
+[![Build Status](https://travis-ci.org/welaika/wordmove.svg?branch=master)](https://travis-ci.org/welaika/wordmove)
+[![Slack channel](https://img.shields.io/badge/Slack-WP--Hub-blue.svg)](https://wphub-auto-invitation.herokuapp.com/)
+[![Gem Version](https://badge.fury.io/rb/wordmove.svg)](https://rubygems.org/gems/wordmove)
+[![Docker Build Status](https://img.shields.io/docker/automated/welaika/wordmove.svg)](https://hub.docker.com/r/welaika/wordmove/)
+
+
+## Installation
+
+That's easy:
+
+    gem install wordmove
+
+And to update:
+
+    gem update wordmove
+
+## Peer dependencies
+
+Wordmove just acts as automation glue bewtween tools you already have and love. These are its peer dependencies which you need to have installed and in your $PATH:
+
+| Program   | Actions                      | Mandatory?                      |
+| -------   | ---------------------------- | ------------------------------- |
+| rsync     | Mirror files and dirs        | Yes for SSH connections         |
+| mysql     | Import database              | Yes                             |
+| mysqldump | Dump database                | Yes                             |
+| wp-cli    | Adapt database               | Yes by defalut, but configurable|
+| lftp      | all                          | Yes, for FTP connections        |
+
+## Usage
+
+```
+> wordmove help
+Commands:
+  wordmove --version, -v    # Print the version
+  wordmove doctor           # Do some local configuration and environment checks
+  wordmove help [TASK]      # Describe available tasks or one specific task
+  wordmove init             # Generates a brand new movefile.yml
+  wordmove pull             # Pulls WP data from remote host to the local machine
+  wordmove push             # Pushes WP data from local machine to remote host
+```
+
+Move inside the WordPress folder and use `wordmove init` to generate a new `movefile.yml` and edit it with your settings. Read the next paragraph for more info.
+
+**See the wiki article: [Usage and flags explained](https://github.com/welaika/wordmove/wiki/Usage-and-flags-explained) for more info.**
+
+### Screencasts
+
+* Push all WordPress, including database and uploads: http://vimeo.com/74648079
+* Pull database and uploads, adapting paths and urls: http://vimeo.com/74646861
+* Push only theme, transfer only modified files: http://vimeo.com/74647529
+
+## movefile.yml
+
+You can configure Wordmove creating a `movefile.yml`. That's a YAML file with local and remote host(s) infos:
+
+```yaml
+global:
+  sql_adapter: wpcli
+
+local:
+  vhost: http://vhost.local
+  wordpress_path: /home/john/sites/your_site # use an absolute path here
+
+  database:
+    name: database_name
+    user: user
+    password: password
+    host: localhost
+
+  # paths: # you can customize wordpress internal paths
+  #   wp_content: wp-content
+  #   uploads: wp-content/uploads
+  #   plugins: wp-content/plugins
+  #   themes: wp-content/themes
+  #   languages: wp-content/languages
+
+production:
+  vhost: http://example.com
+  wordpress_path: /var/www/your_site # use an absolute path here
+
+  database:
+    name: database_name
+    user: user
+    password: password
+    host: host
+    # port: 3308 # Use just in case you have exotic server config
+    # mysqldump_options: --max_allowed_packet=50MB # Only available if using SSH
+    # mysql_options: --protocol=TCP # Only available if using SSH
+
+  exclude:
+    - '.git/'
+    - '.gitignore'
+    - 'node_modules/'
+    - 'bin/'
+    - 'tmp/*'
+    - 'Gemfile*'
+    - 'Movefile'
+    - 'movefile'
+    - 'movefile.yml'
+    - 'movefile.yaml'
+    - 'wp-config.php'
+    - 'wp-content/*.sql.gz'
+    - '*.orig'
+
+  ssh:
+    host: host
+    user: user
+
+  # hooks: # Remote hooks won't work with FTP
+  #   push:
+  #     before:
+  #       local:
+  #         - 'echo "Do something locally before push"'
+  #       remote:
+  #         - 'echo "Do something remotely before push"'
+  #     after:
+  #       local:
+  #         - 'echo "Do something locally after push"'
+  #       remote:
+  #         - 'echo "Do something remotely after push"'
+  #   pull:
+  #     before:
+  #       local:
+  #         - 'echo "Do something locally before pull"'
+  #       remote:
+  #         - 'echo "Do something remotely before pull"'
+  #     after:
+  #       local:
+  #         - 'echo "Do something locally after pull"'
+  #       remote:
+  #         - 'echo "Do something remotely after pull"'
+```
+
+**We warmly recommend to read the wiki article [Multiple environments explained
+](https://github.com/welaika/wordmove/wiki/Multiple-environments-explained) if you need multi-stage support,
+and the wiki article [Movefile configurations explained](https://github.com/welaika/wordmove/wiki/movefile.yml-configurations-explained)
+to understand about the supported configurations.**
+
+## Multistage
+
+You can define multiple environments in your `movefile.yml`, such as production, staging, etc.
+Use `-e` with `pull` or `push` to run the command on the specified environment.
+
+For example:
+
+    wordmove push -e staging -d
+
+will push your local database to the staging environment only.
+
+We warmly **recommend** to read the wiki article: [Multiple environments explained
+](https://github.com/welaika/wordmove/wiki/Multiple-environments-explained)
+
+## Secrets
+
+If you intend on committing movefiles to your repos, consider using ERB tags to hide sensitive variables and credentials:
+
+```yaml
+production:
+  database:
+    user: "<%= ENV['PROD_DB_USER'] %>"
+    password: "<%= ENV['PROD_DB_PASS'] %>"
+```
+
+This can either be specified through shell variables or a dotenv file.
+
+### Shell
+You can set variables like so:
+
+```bash
+# bash
+export PROD_DB_USER="username" PROD_DB_PASS="password"
+
+# fish
+set --export --global PROD_DB_USER "username"; set --export --global PROD_DB_PASS "password"
+```
+
+### Dotenv
+Wordmove supports the [dotenv](https://github.com/bkeepers/dotenv) module. Simply create a file named `.env` next to your movefile:
+
+```dosini
+PROD_DB_USER=username
+PROD_DB_PASS=password
+```
+
+You may also use `.env.{environmentname}`, but this is discouraged.
+
+## Supports
+
+### OS
+
+OS X and Linux are fully supported.
+
+See the [Windows (un)support disclaimer](https://github.com/welaika/wordmove/wiki/Windows-(un)support-disclaimer)
+
+### Docker
+
+We have a docker image bringing the latest Wordmove's version with autobuild on new releases.
+
+[![Docker Build Status](https://img.shields.io/docker/automated/welaika/wordmove.svg)](https://hub.docker.com/r/welaika/wordmove/)
+
+### SSH
+
+* You need `rsync` on your machine; as far as we know it's already installed on OS X and Linux.
+* To use your SSH public key for authentication, just delete the `production.ssh.password` field in your `movefile.yml`. Easy peasy.
+* writing the password inside `movefile.yml` was and is somewhat supported, but **we discourage this practice** in favor of password-less authentication with pub key. Read [here](https://github.com/welaika/wordmove/wiki/%5Bdeprecated%5D-SSH-password-inside-Movefile) for old informations.
+
+### FTP and SFTP
+
+* You need to install `lftp` on your machine. See community wiki article: [Install lftp on OSX yosemite](https://github.com/welaika/wordmove/wiki/Install-lftp-on-OSX-yosemite)).
+* Use the relative FTP path as `production.wordpress_path`
+* Use the absolute FTP path as `production.wordpress_absolute_path` (you may need to recover this from the `__FILE__` [magic constant](http://php.net/manual/en/language.constants.predefined.php)
+* if you want to specify a passive FTP connection add to the YAML config a `production.ftp.passive` flag and set it to `true`.
+
+FTP support development is [discontinued](https://github.com/welaika/wordmove/wiki/FTP-support-disclaimer), but it's always there.
+
+Sice version 3.2.0 SFTP is fully supported, with same functionalities as FTP, through `production.ftp.scheme`
+configuration. More information found in the wiki.
+
+## Notes
+
+### Mirroring
+
+Push and pull actions on files will perform a **mirror** operation. Please, keep
+in mind that to mirror means to transfer new/updated files **and remove files**
+from destination if not present in source.
+
+This means that if you have files/directories on your remotes which you must
+preserve, you **must exclude those in your movefile.yml**, or they will be
+deleted.
+
+### How the heck you are able to sync the DB via FTP?
+
+We're glad you asked! We basically upload via FTP a PHP script that performs the various
+import/export operations. This script then gets executed via HTTP. Don't worry
+too much about security though: the script is deleted just after the usage,
+and can only be executed by `wordmove`, as each time it requires a pre-shared
+one-time-password to be run.
+
+### Yanked versions
+
+Wordmove `1.3.1` has been removed from `rubygems` due to a bug with FTP deploying system. If you are
+using this version, please update soon (`gem update wordmove`).
+
+## Need more tools?
+Visit [Wordpress Tools](https://www.wptools.it).
+
+## Credits
+
+* The dump script is the [`MYSQL-dump` PHP package](https://github.com/dg/MySQL-dump) by David Grudl
+* The import script used is the [BigDump](http://www.ozerov.de/bigdump/) library
+
+## Contribute
+
+In order to promote a simpler contribution workflow we have decided to fork and PR the `master` branch.
+We will accordingly tag and release or pre-release versions to the rubygems.org repository.
+Do not consider the `dev` branch for your forks and PR.
+We will never more use version-named branches as in the past, but we'll tag release on `master` and pre-release on `dev`.
+
+### Please, **read the full [contributor guide](https://github.com/welaika/wordmove/wiki/Contributor-Guide)**.
+
+Feel free to open an issue about contribution if more you need more info
+
+## Author
+
+made with ❤️ and ☕️ by [weLaika](https://dev.welaika.com)
+
+## License
+
+(The MIT License)
+
+Copyright © 2013-2018 weLaika
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the ‘Software’), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

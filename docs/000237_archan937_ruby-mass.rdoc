@@ -1,0 +1,177 @@
+== RubyMass {<img src="https://secure.travis-ci.org/archan937/ruby-mass.png">}[http://travis-ci.org/archan937/ruby-mass]
+
+Introspect the Ruby Heap by indexing, counting, locating references to and detaching (in order to release) objects - optionally narrowing by namespace.
+
+=== Introduction
+
+Memory management is an important factor within every application. It can slow down the performance of your application and even of your system. Unlike other programming languages, such as C or Pascal, Ruby does not let you handle the memory allocation directly.
+
+The garbage collector (<tt>GC</tt>) controls releasing allocated memory. In order to let the GC free an object, you will have to ensure that there are no references to that object or else your memory usage will grow. Finding out why memory does not get released (memory leaks) is like finding a needle in a haystack.
+
+RubyMass can help you tackle memory leaks as you can list (and count) which Ruby objects (<tt>Ruby mass :D</tt>) are in memory. Also, you can locate references to a certain object and remove them if wanted. Try out RubyMass and feel free to send in pull requests and/or suggestions.
+
+<b>Note: RubyMass is successfully tested using Ruby 1.8.7, Ruby 1.9.2 and Ruby 1.9.3</b>
+
+=== Installation
+
+==== Using Bundler
+
+Add RubyMass in <tt>Gemfile</tt> as a gem dependency:
+
+  gem "ruby-mass"
+
+Run the following in your console to install with Bundler:
+
+  bundle install
+
+=== Usage
+
+Using RubyMass is pretty straightforward. All examples are based using the following code:
+
+  class Foo
+    class Bar; end
+  end
+
+  class Thing; end
+  class OneMoreThing; end
+
+==== Getting an object by object_id
+
+This is a shortcut to the <tt>ObjectSpace._id2ref</tt> method:
+
+  $ f = Foo.new
+  $ o = Mass[f.object_id]
+  $ f.object_id == o.object_id #=> true
+
+==== Indexing objects
+
+Just call <tt>Mass.index</tt> to get a Hash containing class names with object_ids of its instances. You can narrow the result by specifying a namespace.
+
+  $ Mass.index Foo #=> {}
+
+  $ f = Foo.new
+  $ b1 = Foo::Bar.new
+  $ b2 = Foo::Bar.new
+  $ t = Thing.new
+
+  $ f.object_id #=> 2154166500
+  $ b1.object_id #=> 2154037400
+  $ b2.object_id #=> 2154126780
+  $ t.object_id #=> 2154372180
+
+  $ Mass.index Foo #=> {"Foo"=>[2154166500], "Foo::Bar"=>[2154037400, 2154126780]}
+  $ Mass.index Foo::Bar #=> {"Foo::Bar"=>[2154037400, 2154126780]}
+  $ Mass.index Thing #=> {"Thing"=>[2154372180]}
+  $ Mass.index #=> {"String"=>[2151797000, 2151797080, 2151797120, 2151797140, ... a lot of more classes and object_ids}
+  $ Mass.index OneMoreThing #=> {}
+
+==== Counting objects
+
+The method <tt>Mass.count</tt> returns a similar Hash as <tt>Mass.index</tt>, but instead of arrays of object_ids it contains the number of objects.
+Continueing with the previous example, you will get the following results:
+
+  $ Mass.count Foo #=> {"Foo"=>1, "Foo::Bar"=>2}
+  $ Mass.count Foo::Bar #=> {"Foo::Bar"=>2}
+  $ Mass.count Thing #=> {"Thing"=>1}
+  $ Mass.count #=> {"String"=>37589, "Array"=>11883, ... a lot of more classes and amounts}
+  $ Mass.count OneMoreThing #=> {}
+
+==== Pretty print the amount of objects in memory
+
+You can also pretty print the result of the <tt>Mass.count</tt> method:
+
+
+  $ Mass.print Foo
+  +==================================================+
+   Objects within Foo namespace
+  +==================================================+
+    Foo::Bar: 2
+    Foo: 1
+  +==================================================+
+
+  $ Mass.print
+  +==================================================+
+   Objects within environment
+  +==================================================+
+    String: 37811
+    Array: 11899
+    RubyVM::InstructionSequence: 4225
+    Gem::Version: 2765
+    ... a lot of more classes and amounts
+  +==================================================+
+
+  $ Mass.print OneMoreThing
+  +==================================================+
+   Objects within OneMoreThing namespace
+  +==================================================+
+    - no objects instantiated -
+  +==================================================+
+
+==== Locating object references
+
+Along with indexing (and counting) objects, locating object references is very important when solving memory leakage. An example:
+
+  class Foo
+    attr_accessor :foo
+  end
+
+  class Bar
+    attr_accessor :fool
+  end
+
+  $ foo1 = Foo.new
+  $ Mass.references(foo1) #=> {}
+
+  $ foo2 = Foo.new
+  $ foo2.object_id #=> 2155577620
+  $ foo2.foo = foo1
+
+  $ bar = Bar.new
+  $ bar.object_id #=> 2155383980
+  $ bar.fool = foo1
+
+  $ Mass.references(foo1) #=> {"Foo#2155577620" => ["@foo"], "Bar#2155383980" => ["@fool"]}
+  $ Mass.references(foo1, Foo) #=> {"Foo#2155577620" => ["@foo"]}
+  $ Mass.references(foo1, Bar) #=> {"Bar#2155383980" => ["@fool"]}
+  $ Mass.references(foo1, Hash) #=> {}
+
+==== Detaching objects (free allocated memory)
+
+After locating references to a certain object, you must remove them in order to let the garbage collector free the allocated memory of that object.
+Just call the <tt>Mass.detach</tt> method and it will remove the object references and invoke <tt>GC.start</tt> instructing the garbage collector to do its job.
+Continueing with the previous example, you will get the following results:
+
+  $ foo1.object_id #=> 2164554700
+  $ Mass.index(Foo) #=> {"Foo"=>[2155577620, 2164554700]}
+
+  # NOTE: Set foo1 to nil (within the block which only gets yielded after successfully detaching references) as it also is a pointer to the allocated memory
+  $ Mass.detach(foo1){foo1 = nil} #=> true
+
+  # NOTE: This ensures that Mass invokes GC.start but only after verifying that foo1 is a nil pointer
+  $ Mass.gc!(foo1)
+
+  $ Mass.index(Foo) #=> {"Foo"=>[2155577620]}
+
+<b>Note</b>: Use <tt>Mass.detach</tt> at <b>own risk</b>. Be sure you know what you are doing!
+
+=== Last remarks
+
+Please check out {test/unit/test_mass.rb}[https://github.com/archan937/ruby-mass/blob/master/test/unit/test_mass.rb]. You can run the unit tests with <tt>rake</tt> within the terminal.
+Also, the RubyMass repo is provided with <tt>script/console</tt> which you can use for testing purposes.
+
+=== Contact me
+
+For support, remarks and requests please mail me at {paul.engel@holder.nl}[mailto:paul.engel@holder.nl].
+
+=== License
+
+Copyright (c) 2012 Paul Engel, released under the MIT license
+
+http://holder.nl – http://codehero.es – http://gettopup.com – http://github.com/archan937 – http://twitter.com/archan937 –
+{paul.engel@holder.nl}[mailto:paul.engel@holder.nl]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

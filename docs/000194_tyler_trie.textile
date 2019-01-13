@@ -1,0 +1,143 @@
+h1. Trie
+
+!https://badge.fury.io/rb/fast_trie.svg!:https://rubygems.org/gems/fast_trie !https://travis-ci.org/tyler/trie.svg!:https://travis-ci.org/tyler/trie
+
+This is a trie for Ruby using "libdatrie":http://linux.thai.net/~thep/datrie/. It uses a dual-array system, meaning it has best-in-class memory usage and search time.
+
+
+h2. What is a trie?
+
+I suck at explaining things.  Wikipedia doesn't.  http://wikipedia.org/wiki/Trie.
+
+But in short a trie is a data structure that holds strings in a tree.  So if you inserted the words 'arc', 'ark', and 'ape' in a trie you could visualize it thusly:
+
+<pre>
+      p - e
+    /
+  a - r - c
+        \
+          k
+</pre>
+
+It's easy to see how this can have pretty neat implications for things like searching through lists of strings, sorting lists of strings, and things like spelling correction and autocompletion.
+
+h2. Installation
+
+From RubyGems https://rubygems.org/gems/fast_trie
+
+<pre><code>
+  gem install fast_trie
+</code></pre>
+
+h2. Tutorial
+
+Let's go through building a simple autocompleter using "Trie":http://rubydoc.info/gems/fast_trie/Trie object.
+
+<pre><code>
+  require 'trie'
+  Trie.new
+</code></pre>
+
+Anyway.  So we've created our blank trie.  Now, since we're creating an autocompleter, we'll need to add some words into it.  We do that simply with the add method.
+
+<pre><code>
+  words.each do |word|
+    trie.add word
+  end
+</code></pre>
+
+Or if you have some integer data to store along with the words, such as weights or scores of some kind, you'd do it like so...
+
+<pre><code>
+  words_and_weights do |word,weight|
+    trie.add word, weight
+  end
+</code></pre>
+
+Great, so we've populated our trie with some words. Let's make sure those words are really there.
+
+<pre><code>
+  trie.has_key?('widget')  #=> true
+
+  trie.get('widget')  #=> -1 or your value
+
+  trie.get('not-in-the-trie')  #=> nil
+</code></pre>
+
+If you didn't enter a value to go along with the word, calling <code>get</code> with it will return -1.
+
+Okay great, we have our populated trie, we've confirmed that the keys are in there.  Let's make an autocompleter!  For this we'll need to use the <code>children</code> method.  We'll do this as a simple Rails action, with the assumption you've initialized the trie into <code>TRIE</code>.
+
+<pre><code>
+  def autocomplete
+    children = TRIE.children(params[:prefix])
+
+    respond_to do |format|
+      format.js { render(:string => JSON.dump(children)) }
+      format.yaml { render(:string => YAML.dump(children)) }
+    end
+  end
+</code></pre>
+
+Yep, that's it.
+
+There are, of course, some more interesting and advanced ways to use a trie.  For instance, this snippet take a string, then walks down the trie, noting each word it finds along the way.
+
+<pre><code>
+  word = 'forestry'
+  node = trie.root
+
+  word.split('').each do |char|
+    break unless node.walk!(char)
+    if node.terminal?
+      puts "Found me a word: #{node.full_state}"
+    end
+  end
+</code></pre>
+
+By calling <code>root</code> on a Trie, you get a "TrieNode":http://rubydoc.info/gems/fast_trie/TrieNode, pointed at the root of the trie.  You can then use this node to walk the trie and perceive things about each word.
+
+You can read the reference documentation at http://rubydoc.info/gems/fast_trie/frames/Trie
+
+h2. Performance Characteristics
+
+Here are some quick benchmarks on my 2.4ghz Intel Core 2 Duo MacBook Pro:
+
+For keys that are 5 characters long:
+31,344 adds/second
+1,827,408 searches/second
+38,453 prefixes searches/second
+
+For keys that are 10 characters long:
+30,653 adds/second
+1,802,649 searches/second
+13,553 prefix searches/second
+
+For keys that are 20 characters long:
+30,488 adds/second
+1,851,461 searches/second
+5,855 prefix searches/second
+
+For keys that are 40 characters long:
+30,710 adds/second
+1,838,380 searches/second
+2,762 prefix searches/second
+
+
+There are a few takeaways from this. First, there is no strong correlation between length of keys and insert or retrieve time. They stay fairly constant as the length of keys increase. Secondly, doing prefix searches with this trie gets slower linearly with the length of the keys in the trie.
+
+This points to a limitation of this type of trie.  It is based on "libdatrie":http://linux.thai.net/~thep/datrie/ ("version 0.1.99":http://linux.thai.net/svn/software/datrie/trunk/NEWS), which is a dual-array trie.  When finding branches from a particular node, we must query all possible branches to determine whether or not they exist.  So for each node we do 255 of these queries.
+
+There may be some tricks to speed this up, but for now it is simply a limitation of this trie.
+
+Now, let's look at the effect of the size of the trie itself on query and insertion time.  For this test I inserted 100, 1000, 10000, 100000, and 1000000 words in the trie.  We measure the insertion and retrieval time in each.  The graph below shows the results.
+
+!http://codehallow.com/effect_of_size.png!
+
+So, keeping in mind that we're increasing by orders of magnitude, you can see that the insertion time does take a signifcant hit.  Retrieval also goes down but at a very gradual rate.  (It decreases by about 50% in total, despite the size increasing by 1,000,000%.)
+
+The reason the insertion times takes such a beating is due, again, to a limitation of the trie.  Storing a trie in the dual array setup that is used is excellent for memory usage and retrieval time.  Best in class, in fact. However, the more things are added into the trie the more complicated it gets to insert things.  It often requires shuffling large pieces of the arrays.  There may be room for optimization here, but ultimately insertion time will increase with the size of the trie.
+
+
+
+Copyright (c) 2008 Tyler McMullen. See LICENSE for details.

@@ -1,0 +1,72 @@
+= neo4jr-social
+
+Neo4jr-Social is a self contained HTTP REST + JSON interface to the graph database Neo4j. Neo4jr-Social supports simple dynamic node creation, building relationships between nodes and also includes a few common social networking queries out of the box (i.e. linkedin degrees of seperation and facebook friend suggestion) with more to come. Think of Neo4jr-Social is to Neo4j like Solr is to Lucene.
+
+Neo4jr-Social was built in JRuby but is language agnostic and is designed to run as a self-contained service or can be deployed under Jetty or Tomcat.
+
+= Getting Started
+
+== Prerequisites
+
+* Java
+* JRuby: http://jruby.org
+* sudo aptitude install jruby1.2 rake rubygems
+
+=== Building
+
+* install rvm (see http://rvm.beginrescueend.com/rvm/install/)
+
+Once done, use rvm to install latest jruby and required gems
+
+* rvm install jruby
+* rvm use --default jruby
+* gem install jruby-openssl
+* gem install rake
+* gem install rspec
+* gem install test-client
+* gem install rack-test
+* gem install json-jruby -v 1.4.1
+* gem install jeweler
+* gem install warbler
+* gem install rcov
+
+Building the code and documentation
+
+* rake -T # optional, lists possible tasks
+* rake gemspec
+* rake rcov --debug
+* rake rdoc
+* rake warify
+* rake build
+
+Or short version (without documentation)
+
+* rake gemspec warify build
+
+=== Installing
+Install Ruby Gem: neo4jr-social
+
+* gem install neo4jr-social
+
+== Running Neo4jr-Social
+
+After installing the above gems, an executable 'start-neo4jr-social' should be in your $PATH. This will start the service and the database and listen for HTTP requests on localhost at port 8988 by default:
+
+  start-neo4jr-social -p8988
+
+You can also start the service and specify the directory of where the neo4j database is stored or where to create a new database. If you omit this setting a database will be created in your tmp directory and destroyed when you shutdown the server.
+
+  start-neo4jr-social -p8988 -dsome_relative_or_absolute_directory
+
+Run start-neo4jr-social --help to see all options
+
+== Contributors
+
+https://github.com/mdeiters
+https://github.com/klobuczek  
+https://github.com/gregormelhorn
+https://github.com/mikkorantalainen
+
+== Copyright
+
+Copyright (c) 2009 Matthew Deiters. See LICENSE for details.

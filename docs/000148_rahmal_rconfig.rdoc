@@ -1,0 +1,120 @@
+dogs
+
+= RConfig 
+
+The complete solution for Ruby Configuration Management. RConfig is a Ruby library that manages configuration within Ruby applications. It bridges the gap between yaml, xml, and key/value based properties files, by providing a centralized solution to handle application configuration from one location. It provides the simplicity of hash-based access, that Rubyists have come to know and love, supporting your configuration style of choice, while providing many new features, and an elegant API.
+
+== Features
+
+* Simple, easy to install and use.
+* Supports yaml, xml, and properties files.
+* Yaml and xml files support infinite level of configuration grouping.
+* Properties files support git config-like configuration grouping.
+* Intuitive dot-notation 'key chaining' argument access.
+* Simple well-known hash/array based argument access.
+* Implements multilevel caching to reduce disk access.
+* Short-hand access to 'global' application configuration, and shell environment.
+* Cascades multiple configuration files to support environment and host-specific configuration.
+* On-load callbacks for single, multiple, or any config file.
+* Embedded ruby code with ERB templating.
+* Support for referencing values in property files (Yaml also has built in support using node anchors).
+
+
+== Getting Started
+=== Rails Apps
+RConfig is released as a Ruby Gem. The gem is to be installed within a Ruby on Rails 3 application. To install, simply add the following to your Gemfile:
+
+    # Gemfile
+    gem 'rconfig'
+
+After updating your bundle, run the installer
+
+    $> rails generate rconfig:install
+
+The installer creates an initializer used for configuring defaults used by RConfig
+
+=== Non-Rails Apps
+If you're not using RConfig in a Rails app, and you don't use Gemfile you can install RConfig with RubyGems
+
+    gem install rconfig
+
+
+== Requirements
+Starting with version 0.4.0, RConfig requires at least Ruby 1.9, and Rails 3. Previous versions can be used in Ruby 1.8 and Rails 2.2+. Non-rails projects need ActiveSupport (>= 3 for RConfig 0.4.0, and > 2.2 for RConfig 0.3). RConfig now supports Rails 4 as of 0.5.0.
+
+* Ruby 1.9+
+* ActiveSupport 3.0+
+
+
+== Example
+
+  shell/console =>
+    export LANG=en
+
+  demo.yml =>
+   server:
+     address: host.domain.com
+     port: 81
+     host: <%= %x{host_name} %>
+   ...
+
+  application.properties =>
+    debug_level=verbose
+    app_root=/home/rahmal/apps/rconfig
+    test_root=%{app_root}/tests
+  ...
+
+ demo.rb => 
+  require 'rconfig'
+  RConfig.load_paths = ['$HOME/config', '#{APP_ROOT}/config', '/demo/conf']
+  RConfig.demo[:server][:port] => 81
+  RConfig.demo.server.address  => 'host.domain.com'
+  RConfig.demo.server.host     => 'host.local'
+
+  RConfig.application.test_root => '/home/rahmal/apps/rconfig/tests'
+
+  RConfig[:debug_level] => 'verbose'
+  RConfig[:lang] => 'en'
+  ...
+
+
+== Bugs and Feature Requests
+
+* Bug Reports & Feature Requests: Please use to the [Issues page](https://github.com/rahmal/rconfig/issues)
+* Want to Contribute? Send a Pull Request
+
+== Known Issues
+
+* None
+
+== License
+
+(The MIT License)
+
+Copyright (c) 2009 Rahmal Conda <rahmal@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+== Credits
+
+Thanks to everyone I included here. RConfig would not exist without their contributions.
+
+Mike Sandler, Kurt Stephens, CashNetUSA (CNU): 
+* Wrote the proprietary class RConfig was originally based on.

@@ -1,0 +1,30 @@
+
+
+                  ___       ___       ___       ___       ___
+                 /\  \     /\  \     /\  \     /\  \     /\  \
+                /::\  \   /::\  \   /::\  \   /::\  \   /::\  \
+               /::\:\__\ /:/\:\__\ /:/\:\__\ /:/\:\__\ /:/\:\__\
+               \;:::/  / \:\/:/  / \:\ \/__/ \:\ \/__/ \:\/:/  /
+                |:\/__/   \::/  /   \:\__\    \:\__\    \::/  /
+                 \|__|     \/__/     \/__/     \/__/     \/__/
+
+
+
+    Rocco is  a quick-and-dirty,  literate-programming-style documentation
+    generator for Ruby. See the Rocco generated docs for more information:
+
+                    <http://rtomayko.github.com/rocco/>
+
+
+    Rocco is a port of,  and borrows heavily from, Docco  -- the original
+    quick-and-dirty,   hundred-line-long,   literate-programming-style
+    documentation generator in CoffeeScript:
+
+                    <http://jashkenas.github.com/docco/>
+
+
+                   N O   L O N G E R   M A I N T A I N E D
+
+    This repository  is  archived and  no longer  actively maintained by
+    @rtomayko  as of 2017-11-08.  Issues  and  PRs  documenting  current
+    issues  have been intentionally left open for informational purposes.

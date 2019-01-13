@@ -1,0 +1,50 @@
+= coletivo
+
+A simple Rails 3 recommendations engine.
+Coletivo uses {Euclidean Distance}[http://en.wikipedia.org/wiki/Euclidean_distance] or {Pearson's Correlation Coefficient}[http://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient] to calculate the similarity between persons and their preferences.
+
+== Installation:
+
+  sudo gem install coletivo
+  rails g coletivo
+  rake db:migrate
+
+== Usage:
+
+At your Rails model that represents a person (can be an _User_, _Member_, or something like that):
+
+  class User < ActiveRecord::Base
+    has_own_preferences
+
+    # ...
+  end
+
+So, a person can rate things:
+
+  current_user = User.create(:name => 'Diogenes')
+  movie = Movie.create(:name => 'The Tourist', :year => 2010)
+
+  current_user.rate!(movie, 4.5)
+
+And after a lot of ratings... *recommendations*:
+
+  Movie.find_recommendations_for(current_user) # => movies and more movies...
+
+By default, the similarity strategy used is Euclidean Distance, but you can change that passing the _strategy_ option:
+  Movie.find_recommendations_for(current_user, :strategy => :pearson)
+
+
+== Contributing to coletivo
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 Diógenes Falcão. See LICENSE.txt for
+further details.

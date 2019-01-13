@@ -1,0 +1,52 @@
+<div align="center">
+  <img src="http://pickyrb.com/images/picky.png"/>
+</div>
+
+h1. Picky
+
+In use on: "laut.de":http://laut.de (radio channel search), "goodfil.ms":http://goodfil.ms, "cocoapods.org":http://cocoapods.org, "wadoku.eu":http://wadoku.eu, "twixtel.ch":http://twixtel.ch, "wilmaa.com":http://wilmaa.com, "paatle.com":http://www.paatle.com, and many more…
+
+h2. The Ruby semantic text search engine.
+
+* "Main web site":http://pickyrb.com/
+* "Documentation":http://pickyrb.com/documentation.html
+* "Getting Started":http://pickyrb.com/ 
+* Ask questions in the "Picky Mailing List":http://groups.google.com/group/picky-ruby.
+* Tentacly tweets on "@picky_rb":http://twitter.com/picky_rb.
+* Find everything else in "the Picky Wiki":http://github.com/floere/picky/wiki.
+
+h1. System Requirements
+
+* OSX / Linux
+* "Ruby 1.9":http://www.ruby-lang.org/en/downloads/
+* "Bundler Gem":http://gembundler.com/
+
+for installing and managing Ruby versions, there are two projects:  "rbenv":http://github.com/sstephenson/rbenv and "RVM":http://rvm.beginrescueend.com/.
+
+h1. Installation
+
+<pre><code>gem install picky picky-client picky-generators</code></pre>
+
+h1. Getting Started
+
+Please see the "Getting Started section":http://florianhanke.com/picky/getting_started.html on the "Picky website":http://florianhanke.com/picky.
+
+h1. Working on Picky
+
+h2. Installing all gems
+
+<pre><code>./install REMOTE</code></pre>
+
+h2. Running integration specs
+
+<pre><code>./integration REMOTE</code></pre>
+
+h2. Running other specs
+
+<pre><code>./specs</code></pre>
+
+h1. Help?
+
+Right here. I'm happy to help! If something doesn't work, send/gist me your application.rb and I'll look into it.
+
+"github (floere)":http://github.com/inbox/new/floere, "twitter (hanke)":http://twitter.com/hanke, "mail (gmail)":mailto:florian.hanke@gmail.com

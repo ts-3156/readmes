@@ -1,0 +1,57 @@
+= BrB - Easy and Fast distributed ruby
+
+BrB is a simple, fully transparent and extremely fast interface for doing simple distributed Ruby.
+The core of the architecture is provided by EventMachine  (a fast and reliable IO event library).
+
+BrB was built in order to achieve these 4 main goals :
+* Simple and fast message passing between distant Ruby processes.
+* Message passing with of return values when needed.
+* Being extremely fast in order to handle more than a few thousand messages per second.
+* Being completely transparent for developer.
+
+The principle is simple and inspired from Drb (standard distributed ruby library) :
+A process exposes an object over the network and any ruby process (after having established a connection tunnel) can directly call a method on the exposed object. BrB handles that part, so it’s fully transparent in the Ruby code.
+
+BrB only support message passing with Marshable dumpable object : String, symbol, Array, hash, Number, Object etc...
+That mean you can not send file descriptor, Thread or another funky things like that :)
+
+For any question, use the Ruby BrB google group: http://groups.google.com/group/ruby-brb
+
+== Main Functionalities
+
+* Unlimited objects exposed
+* Processes can expose object and be client to exposed object too at the same time
+* Do not wait for return by default : just do simple message passing
+* Handle return values without blocking with the usage of a simple block
+* Blocking wait for a return value if needed by simply adding <em>_block</em> at the end of the method name
+* Transmission of Exception when blocking call
+* Thread safe if used correctly with Event Machine
+
+== How it works
+
+First of all, a process declare himself as a sever and expose any object on a given address and port.
+Then, any number of distant processes can create a <em>Tunnel</em> with that server and can expose an object in exchange too.
+After connection are ready, just call method on the tunnel. It will just act like normal method calling on the exposed object !
+
+== What BrB is designed for ?
+
+* Doing Simple message passing between ruby process.
+* Connecting hundred of ruby process transparently.
+* Building a real-time scalable (game) server
+* Taking important load on a server easily just by distributing the load on multiple BrB instance.
+* Taking advantage of multi-core and multi-threaded systems.
+
+==  TODO
+* Writing more examples
+* Publish Benchmarks VS drb
+* Improve logging mechanism
+* Clean up
+
+== Contributors
+
+* kwi (Guillaume Luccisano)
+* bwalton (Brian Walton)
+* dpree (Jens Bissinger)
+
+
+Copyright (c) 2009-2010 Guillaume Luccisano - g-mai|: guillaume.luccisano, released under the MIT license

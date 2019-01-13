@@ -1,0 +1,73 @@
+= rails-sh
+
+rails-sh is a mini shell for rails3 that provides a uniform and quick access to commands.
+
+== Install
+
+  $ gem install rails-sh
+
+== Usage
+
+  $ cd your-rails3-app
+  $ rails-sh
+
+You can specify an environment as follows:
+
+  $ rails-sh test
+
+== Examples
+
+Execute rake task:
+
+  rails> rake db:migrate
+
+Generate a controller:
+
+  rails> rails generate controller foo bar
+  $ rails g controller foo bar
+        create  app/controllers/foo_controller.rb
+         route  get "foo/bar"
+        invoke  erb
+        create    app/views/foo
+        create    app/views/foo/bar.html.erb
+        invoke  test_unit
+        create    test/functional/foo_controller_test.rb
+        invoke  helper
+        create    app/helpers/foo_helper.rb
+        invoke    test_unit
+        create      test/unit/helpers/foo_helper_test.rb
+
+Run console:
+
+  rails> console
+
+== Commands
+
+please type help
+
+== Configuration
+
+rails-sh will try to load '~/railsshrc' as configuration.
+
+Example:
+
+  # ~/railsshrc
+  Rails::Sh::Command.define 'my_command' do |arg|
+    puts "Execute my_command with arg(`#{arg}`)!"
+  end
+
+== TODO
+
+== Contributing to rails-sh
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 jugyo. See LICENSE.txt for further details.

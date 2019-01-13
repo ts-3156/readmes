@@ -1,0 +1,86 @@
+= Clarity
+
+* http://github.com/tobi/clarity
+
+== DESCRIPTION:
+
+Clarity - a log search tool
+By John Tajima & Tobi Lütke
+
+Clarity is a Splunk like web interface for your server log files. It supports 
+searching (using grep) as well as trailing log files in realtime. It has been written 
+using the event based architecture based on EventMachine and so allows real-time search
+of very large log files. If you hit the browser Stop button it will also kill 
+the grep / tail utility. 
+
+We wrote Clarity to allow our support staff to use a simple interface to look
+through the various log files in our server farm. The application was such a 
+big success internally that we decided to release it as open source. 
+
+== SECURITY:
+
+*Warning*: Clarity takes parameters from URLs and runs them in the shell. 
+This is essentially the most insecure thing imaginable. You have to make absolutley sure 
+that clarity isn't reachable by the outside world. At the very least use --username and
+--password to put some protection on it. 
+
+== USAGE:
+
+  clarity --username=admin --password=secret --port=8989 /var/log
+  clarity --port=8989 --include="tomcat6/*.log*" --include="apache2/*.log*" /var/log
+
+== COMMANDLINE:
+  
+  Specific options:
+      -f, --config=FILE                Config file (yml)
+      -p, --port=PORT                  Port to listen on
+      -b, --address=ADDRESS            Address to bind to (default 0.0.0.0)
+          --include=MASK               File mask of logs to add (default: **/*.log*)
+          --user=USER                  User to run as   
+  Password protection:
+          --username=USER              Enable httpauth username
+          --password=PASS              Enable httpauth password   
+  Misc:
+      -h, --help                       Show this message.
+  
+
+== SCREENSHOT: 
+
+http://img.skitch.com/20091104-je9kq1a2gfr586ia8y246bq4n8.png
+
+== REQUIREMENTS:
+
+  * eventmachine
+  * eventmachine_httpserver
+  * json
+
+== INSTALL:
+
+  * sudo gem install clarity
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2009 Tobias Lütke
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OT
+
+

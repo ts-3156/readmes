@@ -1,0 +1,101 @@
+Git Scribe
+==========
+
+image::https://travis-ci.org/schacon/git-scribe.png[Build Status,link="https://travis-ci.org/schacon/git-scribe"]
+
+The git-scribe tool is a simple command line toolset to help you use Git, GitHub and Asciidoc
+to write e-books.  This provides tools for setting up the structure, collaborating with co-authors, doing technical and copy-editing, handling translations, taking errata, as well as publishing online, pdf, mobi (Kindle) and epub (iBooks, Nook) versions.
+
+The project is targeted for writing books of any length, but should also be usable for articles and stuff too, though for a while you'll have to just do it as a really short book.
+
+Features
+========
+
+Eventually, these are the feature goals for the project:
+
+* Easy: Syntax-Highlighted Code, Formula, Diagrams
+* Site Generation: Comment, Search, Permalinks
+* Pegging versions of the book to versions of the tool it documents
+* Technical and Copy editing workflow tools
+* Translation workflow tools
+* Selling (possibly): Kindle, iBooks, Lulu, Pledgie(?)
+
+The idea is that you use the tool to generate a known structure, write in asciidoc and let the tool handle everything else for you.  I want authors to be able to focus on writing and not have to worry about anything else (website, multiple format generation, etc).
+
+A good AsciiDoc cheat sheet: http://powerman.name/doc/asciidoc#_text
+
+Disclaimer
+==========
+
+This tool is a work in progress.  At the 1.0 release, this file will be totally up to date, but for now I may have documented some stuff that doesn't yet work.  Contact me personally if you are interested in working on it.
+
+Installing
+==========
+
+You can install git-scribe via RubyGems.
+
+    $ gem install git-scribe
+
+For local generation (eventually pushing to GitHub will handle gen for you), it depends on a couple things like:
+
+* Git
+* Ruby
+* asciidoc, a2x (8.6.4)
+* xsltproc
+* source-highlight (3.1)
+* FOP (1.0) - for PDF generation
+
+Usage
+=====
+
+Check if you have everything installed properly for local generation with `check`:
+
+    $ git scribe check
+    asciidoc - ok
+    xsltproc - ok
+    a2x      - ok
+    highlighting - ok
+    fop      - ok
+
+If you are on OSX and using Homebrew http://mxcl.github.com/homebrew/ you can install dependencies easily:
+
+----
+$ brew install asciidoc source-highlight fop
+$ brew install https://gist.github.com/raw/4064648/kindlegen.rb
+----
+
+If you are on Ubuntu, you can install the dependencies with apt-get:
+
+----
+$ sudo apt-get install asciidoc
+$ sudo apt-get install source-highlight
+$ sudo apt-get install fop
+----
+
+Kindlegen: http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211
+
+Initialize a new book with `init`:
+
+    $ git scribe init <directory name>
+
+This will set up the outline for your book.  All the book content goes into the 'book' subdirectory with 'book.asc' as the starting point.  If you want to split the writing up into multiple files you can simply include them in the book.asc file.  The generated files have an example of this.
+
+Then you can generate your book content with the 'git scribe gen' command:
+
+    $ git scribe gen [site|html|pdf|epub|mobi|all]
+
+Eventually, simply pushing to GitHub will take care of this for you.  
+
+Roadmap
+=======
+
+See SPEC.asciidoc for what this file should look like eventually.
+
+Contributing
+============
+
+If you want to hack on this, fork it, improve it and send me a pull request.
+
+To get started using it, just clone it and call the ./bin/git-scribe script directly from either the `example` subdir or your own book directory.  If you add a feature, make sure it's included in the example subdirectory so I can test it out.
+
+

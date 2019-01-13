@@ -1,0 +1,115 @@
+= Rails-LaTeX
+
+* Git: https://github.com/baierjan/rails-latex
+* Original author: Geoff Jacobsen
+* Copyright: 2010-2015 Geoff Jacobsen, Jan Baier and contributors
+* License: MIT-LICENSE
+
+== Description
+
+rails-latex is a renderer for rails, which allows tex files with erb to be turned into an inline pdf.
+
+== Synopsis
+
+app/helpers/application_helper.rb:
+   def lesc(text)
+     LatexToPdf.escape_latex(text)
+   end
+
+app/views/stories/show.html.erb:
+   ...
+   <%= link_to "print", story_path(@story,:format => :pdf) %>
+
+
+app/views/stories/show.pdf.erb:
+   ...
+   <%= lesc @story.name % >
+
+app/views/layouts/application.pdf.erbtex:
+   \documentclass[12pt,a4paper,sloppy,< %= @landscape % >]{article}
+   ...
+   < %= yield % >
+   \end{document}
+
+
+config/initializers/mime_types.rb:
+   ...
+   Mime::Type.register "application/pdf", :pdf, ['text/pdf'], ['pdf']
+
+
+Only the file containing the \\documentclass should be of type: .pdf.erbtex . Partials and views (when there is a layout)
+should be of type .pdf.erb .
+
+If a LaTeX package requires more than one parser run add the following to the .pdf.erbtex file:
+
+   <% @latex_config={:parse_runs => 3} %>
+
+You can override the defaults like so:
+
+   LatexToPdf.config.merge! :command => 'xetex', :arguments => ['-etex'], :parse_runs => 2
+
+or to change just the arguments:
+
+   LatexToPdf.config[:arguments].delete('-halt-on-error')
+
+The defaults are:
+   command: 'pdflatex'
+   arguments: ['-halt-on-error']
+   parse_runs: 1
+
+The last log file is moved to tmp/rails-latex/input.log , and the corresponding
+source TeX file to tmp/rails-latex/input.tex . If the PDF is not produced the
+build directory is not removed; an archive script should be written to
+occasionally clean up the tmp/rails-latex directory.
+
+See the rails application under examples/rails-latex-demo/ for a working example.
+
+=== Generating a String
+
+If you need to generate the LaTeX document as a string you can use the +render_to_string+ method. You will probably need
+to pass the <tt>:layout => true</tt> option to invoke the PDF generator. Here is an example to generate an email attachment:
+
+In the controller you will have something along the lines of:
+
+   def send_email_method
+     output = render_to_string(:template => "/your_model/your_view.pdf.erb", :layout => true)
+     MyMailer.email_sender(current_user, output).deliver
+   end
+
+The thing to note is the :layout => true which is needed so that the pdf template can grab the application erbtex layout.
+Then in your mailer:
+
+   def email_sender(user, pdf_attachment)
+     @user = user
+     attachments["attachment_name.pdf"] = {:mime_type => 'application/pdf', :content => pdf_attachment}
+     mail( .... )
+   end
+
+=== Exception handling and debugging
+
+When LaTeX render fails, +RailsLatex::ProcessingError+ is thrown. In your code, you can catch it and react according to your
+needs. To make your life easier, TeX source and log are attached to the exception as instance variables +src+ and +log+.
+
+== Requirements
+
+* ruby 1.8 or 1.9
+* rails 3 or later
+
+== Install
+
+* gem install rails-latex
+
+== Development
+
+Developing rails-latex requires bundler and RedCloth
+
+* rake test
+* rake build
+
+== Contributions
+
+* Geoff Jacobsen
+* Tommaso Patrizi
+* Klaus Reske
+* Jan Baier
+* Jakub Cerny

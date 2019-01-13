@@ -1,0 +1,27 @@
+= UKI – simple UiKit for complex Web apps
+Uki is a small js library that helps build complex desktop-class in
+a simple and conscious way. Now with nodejs support
+
+  uki({ view: 'Button', text: 'Click me', pos: 'l:10px t:10px w:100px' }).attach();
+  uki('Button[text^=Click]').on('click', function() { alert(this.text()); });
+
+= Run locally
+Install {node and npm}[https://github.com/joyent/node/wiki/Installation]
+  npm install ukijs
+  node express.js
+
+= Goals for 0.4
+* Keep core to bare minimum. Should be under 10KB gziped..
+* Keep core and common view pack under 30KB gziped.
+* Use css instead of js based themes.
+* Data Model and Bindings in the core.
+* Use native browser layout instead of rect() + layout()
+* CommonJS require() instead of homegrown include()
+* Use serverside/clientside js together
+* `npm install uki-pack` should work on client side without any extra configuration
+* Docs
+* Unit tests for core
+* Perf tests
+
+= Browser constrains
+* IE7+, FF3+, Safari/Chrome latest-1, Opera 10+. Yes, no IE6 any more

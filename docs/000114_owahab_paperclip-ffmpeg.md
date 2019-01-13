@@ -1,0 +1,1 @@
+This project is being deprecated in favor of [https://github.com/ruby-av/paperclip-av-transcoder](https://github.com/ruby-av/paperclip-av-transcoder)

@@ -1,0 +1,370 @@
+= AssetHat
+
+Load CSS and JS faster. Your assets are covered.
+
+With Rails' default asset caching, CSS and JS are concatenated (not even
+minified) at runtime when that bundle is first requested. Not good enough.
+To make your pages load faster, AssetHat can automatically:
+
+* Easily *minify* and *bundle* CSS and JS to reduce file sizes and
+  HTTP requests. Do this on deploy, and avoid any performance hit at runtime.
+* Load <b>popular libraries from the JS community</b> -- like jQuery, YUI, and
+  Dojo -- from {<b>Google's CDN</b>}[http://code.google.com/apis/ajaxlibs/]
+  when in production, or from localhost in development. It's as simple as
+  <code><%= include_js :jquery %></code> to load straight from Google.
+* Load plenty of JS files in parallel in <b>{LABjs}[http://labjs.com/]
+  mode</b>. When calling <code>include_js</code>, just add <code>:loader =>
+  :lab_js</code>.
+* Force image URLs in your CSS to use <b>CDN subdomains</b>
+  (including SSL support), not just the current host.
+* Add an image's last Git[http://git-scm.com/] commit ID to its CSS URLs to
+  <b>bust browser caches</b> (e.g.,
+  <code>/images/foo.png?ab12cd3</code>).
+
+After setup, you can use this in your layouts and views:
+
+  <%= include_css :bundle => 'application' %>
+  <%= include_js  :jquery, :bundles => ['plugins', 'common'] %>
+
+Which expands into:
+
+  <link href="/stylesheets/bundles/application.min.css"
+    media="screen,projection" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/jquery-1.x.x.min.js"
+    type="text/javascript"></script>
+    <!-- In production, jQuery loads from Google's CDN instead. -->
+  <script src="/javascripts/bundles/plugins.min.js"
+    type="text/javascript"></script>
+  <script src="/javascripts/bundles/common.min.js"
+    type="text/javascript"></script>
+
+Don't have your own copy of jQuery? AssetHat detects this and knows how to
+load jQuery from Google's CDN instead, whether you're in development or
+production.
+
+Add this to your deploy script, and your CSS/JS will be optimized
+automatically:
+
+  rake asset_hat:minify
+
+Tested with Rails 3 and Rails 2.3.x (with Bundler). For a quick overview, see
+{the AssetHat website}[http://mintdigital.github.com/asset_hat/]. To see how
+AssetHat performs in production,
+{check some stats}[http://logicalfriday.com/2011/05/06/assethat-0-4-load-css-and-js-faster-your-assets-are-covered/].
+For the gritty details, check the
+{complete docs}[http://mintdigital.github.com/asset_hat/doc/] and
+{change history}[http://mintdigital.github.com/asset_hat/doc/files/HISTORY.html].
+
+
+
+== Installation
+
+=== Rails 3.x
+
+1.  Add to your app's Gemfile: <code>gem 'asset_hat', '0.x.x'</code>
+2.  Command-line: <code>bundle install</code>
+
+=== Rails 2.3.x
+
+1.  Add the gem:
+
+    * If you're using {Bundler 0.9+}[http://github.com/carlhuda/bundler]:
+
+      1.  Add to your app's Gemfile: <code>gem 'asset_hat', '0.x.x'</code>
+      2.  Command-line: <code>bundle install</code>
+
+    * If you're using Rails 2.3.x's <code>config.gem</code>:
+
+      1.  Add to your app's <code>config/environment.rb</code>:
+          <code>config.gem 'asset_hat', :version => '0.x.x'</code>
+      2.  Command-line: <code>gem install asset_hat</code>
+
+2.  Add to your app's Rakefile: <code>require 'asset_hat/tasks'</code>
+
+
+
+== Quick start & configuration
+
+1.  In all of your layouts and views, change <code>stylesheet_link_tag</code>
+    to <code>include_css</code>, and change
+    <code>javascript_include_tag</code> to <code>include_js</code>. (Don't
+    worry, these helpers use the same arguments as Rails' helpers. Nothing
+    will break.)
+
+2.  Create the default config file:
+
+      rake asset_hat:config
+
+3.  In your app, open the new file at <code>config/assets.yml</code>, and set
+    up your CSS/JS bundles according to that file's example.
+
+4.  In your layouts and views, switch to the new bundles. For example, if you
+    originally had this:
+
+      <%# app/views/layouts/application.html.erb: %>
+      <%= stylesheet_include_tag 'reset', 'application' %>
+
+    Then you'll now have:
+
+      # config/assets.yml:
+      css:
+        bundles:
+          application: ['reset', 'application']
+
+      <%# app/views/layouts/application.html.erb: %>
+      <%= include_css :bundle => 'application' %>
+
+5.  Add this to your deployment script:
+
+      rake asset_hat:minify
+
+    This minifies all of the CSS/JS files listed in
+    <code>config/assets.yml</code>, concatenates the minified code into bundle
+    files, and adds CDN asset hosts and cache-busting commit IDs to image URLs
+    in your CSS.
+
+    Any previously minified bundles are overwritten; your original
+    CSS/JS files remain untouched. Bundles are created as new files in
+    <code>public/stylesheets/bundles/</code> and
+    <code>public/javascripts/bundles/</code>.
+
+    If you're using a CSS/JS layer like SASS or CoffeeScript, be sure to
+    compile/transpile to regular CSS/JS before running
+    <code>rake asset_hat:minify</code>. (When AssetHat is ready for Rails 3.1,
+    <code>rake asset_hat:minify</code> will automatically start with
+    <code>rake assets:precompile</code>.)
+
+=== Advanced configuration
+
+If you manage deployments with Capistrano[http://www.capify.org/], see the
+gem's packaged example at
+<code>lib/asset_hat/capistrano.rb[https://github.com/mintdigital/asset_hat/blob/master/lib/asset_hat/capistrano.rb]</code>.
+
+If your stack uses Unicorn[http://unicorn.bogomips.org/], you'll want to
+configure it so that assets' commit IDs are precached only once. See the gem's
+packaged example at
+<code>lib/asset_hat/unicorn.rb[https://github.com/mintdigital/asset_hat/blob/master/lib/asset_hat/unicorn.rb]</code>.
+
+If you want shorter output during deployments, you can use
+`rake asset_hat:minify FORMAT=short` (one output line per bundle) or
+`FORMAT=dot` (one output line total) in your deploy script.
+
+Additional settings are supported in <code>config/assets.yml</code>:
+
+* <code>engine</code>: Indicates how CSS and JS are minified; omit this
+  setting to use the defaults. By default, CSS is minified with
+  rgrove/cssmin[http://github.com/rgrove/cssmin] (a Ruby port of Lecomte's
+  YUI Compressor and Schlueter's PHP cssmin), and JS is minified with
+  rgrove/jsmin[http://github.com/rgrove/jsmin] (a Ruby port of Crockford's
+  JSMin).
+
+  If you'd prefer to have slightly more readable code for debugging purposes,
+  you can switch both the CSS and JS engines to <code>weak</code>. However,
+  the <code>weak</code> engines don't save as many bytes.
+
+* <code>vendors</code>: Configures third-party JS that's loaded from a CDN or
+  other external source. The following example configures jQuery and jQuery UI
+  for use throughout the app:
+
+    js:
+      vendors:
+        jquery:
+          version:        1.5.2
+        jquery_ui:
+          version:        1.8.12
+          remote_url:     http://cdn.example.com/js/jquery-ui-1.8.12.min.js
+          remote_ssl_url: https://cdn-ssl.example.com/js/jquery-ui-1.8.12.min.js
+
+  Configuration keys per vendor:
+
+  * <code>version</code>: Sets the default version across the app. In the
+    example above, <code><%= include_js :jquery %></code> uses version 1.5.2
+    by default. You can override this for special layouts/views with
+    <code><%= include_js :jquery, :version => '1.3.2' %></code>.
+  * <code>remote_url</code>, <code>remote_ssl_url</code>: By default, vendor
+    JS will load from {Google's CDN}[http://code.google.com/apis/ajaxlibs/]
+    in production (or any environment where
+    <code>config.action_controller.consider_all_requests_local</code> is set
+    to <code>false</code>). If the original request to your app used SSL, the
+    vendor JS will also load from Google's CDN via SSL. If you prefer to use a
+    different CDN, specify its SSL/non-SSL URLs, and the appropriate URL will
+    be used per request.
+
+  A full list of supported vendors is in the
+  <code>AssetHat::JS::Vendors</code> module.
+
+=== SSL configuration
+
+When you request a page via SSL, some browsers (euphemism for "IE") show
+errors if any assets -- stylesheets, JS files, images -- are served _without_
+SSL.
+
+AssetHat plays well with SSL pages that load assets from a CDN. Put this in
+<code>config/environments/production.rb</code> or similar:
+
+  config.action_controller.asset_host = Proc.new do |source, request|
+    "#{request.protocol}cdn#{source.hash % 4}.example.com"
+      # => 'http://cdn0.example.com', 'https://cdn1.example.com', etc.
+  end
+
+This switches to a different CDN URL if the request used SSL. When you run
+<code>rake asset_hat:minify</code> at deploy time, AssetHat detects this
+configuration, and generates special SSL versions of each stylesheet that also
+load images from CDN via SSL. (Non-SSL pages still get non-SSL stylesheets.)
+
+
+
+== Usage
+
+In your layouts and views, <b>instead of these</b>:
+
+  <%= stylesheet_link_tag 'reset', 'application', 'clearfix',
+                          :media => 'screen,projection',
+                          :cache => 'bundles/application' %>
+  <%= javascript_include_tag 'plugin-1', 'plugin-2', 'plugin-3',
+                             :cache => 'bundles/application' %>
+
+<b>Use these:</b>
+
+  <%= include_css :bundle => 'application' %>
+  <%= include_js  :bundle => 'application' %>
+
+These turn into:
+
+  <link href="/stylesheets/bundles/application.min.css"
+    media="screen,projection" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/bundles/application.min.js"
+    type="text/javascript"></script>
+
+Have an enormous app? You can integrate gradually, using AssetHat alongside
+Rails' default asset caching.
+
+If your environment has <code>config.action_controller.perform_caching</code>
+set to <code>true</code> (e.g., in production), the layout/view will include
+minified bundle files. Otherwise, the separate, unminified files will be
+included, based on the bundle contents you define in
+<code>config/assets.yml</code>.
+
+If your environment has <code>config.action_controller.asset_host</code>
+pointing to a CDN, your CSS/JS files will load from there. If your
+configuration supports using the CDN via SSL (see the section "SSL
+configuration"), SSL requests will also load CSS/JS files via SSL.
+
+=== Advanced usage
+
+You can also include single files as expected:
+
+  <%= include_css 'reset', 'application' %>
+  <%= include_js  'plugin.min', 'application' %>
+
+Or include multiple bundles at once:
+
+  <%= include_js :bundles => %w[plugins common] %>
+
+When including multiple bundles at once, this yields one
+<code><link></code> or <code><script></code> element per bundle.
+
+=== LABjs mode
+
+Say you're loading several JS bundles. However, because there are so many, you
+decide to try a popular script loader like {LABjs}[http://labjs.com/] to see
+how much it improves performance. Here's how it's done the old Rails way:
+
+  <%= javascript_include_tag 'LAB-1.2.0.min.js' %>
+  <script>
+    $LAB.
+      script('/javascripts/jquery-1.6.1.min.js').wait().
+      script('/javascripts/common.js').wait().
+      script('/javascripts/search.js').wait().
+      script('/javascripts/app.js').wait();
+  </script>
+
+What a hassle. With AssetHat, just set up a bundle in
+<code>config/assets.yml</code>:
+
+  js:
+    bundles:
+      app:
+        - common
+        - search
+        - app
+
+Ready to go. Here's how to load jQuery and your bundle normally:
+
+  <%= include_js :jquery, :bundle => 'app' %>
+
+And here's how to switch on LABjs mode:
+
+  <%= include_js :jquery, :bundle => 'app',
+                          :loader => :lab_js %>
+
+Add your preferred jQuery and LABjs versions to the config file if you haven't
+already, and that's it. If you don't have a copy of LABjs locally, AssetHat
+knows how to instead load it from {cdnjs}[http://cdnjs.com/], which uses
+high-speed Amazon Cloudfront servers.
+
+This is just the most common LABjs use case. If you want to fine-tune it even
+further, you can have the best of both worlds:
+
+  <%= include_js :lab_js %>
+  <script>
+    $LAB.
+      script('<%= include_js :jquery,  :only_url => true %>').wait().
+      script('<%= include_js "common", :only_url => true %>'). // Non-blocking
+      script('<%= include_js "search", :only_url => true %>').wait().
+      script('<%= include_js "app",    :only_url => true %>').wait();
+  </script>
+
+In this example, <code>common</code> is not a dependency for
+<code>search</code>, so allow either to execute as soon as possible --
+whichever happens to load first -- rather than always forcing
+<code>common</code> to execute first.
+
+=== Bundle tips
+
+Don't go overboard with huge bundles:
+
+* Mobile browsers may not cache CSS/JS files that are too large, regardless of
+  gzipping. Check the latest specs for each mobile browser you support.
+* You might want to put plugins (rarely changed) in one bundle, and
+  application code (frequently changed) in another bundle. This way, when the
+  app code changes, the browser re-downloads only the new app code, and uses
+  the cached plugin code.
+* Regardless of code-change frequency, it's sometimes faster to split a bundle
+  in half, and load each half in parallel (i.e., two HTTP requests instead of
+  one). LABjs mode can help with loading several smaller bundles in parallel.
+  Your own tests will tell what's optimal for your situation.
+
+
+
+== More info
+
+* {Official website}[http://mintdigital.github.com/asset_hat/]
+* {Full documentation}[http://mintdigital.github.com/asset_hat/doc/]
+* {History/changelog}[http://mintdigital.github.com/asset_hat/doc/files/HISTORY.html]
+* Released under the
+  {MIT license}[https://github.com/mintdigital/asset_hat/blob/master/LICENSE].
+
+=== Contributing
+
+Have an idea, problem, or bug report?
+{Send a pull request}[http://help.github.com/send-pull-requests/]! Please base
+pull requests on the `development` branch, not the `master` branch.
+
+Contributors:
+
+* {rondevera}[https://github.com/rondevera]
+  (maintainer; Twitter: {@ronalddevera}[https://twitter.com/#!/ronalddevera])
+* {philnash}[https://github.com/philnash]
+* {dstrelau}[https://github.com/dstrelau]
+* {daphonz}[https://github.com/daphonz]
+* {sauliusg}[https://github.com/sauliusg]
+* {jsonperl}[https://github.com/jsonperl]
+
+
+
+== {What is best in AssetHat?}[http://www.youtube.com/watch?v=V30tyaXv6EI]
+
+* To crush your assets;
+* See them bundled before you; and
+* Hear no more lamentation about slow page loads.

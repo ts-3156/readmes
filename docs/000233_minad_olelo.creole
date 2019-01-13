@@ -1,0 +1,191 @@
+= Ōlelo Wiki
+
+[[http://rubygems.org/gems/olelo|{{https://badge.fury.io/rb/olelo.png|Gem}}]]
+[[https://travis-ci.org/minad/olelo|{{https://secure.travis-ci.org/minad/olelo.png?branch=master|Build Status}}]]
+[[https://gemnasium.com/minad/olelo|{{https://gemnasium.com/minad/olelo.png?travis|Dependency Status}}]]
+[[https://codeclimate.com/github/minad/olelo|{{https://codeclimate.com/github/minad/moneta.png|Code Climate}}]]
+
+Ōlelo is a wiki that stores pages in a [[http://git-scm.org/|Git]] repository, supports many markup styles and has an extensible, hackable architecture!
+If you want to see a demo installation go to http://www.gitwiki.org/.
+
+== Features
+
+Ōlelo implements a plugin system. A lot of the features are implemented as plugins and can be activated or deactivated as you wish.
+
+Core features:
+* Edit, move or delete pages
+* Page attribute editor
+* Support for hierarchical wikis (directory structure)
+* File upload
+* History, commit and diff view
+* Locales, currently supported languages Czech, English, French, German
+
+Features, implemented by plugins:
+* Support for many markup languages (Creole, Markdown, Textile, ...)
+* RSS/Atom changelog for whole wiki or pages
+* Section editing for Creole and Markdown markup
+* Embedded LaTeX formulas (Rendered as image or using [[http://mathjax.org/|MathJax]]
+* Syntax highlighted embedded code blocks
+* Image resizing, SVG to PNG/JPEG conversion
+* Auto-generated table of contents
+* Wiki syntax can be extended with tags (gist, math, footnotes, ...)
+* Editor preview
+* View pages as S5 presentation
+* Privacy features: Access control lists, Private wiki which needs login, readonly wiki
+
+== Quick start
+
+The best way to install Ōlelo is via 'gem'.
+
+{{{
+$ gem install olelo
+}}}
+
+Go to a git repository via command line and start the Ōlelo webserver.
+
+{{{
+$ olelo
+}}}
+
+Point your web browser at http://localhost:8080/. This is all you have to do, now you are good to go to use your wiki!
+
+== Installation from source
+
+Installation from source is especially useful if you want to do development or use the newest features.
+
+Clone the git repository:
+
+{{{
+git clone git://github.com/minad/olelo.git
+}}}
+
+Now change to the Ōlelo source directory and use Bundler to install the dependencies.
+
+{{{
+$ cd olelo
+$ bundle install
+}}}
+
+Start the Ōlelo webserver from the Ōlelo source directory.
+
+{{{
+$ bin/olelo
+}}}
+
+== Deployment
+
+For production purposes, I recommend that you deploy the wiki with [[http://unicorn.bogomips.org|Unicorn]]. You should use the rackup configuration from the Ōlelo source or gem directory.
+
+{{{
+$ unicorn path-to/config.ru
+}}}
+
+Unicorn is a very flexible ruby application server and Ōlelo runs very well on it. You can adapt the number of Unicorn workers depending on the load you expect. It is a good idea to observe the Unicorn workers as described in https://github.com/blog/519-unicorn-god and kill missbehaving workers if necessary. You can call this snippet in a cronjob which terminates all workers gracefully that need more than 100M.
+
+{{{
+#!/bin/bash
+ps -e -www -o pid,rss,command | grep '[u]nicorn worker' | while read -r -a a; do
+        pid=${a[0]}
+        mem=${a[1]}
+        [[ "$mem" -gt 100000 ]] && kill -s QUIT $pid
+done
+}}}
+
+== Configuration
+
+For deployment you might want to tweak some settings. Ōlelo reads the files 'config/config.yml.default' and 'config/config.yml' in that order. So just copy the default configuration 'config/config.yml.default' to 'config/config.yml' and make your modifications. If you installed Ōlelo as gem this is not a good idea since you don't want to fiddle in the gem directory. For this purpose the environment variable '$OLELO_CONFIG' exists which
+can point to the configuration file that you want to use.
+
+{{{
+export OLELO_CONFIG=/home/olelo/olelo_config.yml
+}}}
+
+You can also use the '$OLELO_CONFIG' environment variable if you want to run multiple Ōlelo instances with different configurations, for example to serve different pages from different repositories.
+
+== Setting up a private wiki using Apache
+
+Assuming the wiki server is running on localhost:5000 (e.g. unicorn), we can redirect Apache requests by adding the following
+lines to your virtual host. This works also with https.
+
+{{{
+# Private wiki
+ProxyPass /wiki http://localhost:5000
+ProxyPassReverse /wiki http://localhost:5000
+ProxyPreserveHost On
+ProxyRequests Off
+RequestHeader set X-Forwarded-Proto https
+<Proxy *>
+  Order deny,allow
+  Allow from all
+</Proxy>
+}}}
+
+In your Ōlelo 'config.yml' you should set the following options:
+
+{{{
+base_path: '/wiki'
+
+# Enable the private wiki plugin
+disabled_plugins:
+  - security/readonly_wiki
+  #- security/private_wiki
+  - editor/recaptcha
+
+authentication:
+  enable_signup: false
+}}}
+
+== Dependencies
+
+If you installed Ōlelo as gem or used Bundler you don't really have to care about the dependencies. The standard installation provides the core dependencies and a good selection of optional dependencies.
+
+Core dependencies:
+* [[http://www.git-scm.com|Git]]
+* [[http://slim-lang.com/|Slim template language]]
+* [[http://libgit2.github.com/|Rugged git library]]
+* [[http://rack.github.com/|Rack]]
+* [[https://github.com/minad/mimemagic/|MimeMagic]]
+
+Some dependencies are optional, for example depending on the markup you want to use.
+* [[https://github.com/minad/creole|Creole markup library]]
+* [[https://github.com/vmg/redcarpet|Redcarpet Markdown library]]
+* [[http://redcloth.org/|RedCloth Textile markup library]]
+* [[http://www.imagemagick.org/|ImageMagick for image resizing]]
+* [[http://nokogiri.org/|Nokogiri for auto-generated table of contents]]
+* [[https://github.com/jayferd/rouge|Rouge for syntax highlighting of code blocks]]
+* [[https://github.com/minad/moneta/|Moneta Storage Interface]]
+
+== Development
+
+=== Important concepts
+
+* Plugin architecture
+* Aspects under 'plugins/aspects' which provide different 'views' for a page
+* Filters under 'plugins/filters' which make it possible to build up aspects from a filter chain.
+  These aspects are configured under 'config/aspects.rb'
+* Tags are provided by the 'plugins/tags/main.rb' plugin and can be integrated in a filter chain.
+  They look like html tags and can be used to extend the wiki syntax.
+
+=== Tipps
+
+* Execute 'rake --tasks' to see the available development tasks
+* Activate development mode by setting the option 'production: false' in 'config/config.yml'
+* Increase the log verbosity by setting 'log.level: DEBUG' in 'config/config.yml'
+* Do not hesitate to create an issue at the [[https://github.com/minad/olelo/issues|issue tracker]]
+
+== Authors
+
+Git-Wiki was originally developed by Simon Rozet. The development of Ōlelo to its current state was done by Daniel Mendler and contributors. The current code base doesn't have much in common with the original Git-Wiki proof-of-concept.
+
+Contributors:
+* Alex Eagle
+* Alex Wall
+* Hrvoje
+* Korthaerd
+* Luca Greco
+* Pavel Suchmann
+* Raffael Schmid
+
+== License
+
+Ōlelo is released under the MIT license.

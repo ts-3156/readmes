@@ -1,0 +1,62 @@
+= Sorry guys, the project is not maintained anymore, but (good news!) there is https://github.com/ysbaddaden/prax !
+= Join it, use it, feel free to contribute!
+
+= Hoof
+
+Linux version of https://github.com/37signals/pow/
+
+
+== Installation
+
+=== Gem
+
+At first - install gem
+
+<tt>gem install hoof</tt>
+
+=== NSS extension and port forwarding
+
+<tt>hoof install</tt>
+
+Then change your /etc/nsswitch.conf like this:
+
+<tt>hosts:          files mdns4_minimal [NOTFOUND=return] dns mdns4 hoof</tt>
+
+!!Do not forget restart browser!!
+
+=== Application
+
+Next step - initialize hoof for application:
+
+<tt>cd /to/your/app && hoof init</tt>
+
+This adds unicorn to your app Gemfile, so bundle it.
+
+
+
+== Daemon
+
+Hoof has basic cli for controlling.
+
+Use <tt>hoof</tt> executable to start daemon. Read <tt>hoof help</tt>
+
+Start your browser and go to http://app.dev
+
+
+
+
+== Contributing to hoof
+
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 pyromaniac. See LICENSE.txt for
+further details.
+

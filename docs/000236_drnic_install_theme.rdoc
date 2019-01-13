@@ -1,0 +1,108 @@
+= Install any HTML theme/template into your Rails app
+
+* http://drnicwilliams.com/2009/10/06/install-any-html-themetemplate-into-your-rails-app/
+* http://github.com/drnic/install_theme
+* http://github.com/drnic/install_theme/raw/master/History.txt
+
+== DESCRIPTION:
+
+Use any HTML template as a theme generator for your Rails app.
+
+Installs an HTML template, and its CSS, JavaScript and image assets into
+your Rails app, ready to go in an instant.
+
+You just tell it which DOM elements are special, e.g. where to 
+put the <%= yield %>, load your app in the browser and see the theme
+in action.
+
+== USAGE:
+
+Simple case:
+
+    install_theme path/to/rails_app path/to/template content_path
+
+Replace some DOM content with <%= yield :some_label %> with --partial:
+
+    install_theme path/to/rails_app path/to/template #content_box \
+      --partial "header:#header h2 text()" \
+      --partial sidebar:#sidebar"
+
+NOTE: The order of the first two arguments has been reversed since the original
+public release. This is in preparation for path/to/template to be optional.
+
+NOTE: The default behaviour of the css/xpath selectors has/is changing. Originally it
+replaced the internal content of the selected DOM node. Now, the default is to 
+replace the entire DOM node. To replace the internal content of the DOM node use
+`/text()` (for xpath) or `:text` (for CSS paths) at the end of the selector. 
+
+For example, for CSS paths:
+
+    --partial ".header h2:text" # replaces contents of the h2 element
+    --partial ".header h2"        # replaces the h2 element itself
+
+For Xpaths:
+
+    --partial "//div[@id='header']/h2/text()" # replaces contents of the h2 element
+    --partial "//div[@id='header']/h2"        # replaces the h2 element itself
+
+The same goes for the content_path argument of the executable.
+
+Similarly, in 0.7.0 the content_path argument is optional after the first time
+you install a specific theme (see 'Theme Reuse' section).
+
+=== Haml Support:
+
+If your application has Haml installed, the template/theme is automatically converted
+to Haml, and the css files converted to Sass. 
+
+Alternately, you can pass the flag --haml to force it.
+
+Or pass the flag --erb to force erb template generation.
+
+=== Theme Reuse:
+
+Once you have installed a theme into an application once, that theme remembers the content path
+and partials you selected. You won't have to type them again.
+
+That is, after running the `install_theme` command above, you could apply the same theme
+to another Rails app using just:
+
+    install_theme path/to/app path/to/another_rails_app
+
+The defaults for each theme are stored in a file `install_theme.yml`.
+
+== INSTALL:
+
+install_theme is distributed as a RubyGem, which installs the command line app automatically:
+
+    sudo gem install install_theme
+    install_theme -h
+
+== AUTHOR:
+
+Dr Nic Williams (http://drnicwilliams.com)
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2009 Dr Nic Williams, Mocra http://mocra.com
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

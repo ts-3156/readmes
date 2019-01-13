@@ -1,0 +1,179 @@
+= Archived
+
+This repository is not maintained and this tool is no longer really necessary. It has therefore been archived.
+
+== Why not git_remote_branch?
+
+Because this gem is barely being maintained anymore.
+Also, the code is so old that I want to cry every time I look at it :-(
+
+But it still works, I guess...
+
+== Why git_remote_branch?
+
+git_remote_branch is a simple command-line tool that makes it very easy to manipulate
+branches published in shared repositories.
+
+It achieves this goal by sticking to a few principles:
+- keep grb's commands extremely regular (they all look alike)
+- support aliases for commands
+- print all commands it runs on your behalf in red, so you eventually learn them
+
+Another nice thing about git_remote_branch is that it can simply explain a command 
+(print out all the corresponding git commands) instead of running them on your behalf.
+
+Note: git_remote_branch assumes that the local and remote branches have the
+same name. Multiple remote repositories (or origins) are supported.
+
+
+== Installation
+
+  gem install git_remote_branch
+
+If you use RVM, you may want to automatically install it on all rubies
+you'll install in the future:
+
+  echo git_remote_branch >> ~/.rvm/gemsets/global.gems
+
+If you're on Windows, you can optionally install the following gems, to get
+color output:
+
+  gem install windows-pr win32console
+
+=== Auto-completion
+
+If you use zsh with {oh-my-zsh}[https://github.com/robbyrussell/oh-my-zsh],
+you can have grb auto-completion by using the {git-remote-branch plugin}[https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git-remote-branch].
+
+  # ~/.zshrc
+  plugins=(git git-remote-branch ...)
+
+If you use bash, you can have grb auto-completion by souring `etc/grb-completion.bash`
+
+  # ~/.bash_profile (after your Ruby has been set, e.g. after the RVM snippet)
+
+  grbc=`gem contents git_remote_branch | grep grb-completion.bash` && source $grbc
+
+or copy it to your desired destination and source it.
+
+== Usage
+
+Notes:
+- parts between brackets are optional
+- When 'origin_server' is not specified, the name 'origin' is assumed.
+
+Available commands (with aliases):
+
+
+=== Help
+
+  $ grb [-h|help]    #=> Displays help
+
+==== create (alias: new)
+
+Create a new local branch as well as a corresponding remote branch based on the
+branch you currently have checked out. 
+Track the new remote branch. Checkout the new branch.
+
+  $ grb create branch_name [origin_server]
+
+
+==== publish (aliases: remotize, share)
+
+Publish an existing local branch to the remote server.
+Set up the local branch to track the new remote branch.
+
+  $ grb publish branch_name [origin_server]
+
+
+==== delete (aliases: destroy, kill, remove, rm)
+
+Delete the remote branch then delete the local branch.
+The local branch is not deleted if there are pending changes.
+
+  $ grb delete branch_name [origin_server]
+
+
+==== track (aliases: follow grab fetch)
+
+Track an existing remote branch locally and checkout the branch.
+
+  $ grb track branch_name [origin_server]
+
+
+==== rename (aliases: rn mv move)
+
+Rename a remote branch and its local tracking branch.
+The branch you want to rename must be checked out.
+
+  # On branch to be renamed
+  $ grb rename new_branch_name [origin_server]
+
+
+==== explain
+
+All commands can be prepended by the word 'explain'.  Instead of executing the
+command, git_remote_branch will simply output the list of commands you need to
+run to accomplish that goal.
+Examples:
+
+  $ grb explain create
+  git_remote_branch version 0.3.8
+
+  List of operations to do to create a new remote branch and track it locally:
+
+  git push origin master:refs/heads/branch_to_create
+  git fetch origin
+  git branch --track branch_to_create origin/branch_to_create
+  git checkout branch_to_create
+
+Explain your specific case:
+
+  $ grb explain create my_branch github
+  git_remote_branch version 0.3.8
+
+  List of operations to do to create a new remote branch and track it locally:
+
+  git push github master:refs/heads/my_branch
+  git fetch github
+  git branch --track my_branch github/my_branch
+  git checkout my_branch
+
+This, of course, works for each of the grb commands.
+
+== More on git_remote_branch
+
+- {Documentation}[http://rubydoc.info/gems/git_remote_branch/0.3.3/frames]
+- {Code}[https://github.com/webmat/git_remote_branch]
+- {Bugs}[https://github.com/webmat/git_remote_branch/issues]
+- News at {Mathieu Martin's blog}[http://programblings.com]
+
+
+=== History
+
+git_remote_branch in its current form was inspired by a script created by Carl Mercier and made public on his blog: {No nonsense GIT, part 1: git-remote-branch}[http://blog.carlmercier.com/2008/01/25/no-nonsense-git-part-1-git-remote-branch/]
+
+
+=== Contributors
+
+- {Mathieu Martin}[http://www.programblings.com]
+- {Ivan}[https://github.com/toy]
+- {Caio Chassot}[http://caiochassot.com]
+- {Axelson}[https://github.com/axelson]
+- {Carl Mercier}[https://github.com/cmer]
+
+
+=== Legalese
+
+git_remote_branch is licensed under the MIT License. See the file LICENSE for details.
+
+==== Supported platforms
+
+This version of git_remote_branch has been tested with
+
+- OS X Mountain Lion
+- past versions were known to work on Linux and Windows
+- Ruby 1.9.3
+- git 1.7+
+
+Let me know if you encounter problems running git_remote_branch with your platform.
