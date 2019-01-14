@@ -7,18 +7,12 @@
 # Usage:
 #   ruby file_size.rb
 
+require_relative 'collect_files'
+
 files = {}
 
-Dir.children('./').each do |dir|
-  next unless dir.match? /^\d+_\d+$/
-
-  Dir.children(dir).each do |fname|
-    next unless fname.match?(/(md|markdown)$/)
-
-    file = dir + '/' + fname
-    files[file] = File.size(file)
-  end
-  break
+collect_files.each do |file|
+  files[file] = File.size(file)
 end
 
 files.sort_by {|f, s| -s}.each do |f, s|
