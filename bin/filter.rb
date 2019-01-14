@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 
 # Summary:
-#   ディレクトリを走査し、ファイルサイズの降順でファイルを一覧表示する。
-#   その際、マークダウンのファイルのみをフィルタする。
+#   KEYWORDで指定されたセクションを1つのファイルに統合して書き出す。
 #
 # Usage:
 #   ruby filter.rb KEYWORD
@@ -10,6 +9,7 @@
 require_relative 'collect_files'
 
 keyword = ARGV[0]
+out_file = ARGV[1]
 sections = []
 sorted_files = collect_files.sort_by {|f| -f.split('/')[1].split('_')[0].to_i}
 
@@ -41,4 +41,4 @@ sorted_files.each do |file|
   sections << section unless section.empty?
 end
 
-File.write('sections.md', sections.map {|s| s.join("\n") + '----' + "\n"}.join)
+File.write(out_file, sections.map {|s| s.join("\n") + "\n----\n\n"}.join)
