@@ -28,7 +28,12 @@ sorted_files.each do |file|
     end
 
     if section_block
-      suffix = line.match?(/^#{keyword}/) ? ' ' + file : ''
+      suffix =
+          if line.match?(/^#{keyword}/)
+            " [#{file}](https://github.com/ts-3156/readmes/blob/master/#{file})"
+          else
+            ''
+          end
       section << "#{line.chomp}#{suffix}"
     end
   end

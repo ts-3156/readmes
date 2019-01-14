@@ -1,4 +1,4 @@
-## Installation 0001_0500/014619_jashkenas_coffeescript.md
+## Installation [0001_0500/014619_jashkenas_coffeescript.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/014619_jashkenas_coffeescript.md)
 
 Once you have Node.js installed:
 
@@ -10,7 +10,7 @@ npm install --save-dev coffeescript
 npm install --global coffeescript
 ```
 ----
-## Installation 0001_0500/013341_jasmine_jasmine.md
+## Installation [0001_0500/013341_jasmine_jasmine.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/013341_jasmine_jasmine.md)
 
 For the Jasmine NPM module:<br>
 [https://github.com/jasmine/jasmine-npm](https://github.com/jasmine/jasmine-npm)
@@ -43,7 +43,7 @@ Add the following to your HTML file:
 <script type="text/javascript" src="jasmine/lib/jasmine-{#.#.#}/boot.js"></script>
 ```
 ----
-## Installation 0001_0500/012600_twbs_bootstrap-sass.md
+## Installation [0001_0500/012600_twbs_bootstrap-sass.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/012600_twbs_bootstrap-sass.md)
 
 Please see the appropriate guide for your environment of choice:
 
@@ -51,7 +51,7 @@ Please see the appropriate guide for your environment of choice:
 * [Bower](#b-bower).
 * [npm / Node.js](#c-npm--nodejs).
 ----
-## Installation 0001_0500/008790_bbatsov_rubocop.md
+## Installation [0001_0500/008790_bbatsov_rubocop.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/008790_bbatsov_rubocop.md)
 
 **RuboCop**'s installation is pretty standard:
 
@@ -74,7 +74,7 @@ might want to use a conservative version locking in your `Gemfile`:
 gem 'rubocop', '~> 0.62.0', require: false
 ```
 ----
-## Installation 0001_0500/008530_thoughtbot_bourbon.md
+## Installation [0001_0500/008530_thoughtbot_bourbon.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/008530_thoughtbot_bourbon.md)
 
 1. Install the Bourbon gem using the [RubyGems] package manager:
 
@@ -107,7 +107,7 @@ gem 'rubocop', '~> 0.62.0', require: false
 
   [RubyGems]: https://rubygems.org
 ----
-## Installation 0001_0500/008341_ruby-grape_grape.md
+## Installation [0001_0500/008341_ruby-grape_grape.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/008341_ruby-grape_grape.md)
 
 Grape is available as a gem, to install it just install the gem:
 
@@ -119,7 +119,7 @@ If you're using Bundler, add the gem to Gemfile.
 
 Run `bundle install`.
 ----
-## Installation 0001_0500/007883_carrierwaveuploader_carrierwave.md
+## Installation [0001_0500/007883_carrierwaveuploader_carrierwave.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/007883_carrierwaveuploader_carrierwave.md)
 
 Install the latest release:
 
@@ -138,13 +138,13 @@ Finally, restart the server to apply the changes.
 As of version 1.0, CarrierWave requires Rails 4.0 or higher and Ruby 2.0
 or higher. If you're on Rails 3, you should use v0.11.0.
 ----
-## Installation 0001_0500/007589_tmuxinator_tmuxinator.md
+## Installation [0001_0500/007589_tmuxinator_tmuxinator.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/007589_tmuxinator_tmuxinator.md)
 
 ```
 gem install tmuxinator
 ```
 ----
-## Installation 0001_0500/006981_plataformatec_simple_form.md
+## Installation [0001_0500/006981_plataformatec_simple_form.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/006981_plataformatec_simple_form.md)
 
 Add it to your Gemfile:
 
@@ -164,7 +164,7 @@ Run the generator:
 rails generate simple_form:install
 ```
 ----
-## Installation 0001_0500/006979_kaminari_kaminari.md
+## Installation [0001_0500/006979_kaminari_kaminari.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/006979_kaminari_kaminari.md)
 
 To install kaminari on the default Rails stack, just put this line in your Gemfile:
 
@@ -181,7 +181,7 @@ Then bundle:
 If you're building non-Rails of non-ActiveRecord app and want the pagination feature on it, please take a look at [Other Framework/Library Support](#other-frameworklibrary-support) section.
 
 ----
-## Installation 0001_0500/006750_sferik_rails_admin.md
+## Installation [0001_0500/006750_sferik_rails_admin.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/006750_sferik_rails_admin.md)
 
 1. On your gemfile: `gem 'rails_admin', '~> 1.3'`
 2. Run `bundle install`
@@ -189,7 +189,7 @@ If you're building non-Rails of non-ActiveRecord app and want the pagination fea
 4. Provide a namespace for the routes when asked
 5. Start a server `rails s` and administer your data at [/admin](http://localhost:3000/admin). (if you chose default namespace: /admin)
 ----
-## Installation 0001_0500/006634_flightjs_flight.md
+## Installation [0001_0500/006634_flightjs_flight.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/006634_flightjs_flight.md)
 
 Quick start using the [pre-built
 library](http://flightjs.github.io/release/latest/flight.min.js) (a
@@ -217,7 +217,7 @@ bower install --save flight
 
 You will have to load [jQuery](http://jquery.com) in your application.
 ----
-## Installation 0001_0500/006307_charliesome_better_errors.md
+## Installation [0001_0500/006307_charliesome_better_errors.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/006307_charliesome_better_errors.md)
 
 Add this to your Gemfile:
 
@@ -232,7 +232,7 @@ end
 
 _Note: If you discover that Better Errors isn't working - particularly after upgrading from version 0.5.0 or less - be sure to set `config.consider_all_requests_local = true` in `config/environments/development.rb`._
 ----
-## Installation 0001_0500/006161_middleman_middleman.md
+## Installation [0001_0500/006161_middleman_middleman.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/006161_middleman_middleman.md)
 
 Middleman is built on Ruby and uses the RubyGems package manager for installation. These are usually pre-installed on Mac OS X and Linux. Windows users can install both using [RubyInstaller]. For windows [RubyInstaller-Devkit] is also required.
 
@@ -240,17 +240,17 @@ Middleman is built on Ruby and uses the RubyGems package manager for installatio
 gem install middleman
 ```
 ----
-## Installation 0001_0500/005923_turbolinks_turbolinks.md
+## Installation [0001_0500/005923_turbolinks_turbolinks.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/005923_turbolinks_turbolinks.md)
 
 Include [`dist/turbolinks.js`](dist/turbolinks.js) in your application’s JavaScript bundle.
 
 Turbolinks automatically initializes itself when loaded via a standalone `<script>` tag or a traditional concatenated JavaScript bundle. If you load Turbolinks as a CommonJS or AMD module, first require the module, then call the provided `start()` function.
 ----
-## Installation 0001_0500/005725_venmo_synx.md
+## Installation [0001_0500/005725_venmo_synx.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/005725_venmo_synx.md)
 
     $ gem install synx
 ----
-## Installation 0001_0500/005708_varvet_pundit.md
+## Installation [0001_0500/005708_varvet_pundit.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/005708_varvet_pundit.md)
 
 ``` ruby
 gem "pundit"
@@ -275,7 +275,7 @@ rails g pundit:install
 After generating your application policy, restart the Rails server so that Rails
 can pick up any classes in the new `app/policies/` directory.
 ----
-## Installation 0001_0500/005520_guard_guard.md
+## Installation [0001_0500/005520_guard_guard.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/005520_guard_guard.md)
 
 The simplest way to install Guard is to use [Bundler](http://bundler.io).
 
@@ -311,7 +311,7 @@ to Ruby on Mac OS
 X](https://github.com/guard/guard/wiki/Add-Readline-support-to-Ruby-on-Mac-OS-X).
 
 ----
-## Installation 0001_0500/005062_realm_jazzy.md
+## Installation [0001_0500/005062_realm_jazzy.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/005062_realm_jazzy.md)
 
 ```shell
 [sudo] gem install jazzy
@@ -320,7 +320,7 @@ X](https://github.com/guard/guard/wiki/Add-Readline-support-to-Ruby-on-Mac-OS-X)
 See [Installation Problems](#installation-problems) for solutions to some
 common problems.
 ----
-## Installation 0001_0500/005026_justinfrench_formtastic.md
+## Installation [0001_0500/005026_justinfrench_formtastic.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/005026_justinfrench_formtastic.md)
 
 Simply add Formtastic to your Gemfile and bundle it up:
 
@@ -335,7 +335,7 @@ $ rails generate formtastic:install
 ```
 
 ----
-## Installation 0001_0500/004716_sparklemotion_nokogiri.md
+## Installation [0001_0500/004716_sparklemotion_nokogiri.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004716_sparklemotion_nokogiri.md)
 
 If this doesn't work:
 
@@ -356,7 +356,7 @@ when the above instructions don't work for you. This allows us to both
 help you directly and improve the documentation.
 
 ----
-## Installation 0001_0500/004707_ankane_chartkick.md
+## Installation [0001_0500/004707_ankane_chartkick.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004707_ankane_chartkick.md)
 
 Add this line to your application's Gemfile:
 
@@ -366,20 +366,20 @@ gem "chartkick"
 
 Next, choose your charting library.
 ----
-## Installation 0001_0500/004617_ddollar_foreman.md
+## Installation [0001_0500/004617_ddollar_foreman.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004617_ddollar_foreman.md)
 
     $ gem install foreman
 
 Ruby users should take care *not* to install foreman in their project's `Gemfile`.
 ----
-## Installation 0001_0500/004513_bkeepers_dotenv.md
+## Installation [0001_0500/004513_bkeepers_dotenv.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004513_bkeepers_dotenv.md)
 ----
-## Installation 0001_0500/004490_sferik_t.md
+## Installation [0001_0500/004490_sferik_t.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004490_sferik_t.md)
 Once you've verified that Ruby is installed:
 
     gem install t
 ----
-## Installation 0001_0500/004444_thoughtbot_neat.md
+## Installation [0001_0500/004444_thoughtbot_neat.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004444_thoughtbot_neat.md)
 
 1. Install the Neat gem using the [RubyGems] package manager:
 
@@ -420,7 +420,7 @@ Once you've verified that Ruby is installed:
 [RubyGems]: https://rubygems.org
 [Bower]: http://bower.io
 ----
-## Installation 0001_0500/004442_hanami_hanami.md
+## Installation [0001_0500/004442_hanami_hanami.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004442_hanami_hanami.md)
 
 __Hanami__ supports Ruby (MRI) 2.3+
 
@@ -428,7 +428,7 @@ __Hanami__ supports Ruby (MRI) 2.3+
 gem install hanami
 ```
 ----
-## Installation 0001_0500/004354_skywinder_github-changelog-generator.md
+## Installation [0001_0500/004354_skywinder_github-changelog-generator.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004354_skywinder_github-changelog-generator.md)
 
 GitHub Changelog Generator is a [Ruby](https://www.ruby-lang.org/)
 program, distributed as a RubyGem. The Ruby language homepage has an [Installation page](https://www.ruby-lang.org/en/documentation/installation/).
@@ -440,7 +440,7 @@ Install the gem like:
 Depending on your system, you _may_ need to run the shell as an Administrator (Windows),
 or use `sudo gem install github_changelog_generator` (Linux).
 ----
-## Installation 0001_0500/004345_drapergem_draper.md
+## Installation [0001_0500/004345_drapergem_draper.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004345_drapergem_draper.md)
 
 As of version 3.0.0, Draper is only compatible with Rails 5 / Ruby 2.2 and later. Add Draper to your Gemfile.
 
@@ -453,7 +453,7 @@ After that, run `bundle install` within your app's directory.
 If you're upgrading from a 0.x release, the major changes are outlined [in the
 wiki](https://github.com/drapergem/draper/wiki/Upgrading-to-1.0).
 ----
-## Installation 0001_0500/004209_mbleigh_acts-as-taggable-on.md
+## Installation [0001_0500/004209_mbleigh_acts-as-taggable-on.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004209_mbleigh_acts-as-taggable-on.md)
 
 To use it, add it to your Gemfile:
 
@@ -467,14 +467,14 @@ and bundle:
 bundle
 ```
 ----
-## Installation 0001_0500/004023_sferik_twitter.md
+## Installation [0001_0500/004023_sferik_twitter.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/004023_sferik_twitter.md)
     gem install twitter
 ----
-## Installation 0001_0500/003997_phusion_passenger.md
+## Installation [0001_0500/003997_phusion_passenger.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003997_phusion_passenger.md)
 
 Please follow [the installation instructions on the website](https://www.phusionpassenger.com/library/install/).
 ----
-## Installation 0001_0500/003967_ruby-concurrency_concurrent-ruby.md
+## Installation [0001_0500/003967_ruby-concurrency_concurrent-ruby.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003967_ruby-concurrency_concurrent-ruby.md)
 
 ```shell
 gem install concurrent-ruby
@@ -488,7 +488,7 @@ gem 'concurrent-ruby', require: 'concurrent'
 
 and run `bundle install` from your shell.
 ----
-## Installation 0001_0500/003921_CanCanCommunity_cancancan.md
+## Installation [0001_0500/003921_CanCanCommunity_cancancan.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003921_CanCanCommunity_cancancan.md)
 
 Add this to your Gemfile: 
 
@@ -500,7 +500,7 @@ For Rails < 4.2 use:
 
     gem 'cancancan', '~> 1.10'
    ----
-## Installation 0001_0500/003793_doorkeeper-gem_doorkeeper.md
+## Installation [0001_0500/003793_doorkeeper-gem_doorkeeper.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003793_doorkeeper-gem_doorkeeper.md)
 
 Put this in your Gemfile:
 
@@ -514,9 +514,9 @@ Run the installation generator with:
 
 This will install the doorkeeper initializer into `config/initializers/doorkeeper.rb`.
 ----
-## Installation 0001_0500/003750_activemerchant_active_merchant.md
+## Installation [0001_0500/003750_activemerchant_active_merchant.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003750_activemerchant_active_merchant.md)
 ----
-## Installation 0001_0500/003707_ankane_pghero.md
+## Installation [0001_0500/003707_ankane_pghero.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003707_ankane_pghero.md)
 
 PgHero is available as a Rails engine, Linux package, and Docker image.
 
@@ -526,7 +526,7 @@ Select your preferred method of installation to get started.
 - [Linux](guides/Linux.md)
 - [Docker](guides/Docker.md)
 ----
-## Installation 0001_0500/003664_celluloid_celluloid.md
+## Installation [0001_0500/003664_celluloid_celluloid.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003664_celluloid_celluloid.md)
 
 Add this line to your application's Gemfile:
 
@@ -544,7 +544,7 @@ Require Celluloid with:
 
     require 'celluloid'
 ----
-## Installation 0001_0500/003613_rspec_rspec-rails.md
+## Installation [0001_0500/003613_rspec_rspec-rails.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003613_rspec_rspec-rails.md)
 
 1. Add `rspec-rails` to **both** the `:development` and `:test` groups
    of your app’s `Gemfile`:
@@ -582,7 +582,7 @@ Require Celluloid with:
          create  spec/rails_helper.rb
    ```
 ----
-## Installation ## 0001_0500/003529_nesquena_rabl.md
+## Installation ## [0001_0500/003529_nesquena_rabl.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003529_nesquena_rabl.md)
 
 Install RABL as a gem:
 
@@ -615,11 +615,11 @@ Rabl.register!
 and RABL will be initialized and ready for use. For usage with Sinatra, check out
 the [Sinatra Usage](https://github.com/nesquena/rabl/wiki/Setup-for-Sinatra) guide.
 ----
-## Installation 0001_0500/003321_mmistakes_minimal-mistakes.md
+## Installation [0001_0500/003321_mmistakes_minimal-mistakes.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003321_mmistakes_minimal-mistakes.md)
 
 There are three ways to install: as a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible), or forking/directly copying all of the theme files into your project.
 ----
-## Installation 0001_0500/003264_typhoeus_typhoeus.md
+## Installation [0001_0500/003264_typhoeus_typhoeus.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003264_typhoeus_typhoeus.md)
 
 ```
 gem install typhoeus
@@ -629,7 +629,7 @@ gem install typhoeus
 gem "typhoeus"
 ```
 ----
-## Installation 0001_0500/003234_burke_zeus.md
+## Installation [0001_0500/003234_burke_zeus.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003234_burke_zeus.md)
 
 Install the gem.
 
@@ -639,7 +639,7 @@ Q: "I should put it in my `Gemfile`, right?"
 
 A: No. You can, but running `bundle exec zeus` instead of `zeus` adds precious seconds to commands that otherwise would be quite a bit faster. Zeus was built to be run from outside of bundler.
 ----
-## Installation 0001_0500/003224_dejan_rails_panel.md
+## Installation [0001_0500/003224_dejan_rails_panel.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003224_dejan_rails_panel.md)
 
 To use this extension you need to add meta_request gem to your app's Gemfile:
 
@@ -651,7 +651,7 @@ end
 
 Install RailsPanel extension from the [Chrome WebStore](https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg). This is recommended way of installing extension, since it will auto-update on every new version. Note that you still need to update meta_request gem yourself.
 ----
-## Installation 0001_0500/003178_brigade_scss-lint.md
+## Installation [0001_0500/003178_brigade_scss-lint.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003178_brigade_scss-lint.md)
 
 ```bash
 gem install scss_lint
@@ -669,7 +669,7 @@ interfere with other applications that invoke the Sass parser after `scss-lint`
 libraries have been loaded at runtime, so you should only require it in the
 context in which you are linting, nowhere else.
 ----
-## Installation 0001_0500/003134_thoughtbot_suspenders.md
+## Installation [0001_0500/003134_thoughtbot_suspenders.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/003134_thoughtbot_suspenders.md)
 
 First install the suspenders gem:
 
@@ -681,7 +681,7 @@ Then run:
 
 This will create a Rails app in `projectname` using the latest version of Rails.
 ----
-## Installation 0001_0500/002922_rails_webpacker.md
+## Installation [0001_0500/002922_rails_webpacker.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002922_rails_webpacker.md)
 
 You can either add Webpacker during setup of a new Rails 5.1+ application
 using new `--webpack` option:
@@ -722,13 +722,13 @@ Optional: To fix ["unmet peer dependency" warnings](https://github.com/rails/web
 yarn upgrade
 ```
 ----
-## Installation 0001_0500/002857_mikel_mail.md
+## Installation [0001_0500/002857_mikel_mail.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002857_mikel_mail.md)
 
 Installation is fairly simple, I host mail on rubygems, so you can just do:
 
     # gem install mail
 ----
-## Installation 0001_0500/002853_trailblazer_cells.md
+## Installation [0001_0500/002853_trailblazer_cells.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002853_trailblazer_cells.md)
 
 Cells runs with any framework.
 
@@ -763,13 +763,13 @@ class CommentCell < Cell::ViewModel
 end
 ```
 ----
-## Installation 0001_0500/002821_mojombo_chronic.md
+## Installation [0001_0500/002821_mojombo_chronic.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002821_mojombo_chronic.md)
 
 ```
 $ gem install chronic
 ```
 ----
-## Installation 0001_0500/002790_defunkt_gist.md
+## Installation [0001_0500/002790_defunkt_gist.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002790_defunkt_gist.md)
 
 ‌If you have ruby installed:
 
@@ -784,7 +784,7 @@ $ gem install chronic
 
     brew install gist
 ----
-## Installation 0001_0500/002762_peek_peek.md
+## Installation [0001_0500/002762_peek_peek.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002762_peek_peek.md)
 
 Add this line to your application's Gemfile:
 
@@ -798,11 +798,11 @@ Or install it yourself as:
 
     $ gem install peek
 ----
-## Installation 0001_0500/002756_bblimke_webmock.md
+## Installation [0001_0500/002756_bblimke_webmock.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002756_bblimke_webmock.md)
 
     gem install webmock
 ----
-## Installation 0001_0500/002698_thoughtbot_high_voltage.md
+## Installation [0001_0500/002698_thoughtbot_high_voltage.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002698_thoughtbot_high_voltage.md)
 
 There are two ways to install High Voltage. 
 
@@ -816,12 +816,12 @@ Or you can include in your Gemfile:
 gem 'high_voltage', '~> 3.1'
 ```
 ----
-## Installation 0001_0500/002623_supermarin_xcpretty.md
+## Installation [0001_0500/002623_supermarin_xcpretty.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002623_supermarin_xcpretty.md)
 ``` bash
 $ gem install xcpretty
 ```
 ----
-## Installation 0001_0500/002606_activeadmin_inherited_resources.md
+## Installation [0001_0500/002606_activeadmin_inherited_resources.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002606_activeadmin_inherited_resources.md)
 
 You can let bundler install Inherited Resources by adding this line to your application's Gemfile:
 
@@ -841,7 +841,7 @@ Or install it yourself with:
 $ gem install inherited_resources
 ```
 ----
-## Installation 0001_0500/002588_rmosolgo_graphql-ruby.md
+## Installation [0001_0500/002588_rmosolgo_graphql-ruby.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002588_rmosolgo_graphql-ruby.md)
 
 Install from RubyGems by adding it to your `Gemfile`, then bundling.
 
@@ -854,7 +854,7 @@ gem 'graphql'
 $ bundle install
 ```
 ----
-## Installation 0001_0500/002583_nathanvda_cocoon.markdown
+## Installation [0001_0500/002583_nathanvda_cocoon.markdown](https://github.com/ts-3156/readmes/blob/master/0001_0500/002583_nathanvda_cocoon.markdown)
 
 Inside your `Gemfile` add the following:
 
@@ -864,10 +864,10 @@ gem "cocoon"
 
 > Please note that for rails 4 you will need at least v1.2.0 or later.
 ----
-## Installation 0001_0500/002527_pilu_web-app-theme.md
+## Installation [0001_0500/002527_pilu_web-app-theme.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002527_pilu_web-app-theme.md)
 
 ----
-## Installation 0001_0500/002476_ankane_groupdate.md
+## Installation [0001_0500/002476_ankane_groupdate.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002476_ankane_groupdate.md)
 
 Add this line to your application’s Gemfile:
 
@@ -877,7 +877,7 @@ gem 'groupdate'
 
 For MySQL and SQLite, also follow [these instructions](#additional-instructions).
 ----
-## Installation 0001_0500/002460_mustache_mustache.md
+## Installation [0001_0500/002460_mustache_mustache.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002460_mustache_mustache.md)
 
 Install the gem locally with:
 
@@ -890,7 +890,7 @@ gem "mustache", "~> 1.0"
 ```
 
 ----
-## Installation ## 0001_0500/002447_teampoltergeist_poltergeist.md
+## Installation ## [0001_0500/002447_teampoltergeist_poltergeist.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002447_teampoltergeist_poltergeist.md)
 
 Add this line to your Gemfile and run `bundle install`:
 
@@ -910,7 +910,7 @@ your app will now run in a separate thread and this can have
 consequences for transactional tests. [See the Capybara README for more
 detail](https://github.com/jnicklas/capybara/blob/master/README.md#transactions-and-database-setup).
 ----
-## Installation 0001_0500/002445_MiniProfiler_rack-mini-profiler.md
+## Installation [0001_0500/002445_MiniProfiler_rack-mini-profiler.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002445_MiniProfiler_rack-mini-profiler.md)
 
 Install/add to Gemfile in Ruby 2.3+
 
@@ -930,7 +930,7 @@ gem 'flamegraph'
 gem 'stackprof'
 ```
 ----
-## Installation & Prerequisites 0001_0500/002428_postrank-labs_goliath.md
+## Installation & Prerequisites [0001_0500/002428_postrank-labs_goliath.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002428_postrank-labs_goliath.md)
 
 * Install Ruby 1.9 (via RVM or natively)
 
@@ -946,7 +946,7 @@ $> rvm use 1.9.3
 $> gem install goliath
 ```
 ----
-## Installation 0001_0500/002361_comfy_comfortable-mexican-sofa.md
+## Installation [0001_0500/002361_comfy_comfortable-mexican-sofa.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002361_comfy_comfortable-mexican-sofa.md)
 
 Add gem definition to your Gemfile:
 
@@ -967,7 +967,7 @@ comfy_route :cms_admin, path: "/admin"
 comfy_route :cms, path: "/"
 ```
 ----
-## Installation 0001_0500/002342_intridea_hashie.md
+## Installation [0001_0500/002342_intridea_hashie.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002342_intridea_hashie.md)
 
 Hashie is available as a RubyGem:
 
@@ -975,11 +975,11 @@ Hashie is available as a RubyGem:
 $ gem install hashie
 ```
 ----
-## Installation 0001_0500/002331_dotless-de_vagrant-vbguest.md
+## Installation [0001_0500/002331_dotless-de_vagrant-vbguest.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002331_dotless-de_vagrant-vbguest.md)
 
 Requires vagrant 1.3 or later
 ----
-## Installation 0001_0500/002313_RolifyCommunity_rolify.md
+## Installation [0001_0500/002313_RolifyCommunity_rolify.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002313_RolifyCommunity_rolify.md)
 
 Add this to your Gemfile and run the `bundle` command.
 
@@ -987,7 +987,7 @@ Add this to your Gemfile and run the `bundle` command.
 gem "rolify"
 ```
 ----
-## Installation 0001_0500/002307_brigade_overcommit.md
+## Installation [0001_0500/002307_brigade_overcommit.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002307_brigade_overcommit.md)
 
 `overcommit` is installed via [RubyGems](https://rubygems.org/). It is strongly
 recommended that your environment support running `gem install` without
@@ -1015,11 +1015,11 @@ After running `overcommit --install`, any existing hooks for your repository
 which Overcommit will replace will be backed up. You can restore everything to
 the way it was by running `overcommit --uninstall`.
 ----
-## Installation 0001_0500/002301_jubos_fake-s3.md
+## Installation [0001_0500/002301_jubos_fake-s3.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002301_jubos_fake-s3.md)
 
     gem install fakes3
 ----
-## Installation 0001_0500/002290_cyu_rack-cors.md
+## Installation [0001_0500/002290_cyu_rack-cors.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002290_cyu_rack-cors.md)
 
 Install the gem:
 
@@ -1032,7 +1032,7 @@ gem 'rack-cors', require: 'rack/cors'
 ```
 
 ----
-## Installation 0001_0500/002236_krisleech_wisper.md
+## Installation [0001_0500/002236_krisleech_wisper.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002236_krisleech_wisper.md)
 
 Add this line to your application's Gemfile:
 
@@ -1040,7 +1040,7 @@ Add this line to your application's Gemfile:
 gem 'wisper', '2.0.0'
 ```
 ----
-## Installation ## 0001_0500/002216_roidrage_lograge.md
+## Installation ## [0001_0500/002216_roidrage_lograge.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002216_roidrage_lograge.md)
 
 In your Gemfile
 
@@ -1205,7 +1205,7 @@ Rails.application.configure do
 end
 ```
 ----
-## Installation 0001_0500/002190_ankane_ahoy.md
+## Installation [0001_0500/002190_ankane_ahoy.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002190_ankane_ahoy.md)
 
 Add this line to your application’s Gemfile:
 
@@ -1229,7 +1229,7 @@ Track your first event from a controller with:
 ahoy.track "My first event", {language: "Ruby"}
 ```
 ----
-## Installation & Usage 0001_0500/002189_rubysherpas_paranoia.md
+## Installation & Usage [0001_0500/002189_rubysherpas_paranoia.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002189_rubysherpas_paranoia.md)
 
 For Rails 3, please use version 1 of Paranoia:
 
@@ -1259,7 +1259,7 @@ bundle install
 
 Updating is as simple as `bundle update paranoia`.
 ----
-## Installation 0001_0500/002172_minimagick_minimagick.md
+## Installation [0001_0500/002172_minimagick_minimagick.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002172_minimagick_minimagick.md)
 
 Add the gem to your Gemfile:
 
@@ -1267,7 +1267,7 @@ Add the gem to your Gemfile:
 gem "mini_magick"
 ```
 ----
-## Installation 0001_0500/002164_brandonhilkert_sucker_punch.md
+## Installation [0001_0500/002164_brandonhilkert_sucker_punch.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002164_brandonhilkert_sucker_punch.md)
 
 Add this line to your application's Gemfile:
 
@@ -1281,7 +1281,7 @@ Or install it yourself as:
 
     $ gem install sucker_punch
 ----
-## Installation 0001_0500/002144_trailblazer_reform.md
+## Installation [0001_0500/002144_trailblazer_reform.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002144_trailblazer_reform.md)
 
 Add this line to your Gemfile:
 
@@ -1320,7 +1320,7 @@ end
 Put this in an initializer or on top of your script.
 
 ----
-## Installation 0001_0500/002097_michenriksen_gitrob.md
+## Installation [0001_0500/002097_michenriksen_gitrob.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002097_michenriksen_gitrob.md)
 
 A [precompiled version is available](https://github.com/michenriksen/gitrob/releases) for each release, alternatively you can use the latest version of the source code from this repository in order to build your own binary.
 
@@ -1330,7 +1330,7 @@ Make sure you have a correctly configured **Go >= 1.8** environment and that `$G
 
 This command will download gitrob, install its dependencies, compile it and move the `gitrob` executable to `$GOPATH/bin`.
 ----
-## Installation 0001_0500/002075_collectiveidea_audited.md
+## Installation [0001_0500/002075_collectiveidea_audited.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002075_collectiveidea_audited.md)
 
 Add the gem to your Gemfile:
 
@@ -1347,7 +1347,7 @@ $ rake db:migrate
 
 If you're using PostgreSQL, then you can use `rails generate audited:install --audited-changes-column-type jsonb` (or `json`) to store audit changes natively with its JSON column types. If you're using something other than integer primary keys (e.g. UUID) for your User model, then you can use `rails generate audited:install --audited-user-id-column-type uuid` to customize the `audits` table `user_id` column type.
 ----
-## Installation 0001_0500/002064_trulia_hologram.md
+## Installation [0001_0500/002064_trulia_hologram.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002064_trulia_hologram.md)
 
 Add this line to your application's Gemfile:
 
@@ -1360,7 +1360,7 @@ And then execute:
 If you don't use bundler you can run `gem install hologram`.
 
 ----
-## Installation 0001_0500/002024_collectiveidea_awesome_nested_set.md
+## Installation [0001_0500/002024_collectiveidea_awesome_nested_set.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/002024_collectiveidea_awesome_nested_set.md)
 
 Add to your Gemfile:
 
@@ -1368,7 +1368,7 @@ Add to your Gemfile:
 gem 'awesome_nested_set'
 ```
 ----
-## Installation 0001_0500/001974_ohler55_oj.md
+## Installation [0001_0500/001974_ohler55_oj.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001974_ohler55_oj.md)
 ```
 gem install oj
 ```
@@ -1379,7 +1379,7 @@ or in Bundler:
 gem 'oj'
 ```
 ----
-## Installation 0001_0500/001951_kpumuk_meta-tags.md
+## Installation [0001_0500/001951_kpumuk_meta-tags.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001951_kpumuk_meta-tags.md)
 
 Add the "meta-tags" gem to your `Gemfile`.
 
@@ -1389,7 +1389,7 @@ gem 'meta-tags'
 
 And run `bundle install` command.
 ----
-## Installation 0001_0500/001921_cerebris_jsonapi-resources.md
+## Installation [0001_0500/001921_cerebris_jsonapi-resources.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001921_cerebris_jsonapi-resources.md)
 
 Add JR to your application's `Gemfile`:
 
@@ -1411,9 +1411,9 @@ gem install jsonapi-resources
 
 **For further usage see the [v0.10 alpha Guide](http://jsonapi-resources.com/v0.10/guide/)**
 ----
-## Installation 0001_0500/001919_kjvarga_sitemap_generator.md
+## Installation [0001_0500/001919_kjvarga_sitemap_generator.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001919_kjvarga_sitemap_generator.md)
 ----
-## Installation 0001_0500/001918_httprb_http.md
+## Installation [0001_0500/001918_httprb_http.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001918_httprb_http.md)
 
 Add this line to your application's Gemfile:
 ```ruby
@@ -1438,7 +1438,7 @@ require "http"
 ...to pull it in as a dependency.
 
 ----
-## Installation 0001_0500/001907_feedjira_feedjira.md
+## Installation [0001_0500/001907_feedjira_feedjira.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001907_feedjira_feedjira.md)
 
 Add this line to your application's Gemfile:
 
@@ -1446,7 +1446,7 @@ Add this line to your application's Gemfile:
 gem "feedjira"
 ```
 ----
-## Installation 0001_0500/001875_jch_html-pipeline.md
+## Installation [0001_0500/001875_jch_html-pipeline.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001875_jch_html-pipeline.md)
 
 Add this line to your application's Gemfile:
 
@@ -1466,7 +1466,7 @@ Or install it yourself as:
 $ gem install html-pipeline
 ```
 ----
-## Installation 0001_0500/001864_galetahub_ckeditor.md
+## Installation [0001_0500/001864_galetahub_ckeditor.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001864_galetahub_ckeditor.md)
 
 For basic usage just include the ckeditor gem:
 
@@ -1498,7 +1498,7 @@ The currently supported backends are:
 * ActiveRecord (paperclip, carrierwave, dragonfly, refile)
 * Mongoid (paperclip, carrierwave, dragonfly)
 ----
-## Installation 0001_0500/001864_interagent_prmd.md
+## Installation [0001_0500/001864_interagent_prmd.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001864_interagent_prmd.md)
 
 Install the command-line tool with:
 
@@ -1517,7 +1517,7 @@ gem 'prmd'
 $ bundle install
 ```
 ----
-## Installation 0001_0500/001851_etsy_deployinator.md
+## Installation [0001_0500/001851_etsy_deployinator.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001851_etsy_deployinator.md)
 
 This demo assumes you are using bundler to install deployinator. If you aren't
 you can skip the bundler steps.
@@ -1563,7 +1563,7 @@ you can skip the bundler steps.
 ```
 
 ----
-## Installation 0001_0500/001828_roo-rb_roo.md
+## Installation [0001_0500/001828_roo-rb_roo.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001828_roo-rb_roo.md)
 
 Install as a gem
 
@@ -1574,9 +1574,9 @@ Or add it to your Gemfile
 ```ruby
 gem "roo", "~> 2.7.0"
 ```----
-## Installation 0001_0500/001816_influitive_apartment.md
+## Installation [0001_0500/001816_influitive_apartment.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001816_influitive_apartment.md)
 ----
-## Installation 0001_0500/001788_prontolabs_pronto.md
+## Installation [0001_0500/001788_prontolabs_pronto.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001788_prontolabs_pronto.md)
 
 **Pronto**'s installation is standard for a Ruby gem:
 
@@ -1600,7 +1600,7 @@ gem 'pronto-rubocop', require: false
 gem 'pronto-flay', require: false
 ```
 ----
-## Installation 0001_0500/001750_oauth-xx_oauth2.md
+## Installation [0001_0500/001750_oauth-xx_oauth2.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001750_oauth-xx_oauth2.md)
 
 Add this line to your application's Gemfile:
 
@@ -1616,7 +1616,7 @@ Or install it yourself as:
 
     $ gem install oauth2
 ----
-## Installation 0001_0500/001748_remiprev_teamocil.md
+## Installation [0001_0500/001748_remiprev_teamocil.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001748_remiprev_teamocil.md)
 
 ```bash
 # Install the `teamocil` Ruby gem
@@ -1635,7 +1635,7 @@ $ tmux
 $ teamocil sample
 ```
 ----
-## Installation 0001_0500/001742_trailblazer_roar.markdown
+## Installation [0001_0500/001742_trailblazer_roar.markdown](https://github.com/ts-3156/readmes/blob/master/0001_0500/001742_trailblazer_roar.markdown)
 
 The roar gem runs with all Ruby versions >= 1.9.3.
 
@@ -1649,7 +1649,7 @@ To use roar with Ruby versions < 2.2.0, add a version pin to your Gemfile:
 gem 'sinatra', '~> 1.4'
 ```
 ----
-## Installation 0001_0500/001733_airbnb_synapse.md
+## Installation [0001_0500/001733_airbnb_synapse.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001733_airbnb_synapse.md)
 
 To download and run the synapse binary, first install a version of ruby. Then,
 install synapse with:
@@ -1689,7 +1689,7 @@ export GEM_PATH=/opt/smartstack/synapse
 Don't forget to install HAProxy or NGINX or whatever proxy your `config_generator`
 is configuring.
 ----
-## Installation and Usage Guides 0001_0500/001711_websocket-rails_websocket-rails.md
+## Installation and Usage Guides [0001_0500/001711_websocket-rails_websocket-rails.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001711_websocket-rails_websocket-rails.md)
 
 * [Installation
   Guide](https://github.com/websocket-rails/websocket-rails/wiki/Installation-and-Setup)
@@ -1707,7 +1707,7 @@ is configuring.
 * [Multiple Servers and Background Jobs](https://github.com/websocket-rails/websocket-rails/wiki/Multiple-Servers-and-Background-Jobs)
 * [Standalone Server Mode](https://github.com/websocket-rails/websocket-rails/wiki/Standalone-Server-Mode)
 ----
-## Installation 0001_0500/001707_piotrmurach_tty.md
+## Installation [0001_0500/001707_piotrmurach_tty.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001707_piotrmurach_tty.md)
 
 Add this line to your application's Gemfile to install all components:
 
@@ -1725,14 +1725,14 @@ Or install it yourself as:
 
     $ gem install tty
 ----
-## Installation and Setup 0001_0500/001689_radiant_radiant.md
+## Installation and Setup [0001_0500/001689_radiant_radiant.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001689_radiant_radiant.md)
 
 Radiant is a traditional Ruby on Rails application, meaning that you can
 configure and run it the way you would a normal Rails application.
 
 See the [INSTALL](INSTALL.md) file for more details.
 ----
-## Installation 0001_0500/001682_globalize_globalize.md
+## Installation [0001_0500/001682_globalize_globalize.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001682_globalize_globalize.md)
 
 To install the ActiveRecord 4.2.x compatible version of Globalize with its default setup, just use:
 
@@ -1771,7 +1771,7 @@ gem 'globalize', '~> 3.1.0'
 
 The [`3-1-stable` branch](https://github.com/globalize/globalize/tree/3-1-stable) of this repository corresponds to the latest ActiveRecord 3 version of globalize. Note that `globalize3` has been deprecated and you are encouraged to update your Gemfile accordingly.
 ----
-## Installation 0001_0500/001675_remiprev_her.md
+## Installation [0001_0500/001675_remiprev_her.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001675_remiprev_her.md)
 
 In your Gemfile, add:
 
@@ -1781,7 +1781,7 @@ gem "her"
 
 That’s it!
 ----
-## Installation 0001_0500/001672_AssetSync_asset_sync.md
+## Installation [0001_0500/001672_AssetSync_asset_sync.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001672_AssetSync_asset_sync.md)
 
 Since 2.x, Asset Sync depends on gem `fog-core` instead of `fog`.  
 This is due to `fog` is including many unused storage provider gems as its dependencies.  
@@ -1803,7 +1803,7 @@ gem "fog-azure-rm"
 ```
 
 ----
-## Installation 0001_0500/001664_dtan4_terraforming.md
+## Installation [0001_0500/001664_dtan4_terraforming.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001664_dtan4_terraforming.md)
 
 Add this line to your application's Gemfile:
 
@@ -1819,7 +1819,7 @@ Or install it yourself as:
 
     $ gem install terraforming
 ----
-## Installation 0001_0500/001644_plataformatec_responders.md
+## Installation [0001_0500/001644_plataformatec_responders.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001644_plataformatec_responders.md)
 
 Add the responders gem to your Gemfile:
 
@@ -1834,7 +1834,7 @@ If you are including this gem to support backwards compatibilty for responders i
 
     $ bundle install
 ----
-## Installation 0001_0500/001621_technoweenie_restful-authentication.markdown
+## Installation [0001_0500/001621_technoweenie_restful-authentication.markdown](https://github.com/ts-3156/readmes/blob/master/0001_0500/001621_technoweenie_restful-authentication.markdown)
 
 This is a basic restful authentication generator for rails, taken from
 acts as authenticated.  Currently it requires Rails 1.2.6 or above.
@@ -1890,7 +1890,7 @@ To use the generator:
 ***************************************************************************
 <a id="POST-INSTALL"/> </a>
 ----
-## Installation 0001_0500/001620_octopress_octopress.md
+## Installation [0001_0500/001620_octopress_octopress.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001620_octopress_octopress.md)
 
 Install Octopress manually:
 
@@ -1914,17 +1914,17 @@ gem 'octopress', '~> 3.0'
 
 Run `bundle` to install the gems specified in your Gemfile.
 ----
-## Installation 0001_0500/001620_fnando_browser.md
+## Installation [0001_0500/001620_fnando_browser.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001620_fnando_browser.md)
 
 ```bash
 gem install browser
 ```
 ----
-## Installation 0001_0500/001609_yuki24_did_you_mean.md
+## Installation [0001_0500/001609_yuki24_did_you_mean.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001609_yuki24_did_you_mean.md)
 
 Ruby 2.3 and later ships with this gem and it will automatically be `require`d when a Ruby process starts up. No special setup is required.
 ----
-## Installation 0001_0500/001604_jondot_sneakers.md
+## Installation [0001_0500/001604_jondot_sneakers.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001604_jondot_sneakers.md)
 
 Add this line to your application's Gemfile:
 
@@ -1944,7 +1944,7 @@ Or install it yourself as:
 $ gem install sneakers
 ```
 ----
-## Installation 0001_0500/001580_junegunn_redis-stat.md
+## Installation [0001_0500/001580_junegunn_redis-stat.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001580_junegunn_redis-stat.md)
 
 ```
 gem install redis-stat
@@ -1954,7 +1954,7 @@ If you have trouble setting up a Ruby environment, you can [download the
 executable JAR file](https://github.com/junegunn/redis-stat/releases) and use
 it instead.
 ----
-## Installation 0001_0500/001579_propublica_upton.md
+## Installation [0001_0500/001579_propublica_upton.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001579_propublica_upton.md)
 
 Add the gem to your `Gemfile` and run the bundle command:
 
@@ -1962,7 +1962,7 @@ Add the gem to your `Gemfile` and run the bundle command:
 gem 'upton'
 ```
 ----
-## Installation 0001_0500/001575_thoughtbot_refills.md
+## Installation [0001_0500/001575_thoughtbot_refills.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001575_thoughtbot_refills.md)
 
 1. Install Refills’ dependencies: [Bourbon](https://github.com/thoughtbot/bourbon#installation), [Neat](https://github.com/thoughtbot/neat#installation) and [jQuery](http://jquery.com/download) (if you plan to use any components that require JavaScript).
 
@@ -1970,7 +1970,7 @@ gem 'upton'
 
 3. Customize: Most of the components and patterns have a set of Sass variables that allow you to quickly tweak the look and feel.
 
-## Installation for Ruby on Rails 0001_0500/001575_thoughtbot_refills.md
+## Installation for Ruby on Rails [0001_0500/001575_thoughtbot_refills.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001575_thoughtbot_refills.md)
 
 Alternative to copy-pasting manually, we also have a Refills gem that allows you to add components and patterns via Rake tasks.
 
@@ -2008,7 +2008,7 @@ Alternative to copy-pasting manually, we also have a Refills gem that allows you
 
   This copies the snippet’s partial to `app/views/refills`, the stylesheet to `app/assets/stylesheets/refills` and the JavaScript to `app/assets/javascripts/refills`
 ----
-## Installation 0001_0500/001572_lifo_cramp.md
+## Installation [0001_0500/001572_lifo_cramp.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001572_lifo_cramp.md)
 
 Add this line to your application's Gemfile:
 
@@ -2022,7 +2022,7 @@ Manual installation:
 
     $ gem install cramp
 ----
-## Installation 0001_0500/001561_jekyll_jekyll-admin.md
+## Installation [0001_0500/001561_jekyll_jekyll-admin.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001561_jekyll_jekyll-admin.md)
 
 Refer to the [installing plugins](https://jekyllrb.com/docs/plugins/#installing-a-plugin) section of Jekyll's documentation and install the `jekyll-admin` plugin as you would any other plugin. Here's the short version:
 
@@ -2034,7 +2034,7 @@ Refer to the [installing plugins](https://jekyllrb.com/docs/plugins/#installing-
 
 2.  Run `bundle install`
 ----
-## Installation 0001_0500/001551_liftoffcli_liftoff.md
+## Installation [0001_0500/001551_liftoffcli_liftoff.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001551_liftoffcli_liftoff.md)
 
     brew tap liftoffcli/formulae
     brew install liftoff
@@ -2044,13 +2044,13 @@ been deprecated, and all new releases will be done through Homebrew. If you are
 migrating from RubyGems, you should uninstall the gem version to avoid confusion
 in the future.
 ----
-## Installation 0001_0500/001474_petems_tugboat.md
+## Installation [0001_0500/001474_petems_tugboat.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001474_petems_tugboat.md)
 
     gem install tugboat
 
 Please note that Tugboat version 0.2.0 and up requires Ruby 1.9 or higher.
 ----
-## Installation 0001_0500/001442_ankane_blazer.md
+## Installation [0001_0500/001442_ankane_blazer.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001442_ankane_blazer.md)
 
 Add this line to your application’s Gemfile:
 
@@ -2079,7 +2079,7 @@ ENV["BLAZER_DATABASE_URL"] = "postgres://user:password@hostname:5432/database"
 
 Blazer tries to protect against queries which modify data (by running each query in a transaction and rolling it back), but a safer approach is to use a read only user. [See how to create one](#permissions).
 ----
-## Installation 0001_0500/001435_stripe_mosql.md
+## Installation [0001_0500/001435_stripe_mosql.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001435_stripe_mosql.md)
 
 Install from Rubygems as:
 
@@ -2091,7 +2091,7 @@ Or build from source by:
 
 And then install the built gem.
 ----
-## Installation 0001_0500/001435_jnunemaker_flipper.md
+## Installation [0001_0500/001435_jnunemaker_flipper.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001435_jnunemaker_flipper.md)
 
 Add this line to your application's Gemfile:
 
@@ -2105,7 +2105,7 @@ Or install it yourself with:
 
     $ gem install flipper
 ----
-## Installation 0001_0500/001434_jnunemaker_flipper.md
+## Installation [0001_0500/001434_jnunemaker_flipper.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001434_jnunemaker_flipper.md)
 
 Add this line to your application's Gemfile:
 
@@ -2119,7 +2119,7 @@ Or install it yourself with:
 
     $ gem install flipper
 ----
-## Installation 0001_0500/001422_stripe_einhorn.md
+## Installation [0001_0500/001422_stripe_einhorn.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001422_stripe_einhorn.md)
 
 Install from Rubygems as:
 
@@ -2131,7 +2131,7 @@ Or build from source by:
 
 And then install the built gem.
 ----
-## Installation 0001_0500/001408_jejacks0n_teaspoon.md
+## Installation [0001_0500/001408_jejacks0n_teaspoon.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001408_jejacks0n_teaspoon.md)
 
 Add the framework-specific Teaspoon gem to your Gemfile. In most cases you'll want to restrict it to the `:development, :test` groups. The available gems are `teaspoon-jasmine`, `teaspoon-mocha` and `teaspoon-qunit`. If you're unsure which framework you'd like to use, we think Jasmine is a good starting place.
 
@@ -2150,7 +2150,7 @@ rails generate teaspoon:install --coffee
 To run Teaspoon headless you'll need PhantomJS, Selenium Webdriver or Capybara Webkit. We recommend PhantomJS, which you can install with homebrew, npm or [as a download](http://phantomjs.org/download.html).
 
 ----
-## Installation 0001_0500/001404_donmelton_video_transcoding.md
+## Installation [0001_0500/001404_donmelton_video_transcoding.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001404_donmelton_video_transcoding.md)
 
 My Video Transcoding tools are designed to work on macOS, Linux and Windows. They're packaged as a Gem and require Ruby version 2.0 or later. See "[Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/)" if you don't have the proper version on your platform.
 
@@ -2162,7 +2162,7 @@ You may need to prefix that command with `sudo` in some environments:
 
     sudo gem install video_transcoding
 ----
-## Installation 0001_0500/001379_attr-encrypted_attr_encrypted.md
+## Installation [0001_0500/001379_attr-encrypted_attr_encrypted.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001379_attr-encrypted_attr_encrypted.md)
 
 Add attr_encrypted to your gemfile:
 
@@ -2176,7 +2176,7 @@ Then install the gem:
   bundle install
 ```
 ----
-## Installation 0001_0500/001373_assaf_vanity.md
+## Installation [0001_0500/001373_assaf_vanity.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001373_assaf_vanity.md)
 
 Add to your Gemfile:
 
@@ -2187,15 +2187,15 @@ gem "vanity"
 (For support for older versions of Rails and Ruby 1.8, please see the [1.9.x
 branch](https://github.com/assaf/vanity/tree/1-9-stable).)
 ----
-## Installation 0001_0500/001372_chrismccord_render_sync.md
+## Installation [0001_0500/001372_chrismccord_render_sync.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001372_chrismccord_render_sync.md)
 ----
-## Installation 0001_0500/001366_matthuhiggins_foreigner.md
+## Installation [0001_0500/001366_matthuhiggins_foreigner.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001366_matthuhiggins_foreigner.md)
 
 Add the following to your Gemfile:
 ```ruby
 gem 'foreigner'
 ```----
-## Installation 0001_0500/001364_thoughtbot_bitters.md
+## Installation [0001_0500/001364_thoughtbot_bitters.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001364_thoughtbot_bitters.md)
 
 1. Install the Bitters gem using the [RubyGems] package manager:
 
@@ -2237,7 +2237,7 @@ gem 'foreigner'
 [RubyGems]: https://rubygems.org
 [bourbon-install]: https://github.com/thoughtbot/bourbon#installation
 ----
-## Installation 0001_0500/001364_desktoppr_wbench.md
+## Installation [0001_0500/001364_desktoppr_wbench.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001364_desktoppr_wbench.md)
 
 You can install the latest stable gem by running:
 
@@ -2272,7 +2272,7 @@ Note that you will NOT need the chromedriver-utility gem if you install the bina
 
 Alternatively you can install firefox and use it with wbench. See [Running other browsers](#running-other-browsers) for more info.
 ----
-## Installation 0001_0500/001357_glebm_i18n-tasks.md
+## Installation [0001_0500/001357_glebm_i18n-tasks.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001357_glebm_i18n-tasks.md)
 
 i18n-tasks can be used with any project using the ruby [i18n gem][i18n-gem] (default in Rails).
 
@@ -2300,7 +2300,7 @@ Or for minitest:
 $ cp $(i18n-tasks gem-path)/templates/minitest/i18n_test.rb test/
 ```
 ----
-## Installation 0001_0500/001350_brainspec_enumerize.md
+## Installation [0001_0500/001350_brainspec_enumerize.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001350_brainspec_enumerize.md)
 
 Add this line to your application's Gemfile:
 
@@ -2314,7 +2314,7 @@ Or install it yourself as:
 
     $ gem install enumerize
 ----
-## Installation 0001_0500/001338_Smashing_smashing.md
+## Installation [0001_0500/001338_Smashing_smashing.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001338_Smashing_smashing.md)
 
 ```bash
 # Install bundler
@@ -2335,7 +2335,7 @@ $ smashing start
 
 Note: This is a fork of the Dashing project, which is no longer being maintained. Read about that [here](https://github.com/Shopify/dashing/issues/711).
 ----
-## Installation 0001_0500/001337_basecamp_local_time.md
+## Installation [0001_0500/001337_basecamp_local_time.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001337_basecamp_local_time.md)
 
 1. Add `gem 'local_time'` to your Gemfile.
 2. Include `local-time.js` in your application's JavaScript bundle.
@@ -2350,7 +2350,7 @@ Note: This is a fork of the Dashing project, which is no longer being maintained
     LocalTime.start()
     ```
 ----
-## Installation 0001_0500/001334_Shopify_identity_cache.md
+## Installation [0001_0500/001334_Shopify_identity_cache.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001334_Shopify_identity_cache.md)
 
 Add this line to your application's Gemfile:
 
@@ -2382,11 +2382,11 @@ Add an initializer with this code:
 IdentityCache.cache_backend = ActiveSupport::Cache.lookup_store(*Rails.configuration.identity_cache_store)
 ```
 ----
-## Installation 0001_0500/001325_Chris911_iStats.md
+## Installation [0001_0500/001325_Chris911_iStats.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001325_Chris911_iStats.md)
 
     $ gem install iStats
 ----
-## Installation 0001_0500/001314_swanandp_acts_as_list.md
+## Installation [0001_0500/001314_swanandp_acts_as_list.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001314_swanandp_acts_as_list.md)
 
 In your Gemfile:
 
@@ -2396,19 +2396,19 @@ Or, from the command line:
 
     gem install acts_as_list
 ----
-## Installation 0001_0500/001283_nathanl_authority.markdown
+## Installation [0001_0500/001283_nathanl_authority.markdown](https://github.com/ts-3156/readmes/blob/master/0001_0500/001283_nathanl_authority.markdown)
 
 Starting from a clean commit status, add `authority` to your Gemfile, then `bundle`.
 
 If you're using Rails, run `rails g authority:install`. Otherwise, pass a block to `Authority.configure` with [configuration options](https://github.com/nathanl/authority/blob/master/lib/generators/templates/authority_initializer.rb) somewhere when your application boots up.
 
 <a name="defining_your_abilities">----
-## Installation 0001_0500/001281_grobie_soundcloud2000.md
+## Installation [0001_0500/001281_grobie_soundcloud2000.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001281_grobie_soundcloud2000.md)
 
 Assuming you have Ruby/Rubygems installed, you need portaudio and mpg123 as
 library to compile the native extensions.
 ----
-## Installation 0001_0500/001270_rails_strong_parameters.md
+## Installation [0001_0500/001270_rails_strong_parameters.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001270_rails_strong_parameters.md)
 
 In Gemfile:
 
@@ -2439,7 +2439,7 @@ config.active_record.whitelist_attributes = false
 
 This will allow you to remove / not have to use `attr_accessible` and do mass assignment inside your code and tests.
 ----
-## Installation 0001_0500/001252_davidcelis_recommendable.md
+## Installation [0001_0500/001252_davidcelis_recommendable.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001252_davidcelis_recommendable.md)
 
 Add the following to your application's `Gemfile`:
 
@@ -2508,7 +2508,7 @@ end
 
 Important: in case of `active_record` with id of type `uuid`, use `:active_record_uuid`.
 ----
-## Installation 0001_0500/001249_plataformatec_has_scope.md
+## Installation [0001_0500/001249_plataformatec_has_scope.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001249_plataformatec_has_scope.md)
 
 Add `has_scope` to your Gemfile or install it from Rubygems.
 
@@ -2516,7 +2516,7 @@ Add `has_scope` to your Gemfile or install it from Rubygems.
 gem 'has_scope'
 ```
 ----
-## Installation 0001_0500/001248_jashkenas_ruby-processing.md
+## Installation [0001_0500/001248_jashkenas_ruby-processing.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001248_jashkenas_ruby-processing.md)
 We assume you have some version of ruby installed if not, there is a [guide to installing][] ruby on various platforms including windows. Or here is an [alternative install][] guide.
 
 MacOSX users please try out this new  [method](https://github.com/jashkenas/ruby-processing/wiki/Installing-ruby-processing-on-the-mac) or see this [japanese][] guide.
@@ -2535,7 +2535,7 @@ If you haven't got `wget` just download jruby-complete-1.7.26 (for ruby-processi
 
 The vendored jruby-complete is only required for application export, and running certain sketches (eg shader sketches see [wiki][]).
 ----
-## Installation 0001_0500/001247_bootstrap-ruby_bootstrap_form.md
+## Installation [0001_0500/001247_bootstrap-ruby_bootstrap_form.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001247_bootstrap-ruby_bootstrap_form.md)
 
 Add it to your Gemfile:
 
@@ -2555,7 +2555,7 @@ Then require the CSS in your `application.css` file:
  */
 ```
 ----
-## Installation 0001_0500/001242_toptal_chewy.md
+## Installation [0001_0500/001242_toptal_chewy.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001242_toptal_chewy.md)
 
 Add this line to your application's Gemfile:
 
@@ -2569,7 +2569,7 @@ Or install it yourself as:
 
     $ gem install chewy
 ----
-## Installation 0001_0500/001239_deivid-rodriguez_pry-byebug.md
+## Installation [0001_0500/001239_deivid-rodriguez_pry-byebug.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001239_deivid-rodriguez_pry-byebug.md)
 
 Add
 
@@ -2586,11 +2586,11 @@ bundle install
 Make sure you include the gem globally or inside the `:test` group if you plan
 to use it to debug your tests!
 ----
-## Installation 0001_0500/001228_prat0318_json_resume.md
+## Installation [0001_0500/001228_prat0318_json_resume.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001228_prat0318_json_resume.md)
 
     $ gem install json_resume
 ----
-## Installation 0001_0500/001210_hexorx_countries.markdown
+## Installation [0001_0500/001210_hexorx_countries.markdown](https://github.com/ts-3156/readmes/blob/master/0001_0500/001210_hexorx_countries.markdown)
 
 ``` bash
 gem install countries
@@ -2606,13 +2606,13 @@ And then execute:
 
     $ bundle
 ----
-## Installation 0001_0500/001208_rubymotion_BubbleWrap.md
+## Installation [0001_0500/001208_rubymotion_BubbleWrap.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001208_rubymotion_BubbleWrap.md)
 
 ```ruby
 gem install bubble-wrap
 ```
 ----
-## Installation 0001_0500/001207_chanks_que.md
+## Installation [0001_0500/001207_chanks_que.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001207_chanks_que.md)
 
 Add this line to your application's Gemfile:
 
@@ -2627,15 +2627,15 @@ Or install it yourself as:
     $ gem install que
 
 ----
-## Installation 0001_0500/001189_neonichu_ThisCouldBeUsButYouPlaying.md
+## Installation [0001_0500/001189_neonichu_ThisCouldBeUsButYouPlaying.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001189_neonichu_ThisCouldBeUsButYouPlaying.md)
 
     $ gem install cocoapods-playgrounds
 ----
-## Installation 0001_0500/001183_documentcloud_jammit.md
+## Installation [0001_0500/001183_documentcloud_jammit.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001183_documentcloud_jammit.md)
 
 `gem install jammit`
 ----
-## Installation 0001_0500/001182_SamSaffron_message_bus.md
+## Installation [0001_0500/001182_SamSaffron_message_bus.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001182_SamSaffron_message_bus.md)
 
 Add this line to your application's Gemfile:
 
@@ -2649,7 +2649,7 @@ Or install it yourself as:
 
     $ gem install message_bus
 ----
-## Installation 0001_0500/001169_vagrant-libvirt_vagrant-libvirt.md
+## Installation [0001_0500/001169_vagrant-libvirt_vagrant-libvirt.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001169_vagrant-libvirt_vagrant-libvirt.md)
 
 First, you should have both qemu and libvirt installed if you plan to run VMs
 on your local system. For instructions, refer to your linux distribution's
@@ -2699,7 +2699,7 @@ plugin](http://docs.vagrantup.com/v2/plugins/usage.html) installation methods.
 $ vagrant plugin install vagrant-libvirt
 ```
 ----
-## Installation 0001_0500/001167_nesquena_gitdocs.md
+## Installation [0001_0500/001167_nesquena_gitdocs.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001167_nesquena_gitdocs.md)
 
 Requires ruby1.9+ and rubygems. Install as a gem:
 
@@ -2716,9 +2716,9 @@ brew install growlnotify
 
 to enable Growl notification support.
 ----
-## Installation 0001_0500/001167_bernat_best_in_place.md
+## Installation [0001_0500/001167_bernat_best_in_place.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001167_bernat_best_in_place.md)
 ----
-## Installation 0001_0500/001165_garybernhardt_selecta.md
+## Installation [0001_0500/001165_garybernhardt_selecta.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001165_garybernhardt_selecta.md)
 
 Selecta requires Ruby 1.9.3 or better.
 
@@ -2736,16 +2736,16 @@ Selecta is *not installable as a Ruby gem*! Gems are only good for
 application-specific tools. You want Selecta available at all times. If it were
 a gem, it would sometimes disappear when switching Rubies, gemsets, etc.
 ----
-## Installation 0001_0500/001137_notahat_machinist.markdown
+## Installation [0001_0500/001137_notahat_machinist.markdown](https://github.com/ts-3156/readmes/blob/master/0001_0500/001137_notahat_machinist.markdown)
 ----
-## Installation 0001_0500/001129_fgrehm_vagrant-lxc.md
+## Installation [0001_0500/001129_fgrehm_vagrant-lxc.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001129_fgrehm_vagrant-lxc.md)
 
 ```
 vagrant plugin install vagrant-lxc
 ```
 
 ----
-## Installation 0001_0500/001127_cypriss_mutations.md
+## Installation [0001_0500/001127_cypriss_mutations.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001127_cypriss_mutations.md)
 
     gem install mutations
 
@@ -2753,11 +2753,11 @@ Or add it to your Gemfile:
 
     gem 'mutations'
 ----
-## Installation 0001_0500/001114_tweetstream_tweetstream.md
+## Installation [0001_0500/001114_tweetstream_tweetstream.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001114_tweetstream_tweetstream.md)
 
     gem install tweetstream
 ----
-## Installation... 0001_0500/001113_taf2_curb.markdown
+## Installation... [0001_0500/001113_taf2_curb.markdown](https://github.com/ts-3156/readmes/blob/master/0001_0500/001113_taf2_curb.markdown)
 
 ... will usually be as simple as:
 
@@ -2795,7 +2795,7 @@ documentation with:
 
     $ rake doc
 ----
-## Installation 0001_0500/001113_hartator_wayback-machine-downloader.md
+## Installation [0001_0500/001113_hartator_wayback-machine-downloader.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001113_hartator_wayback-machine-downloader.md)
 
 You need to install Ruby on your system (>= 1.9.2) - if you don't already have it.
 Then run:
@@ -2804,7 +2804,7 @@ Then run:
 
 **Tip:** If you run into permission errors, you might have to add `sudo` in front of this command.
 ----
-## Installation 0001_0500/001112_tybenz_vimdeck.md
+## Installation [0001_0500/001112_tybenz_vimdeck.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001112_tybenz_vimdeck.md)
 
 Install a markdown syntax highlighting plugin for VIM. (I recommend [tpope/vim-markdown](http://github.com/tpope/vim-markdown))
 
@@ -2825,7 +2825,7 @@ gem install vimdeck
 ```
 
 ----
-## Installation 0001_0500/001106_RubyMoney_money-rails.md
+## Installation [0001_0500/001106_RubyMoney_money-rails.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001106_RubyMoney_money-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -2854,7 +2854,7 @@ Without Rails in rack-based applications, call during initialization:
 MoneyRails::Hooks.init
 ```
 ----
-## Installation 0001_0500/001106_twbs_bootstrap-rubygem.md
+## Installation [0001_0500/001106_twbs_bootstrap-rubygem.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001106_twbs_bootstrap-rubygem.md)
 
 Please see the appropriate guide for your environment of choice:
 
@@ -2862,7 +2862,7 @@ Please see the appropriate guide for your environment of choice:
 * [Other Ruby frameworks](#b-other-ruby-frameworks) not on Rails.
 
 ----
-## Installation 0001_0500/001089_fphilipe_premailer-rails.md
+## Installation [0001_0500/001089_fphilipe_premailer-rails.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001089_fphilipe_premailer-rails.md)
 
 Simply add the gem to your `Gemfile`:
 
@@ -2877,7 +2877,7 @@ section](https://github.com/premailer/premailer#adapters) of premailer. Note
 that there is no hard dependency from either gem so you should add one yourself.
 Also note that this gem is only tested with [nokogiri].
 ----
-## Installation 0001_0500/001089_brentd_xray-rails.md
+## Installation [0001_0500/001089_brentd_xray-rails.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001089_brentd_xray-rails.md)
 
 Xray depends on **jQuery**.
 
@@ -2897,7 +2897,7 @@ $ bundle && rm -rf tmp/cache/assets
 
 Restart your app, visit it in your browser, and press **cmd+shift+x** (Mac) or **ctrl+shift+x** to reveal the overlay.
 ----
-## Installation 0001_0500/001088_rails_web-console.markdown
+## Installation [0001_0500/001088_rails_web-console.markdown](https://github.com/ts-3156/readmes/blob/master/0001_0500/001088_rails_web-console.markdown)
 
 Add the following to your `Gemfile`:
 
@@ -2907,7 +2907,7 @@ group :development do
 end
 ```
 ----
-## Installation 0001_0500/001075_jfirebaugh_konacha.md
+## Installation [0001_0500/001075_jfirebaugh_konacha.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001075_jfirebaugh_konacha.md)
 
 Add konacha to the `:test` and `:development` groups in the Gemfile and `bundle install`:
 
@@ -2917,7 +2917,7 @@ group :test, :development do
 end
 ```
 ----
-## Installation 0001_0500/001058_twilio_twilio-ruby.md
+## Installation [0001_0500/001058_twilio_twilio-ruby.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001058_twilio_twilio-ruby.md)
 
 To install using [Bundler][bundler] grab the latest stable version:
 
@@ -2939,7 +2939,7 @@ cd twilio-ruby
 make install
 ```
 ----
-## Installation 0001_0500/001048_fgrehm_vagrant-cachier.md
+## Installation [0001_0500/001048_fgrehm_vagrant-cachier.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001048_fgrehm_vagrant-cachier.md)
 
 Make sure you have Vagrant 1.4+ and run:
 
@@ -2947,11 +2947,11 @@ Make sure you have Vagrant 1.4+ and run:
 vagrant plugin install vagrant-cachier
 ```
 ----
-## Installation & Setup 0001_0500/001037_BlackrockDigital_startbootstrap-clean-blog-jekyll.md
+## Installation & Setup [0001_0500/001037_BlackrockDigital_startbootstrap-clean-blog-jekyll.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001037_BlackrockDigital_startbootstrap-clean-blog-jekyll.md)
 ----
-## Installation 0001_0500/001036_elcuervo_airplay.md
+## Installation [0001_0500/001036_elcuervo_airplay.md](https://github.com/ts-3156/readmes/blob/master/0001_0500/001036_elcuervo_airplay.md)
 ----
-## Installation 0501_1000/001028_andrewculver_koudoku.md
+## Installation [0501_1000/001028_andrewculver_koudoku.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001028_andrewculver_koudoku.md)
 
 Include the following in your `Gemfile`:
 
@@ -3022,7 +3022,7 @@ To help you understand the attributes:
 
 The only view installed locally into your app by default is the `koudoku/subscriptions/_social_proof.html.erb` partial which is displayed alongside the pricing table. It's designed as a placeholder where you can provide quotes about your product from customers that could positively influence your visitors.
     ----
-## Installation 0501_1000/001025_owen2345_camaleon-cms.md
+## Installation [0501_1000/001025_owen2345_camaleon-cms.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001025_owen2345_camaleon-cms.md)
 * Install Ruby on Rails
 * Create your rails project
 
@@ -3065,9 +3065,9 @@ The only view installed locally into your app by default is the `koudoku/subscri
 
 * Go to your browser and visit http://localhost:3000/
 ----
-## Installation 0501_1000/001025_michelson_lazy_high_charts.md
+## Installation [0501_1000/001025_michelson_lazy_high_charts.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001025_michelson_lazy_high_charts.md)
 ----
-## Installation 0501_1000/001020_AaronLasseigne_active_interaction.md
+## Installation [0501_1000/001020_AaronLasseigne_active_interaction.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001020_AaronLasseigne_active_interaction.md)
 
 Add it to your Gemfile:
 
@@ -3089,7 +3089,7 @@ ActiveInteraction works with Ruby 2.0 through 2.4 and ActiveModel 4.0 through
 5.0. If you want to use ActiveInteraction with an older version of Ruby or
 ActiveModel, use ActiveInteraction < 3.0.0.
 ----
-## Installation 0501_1000/001020_zipmark_rspec_api_documentation.md
+## Installation [0501_1000/001020_zipmark_rspec_api_documentation.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001020_zipmark_rspec_api_documentation.md)
 
 Add rspec_api_documentation to your Gemfile
 
@@ -3124,7 +3124,7 @@ Generate the docs!
     $ rake docs:generate
     $ open doc/api/index.html
 ----
-## Installation 0501_1000/001015_grocer_grocer.md
+## Installation [0501_1000/001015_grocer_grocer.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001015_grocer_grocer.md)
 
 Add this line to your application's Gemfile:
 
@@ -3138,9 +3138,9 @@ If you are using JRuby, you will also need to add this to enable full OpenSSL su
 gem 'jruby-openssl'
 ```
 ----
-## Installation 0501_1000/001014_dergachev_screengif.md
+## Installation [0501_1000/001014_dergachev_screengif.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001014_dergachev_screengif.md)
 ----
-## Installation 0501_1000/001011_stripe_stripe-ruby.md
+## Installation [0501_1000/001011_stripe_stripe-ruby.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001011_stripe_stripe-ruby.md)
 
 You don't need this source code unless you want to modify the gem. If you just
 want to use the package, just run:
@@ -3151,7 +3151,7 @@ If you want to build the gem from source:
 
     gem build stripe.gemspec
 ----
-## Installation 0501_1000/001000_jasonlong_geo_pattern.md
+## Installation [0501_1000/001000_jasonlong_geo_pattern.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/001000_jasonlong_geo_pattern.md)
 
 **Note:** as of version `1.4.0`, Ruby version 2 or greater is required.
 
@@ -3167,7 +3167,7 @@ Or install it yourself as:
 
     $ gem install geo_pattern
 ----
-## Installation and Usage 0501_1000/000997_doabit_semantic-ui-sass.md
+## Installation and Usage [0501_1000/000997_doabit_semantic-ui-sass.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000997_doabit_semantic-ui-sass.md)
 
 ```ruby
 gem 'semantic-ui-sass'
@@ -3177,7 +3177,7 @@ gem 'semantic-ui-sass'
 
 # semantic-ui-sass with Rails or Sprockets
 ----
-## Installation 0501_1000/000995_cogitatio_vagrant-hostsupdater.md
+## Installation [0501_1000/000995_cogitatio_vagrant-hostsupdater.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000995_cogitatio_vagrant-hostsupdater.md)
 
     $ vagrant plugin install vagrant-hostsupdater
 
@@ -3189,7 +3189,7 @@ Update the plugin with:
 
     $ vagrant plugin update vagrant-hostsupdater
 ----
-## Installation 0501_1000/000982_travis-ci_travis.rb.md
+## Installation [0501_1000/000982_travis-ci_travis.rb.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000982_travis-ci_travis.rb.md)
 
 Make sure you have at least [Ruby](http://www.ruby-lang.org/en/downloads/) 1.9.3 (2.0.0 recommended) installed.
 
@@ -3209,7 +3209,7 @@ Now make sure everything is working:
 
 See also [Note on Ubuntu](#ubuntu) below.
 ----
-## Installation 0501_1000/000980_KrauseFx_xcode-install.md
+## Installation [0501_1000/000980_KrauseFx_xcode-install.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000980_KrauseFx_xcode-install.md)
 
 ```
 $ gem install xcode-install
@@ -3224,7 +3224,7 @@ $ gem install --conservative xcode-install
 $ rm -f domain_name-0.5.99999999.gem
 ```
 ----
-## Installation 0501_1000/000979_brooklynDev_airborne.md
+## Installation [0501_1000/000979_brooklynDev_airborne.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000979_brooklynDev_airborne.md)
 
 Install Airborne:
 ```shell
@@ -3234,7 +3234,7 @@ Or add it to your Gemfile:
 ```ruby
 gem 'airborne'
 ```----
-## Installation 0501_1000/000978_topfunky_gruff.md
+## Installation [0501_1000/000978_topfunky_gruff.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000978_topfunky_gruff.md)
 
 Add this line to your application's Gemfile:
 
@@ -3248,7 +3248,7 @@ Or install it yourself as:
 
     $ gem install gruff
 ----
-## Installation 0501_1000/000970_gocardless_statesman.md
+## Installation [0501_1000/000970_gocardless_statesman.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000970_gocardless_statesman.md)
 
 To get started, just add Statesman to your `Gemfile`, and then run `bundle`:
 
@@ -3256,17 +3256,17 @@ To get started, just add Statesman to your `Gemfile`, and then run `bundle`:
 gem 'statesman', '~> 3.4.1'
 ```
 ----
-## Installation 0501_1000/000950_basecamp_marginalia.md
+## Installation [0501_1000/000950_basecamp_marginalia.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000950_basecamp_marginalia.md)
 ----
-## Installation 0501_1000/000949_orta_cocoapods-keys.md
+## Installation [0501_1000/000949_orta_cocoapods-keys.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000949_orta_cocoapods-keys.md)
 
     $ gem install cocoapods-keys
 ----
-## Installation 0501_1000/000949_jeremyw_stamp.md
+## Installation [0501_1000/000949_jeremyw_stamp.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000949_jeremyw_stamp.md)
 
 Just `gem install stamp`, or add stamp to your Gemfile and `bundle install`.
 ----
-## Installation 0501_1000/000942_zquestz_omniauth-google-oauth2.md
+## Installation [0501_1000/000942_zquestz_omniauth-google-oauth2.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000942_zquestz_omniauth-google-oauth2.md)
 
 Add to your `Gemfile`:
 
@@ -3276,19 +3276,19 @@ gem 'omniauth-google-oauth2'
 
 Then `bundle install`.
 ----
-## Installation 0501_1000/000941_michenriksen_aquatone.md
+## Installation [0501_1000/000941_michenriksen_aquatone.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000941_michenriksen_aquatone.md)
 
 1. Install [Google Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) browser -- **Note:** Google Chrome is currently giving unreliable results when running in *headless* mode, so it is recommended to install Chromium for the best results.
 2. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system.
 3. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
 ----
-## Installation 0501_1000/000937_buo_homebrew-cask-upgrade.md
+## Installation [0501_1000/000937_buo_homebrew-cask-upgrade.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000937_buo_homebrew-cask-upgrade.md)
 
 ```
 brew tap buo/cask-upgrade
 ```
 ----
-## Installation 0501_1000/000936_piotrmurach_github.md
+## Installation [0501_1000/000936_piotrmurach_github.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000936_piotrmurach_github.md)
 
 Install the gem by running
 
@@ -3302,7 +3302,7 @@ or put it in your Gemfile and run `bundle install`
 gem "github_api"
 ```
 ----
-## Installation 0501_1000/000922_maciejczyzewski_hyhyhy.md
+## Installation [0501_1000/000922_maciejczyzewski_hyhyhy.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000922_maciejczyzewski_hyhyhy.md)
 
 Binary installers for the latest released version are available at the [RubyGems.](https://rubygems.org/gems/hyhyhy)
 
@@ -3333,11 +3333,11 @@ my-new-presentation
 └── README.md              # Simplified guide
 ```
 ----
-## Installation 0501_1000/000916_mailman_mailman.md
+## Installation [0501_1000/000916_mailman_mailman.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000916_mailman_mailman.md)
 
     gem install mailman
 ----
-## Installation 0501_1000/000915_cucumber_cucumber-rails.md
+## Installation [0501_1000/000915_cucumber_cucumber-rails.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000915_cucumber_cucumber-rails.md)
 
 Before you can use the generator, add the gem to your project's Gemfile as follows:
 
@@ -3359,7 +3359,7 @@ Finally, bootstrap your Rails app, for example:
 
     rails generate cucumber:install
 ----
-## Installation 0501_1000/000913_SlatherOrg_slather.md
+## Installation [0501_1000/000913_SlatherOrg_slather.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000913_SlatherOrg_slather.md)
 
 Add this line to your application's Gemfile:
 
@@ -3379,7 +3379,7 @@ Or install the gem:
 gem install slather
 ```
 ----
-## Installation 0501_1000/000905_gma_nesta.md
+## Installation [0501_1000/000905_gma_nesta.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000905_gma_nesta.md)
 
 Begin by installing the gem:
 
@@ -3409,7 +3409,7 @@ full instructions).
 
 [docs on writing content]: http://nestacms.com/docs/creating-content
 ----
-## Installation 0501_1000/000905_yujinakayama_transpec.md
+## Installation [0501_1000/000905_yujinakayama_transpec.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000905_yujinakayama_transpec.md)
 
 Simply install `transpec` with `gem` command:
 
@@ -3419,11 +3419,11 @@ $ gem install transpec
 
 Normally you don't need to add `transpec` to your `Gemfile` or `*.gemspec` since this isn't a tool to be used daily.
 ----
-## Installation 0501_1000/000902_whitequark_parser.md
+## Installation [0501_1000/000902_whitequark_parser.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000902_whitequark_parser.md)
 
     $ gem install parser
 ----
-## Installation 0501_1000/000899_magnusvk_counter_culture.md
+## Installation [0501_1000/000899_magnusvk_counter_culture.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000899_magnusvk_counter_culture.md)
 
 Add counter_culture to your Gemfile:
 
@@ -3433,9 +3433,9 @@ gem 'counter_culture', '~> 2.0'
 
 Then run `bundle install`
 ----
-## Installation & Bundler Dependency 0501_1000/000898_ruby-amqp_bunny.md
+## Installation & Bundler Dependency [0501_1000/000898_ruby-amqp_bunny.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000898_ruby-amqp_bunny.md)
 ----
-## Installation 0501_1000/000898_yamldb_yaml_db.md
+## Installation [0501_1000/000898_yamldb_yaml_db.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000898_yamldb_yaml_db.md)
 
 Simply add to your Gemfile:
 
@@ -3443,22 +3443,22 @@ Simply add to your Gemfile:
 
 All rake tasks will then be available to you.
 ----
-## Installation 0501_1000/000897_reworkcss_css.md
+## Installation [0501_1000/000897_reworkcss_css.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000897_reworkcss_css.md)
 
     $ npm install css
 ----
-## Installation 0501_1000/000890_bploetz_versionist.markdown
+## Installation [0501_1000/000890_bploetz_versionist.markdown](https://github.com/ts-3156/readmes/blob/master/0501_1000/000890_bploetz_versionist.markdown)
 
 Add the following dependency to your Rails application's `Gemfile` file and run `bundle install`:
 
     gem 'versionist'
 
 ----
-## Installation 0501_1000/000883_amro_gibbon.markdown
+## Installation [0501_1000/000883_amro_gibbon.markdown](https://github.com/ts-3156/readmes/blob/master/0501_1000/000883_amro_gibbon.markdown)
 
     $ gem install gibbon
 ----
-## Installation 0501_1000/000883_gjtorikian_html-proofer.md
+## Installation [0501_1000/000883_gjtorikian_html-proofer.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000883_gjtorikian_html-proofer.md)
 
 Add this line to your application's Gemfile:
 
@@ -3474,9 +3474,9 @@ Or install it yourself as:
 
 **NOTE:** When installation speed matters, set `NOKOGIRI_USE_SYSTEM_LIBRARIES` to `true` in your environment. This is useful for increasing the speed of your Continuous Integration builds.
 ----
-## Installation 0501_1000/000881_thredded_thredded.md
+## Installation [0501_1000/000881_thredded_thredded.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000881_thredded_thredded.md)
 ----
-## Installation 0501_1000/000879_SamSaffron_memory_profiler.md
+## Installation [0501_1000/000879_SamSaffron_memory_profiler.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000879_SamSaffron_memory_profiler.md)
 
 Add this line to your application's Gemfile:
 
@@ -3490,7 +3490,7 @@ Or install it yourself as:
 
     $ gem install memory_profiler
 ----
-## Installation 0501_1000/000872_ankane_strong_migrations.md
+## Installation [0501_1000/000872_ankane_strong_migrations.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000872_ankane_strong_migrations.md)
 
 Add this line to your application’s Gemfile:
 
@@ -3498,13 +3498,13 @@ Add this line to your application’s Gemfile:
 gem 'strong_migrations'
 ```
 ----
-## Installation 0501_1000/000871_DamirSvrtan_fasterer.md
+## Installation [0501_1000/000871_DamirSvrtan_fasterer.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000871_DamirSvrtan_fasterer.md)
 
 ```shell
 gem install fasterer
 ```
 ----
-## Installation 0501_1000/000867_FGRibreau_mailchecker.md
+## Installation [0501_1000/000867_FGRibreau_mailchecker.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000867_FGRibreau_mailchecker.md)
 
 NodeJS/JavaScript
 ```bash
@@ -3523,25 +3523,25 @@ composer require fgribreau/mailchecker
 
 __We accept pull-requests for other package manager__.
 ----
-## Installation 0501_1000/000857_chrishunt_git-pissed.md
+## Installation [0501_1000/000857_chrishunt_git-pissed.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000857_chrishunt_git-pissed.md)
 
 ```bash
 $ gem install git_pissed
 ```
 ----
-## Installation 0501_1000/000849_itamae-kitchen_itamae.md
+## Installation [0501_1000/000849_itamae-kitchen_itamae.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000849_itamae-kitchen_itamae.md)
 
 ```
 $ gem install itamae
 ```
 ----
-## Installation 0501_1000/000848_CocoaPods_cocoapods-deintegrate.md
+## Installation [0501_1000/000848_CocoaPods_cocoapods-deintegrate.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000848_CocoaPods_cocoapods-deintegrate.md)
 
 ```bash
 $ [sudo] gem install cocoapods-deintegrate
 ```
 ----
-## Installation 0501_1000/000846_lassebunk_gretel.md
+## Installation [0501_1000/000846_lassebunk_gretel.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000846_lassebunk_gretel.md)
 
 In your *Gemfile*:
 
@@ -3555,7 +3555,7 @@ And run:
 $ bundle install
 ```
 ----
-## Installation <a name="install"></a> 0501_1000/000845_ruby-grape_grape-swagger.md
+## Installation <a name="install"></a> [0501_1000/000845_ruby-grape_grape-swagger.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000845_ruby-grape_grape-swagger.md)
 
 Add to your Gemfile:
 
@@ -3563,7 +3563,7 @@ Add to your Gemfile:
 gem 'grape-swagger'
 ```
 ----
-## Installation 0501_1000/000841_radar_by_star.md
+## Installation [0501_1000/000841_radar_by_star.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000841_radar_by_star.md)
 
 Install this gem by adding this to your Gemfile:
 
@@ -3584,7 +3584,7 @@ class MyModel
   include Mongoid::ByStar
 ```
 ----
-## Installation 0501_1000/000837_leonid-shevtsov_headless.md
+## Installation [0501_1000/000837_leonid-shevtsov_headless.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000837_leonid-shevtsov_headless.md)
 
 On Debian/Ubuntu:
 
@@ -3593,7 +3593,7 @@ sudo apt-get install xvfb
 gem install headless
 ```
 ----
-## Installation 0501_1000/000836_jalkoby_squasher.md
+## Installation [0501_1000/000836_jalkoby_squasher.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000836_jalkoby_squasher.md)
 
 You don't have to add it into your Gemfile. Just a standalone installation:
 
@@ -3620,7 +3620,7 @@ To integrate `squasher` with your app even more do the below:
     $ # and you have a runner inside the `bin` folder
     $ bin/squasher
 ----
-## Installation 0501_1000/000829_be9_acl9.md
+## Installation [0501_1000/000829_be9_acl9.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000829_be9_acl9.md)
 
 Acl9 is [Semantically Versioned](http://semver.org/), so just add this to your
 `Gemfile`:
@@ -3631,8 +3631,8 @@ gem 'acl9', '~> 3.0'
 
 You will need Ruby 2.x
 ----
-## Installation 0501_1000/000823_heygrady_scss-blend-modes.md----
-## Installation 0501_1000/000822_weppos_whois.md
+## Installation [0501_1000/000823_heygrady_scss-blend-modes.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000823_heygrady_scss-blend-modes.md)----
+## Installation [0501_1000/000822_weppos_whois.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000822_weppos_whois.md)
 
 You can install the gem manually:
 
@@ -3661,7 +3661,7 @@ The `whois-parser` gem already depends on the `whois` gem. If you install `whois
 If you are upgrading to 4.0, see [4.0-Upgrade.md](4.0-Upgrade.md).
 
 ----
-## Installation 0501_1000/000814_rails-sqlserver_activerecord-sqlserver-adapter.md
+## Installation [0501_1000/000814_rails-sqlserver_activerecord-sqlserver-adapter.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000814_rails-sqlserver_activerecord-sqlserver-adapter.md)
 
 The adapter has no strict gem dependencies outside of ActiveRecord. You will have to pick a connection mode, the default is dblib which uses the TinyTDS gem. Just bundle the gem and the adapter will use it.
 
@@ -3671,7 +3671,7 @@ gem 'activerecord-sqlserver-adapter'
 ```
 
 ----
-## Installation ## 0501_1000/000811_airbnb_nerve.md
+## Installation ## [0501_1000/000811_airbnb_nerve.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000811_airbnb_nerve.md)
 
 To download and run the nerve binary, first install a version of ruby. Then,
 install nerve with:
@@ -3695,14 +3695,14 @@ permissions. You can also install via bundler, but keep in mind you'll pick up
 Nerve's version of library dependencies and possibly not the ones you need
 for your infra/apps.
 ----
-## Installation 0501_1000/000808_faye_faye-websocket-ruby.md
+## Installation [0501_1000/000808_faye_faye-websocket-ruby.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000808_faye_faye-websocket-ruby.md)
 
 ```
 $ gem install faye-websocket
 ```
 
 ----
-## Installation 0501_1000/000784_dwilkie_carrierwave_direct.md
+## Installation [0501_1000/000784_dwilkie_carrierwave_direct.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000784_dwilkie_carrierwave_direct.md)
 
 Install the latest release:
 
@@ -3716,7 +3716,7 @@ gem 'carrierwave_direct'
 
 Note that CarrierWaveDirect is not compatible with Rails 2.
 ----
-## Installation 0501_1000/000781_jaimeiniesta_metainspector.md
+## Installation [0501_1000/000781_jaimeiniesta_metainspector.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000781_jaimeiniesta_metainspector.md)
 
 Install the gem from RubyGems:
 
@@ -3730,11 +3730,11 @@ If you're using it on a Rails application, just add it to your Gemfile and run `
 gem 'metainspector'
 ```
 ----
-## Installation 0501_1000/000780_jgorset_facebook-messenger.md
+## Installation [0501_1000/000780_jgorset_facebook-messenger.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000780_jgorset_facebook-messenger.md)
 
     $ gem install facebook-messenger
 ----
-## Installation 0501_1000/000778_rails_jquery-rails.md
+## Installation [0501_1000/000778_rails_jquery-rails.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000778_rails_jquery-rails.md)
 
 The jquery and jquery-ujs files will be added to the asset pipeline and available for you to use. If they're not already in `app/assets/javascripts/application.js` by default, add these lines:
 
@@ -3768,7 +3768,7 @@ For jQuery UI, we recommend the [jquery-ui-rails](https://github.com/joliss/jque
 *As of v3.0, jquery-rails no longer includes jQuery UI. Use the
 jquery-ui-rails gem above.*
 ----
-## Installation 0501_1000/000773_pivotal_LicenseFinder.md
+## Installation [0501_1000/000773_pivotal_LicenseFinder.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000773_pivotal_LicenseFinder.md)
 
 License Finder requires Ruby 2.3.3 or greater to run. If you have an older
 version of Ruby installed, you can update via Homebrew:
@@ -3802,7 +3802,7 @@ pull in unwanted dependencies, including `bundler`. To mitigate this
 problem, see [Excluding Dependencies](#excluding-dependencies).
 
 ----
-## Installation 0501_1000/000766_Shopify_active_shipping.md
+## Installation [0501_1000/000766_Shopify_active_shipping.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000766_Shopify_active_shipping.md)
 
 Using bundler, add to the `Gemfile`:
 
@@ -3817,7 +3817,7 @@ $ gem install active_shipping
 ```
 
 ----
-## Installation 0501_1000/000765_jekyll_minima.md
+## Installation [0501_1000/000765_jekyll_minima.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000765_jekyll_minima.md)
 
 Add this line to your Jekyll site's Gemfile:
 
@@ -3836,13 +3836,13 @@ And then execute:
     $ bundle
 
 ----
-## Installation 0501_1000/000762_mdp_rotp.md
+## Installation [0501_1000/000762_mdp_rotp.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000762_mdp_rotp.md)
 
 ```bash
 gem install rotp
 ```
 ----
-## Installation 0501_1000/000753_plataformatec_mail_form.md
+## Installation [0501_1000/000753_plataformatec_mail_form.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000753_plataformatec_mail_form.md)
 
 Install **MailForm** is very easy. Just edit your Gemfile adding the following:
 
@@ -3855,7 +3855,7 @@ If you want it as plugin, just do:
 
 `script/plugin install git://github.com/plataformatec/mail_form.git`
 ----
-## Installation via Gemfile / Bundler 0501_1000/000750_alexch_rerun.md
+## Installation via Gemfile / Bundler [0501_1000/000750_alexch_rerun.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000750_alexch_rerun.md)
 
 If you are using rerun inside an existing Ruby application (like a Rails or Sinatra app), you can add it to your Gemfile:
 
@@ -3987,7 +3987,7 @@ This may be useful for forcing the respective process to terminate as quickly as
 
 Also `--version` and `--help`, naturally.
 ----
-## Installation 0501_1000/000748_Parallels_vagrant-parallels.md
+## Installation [0501_1000/000748_Parallels_vagrant-parallels.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000748_Parallels_vagrant-parallels.md)
 Make sure that you have [Parallels Desktop for Mac](http://www.parallels.com/products/desktop/)
 and [Vagrant](http://www.vagrantup.com/downloads) properly installed.
 We recommend that you use the latest versions of these products.
@@ -3998,7 +3998,7 @@ Parallels provider is a plugin for Vagrant. Run this command to install it:
 $ vagrant plugin install vagrant-parallels
 ```
 ----
-## Installation 0501_1000/000739_tmm1_rblineprof.md
+## Installation [0501_1000/000739_tmm1_rblineprof.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000739_tmm1_rblineprof.md)
 
 `gem install rblineprof`
 
@@ -4006,7 +4006,7 @@ Or in your Gemfile:
 
 `gem 'rblineprof'`
 ----
-## Installation 0501_1000/000735_maxtaco_coffee-script.md
+## Installation [0501_1000/000735_maxtaco_coffee-script.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000735_maxtaco_coffee-script.md)
 
 If you have the node package manager, npm, installed:
 
@@ -4021,11 +4021,11 @@ git clone https://github.com/maxtaco/coffee-script.git
 sudo coffee-script/bin/cake install
 ```
 ----
-## Installation 0501_1000/000733_hexgnu_linkedin.md
+## Installation [0501_1000/000733_hexgnu_linkedin.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000733_hexgnu_linkedin.md)
 
     gem install linkedin
 ----
-## Installation 0501_1000/000731_dejan_auto_html.md
+## Installation [0501_1000/000731_dejan_auto_html.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000731_dejan_auto_html.md)
 
 Add this line to your application's Gemfile:
 
@@ -4045,8 +4045,8 @@ Or install it yourself as:
 $ gem install auto_html
 ```
 ----
-## Installation 0501_1000/000725_FineLinePrototyping_angularjs-rails-resource.md----
-## Installation 0501_1000/000723_piotrmurach_tty-prompt.md
+## Installation [0501_1000/000725_FineLinePrototyping_angularjs-rails-resource.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000725_FineLinePrototyping_angularjs-rails-resource.md)----
+## Installation [0501_1000/000723_piotrmurach_tty-prompt.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000723_piotrmurach_tty-prompt.md)
 
 Add this line to your application's Gemfile:
 
@@ -4062,7 +4062,7 @@ Or install it yourself as:
 
     $ gem install tty-prompt
 ----
-## Installation 0501_1000/000721_CultivateLabs_storytime.md
+## Installation [0501_1000/000721_CultivateLabs_storytime.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000721_CultivateLabs_storytime.md)
 
 Add Storytime to your Gemfile:
 
@@ -4076,11 +4076,11 @@ After you install Storytime and add it to your Gemfile, you can either setup Sto
 
 **Note:** To use the image upload feature, Storytime requires you to have Imagemagick installed on your system.
 ----
-## Installation 0501_1000/000719_crypto-rb_rbnacl.md
+## Installation [0501_1000/000719_crypto-rb_rbnacl.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000719_crypto-rb_rbnacl.md)
 
 Note: [Windows installation instructions are available](https://github.com/crypto-rb/rbnacl/wiki/Installing-libsodium#windows).
 ----
-## Installation 0501_1000/000710_redis-store_redis-rails.md
+## Installation [0501_1000/000710_redis-store_redis-rails.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000710_redis-store_redis-rails.md)
 
 Add the following to your Gemfile:
 
@@ -4088,7 +4088,7 @@ Add the following to your Gemfile:
 gem 'redis-rails'
 ```
 ----
-## Installation 0501_1000/000709_weppos_breadcrumbs_on_rails.md
+## Installation [0501_1000/000709_weppos_breadcrumbs_on_rails.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000709_weppos_breadcrumbs_on_rails.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -4101,19 +4101,19 @@ And then execute `bundle` to install the dependencies:
 Use [Bundler](http://bundler.io/) and the `:git` option if you want to grab the latest version from the Git repository.
 
 ----
-## Installation: 0501_1000/000709_travis-ci_dpl.md
+## Installation: [0501_1000/000709_travis-ci_dpl.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000709_travis-ci_dpl.md)
 
 Dpl is published to rubygems.
 
 * Dpl requires ruby 2.2 and later.
 * To install: `gem install dpl`
 ----
-## Installation 0501_1000/000707_dmayer_idb.md
+## Installation [0501_1000/000707_dmayer_idb.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000707_dmayer_idb.md)
 
 See [installation instructions](http://www.idbtool.com/installation/) on idbtool.com.
 
 ----
-## Installation 0501_1000/000706_heckpsi-lab_em-midori.md
+## Installation [0501_1000/000706_heckpsi-lab_em-midori.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000706_heckpsi-lab_em-midori.md)
 
 ```bash
 gem install midori.rb
@@ -4129,7 +4129,7 @@ gem 'midori.rb'
 bundle install
 ```
 ----
-## Installation 0501_1000/000703_rodjek_puppet-lint.md
+## Installation [0501_1000/000703_rodjek_puppet-lint.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000703_rodjek_puppet-lint.md)
 
 Install the Puppet Lint gem by running:
 
@@ -4137,7 +4137,7 @@ Install the Puppet Lint gem by running:
 gem install puppet-lint
 ```
 ----
-## Installation 0501_1000/000702_puppetlabs_showoff.md
+## Installation [0501_1000/000702_puppetlabs_showoff.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000702_puppetlabs_showoff.md)
 
 Showoff is distributed as a RubyGem. Simply install it like any other gem. Showoff
 will run out of the box on OS X and most Linux distributions. To install on Windows,
@@ -4146,17 +4146,17 @@ you'll need to install both Ruby and the Ruby DevKit for compiling native extens
     gem install showoff
 
 ----
-## Installation 0501_1000/000699_k0kubun_md2key.md
+## Installation [0501_1000/000699_k0kubun_md2key.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000699_k0kubun_md2key.md)
 
 ```bash
 gem install md2key
 ```
 ----
-## Installation 0501_1000/000697_rubychan_coderay.markdown
+## Installation [0501_1000/000697_rubychan_coderay.markdown](https://github.com/ts-3156/readmes/blob/master/0501_1000/000697_rubychan_coderay.markdown)
 
 `gem install coderay`
 ----
-## Installation 0501_1000/000689_chrisfsampaio_imsg.md
+## Installation [0501_1000/000689_chrisfsampaio_imsg.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000689_chrisfsampaio_imsg.md)
 
 It is easy as:
 
@@ -4164,9 +4164,9 @@ It is easy as:
 $ gem install imsg
 ```
 ----
-## Installation 0501_1000/000685_chaps-io_gush.md
+## Installation [0501_1000/000685_chaps-io_gush.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000685_chaps-io_gush.md)
 ----
-## Installation 0501_1000/000685_utgarda_sidekiq-status.md
+## Installation [0501_1000/000685_utgarda_sidekiq-status.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000685_utgarda_sidekiq-status.md)
 
 Add this line to your application's Gemfile:
 
@@ -4186,7 +4186,7 @@ Or install it yourself as:
 gem install sidekiq-status
 ```
 ----
-## Installation 0501_1000/000680_SchemaPlus_schema_plus.md
+## Installation [0501_1000/000680_SchemaPlus_schema_plus.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000680_SchemaPlus_schema_plus.md)
 
 Install from http://rubygems.org via
 
@@ -4196,7 +4196,7 @@ or in a Gemfile
 
     gem "schema_plus"
 ----
-## Installation and Usage 0501_1000/000677_lardawge_carrierwave_backgrounder.md
+## Installation and Usage [0501_1000/000677_lardawge_carrierwave_backgrounder.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000677_lardawge_carrierwave_backgrounder.md)
 
 These instructions assume you have previously set up [CarrierWave](https://github.com/jnicklas/carrierwave) and your queuing lib of choice.
 
@@ -4229,7 +4229,7 @@ class AvatarUploader < CarrierWave::Uploader::Base
 end
 ```
 ----
-## Installation 0501_1000/000676_andymeneely_squib.md
+## Installation [0501_1000/000676_andymeneely_squib.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000676_andymeneely_squib.md)
 
 Squib requires Ruby 2.2 or later.
 
@@ -4248,14 +4248,14 @@ And then execute:
 More info: http://squib.readthedocs.org/en/latest/install.html
 
 ----
-## Installation 0501_1000/000671_FortAwesome_font-awesome-sass.md
+## Installation [0501_1000/000671_FortAwesome_font-awesome-sass.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000671_FortAwesome_font-awesome-sass.md)
 
 Please see the appropriate guide for your environment of choice:
 
 * [Ruby on Rails](#a-ruby-on-rails).
 * [Compass](#b-compass-without-rails) not on Rails.
 ----
-## Installation 0501_1000/000665_apotonick_apotomo.md
+## Installation [0501_1000/000665_apotonick_apotomo.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000665_apotonick_apotomo.md)
 
 Easy as hell. You just need Ruby 1.9.3/2.0.0 and Rails 3/4.
 
@@ -4265,7 +4265,7 @@ Add Apotomo to your `Gemfile`:
 gem 'apotomo'
 ```
 ----
-## Installation & Upgrading 0501_1000/000662_thoughtbot_flutie.md
+## Installation & Upgrading [0501_1000/000662_thoughtbot_flutie.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000662_thoughtbot_flutie.md)
 
 Flutie is a Railtie. We support the versions of Ruby and Rails listed in
 [.travis.yml](.travis.yml).
@@ -4276,7 +4276,7 @@ It should be run as a gem and included in your `Gemfile`:
 gem "flutie"
 ```
 ----
-## Installation 0501_1000/000660_salsify_goldiloader.md
+## Installation [0501_1000/000660_salsify_goldiloader.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000660_salsify_goldiloader.md)
 
 Add this line to your application's Gemfile:
 
@@ -4290,9 +4290,9 @@ Or install it yourself as:
 
     $ gem install goldiloader
 ----
-## Installation 0501_1000/000659_tomgi_git_stats.md
+## Installation [0501_1000/000659_tomgi_git_stats.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000659_tomgi_git_stats.md)
 ----
-## Installation 0501_1000/000658_ConradIrwin_pry-rescue.md
+## Installation [0501_1000/000658_ConradIrwin_pry-rescue.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000658_ConradIrwin_pry-rescue.md)
 
 You can install `pry-rescue` with RubyGems as normal, and I strongly recommend you also
 install `pry-stack_explorer`. See [Known bugs](#known-bugs) for places that won't work.
@@ -4310,14 +4310,14 @@ group :development do
 end
 ```
 ----
-## Installation 0501_1000/000657_flavorjones_loofah.md
+## Installation [0501_1000/000657_flavorjones_loofah.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000657_flavorjones_loofah.md)
 
 Unsurprisingly:
 
 * gem install loofah
 
 ----
-## Installation 0501_1000/000655_chloerei_alipay.md
+## Installation [0501_1000/000655_chloerei_alipay.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000655_chloerei_alipay.md)
 
 To install using [Bundler](http://bundler.io/). Add this line to your
 application's Gemfile:
@@ -4336,14 +4336,14 @@ Or you can manually install using [RubyGems](http://rubygems.org/):
 $ gem install alipay -v 0.15.1
 ```
 ----
-## Installation 0501_1000/000654_shadabahmed_logstasher.md
+## Installation [0501_1000/000654_shadabahmed_logstasher.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000654_shadabahmed_logstasher.md)
 
 In your Gemfile:
 ```ruby
 gem 'logstasher'
 ```
 ----
-## Installation 0501_1000/000654_chaps-io_access-granted.md
+## Installation [0501_1000/000654_chaps-io_access-granted.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000654_chaps-io_access-granted.md)
 
 Add the gem to your gemfile:
 
@@ -4360,7 +4360,7 @@ Add the `policies` (and `roles` if you're using it to split up your roles into f
 config.autoload_paths += %W(#{config.root}/app/policies #{config.root}/app/roles)
 ```
 ----
-## Installation 0501_1000/000652_zilkey_active_hash.md
+## Installation [0501_1000/000652_zilkey_active_hash.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000652_zilkey_active_hash.md)
 
 Bundler:
 ```ruby
@@ -4377,7 +4377,7 @@ gem install active_hash
 gem 'active_hash', '~> 1.5.3'
 ```
 ----
-## Installation 0501_1000/000651_ledermann_rails-settings.md
+## Installation [0501_1000/000651_ledermann_rails-settings.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000651_ledermann_rails-settings.md)
 
 Include the gem in your Gemfile and run `bundle` to install it:
 
@@ -4393,7 +4393,7 @@ rake db:migrate
 ```
 
 ----
-## Installation 0501_1000/000649_mkhairi_materialize-sass.md
+## Installation [0501_1000/000649_mkhairi_materialize-sass.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000649_mkhairi_materialize-sass.md)
 
 In your Gemfile you need to add the `materialize-sass` gem:
 
@@ -4414,7 +4414,7 @@ Or install it separately:
 $ gem install materialize-sass
 ```
 ----
-## Installation 0501_1000/000646_clayallsopp_formotion.md
+## Installation [0501_1000/000646_clayallsopp_formotion.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000646_clayallsopp_formotion.md)
 
 `gem install formotion`
 
@@ -4422,7 +4422,7 @@ In your `Rakefile`:
 
 `require 'formotion'`
 ----
-## Installation 0501_1000/000640_ko1_pretty_backtrace.md
+## Installation [0501_1000/000640_ko1_pretty_backtrace.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000640_ko1_pretty_backtrace.md)
 
 Add this line to your application's Gemfile:
 
@@ -4438,7 +4438,7 @@ Or install it yourself as:
 
     $ gem install pretty_backtrace
 ----
-## Installation 0501_1000/000639_ngauthier_tubesock.md
+## Installation [0501_1000/000639_ngauthier_tubesock.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000639_ngauthier_tubesock.md)
 
 Add this line to your application's Gemfile:
 
@@ -4454,7 +4454,7 @@ Or install it yourself as:
 
     $ gem install tubesock
 ----
-## Installation 0501_1000/000637_ianks_octodown.md
+## Installation [0501_1000/000637_ianks_octodown.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000637_ianks_octodown.md)
 
 *Requirements*: Ruby >= 2.0
 
@@ -4467,7 +4467,7 @@ Or install it yourself as:
     octodown`
   - Else: `sudo gem install octodown`
 ----
-## Installation 0501_1000/000634_DavyJonesLocker_postgres_ext.md
+## Installation [0501_1000/000634_DavyJonesLocker_postgres_ext.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000634_DavyJonesLocker_postgres_ext.md)
 
 Add this line to your application's Gemfile:
 
@@ -4481,9 +4481,9 @@ Or install it yourself as:
 
     $ gem install postgres_ext
 ----
-## Installation 0501_1000/000634_cmer_socialization.md
+## Installation [0501_1000/000634_cmer_socialization.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000634_cmer_socialization.md)
 ----
-## Installation 0501_1000/000629_lyptt_struct.md
+## Installation [0501_1000/000629_lyptt_struct.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000629_lyptt_struct.md)
 
 `struct` requires a minimum of Ruby 2.2.0, which is available in macOS High Sierra.
 You can install a higher version of Ruby with [RVM](https://rvm.io/) on an older macOS version.
@@ -4494,9 +4494,9 @@ _You may need to use sudo when using the system-provided Ruby_
 
     $ gem install struct
 ----
-## Installation 0501_1000/000628_iain_http_accept_language.md
+## Installation [0501_1000/000628_iain_http_accept_language.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000628_iain_http_accept_language.md)
 ----
-## Installation 0501_1000/000625_capistrano_rails.md
+## Installation [0501_1000/000625_capistrano_rails.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000625_capistrano_rails.md)
 
 Add these Capistrano gems to your application's Gemfile using `require: false`:
 
@@ -4519,19 +4519,19 @@ Then run the generator to create a basic set of configuration files:
 bundle exec cap install
 ```
 ----
-## Installation 0501_1000/000620_elcuervo_minuteman.md
+## Installation [0501_1000/000620_elcuervo_minuteman.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000620_elcuervo_minuteman.md)
 
 ```bash
 gem install minuteman
 ```
 ----
-## Installation ## 0501_1000/000620_kern_minitest-reporters.md
+## Installation ## [0501_1000/000620_kern_minitest-reporters.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000620_kern_minitest-reporters.md)
 
     gem install minitest-reporters
 ----
-## Installation 0501_1000/000618_FooBarWidget_default_value_for.md
+## Installation [0501_1000/000618_FooBarWidget_default_value_for.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000618_FooBarWidget_default_value_for.md)
 ----
-## Installation 0501_1000/000618_Compass_compass-rails.md
+## Installation [0501_1000/000618_Compass_compass-rails.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000618_Compass_compass-rails.md)
 
 Add the `compass-rails` gem line to your application's Gemfile
 
@@ -4547,7 +4547,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 0501_1000/000616_Shopify_ejson.md
+## Installation [0501_1000/000616_Shopify_ejson.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000616_Shopify_ejson.md)
 
 You can download the `.deb` package from [Github Releases](https://github.com/Shopify/ejson/releases).
 
@@ -4558,7 +4558,7 @@ method is via rubygems:
 gem install ejson
 ```
 ----
-## Installation 0501_1000/000614_zapnap_resque_mailer.md
+## Installation [0501_1000/000614_zapnap_resque_mailer.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000614_zapnap_resque_mailer.md)
 
 Install the gem:
 
@@ -4569,7 +4569,7 @@ If you're using Bundler to manage your dependencies, you should add it to your G
     gem 'resque' # or a compatible alternative / fork
     gem 'resque_mailer'
 ----
-## Installation 0501_1000/000614_k1LoW_awspec.md
+## Installation [0501_1000/000614_k1LoW_awspec.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000614_k1LoW_awspec.md)
 
 Add this line to your application's Gemfile:
 
@@ -4585,7 +4585,7 @@ Or install it yourself as:
 
     $ gem install awspec
 ----
-## Installation 0501_1000/000614_trailblazer_representable.md
+## Installation [0501_1000/000614_trailblazer_representable.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000614_trailblazer_representable.md)
 
 The representable gem runs with all Ruby versions >= 1.9.3.
 
@@ -4593,7 +4593,7 @@ The representable gem runs with all Ruby versions >= 1.9.3.
 gem 'representable'
 ```
 ----
-## Installation 0501_1000/000611_jeremytregunna_ruby-trello.md
+## Installation [0501_1000/000611_jeremytregunna_ruby-trello.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000611_jeremytregunna_ruby-trello.md)
 
 ```
 # gem install ruby-trello
@@ -4607,7 +4607,7 @@ Supports Ruby 2.1.0 or newer.
 Use version 1.3.0 or earlier for Ruby 1.9.3 support.
 Use version 1.4.x or earlier for Ruby 2.0.0 support.
 ----
-## Installation 0501_1000/000609_peterhellberg_hashids.rb.md
+## Installation [0501_1000/000609_peterhellberg_hashids.rb.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000609_peterhellberg_hashids.rb.md)
 
 Add this line to your application's Gemfile:
 
@@ -4621,15 +4621,15 @@ Or install it yourself as:
 
     $ gem install hashids
 ----
-## Installation 0501_1000/000608_maxdemarzi_neography.md
+## Installation [0501_1000/000608_maxdemarzi_neography.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000608_maxdemarzi_neography.md)
 ----
-## Installation 0501_1000/000600_flood-io_ruby-jmeter.md
+## Installation [0501_1000/000600_flood-io_ruby-jmeter.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000600_flood-io_ruby-jmeter.md)
 
 Install it yourself as:
 
     $ gem install ruby-jmeter
 ----
-## Installation 0501_1000/000600_jamis_bulk_insert.md
+## Installation [0501_1000/000600_jamis_bulk_insert.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000600_jamis_bulk_insert.md)
 
 Add it to your Gemfile:
 
@@ -4637,7 +4637,7 @@ Add it to your Gemfile:
 gem 'bulk_insert'
 ```
 ----
-## Installation 0501_1000/000595_metaskills_less-rails-bootstrap.md
+## Installation [0501_1000/000595_metaskills_less-rails-bootstrap.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000595_metaskills_less-rails-bootstrap.md)
 
 LESS requires a JavaScript runtime to work. Which one you use depends on your Ruby implementation. Two are shown for Ruby (MRI) and JRuby. Add only the relevant one to your Gemfile. If you want to use Bootstrap's JavaScript plugins, also add the `jquery-rails` gem. Finally, add `less-rails-bootstrap` and run `bundle install`.
 
@@ -4650,7 +4650,7 @@ gem 'jquery-rails'  # If using Bootstrap's JS plugins.
 gem 'less-rails-bootstrap'
 ```
 ----
-## Installation 0501_1000/000593_ankane_ahoy_email.md
+## Installation [0501_1000/000593_ankane_ahoy_email.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000593_ankane_ahoy_email.md)
 
 Add this line to your application’s Gemfile:
 
@@ -4665,7 +4665,7 @@ rails generate ahoy_email:install
 rails db:migrate
 ```
 ----
-## Installation 0501_1000/000589_richhollis_swagger-docs.md
+## Installation [0501_1000/000589_richhollis_swagger-docs.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000589_richhollis_swagger-docs.md)
 
 Add this line to your application's Gemfile:
 
@@ -4679,19 +4679,19 @@ Or install it yourself as:
 
     $ gem install swagger-docs
 ----
-## Installation 0501_1000/000589_moove-it_sidekiq-scheduler.md
+## Installation [0501_1000/000589_moove-it_sidekiq-scheduler.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000589_moove-it_sidekiq-scheduler.md)
 
 ``` shell
 gem install sidekiq-scheduler
 ```
 ----
-## Installation 0501_1000/000588_adamwaite_iOS-Build-Kit.md
+## Installation [0501_1000/000588_adamwaite_iOS-Build-Kit.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000588_adamwaite_iOS-Build-Kit.md)
 
 After the dependencies have been installed, BuildKit can be installed with:
 
 `gem install ios_build_kit`
 ----
-## Installation 0501_1000/000587_amatsuda_database_rewinder.md
+## Installation [0501_1000/000587_amatsuda_database_rewinder.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000587_amatsuda_database_rewinder.md)
 
 Add this line to your Gemfile's `:test` group:
 
@@ -4701,7 +4701,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 0501_1000/000586_CocoaPods_cocoapods-packager.md
+## Installation [0501_1000/000586_CocoaPods_cocoapods-packager.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000586_CocoaPods_cocoapods-packager.md)
 
 ```sh
 $ gem install cocoapods-packager
@@ -4717,7 +4717,7 @@ then run `bundle install`.
 
 This installs Packager as a CocoaPods plugin.
 ----
-## Installation 0501_1000/000582_RobinBrouwer_gritter.md
+## Installation [0501_1000/000582_RobinBrouwer_gritter.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000582_RobinBrouwer_gritter.md)
 
 You can use this gem by putting the following inside your Gemfile:
 
@@ -4737,10 +4737,10 @@ And the following to `/app/assets/stylesheets/application.css`:
 
 And that's it!
 ----
-## Installation 0501_1000/000581_ohler55_ox.md
+## Installation [0501_1000/000581_ohler55_ox.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000581_ohler55_ox.md)
     gem install ox
 ----
-## Installation 0501_1000/000581_JacobEvelyn_friends.md
+## Installation [0501_1000/000581_JacobEvelyn_friends.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000581_JacobEvelyn_friends.md)
 
 ```
 $ gem install friends
@@ -4748,7 +4748,7 @@ $ gem install friends
 
 Easy, huh?
 ----
-## Installation and Configuration 0501_1000/000581_pusher_pusher-http-ruby.md
+## Installation and Configuration [0501_1000/000581_pusher_pusher-http-ruby.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000581_pusher_pusher-http-ruby.md)
 
 Add `pusher` to your Gemfile, and then run `bundle install`
 
@@ -4764,7 +4764,7 @@ gem install pusher
 
 After registering at <https://dashboard.pusher.com/>, configure your Pusher Channels app with the security credentials.
 ----
-## Installation 0501_1000/000578_piotrmurach_finite_machine.md
+## Installation [0501_1000/000578_piotrmurach_finite_machine.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000578_piotrmurach_finite_machine.md)
 
 Add this line to your application's Gemfile:
 
@@ -4778,7 +4778,7 @@ Or install it yourself as:
 
     $ gem install finite_machine
 ----
-## Installation 0501_1000/000574_tobmatth_rack-ssl-enforcer.md
+## Installation [0501_1000/000574_tobmatth_rack-ssl-enforcer.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000574_tobmatth_rack-ssl-enforcer.md)
 
 The simplest way to install Rack::SslEnforcer is to use [Bundler](http://gembundler.com).
 
@@ -4788,7 +4788,7 @@ Add Rack::SslEnforcer to your `Gemfile`:
  gem 'rack-ssl-enforcer'
 ```
 ----
-## Installation & usage 0501_1000/000569_antifuchs_gmail-britta.md
+## Installation & usage [0501_1000/000569_antifuchs_gmail-britta.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000569_antifuchs_gmail-britta.md)
 
 Best to use gmail-britta from a ruby script; but install the gem first:
 
@@ -4822,7 +4822,7 @@ gmail filter settings, and you'll label email from me and archive it
 unless I email you specifically. Not that useful, but with your own
 filters and the recipes above, you should be able to make it work (-:
 ----
-## Installation 0501_1000/000569_metricfu_metric_fu.md
+## Installation [0501_1000/000569_metricfu_metric_fu.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000569_metricfu_metric_fu.md)
 
     gem install metric_fu
 
@@ -4839,7 +4839,7 @@ The MediumSecurity trust profile will verify signed gems, but allow the installa
 
 This is necessary because not all of MetricFu's dependencies are signed, so we cannot use HighSecurity.
 ----
-## Installation 0501_1000/000569_markbates_configatron.md
+## Installation [0501_1000/000569_markbates_configatron.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000569_markbates_configatron.md)
 
 Add this line to your application's Gemfile:
 
@@ -4859,11 +4859,11 @@ Or install it yourself as:
 $ gem install configatron --pre
 ```
 ----
-## Installation 0501_1000/000565_Mixd_wp-deploy.md
+## Installation [0501_1000/000565_Mixd_wp-deploy.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000565_Mixd_wp-deploy.md)
 
 Take a look at the [Installation Guide](https://github.com/Mixd/wp-deploy/wiki/Installation).
 ----
-## Installation 0501_1000/000565_amatsuda_jb.md
+## Installation [0501_1000/000565_amatsuda_jb.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000565_amatsuda_jb.md)
 
 Add this line to your application's Gemfile:
 
@@ -4874,7 +4874,7 @@ gem 'jb'
 And bundle.
 
 ----
-## Installation 0501_1000/000562_gavinlaking_vedeu.md
+## Installation [0501_1000/000562_gavinlaking_vedeu.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000562_gavinlaking_vedeu.md)
 
 To install Vedeu, simply:
 
@@ -4883,7 +4883,7 @@ To install Vedeu, simply:
 To use Vedeu's application scaffolding, see the
 [RubyDoc](http://www.rubydoc.info/gems/vedeu/file/docs/getting_started.md)
 ----
-## Installation 0501_1000/000562_fnando_kitabu.md
+## Installation [0501_1000/000562_fnando_kitabu.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000562_fnando_kitabu.md)
 
 To install Kitabu, you'll need a working Ruby 2.0+ installation.
 If you're cool with it, just run the following command to install it.
@@ -4906,7 +4906,7 @@ dependencies.
 
 There are no hard requirements here; just make sure you cleared the correct dependency based on the formats you want to export to.
 ----
-## Installation 0501_1000/000559_codevise_pageflow.md
+## Installation [0501_1000/000559_codevise_pageflow.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000559_codevise_pageflow.md)
 
 Generate a new Rails application using the MySQL database adapter:
 
@@ -4916,7 +4916,7 @@ Generate a new Rails application using the MySQL database adapter:
 Do not name your application `"pageflow"` since it will cause conflicts
 which constant names created by Pageflow itself.
 ----
-## Installation ## 0501_1000/000558_nesquena_query_reviewer.md
+## Installation ## [0501_1000/000558_nesquena_query_reviewer.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000558_nesquena_query_reviewer.md)
 
 All you have to do is install it into your Rails 2 or 3 project.
 
@@ -4952,17 +4952,17 @@ You can then run:
 Which will create `config/query_reviewer.yml` in your application, see below for what these options mean.
 If you don't create a config file, the gem will use the default in `vendor/plugins/query_reviewer`.
 ----
-## Installation 0501_1000/000548_adhearsion_blather.md
+## Installation [0501_1000/000548_adhearsion_blather.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000548_adhearsion_blather.md)
 
     gem install blather
 ----
-## Installation 0501_1000/000547_middleman-contrib_middleman-deploy.md
+## Installation [0501_1000/000547_middleman-contrib_middleman-deploy.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000547_middleman-contrib_middleman-deploy.md)
 
 ```ruby
 gem 'middleman-deploy', '~> 1.0'
 ```
 ----
-## Installation 0501_1000/000547_mhfs_devise-async.md
+## Installation [0501_1000/000547_mhfs_devise-async.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000547_mhfs_devise-async.md)
 
 Add this line to your application's Gemfile:
 
@@ -4978,11 +4978,11 @@ Or install it yourself as:
 
     $ gem install devise-async
 ----
-## Installation 0501_1000/000546_oleander_git-fame-rb.md
+## Installation [0501_1000/000546_oleander_git-fame-rb.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000546_oleander_git-fame-rb.md)
 
 `[sudo] gem install git_fame`
 ----
-## Installation 0501_1000/000543_ankane_dexter.md
+## Installation [0501_1000/000543_ankane_dexter.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000543_ankane_dexter.md)
 
 First, install [HypoPG](https://github.com/HypoPG/hypopg) on your database server. This doesn’t require a restart.
 
@@ -5010,7 +5010,7 @@ gem install pgdexter
 
 The command line tool is also available as a [Linux package](guides/Linux.md).
 ----
-## Installation 0501_1000/000543_rails_sprockets.md
+## Installation [0501_1000/000543_rails_sprockets.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000543_rails_sprockets.md)
 
 Install Sprockets from RubyGems:
 
@@ -5024,13 +5024,13 @@ Or include it in your project's `Gemfile` with Bundler:
 gem 'sprockets', '~> 4.0'
 ```
 ----
-## Installation 0501_1000/000541_brainopia_sidekiq-limit_fetch.md
+## Installation [0501_1000/000541_brainopia_sidekiq-limit_fetch.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000541_brainopia_sidekiq-limit_fetch.md)
 
 Add this line to your application's Gemfile:
 
     gem 'sidekiq-limit_fetch'
 ----
-## Installation 0501_1000/000541_ryanlecompte_redis_failover.md
+## Installation [0501_1000/000541_ryanlecompte_redis_failover.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000541_ryanlecompte_redis_failover.md)
 
 redis_failover has an external dependency on ZooKeeper. You must have a running ZooKeeper cluster already available in order to use redis_failover. ZooKeeper provides redis_failover with its high availability and data consistency between Redis::Failover clients and the Node Manager daemon. Please see the requirements section below for more information on installing and setting up ZooKeeper if you don't have it running already.
 
@@ -5046,7 +5046,7 @@ Or install it yourself as:
 
     $ gem install redis_failover
 ----
-## Installation 0501_1000/000538_slack-ruby_slack-ruby-client.md
+## Installation [0501_1000/000538_slack-ruby_slack-ruby-client.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000538_slack-ruby_slack-ruby-client.md)
 
 Add to Gemfile.
 
@@ -5062,7 +5062,7 @@ gem 'async-websocket'
 
 Run `bundle install`.
 ----
-## Installation ## 0501_1000/000536_DavyJonesLocker_party_foul.md
+## Installation ## [0501_1000/000536_DavyJonesLocker_party_foul.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000536_DavyJonesLocker_party_foul.md)
 
 **Note** We highly recommend that you create a new GitHub account that is
 a collaborator on your repository. Use this new account's credentials
@@ -5076,13 +5076,13 @@ In your Gemfile add the following:
 gem 'party_foul'
 ```
 ----
-## Installation 0501_1000/000532_jugend_amazon-ecs.md
+## Installation [0501_1000/000532_jugend_amazon-ecs.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000532_jugend_amazon-ecs.md)
 
 ```shell
 gem install amazon-ecs
 ```
 ----
-## Installation 0501_1000/000531_caarlos0-graveyard_nprogress-rails.md
+## Installation [0501_1000/000531_caarlos0-graveyard_nprogress-rails.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000531_caarlos0-graveyard_nprogress-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -5096,7 +5096,7 @@ Or install it yourself as:
 
     $ gem install nprogress-rails
 ----
-## Installation 0501_1000/000528_mrkamel_search_cop.md
+## Installation [0501_1000/000528_mrkamel_search_cop.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000528_mrkamel_search_cop.md)
 
 Add this line to your application's Gemfile:
 
@@ -5110,7 +5110,7 @@ Or install it yourself as:
 
     $ gem install search_cop
 ----
-## Installation 0501_1000/000522_nickjj_orats.md
+## Installation [0501_1000/000522_nickjj_orats.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000522_nickjj_orats.md)
 
 `gem install orats`
 
@@ -5120,7 +5120,7 @@ latest version.
 If you don't have Ruby installed, then you can
 [generate an app easily with bash](#do-i-need-to-install-orats-to-use-the-base-app).
 ----
-## Installation 0501_1000/000521_MoOx_compass-recipes.md
+## Installation [0501_1000/000521_MoOx_compass-recipes.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000521_MoOx_compass-recipes.md)
 
 [Compass Recipes is available as a gem on RubyGems.org](https://rubygems.org/gems/compass-recipes), so installation is quite easy.
 
@@ -5133,7 +5133,7 @@ If you don't have Ruby installed, then you can
 More informations on the [Wiki](https://github.com/MoOx/compass-recipes/wiki)*
 
 ----
-## Installation 0501_1000/000520_sstephenson_global_phone.md
+## Installation [0501_1000/000520_sstephenson_global_phone.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000520_sstephenson_global_phone.md)
 
 1. Add the `global_phone` gem to your app. For example, using Bundler:
 
@@ -5152,7 +5152,7 @@ More informations on the [Wiki](https://github.com/MoOx/compass-recipes/wiki)*
     GlobalPhone.db_path = Rails.root.join('db/global_phone.json')
     ```
 ----
-## Installation 0501_1000/000520_timdorr_model-s-api.md
+## Installation [0501_1000/000520_timdorr_model-s-api.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000520_timdorr_model-s-api.md)
 
 Add this line to your application's Gemfile:
 ```ruby
@@ -5164,7 +5164,7 @@ Or install it yourself:
 gem install tesla_api
 ```
 ----
-## Installation 0501_1000/000517_mhenrixon_sidekiq-unique-jobs.md
+## Installation [0501_1000/000517_mhenrixon_sidekiq-unique-jobs.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000517_mhenrixon_sidekiq-unique-jobs.md)
 
 Add this line to your application's Gemfile:
 
@@ -5179,11 +5179,11 @@ Or install it yourself as:
     $ gem install sidekiq-unique-jobs
 
 ----
-## Installation 0501_1000/000516_commander-rb_commander.md
+## Installation [0501_1000/000516_commander-rb_commander.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000516_commander-rb_commander.md)
 
     $ gem install commander
 ----
-## Installation 0501_1000/000516_nathanl_searchlight.md
+## Installation [0501_1000/000516_nathanl_searchlight.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000516_nathanl_searchlight.md)
 
 Add this line to your application's Gemfile:
 
@@ -5197,7 +5197,7 @@ Or install it yourself as:
 
     $ gem install searchlight
 ----
-## Installation 0501_1000/000516_crohr_pkgr.md
+## Installation [0501_1000/000516_crohr_pkgr.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000516_crohr_pkgr.md)
 
 You can find DEB and RPM packages for a wide range of distributions on Packager.io:
 
@@ -5209,9 +5209,9 @@ Or, installing as a gem, on debian-based machines:
     sudo apt-get install -y build-essential ruby1.9.1-full rubygems1.9.1
     sudo gem install pkgr
 ----
-## Installation 0501_1000/000515_bkeepers_qu.md
+## Installation [0501_1000/000515_bkeepers_qu.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000515_bkeepers_qu.md)
 ----
-## Installation 0501_1000/000514_jonbuda_miro.md
+## Installation [0501_1000/000514_jonbuda_miro.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000514_jonbuda_miro.md)
 
 Add this line to your application's Gemfile:
 
@@ -5225,7 +5225,7 @@ Or install it yourself as:
 
     $ gem install miro
 ----
-## Installation 0501_1000/000514_sickill_rainbow.markdown
+## Installation [0501_1000/000514_sickill_rainbow.markdown](https://github.com/ts-3156/readmes/blob/master/0501_1000/000514_sickill_rainbow.markdown)
 
 Add it to your Gemfile:
 
@@ -5239,12 +5239,12 @@ Or just install it via rubygems:
 gem install rainbow
 ```
 ----
-## Installation 0501_1000/000512_toland_patron.md
+## Installation [0501_1000/000512_toland_patron.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000512_toland_patron.md)
 
     sudo gem install patron
 
 Copyright (c) 2008 The Hive----
-## Installation 0501_1000/000510_stripe_poncho.md
+## Installation [0501_1000/000510_stripe_poncho.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000510_stripe_poncho.md)
 
 Add this line to your application's Gemfile:
 
@@ -5260,7 +5260,7 @@ Or install it yourself as:
 
     $ gem install poncho
 ----
-## Installation 0501_1000/000509_walle_gimli.md
+## Installation [0501_1000/000509_walle_gimli.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000509_walle_gimli.md)
 
 The best way to install Gimli is with RubyGems:
 
@@ -5274,16 +5274,16 @@ $ bundle
 $ rake install
 ```
 ----
-## Installation 0501_1000/000509_maccman_nestful.markdown
+## Installation [0501_1000/000509_maccman_nestful.markdown](https://github.com/ts-3156/readmes/blob/master/0501_1000/000509_maccman_nestful.markdown)
 
     sudo gem install nestful
 ----
-## Installation 0501_1000/000508_pawurb_termit.md
+## Installation [0501_1000/000508_pawurb_termit.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000508_pawurb_termit.md)
 ```bash
 gem install termit
 ```
 ----
-## Installation 0501_1000/000508_winebarrel_ridgepole.md
+## Installation [0501_1000/000508_winebarrel_ridgepole.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000508_winebarrel_ridgepole.md)
 
 Add this line to your application's Gemfile:
 
@@ -5297,7 +5297,7 @@ Or install it yourself as:
 
     $ gem install ridgepole
 ----
-## Installation 0501_1000/000507_github_graphql-client.md
+## Installation [0501_1000/000507_github_graphql-client.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000507_github_graphql-client.md)
 
 Add `graphql-client` to your app's Gemfile:
 
@@ -5305,7 +5305,7 @@ Add `graphql-client` to your app's Gemfile:
 gem 'graphql-client'
 ```
 ----
-## Installation 0501_1000/000507_restforce_restforce.md
+## Installation [0501_1000/000507_restforce_restforce.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000507_restforce_restforce.md)
 
 Add this line to your application's Gemfile:
 
@@ -5323,7 +5323,7 @@ __As of [version 3.0.0](https://github.com/restforce/restforce/blob/master/CHANG
 
 This gem is versioned using [Semantic Versioning](http://semver.org/), so you can be confident when updating that there will not be breaking changes outside of a major version (following format MAJOR.MINOR.PATCH, so for instance moving from 3.1.0 to 4.0.0 would be allowed to include incompatible API changes). See the [changelog](https://github.com/restforce/restforce/tree/master/CHANGELOG.md) for details on what has changed in each version.
 ----
-## Installation 0501_1000/000506_socketry_rubydns.md
+## Installation [0501_1000/000506_socketry_rubydns.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000506_socketry_rubydns.md)
 
 Add this line to your application's Gemfile:
 
@@ -5337,7 +5337,7 @@ Or install it yourself as:
 
 	$ gem install rubydns
 ----
-## Installation 0501_1000/000505_lautis_uglifier.md
+## Installation [0501_1000/000505_lautis_uglifier.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000505_lautis_uglifier.md)
 
 Uglifier is available as a ruby gem.
 
@@ -5347,12 +5347,12 @@ Ensure that your environment has a JavaScript interpreter supported by
 [ExecJS](https://github.com/sstephenson/execjs). Using `therubyracer` gem
 is a safe choice if a runtime isn't already present. Note that while JScript built-in Windows 7 and older works, it is extremely slow.
 ----
-## Installation 0501_1000/000504_NARKOZ_ginatra.md
+## Installation [0501_1000/000504_NARKOZ_ginatra.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000504_NARKOZ_ginatra.md)
 
 There are 2 ways to install Ginatra: as a packaged Ruby gem or as a Sinatra app.  
 It's recommended to install it as a ruby gem, unless you know what you're doing.
 ----
-## Installation 0501_1000/000503_eagletmt_switch_point.md
+## Installation [0501_1000/000503_eagletmt_switch_point.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000503_eagletmt_switch_point.md)
 
 Add this line to your application's Gemfile:
 
@@ -5366,12 +5366,12 @@ Or install it yourself as:
 
     $ gem install switch_point
 ----
-## Installation 0501_1000/000500_oscardelben_firebase-ruby.md
+## Installation [0501_1000/000500_oscardelben_firebase-ruby.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000500_oscardelben_firebase-ruby.md)
 
 ```
 gem install firebase
 ```----
-## Installation 0501_1000/000499_ledermann_unread.md
+## Installation [0501_1000/000499_ledermann_unread.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000499_ledermann_unread.md)
 
 Step 1: Add this to your Gemfile:
 
@@ -5393,7 +5393,7 @@ rails g unread:migration
 rake db:migrate
 ```
 ----
-## Installation 0501_1000/000498_leikind_wice_grid.md
+## Installation [0501_1000/000498_leikind_wice_grid.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000498_leikind_wice_grid.md)
 
 Add the following to your Gemfile:
 
@@ -5463,7 +5463,7 @@ WiceGrid uses icons from [Font Awesome](http://fortawesome.github.io/Font-Awesom
 Should you decide to write you own styles for WiceGrid, you can just remove these imports and write your own styles.
 
 ----
-## Installation 0501_1000/000498_maxim_bootswatch-rails.md
+## Installation [0501_1000/000498_maxim_bootswatch-rails.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000498_maxim_bootswatch-rails.md)
 
 Add this line to your application's Gemfile, in assets group:
 
@@ -5473,7 +5473,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 0501_1000/000496_nicolasblanco_rails_param.md
+## Installation [0501_1000/000496_nicolasblanco_rails_param.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000496_nicolasblanco_rails_param.md)
 
 As usual, in your Gemfile...
 
@@ -5481,7 +5481,7 @@ As usual, in your Gemfile...
   gem 'rails_param'
 ```
 ----
-## Installation 0501_1000/000494_ankane_mailkick.md
+## Installation [0501_1000/000494_ankane_mailkick.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000494_ankane_mailkick.md)
 
 Add this line to your application’s Gemfile:
 
@@ -5496,7 +5496,7 @@ rails generate mailkick:install
 rails db:migrate
 ```
 ----
-## Installation 0501_1000/000494_xinminlabs_synvert.md
+## Installation [0501_1000/000494_xinminlabs_synvert.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000494_xinminlabs_synvert.md)
 
 Install it using rubygems
 
@@ -5504,18 +5504,18 @@ Install it using rubygems
 $ gem install synvert
 ```
 ----
-## Installation 0501_1000/000492_jipiboily_monologue.md----
-## Installation 0501_1000/000491_nomad_venice.md
+## Installation [0501_1000/000492_jipiboily_monologue.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000492_jipiboily_monologue.md)----
+## Installation [0501_1000/000491_nomad_venice.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000491_nomad_venice.md)
 
     $ gem install venice
 ----
-## Installation 0501_1000/000491_github_email_reply_parser.md
+## Installation [0501_1000/000491_github_email_reply_parser.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000491_github_email_reply_parser.md)
 
 Get it from [GitHub][github] or `gem install email_reply_parser`.  Run `rake` to run the tests.
 
 [github]: https://github.com/github/email_reply_parser
 ----
-## Installation 0501_1000/000489_davidcelis_api-pagination.md
+## Installation [0501_1000/000489_davidcelis_api-pagination.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000489_davidcelis_api-pagination.md)
 
 In your `Gemfile`:
 
@@ -5536,7 +5536,7 @@ gem 'will_paginate'
 gem 'api-pagination'
 ```
 ----
-## Installation 0501_1000/000487_wearefine_fae.md
+## Installation [0501_1000/000487_wearefine_fae.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000487_wearefine_fae.md)
 
 1) Add the gem to your Gemfile and run `bundle install`
 
@@ -5552,12 +5552,12 @@ $ rails g fae:install
 
 3) Visit `/admin` and setup your super admin account
 ----
-## Installation 0501_1000/000486_acatighera_statistics.markdown
+## Installation [0501_1000/000486_acatighera_statistics.markdown](https://github.com/ts-3156/readmes/blob/master/0501_1000/000486_acatighera_statistics.markdown)
     gem install statistics
 OR
     script/plugin install git://github.com/acatighera/statistics.git
 ----
-## Installation 0501_1000/000485_Shopify_graphql-batch.md
+## Installation [0501_1000/000485_Shopify_graphql-batch.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000485_Shopify_graphql-batch.md)
 
 Add this line to your application's Gemfile:
 
@@ -5573,7 +5573,7 @@ Or install it yourself as:
 
     $ gem install graphql-batch
 ----
-## Installation 0501_1000/000484_stefanpenner_country_select.md
+## Installation [0501_1000/000484_stefanpenner_country_select.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000484_stefanpenner_country_select.md)
 
 Install as a gem using
 
@@ -5592,7 +5592,7 @@ If you don't want to require `sort_alphabetical` (it depends on `unicode_utils` 
 gem 'country_select', require: 'country_select_without_sort_alphabetical'
 ```
 ----
-## Installation & Setup 0501_1000/000482_tolk_tolk.md
+## Installation & Setup [0501_1000/000482_tolk_tolk.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000482_tolk_tolk.md)
 
 To install add the following to your Gemfile:
 
@@ -5616,7 +5616,7 @@ To setup just run:
 
 and follow the guide!
 ----
-## Installation 0501_1000/000479_thesp0nge_dawnscanner.md
+## Installation [0501_1000/000479_thesp0nge_dawnscanner.md](https://github.com/ts-3156/readmes/blob/master/0501_1000/000479_thesp0nge_dawnscanner.md)
 
 You can install latest dawnscanner version, fetching it from
 [Rubygems](https://rubygems.org) by typing:
@@ -5647,7 +5647,7 @@ on your system. Please note that you have to manage dependencies on your own
 this way. It makes sense only if you want to hack the code or something like
 that.
 ----
-## Installation 1001_1500/000474_jetheredge_SquishIt.markdown
+## Installation [1001_1500/000474_jetheredge_SquishIt.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000474_jetheredge_SquishIt.markdown)
 
 SquishIt comes as a NuGet package and can be installed via `PM> Install-Package SquishIt`.
 
@@ -5655,7 +5655,7 @@ Latest stable package: [![nuget version](https://img.shields.io/nuget/v/SquishIt
 
 You can also download precompiled binaries from the [SquishIt AppHarbor page](http://squishit.apphb.com/Download).
 ----
-## Installation ## 1001_1500/000474_cequel_cequel.md
+## Installation ## [1001_1500/000474_cequel_cequel.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000474_cequel_cequel.md)
 
 Add it to your Gemfile:
 
@@ -5668,11 +5668,11 @@ If you use Rails 5, add this:
 gem 'activemodel-serializers-xml'
 ```
 ----
-## Installation 1001_1500/000472_tj_pomo.md
+## Installation [1001_1500/000472_tj_pomo.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000472_tj_pomo.md)
 
     $ gem install pomo
 ----
-## Installation 1001_1500/000468_glebm_rails_email_preview.md
+## Installation [1001_1500/000468_glebm_rails_email_preview.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000468_glebm_rails_email_preview.md)
 
 Add [![Gem Version][gem-badge]][gem] to Gemfile:
 
@@ -5692,11 +5692,11 @@ Generate preview classes and method stubs in app/mailer_previews/
 $ rails g rails_email_preview:update_previews
 ```
 ----
-## Installation 1001_1500/000467_fnando_recurrence.md
+## Installation [1001_1500/000467_fnando_recurrence.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000467_fnando_recurrence.md)
 
     gem install recurrence
 ----
-## Installation 1001_1500/000464_volmer_bootsy.md
+## Installation [1001_1500/000464_volmer_bootsy.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000464_volmer_bootsy.md)
 
 1. Add Bootsy to your Gemfile and `bundle install` it:
   ```ruby
@@ -5740,7 +5740,7 @@ $ rails g rails_email_preview:update_previews
   ```
 
 ----
-## Installation 1001_1500/000463_ankane_pgsync.md
+## Installation [1001_1500/000463_ankane_pgsync.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000463_ankane_pgsync.md)
 
 pgsync is a command line tool. To install, run:
 
@@ -5758,7 +5758,7 @@ pgsync --init
 
 This creates `.pgsync.yml` for you to customize. We recommend checking this into your version control (assuming it doesn’t contain sensitive information). `pgsync` commands can be run from this directory or any subdirectory.
 ----
-## Installation 1001_1500/000462_netzpirat_haml-coffee.md
+## Installation [1001_1500/000462_netzpirat_haml-coffee.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000462_netzpirat_haml-coffee.md)
 
 Haml Coffee is available in NPM and can be installed with:
 
@@ -5769,7 +5769,7 @@ $ npm install haml-coffee
 Please have a look at the [CHANGELOG](https://github.com/netzpirat/haml-coffee/blob/master/CHANGELOG.md) when upgrading to a
 newer Haml Coffee version with `npm update`.
 ----
-## Installation 1001_1500/000461_jcampbell05_xcake.md
+## Installation [1001_1500/000461_jcampbell05_xcake.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000461_jcampbell05_xcake.md)
 
 Install the gem by running:
 
@@ -5787,7 +5787,7 @@ to clean up outdated gems.
 
 System Requirements: `xcake` requires Mac OS X or Linux with Ruby 2.0.0 or above.
 ----
-## Installation 1001_1500/000461_mongoid_mongoid-rspec.md
+## Installation [1001_1500/000461_mongoid_mongoid-rspec.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000461_mongoid_mongoid-rspec.md)
 
 Drop this line into your Gemfile:
 
@@ -5798,7 +5798,7 @@ end
 
 ```
 ----
-## Installation 1001_1500/000461_subosito_gingerice.markdown
+## Installation [1001_1500/000461_subosito_gingerice.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000461_subosito_gingerice.markdown)
 
 Add this line to your application's Gemfile:
 
@@ -5818,13 +5818,13 @@ Or install it yourself as:
 $ gem install gingerice
 ```
 ----
-## Installation 1001_1500/000459_f_graphql.js.md
+## Installation [1001_1500/000459_f_graphql.js.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000459_f_graphql.js.md)
 
 You can download `graphql.js` directly, or you can use **Bower** or **NPM**.
 ----
-## Installation 1001_1500/000458_bendyworks_bwoken.md
+## Installation [1001_1500/000458_bendyworks_bwoken.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000458_bendyworks_bwoken.md)
 ----
-## Installation 1001_1500/000458_renderedtext_render_async.md
+## Installation [1001_1500/000458_renderedtext_render_async.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000458_renderedtext_render_async.md)
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -5835,7 +5835,7 @@ And then execute:
 
     $ bundle install
 ----
-## Installation 1001_1500/000458_infinum_phrasing.md
+## Installation [1001_1500/000458_infinum_phrasing.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000458_infinum_phrasing.md)
 
 Include the gem in your Gemfile
 
@@ -5860,14 +5860,14 @@ Migrate your database
 rake db:migrate
 ```
 ----
-## Installation 1001_1500/000456_cesarferreira_alfi.md
+## Installation [1001_1500/000456_cesarferreira_alfi.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000456_cesarferreira_alfi.md)
 
 Install it via terminal:
 
     $ gem install alfi
 
 ----
-## Installation 1001_1500/000454_piotrmurach_pastel.md
+## Installation [1001_1500/000454_piotrmurach_pastel.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000454_piotrmurach_pastel.md)
 
 Add this line to your application's Gemfile:
 
@@ -5881,11 +5881,11 @@ Or install it yourself as:
 
     $ gem install pastel
 ----
-## Installation 1001_1500/000454_moserrya_knod.md
+## Installation [1001_1500/000454_moserrya_knod.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000454_moserrya_knod.md)
 
 ```gem install knod```
 ----
-## Installation 1001_1500/000452_railslove_rack-tracker.md
+## Installation [1001_1500/000452_railslove_rack-tracker.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000452_railslove_rack-tracker.md)
 
 Add this line to your application's Gemfile:
 
@@ -5899,7 +5899,7 @@ Or install it yourself as:
 
     $ gem install rack-tracker
 ----
-## Installation and usage 1001_1500/000451_codegram_pelusa.md
+## Installation and usage [1001_1500/000451_codegram_pelusa.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000451_codegram_pelusa.md)
 
     rvm use rbx
     gem install pelusa
@@ -5917,7 +5917,7 @@ Or just run all the Ruby files (`**/*.rb`) without arguments:
 
     pelusa
 ----
-## Installation 1001_1500/000449_emilioforrer_haml_coffee_assets.md
+## Installation [1001_1500/000449_emilioforrer_haml_coffee_assets.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000449_emilioforrer_haml_coffee_assets.md)
 
 The simplest way to install Haml Coffee Assets is to use [Bundler](http://gembundler.com/).
 Add `haml_coffee_assets` and `execjs` to your `Gemfile`:
@@ -5945,7 +5945,7 @@ upgrading to a newer Haml Coffee Assets version.
 If you want to use Haml Coffee with Sinatra, please have a look at the
 [Haml Coffee Sinatra](https://github.com/netzpirat/haml-coffee-sinatra) demo application.
 ----
-## Installation 1001_1500/000449_ankane_pretender.md
+## Installation [1001_1500/000449_ankane_pretender.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000449_ankane_pretender.md)
 
 Add this line to your application’s Gemfile:
 
@@ -5961,11 +5961,11 @@ class ApplicationController < ActionController::Base
 end
 ```
 ----
-## Installation 1001_1500/000449_dkhamsing_awesome_bot.md
+## Installation [1001_1500/000449_dkhamsing_awesome_bot.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000449_dkhamsing_awesome_bot.md)
 
     $ gem install awesome_bot
 ----
-## Installation 1001_1500/000447_tigrish_devise-i18n.md
+## Installation [1001_1500/000447_tigrish_devise-i18n.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000447_tigrish_devise-i18n.md)
 
 Add to your Gemfile:
 ```ruby
@@ -5976,7 +5976,7 @@ Assuming you have _not_ previously generated Devise's views into your project, t
 
 NOTE: If you have the ```simple_form``` gem in your Gemfile, this command will generate the corresponding views using the simple_form form builder.
 ----
-## Installation 1001_1500/000446_sorentwo_readthis.md
+## Installation [1001_1500/000446_sorentwo_readthis.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000446_sorentwo_readthis.md)
 
 Add this line to your application's Gemfile:
 
@@ -5985,7 +5985,7 @@ gem 'readthis'
 gem 'hiredis' # Highly recommended
 ```
 ----
-## Installation 1001_1500/000446_zeisler_active_mocker.md
+## Installation [1001_1500/000446_zeisler_active_mocker.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000446_zeisler_active_mocker.md)
 
 Add this line to your application's Gemfile:
 ```ruby
@@ -6002,7 +6002,7 @@ Or install it yourself as:
 
     $ gem install active_mocker
 ----
-## Installation 1001_1500/000444_sass_sassc-rails.md
+## Installation [1001_1500/000444_sass_sassc-rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000444_sass_sassc-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -6014,7 +6014,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1001_1500/000443_Kapeli_cheatset.md
+## Installation [1001_1500/000443_Kapeli_cheatset.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000443_Kapeli_cheatset.md)
 
     $ sudo gem install cheatset --no-ri --no-rdoc
 
@@ -6022,7 +6022,7 @@ Note: this requires the Xcode Command Line Tools to be installed. Install them u
 
     $ xcode-select --install
     ----
-## Installation 1001_1500/000442_straydogstudio_axlsx_rails.md
+## Installation [1001_1500/000442_straydogstudio_axlsx_rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000442_straydogstudio_axlsx_rails.md)
 
 In your Gemfile:
 
@@ -6050,7 +6050,7 @@ gem 'axlsx', '2.1.0.pre'
 gem 'axlsx_rails'
 ```
 ----
-## Installation 1001_1500/000442_rrrene_inch.md
+## Installation [1001_1500/000442_rrrene_inch.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000442_rrrene_inch.md)
 
 Add this line to your application's Gemfile:
 
@@ -6066,15 +6066,15 @@ Or install it yourself as:
 
 
 ----
-## Installation 1001_1500/000441_danielguillan_bem-constructor.md
+## Installation [1001_1500/000441_danielguillan_bem-constructor.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000441_danielguillan_bem-constructor.md)
 
 There are 4 ways of installing BEM Constructor:
 ----
-## Installation 1001_1500/000440_astrails_safe.markdown
+## Installation [1001_1500/000440_astrails_safe.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000440_astrails_safe.markdown)
 
     sudo gem install astrails-safe --source http://gemcutter.org
 ----
-## Installation 1001_1500/000439_Sorcery_sorcery.md
+## Installation [1001_1500/000439_Sorcery_sorcery.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000439_Sorcery_sorcery.md)
 
 Add this line to your application's Gemfile:
 
@@ -6090,11 +6090,11 @@ Or install it yourself as:
 
     $ gem install sorcery
 ----
-## Installation 1001_1500/000438_chriseppstein_sass-globbing.markdown
+## Installation [1001_1500/000438_chriseppstein_sass-globbing.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000438_chriseppstein_sass-globbing.markdown)
 
     $ gem install sass-globbing
 ----
-## Installation 1001_1500/000438_moiristo_deep_cloneable.md
+## Installation [1001_1500/000438_moiristo_deep_cloneable.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000438_moiristo_deep_cloneable.md)
 
 * Add deep_cloneable to your Gemfile:
 
@@ -6102,7 +6102,7 @@ Or install it yourself as:
 gem 'deep_cloneable', '~> 2.4.0'
 ```
 ----
-## Installation 1001_1500/000437_opal_opal-rails.md
+## Installation [1001_1500/000437_opal_opal-rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000437_opal_opal-rails.md)
 
 In your `Gemfile`
 
@@ -6117,13 +6117,13 @@ rails new <app-name> --javascript=opal
 ```
 
 ----
-## Installation 1001_1500/000437_holidays_holidays.md
+## Installation [1001_1500/000437_holidays_holidays.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000437_holidays_holidays.md)
 
 ```
 gem install holidays
 ```
 ----
-## Installation 1001_1500/000437_yatish27_linkedin-scraper.md
+## Installation [1001_1500/000437_yatish27_linkedin-scraper.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000437_yatish27_linkedin-scraper.md)
 
 Install the gem from RubyGems:
 
@@ -6131,7 +6131,7 @@ Install the gem from RubyGems:
 
 This gem is tested on 1.9.2, 1.9.3, 2.0.0, 2.2, 2.3
 ----
-## Installation 1001_1500/000435_plataformatec_show_for.md
+## Installation [1001_1500/000435_plataformatec_show_for.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000435_plataformatec_show_for.md)
 
 Install the gem:
 
@@ -6150,7 +6150,7 @@ And you are ready to go.
 Note: This branch aims Rails 3.2 and 4 support, so if you want to use it with
 older versions of Rails, check out the available branches.
 ----
-## Installation 1001_1500/000435_agoragames_leaderboard.markdown
+## Installation [1001_1500/000435_agoragames_leaderboard.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000435_agoragames_leaderboard.markdown)
 
 `gem install leaderboard`
 
@@ -6163,9 +6163,9 @@ gem 'leaderboard'
 Make sure your redis server is running! Redis configuration is outside the scope of this README, but
 check out the [Redis documentation](http://redis.io/documentation).
 ----
-## Installation 1001_1500/000434_frosas_spotify-to-mp3.md
+## Installation [1001_1500/000434_frosas_spotify-to-mp3.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000434_frosas_spotify-to-mp3.md)
 ----
-## Installation 1001_1500/000432_Sology_smart_listing.md
+## Installation [1001_1500/000432_Sology_smart_listing.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000432_Sology_smart_listing.md)
 
 Add to your Gemfile:
 
@@ -6191,7 +6191,7 @@ __Rails >= 5.1 users__: Rails 5.1 has dropped jQuery dependency from the default
 //= require jquery_ujs
 ```
 ----
-## Installation 1001_1500/000431_inf0rmer_blanket.md
+## Installation [1001_1500/000431_inf0rmer_blanket.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000431_inf0rmer_blanket.md)
 
 Add this line to your application's Gemfile:
 
@@ -6207,21 +6207,21 @@ Or install it yourself as:
 
     $ gem install blanket_wrapper
 ----
-## Installations 1001_1500/000430_adelevie_parse-ruby-client.md
+## Installations [1001_1500/000430_adelevie_parse-ruby-client.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000430_adelevie_parse-ruby-client.md)
 ----
-## Installation 1001_1500/000428_CocoaPods_Rome.md
+## Installation [1001_1500/000428_CocoaPods_Rome.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000428_CocoaPods_Rome.md)
 
 ```bash
 $ gem install cocoapods-rome
 ```
 ----
-## Installation 1001_1500/000426_sconover_wrong.markdown
+## Installation [1001_1500/000426_sconover_wrong.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000426_sconover_wrong.markdown)
 
     gem install wrong
 
 We have deployed gems for both Ruby and JRuby; if you get dependency issues on your platform, please let us know what Ruby interpreter and version you're using and what errors you get, and we'll try to track it down.
 ----
-## Installation 1001_1500/000426_m1foley_fit-commit.md
+## Installation [1001_1500/000426_m1foley_fit-commit.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000426_m1foley_fit-commit.md)
 
 Install the gem:
 
@@ -6233,7 +6233,7 @@ Install the hook in your Git repo:
 
 This creates a `.git/hooks/commit-msg` script which will automatically check your Git commit messages.
 ----
-## Installation 1001_1500/000424_github_github-ds.md
+## Installation [1001_1500/000424_github_github-ds.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000424_github_github-ds.md)
 
 Add this line to your application's Gemfile:
 
@@ -6249,7 +6249,7 @@ Or install it yourself as:
 
     $ gem install github-ds
 ----
-## Installation 1001_1500/000423_rails_rails-observers.md
+## Installation [1001_1500/000423_rails_rails-observers.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000423_rails_rails-observers.md)
 
 Add this line to your application's Gemfile:
 ```ruby
@@ -6263,7 +6263,7 @@ Or install it yourself as:
 
     $ gem install rails-observers
 ----
-## Installation 1001_1500/000421_bokmann_fullcalendar-rails.md
+## Installation [1001_1500/000421_bokmann_fullcalendar-rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000421_bokmann_fullcalendar-rails.md)
 In order to install the fullcalendar-rails gem and get FullCalendar working within your application, do the following steps:
 
 1. Add to `gemfile`
@@ -6297,7 +6297,7 @@ In order to install the fullcalendar-rails gem and get FullCalendar working with
 
 1. Reference the Using FullCalendar section for details on populating FullCalendar.
 ----
-## Installation 1001_1500/000420_seuros_capistrano-puma.md
+## Installation [1001_1500/000420_seuros_capistrano-puma.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000420_seuros_capistrano-puma.md)
 
 Add this line to your application's Gemfile:
 
@@ -6311,11 +6311,11 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1001_1500/000419_cristibalan_braid.md
+## Installation [1001_1500/000419_cristibalan_braid.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000419_cristibalan_braid.md)
 
     gem install braid
 ----
-## Installation 1001_1500/000418_davydovanton_sidekiq-statistic.md
+## Installation [1001_1500/000418_davydovanton_sidekiq-statistic.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000418_davydovanton_sidekiq-statistic.md)
 Add this line to your application's Gemfile:
 
     gem 'sidekiq-statistic'
@@ -6324,7 +6324,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1001_1500/000415_oesmith_puffing-billy.md
+## Installation [1001_1500/000415_oesmith_puffing-billy.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000415_oesmith_puffing-billy.md)
 
 Add this line to your application's Gemfile:
 
@@ -6338,7 +6338,7 @@ Or install it yourself as:
 
     $ gem install puffing-billy
 ----
-## Installation 1001_1500/000415_jnunemaker_nunes.md
+## Installation [1001_1500/000415_jnunemaker_nunes.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000415_jnunemaker_nunes.md)
 
 Add this line to your application's Gemfile:
 
@@ -6348,7 +6348,7 @@ Or install it yourself as:
 
     $ gem install nunes
 ----
-## Installation 1001_1500/000414_rails_sprockets-rails.md
+## Installation [1001_1500/000414_rails_sprockets-rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000414_rails_sprockets-rails.md)
 
 ``` ruby
 gem 'sprockets-rails', :require => 'sprockets/railtie'
@@ -6357,7 +6357,7 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 Or alternatively `require 'sprockets/railtie'` in your `config/application.rb` if you have Bundler auto-require disabled.
 
 ----
-## Installation 1001_1500/000411_BerlinVagrant_vagrant-dns.md
+## Installation [1001_1500/000411_BerlinVagrant_vagrant-dns.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000411_BerlinVagrant_vagrant-dns.md)
 
     $ vagrant plugin install vagrant-dns
 
@@ -6365,7 +6365,7 @@ Or alternatively `require 'sprockets/railtie'` in your `config/application.rb` i
 If you get an error like `rubydns requires Ruby version >= 2.2.6.` while installing, you probably need to upgrade vagrant.  
 Alternatively, you can install an older version of vagrant-dns like this: `vagrant plugin install --plugin-version="<2" vagrant-dns` 
 ----
-## Installation 1001_1500/000410_wpeterson_emoji.md
+## Installation [1001_1500/000410_wpeterson_emoji.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000410_wpeterson_emoji.md)
 
 First, add this line to your application's Gemfile:
 
@@ -6392,7 +6392,7 @@ Finally, install the emoji image library assets:
     - Creating /Users/user/src/rails-app/app/assets/images/emoji...
     - Installing assets...
 ----
-## Installation 1001_1500/000408_svenfuchs_routing-filter.markdown
+## Installation [1001_1500/000408_svenfuchs_routing-filter.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000408_svenfuchs_routing-filter.markdown)
 
 Just install the Gem:
 
@@ -6406,9 +6406,9 @@ application's Gemfile.
 gem 'routing-filter'
 ```
 ----
-## Installation 1001_1500/000407_cookpad_rrrspec.md
+## Installation [1001_1500/000407_cookpad_rrrspec.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000407_cookpad_rrrspec.md)
 ----
-## Installation 1001_1500/000404_SammyLin_redactor-rails.md
+## Installation [1001_1500/000404_SammyLin_redactor-rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000404_SammyLin_redactor-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -6422,9 +6422,9 @@ Or install it yourself as:
 
     $ gem install redactor-rails
 ----
-## Installation 1001_1500/000403_cucumber-attic_gherkin2.md
+## Installation [1001_1500/000403_cucumber-attic_gherkin2.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000403_cucumber-attic_gherkin2.md)
 ----
-## Installation 1001_1500/000403_jenseng_immigrant.md
+## Installation [1001_1500/000403_jenseng_immigrant.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000403_jenseng_immigrant.md)
 
 Add the following to your Gemfile:
 
@@ -6435,7 +6435,7 @@ gem 'immigrant'
 If you're using a version of Rails prior to 4.2, you'll also need the
 [Foreigner](https://github.com/matthuhiggins/foreigner) gem.
 ----
-## Installation 1001_1500/000399_guilleiguaran_fakeredis.md
+## Installation [1001_1500/000399_guilleiguaran_fakeredis.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000399_guilleiguaran_fakeredis.md)
 
 Install the gem:
 
@@ -6446,13 +6446,13 @@ Add it to your Gemfile:
     gem "fakeredis"
 
 ----
-## Installation and Dependencies 1001_1500/000398_yomurb_yomu.md
+## Installation and Dependencies [1001_1500/000398_yomurb_yomu.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000398_yomurb_yomu.md)
 ----
-## Installation 1001_1500/000396_jeffbyrnes_railsless-deploy.markdown
+## Installation [1001_1500/000396_jeffbyrnes_railsless-deploy.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000396_jeffbyrnes_railsless-deploy.markdown)
 
     # gem install railsless-deploy
 ----
-## Installation 1001_1500/000394_joost_phony_rails.md
+## Installation [1001_1500/000394_joost_phony_rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000394_joost_phony_rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -6472,7 +6472,7 @@ Or install it yourself as:
 $ gem install phony_rails
 ```
 ----
-## Installation 1001_1500/000394_markets_invisible_captcha.md
+## Installation [1001_1500/000394_markets_invisible_captcha.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000394_markets_invisible_captcha.md)
 
 Invisible Captcha is tested against Rails `>= 3.2` and Ruby `>= 2.2`.
 
@@ -6488,7 +6488,7 @@ Or install the gem manually:
 $ gem install invisible_captcha
 ```
 ----
-## Installation 1001_1500/000394_varvet_godmin.md
+## Installation [1001_1500/000394_varvet_godmin.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000394_varvet_godmin.md)
 
 Godmin supports two common admin scenarios:
 
@@ -6500,7 +6500,7 @@ If you want to set up an example app that you can play around with, run the foll
 rails new sandbox --skip-spring -m https://raw.githubusercontent.com/varvet/godmin/master/template.rb
 ```
 ----
-## Installation 1001_1500/000392_humante_redis-browser.md
+## Installation [1001_1500/000392_humante_redis-browser.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000392_humante_redis-browser.md)
 
 To use with ruby version < 2.2, you must install specifically from 0.4 line which is maintained in `ruby-1.9.2+` branch.
 
@@ -6514,11 +6514,11 @@ Otherwise install the newest version.
 $ gem install redis-browser
 ```
 ----
-## Installation 1001_1500/000391_getoutreach_epf.md
+## Installation [1001_1500/000391_getoutreach_epf.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000391_getoutreach_epf.md)
 
 For now, as epf is in development, follow the development instructions to use epf. The `build-browser` command will create browser-compatible distributables in the `dist` folder. Include `epf.js` in the page after `ember.js`.
 ----
-## Installation 1001_1500/000391_rstgroup_active_skin.md
+## Installation [1001_1500/000391_rstgroup_active_skin.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000391_rstgroup_active_skin.md)
 
 As active_skin is the css theme for the [active_admin](https://github.com/gregbell/active_admin) administration framework - you have to install if first.
 
@@ -6526,11 +6526,11 @@ Having active admin installed add the following line to your application's Gemfi
 
     gem 'active_skin'
 ----
-## Installation 1001_1500/000391_7compass_sentimental.md
+## Installation [1001_1500/000391_7compass_sentimental.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000391_7compass_sentimental.md)
 
     gem install sentimental
 ----
-## Installation 1001_1500/000391_keepcosmos_terjira.md
+## Installation [1001_1500/000391_keepcosmos_terjira.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000391_keepcosmos_terjira.md)
 
 Install it yourself as:
 
@@ -6546,11 +6546,11 @@ If you have permission problem,
     # You need to export your gem path
 
 ----
-## Installation 1001_1500/000391_sickill_racksh.markdown
+## Installation [1001_1500/000391_sickill_racksh.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000391_sickill_racksh.markdown)
 
     gem install racksh
 ----
-## Installation 1001_1500/000389_whichdigital_active-rest-client.md
+## Installation [1001_1500/000389_whichdigital_active-rest-client.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000389_whichdigital_active-rest-client.md)
 
 Add this line to your application's Gemfile:
 
@@ -6566,7 +6566,7 @@ Or install it yourself as:
 
     $ gem install active_rest_client
 ----
-## Installation 1001_1500/000387_gottfrois_link_thumbnailer.md
+## Installation [1001_1500/000387_gottfrois_link_thumbnailer.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000387_gottfrois_link_thumbnailer.md)
 
 Add this line to your application's Gemfile:
 
@@ -6588,7 +6588,7 @@ Run:
 
 This will add `link_thumbnailer.rb` to `config/initializers/`.
 ----
-## Installation 1001_1500/000387_fgrehm_ventriloquist.md
+## Installation [1001_1500/000387_fgrehm_ventriloquist.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000387_fgrehm_ventriloquist.md)
 
 Make sure you have Vagrant 1.6+ and run:
 
@@ -6597,15 +6597,15 @@ vagrant plugin install ventriloquist
 ```
 
 ----
-## Installation 1001_1500/000386_LouisBarranqueiro_reapop.md
+## Installation [1001_1500/000386_LouisBarranqueiro_reapop.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000386_LouisBarranqueiro_reapop.md)
 
 ```
 npm install reapop --save
 ```
 ----
-## Installation 1001_1500/000384_pboling_flag_shih_tzu.md
+## Installation [1001_1500/000384_pboling_flag_shih_tzu.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000384_pboling_flag_shih_tzu.md)
 ----
-## Installation 1001_1500/000384_ruby_psych.md
+## Installation [1001_1500/000384_ruby_psych.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000384_ruby_psych.md)
 
 Psych has been included with MRI since 1.9.2, and is the default YAML parser
 in 1.9.3.
@@ -6631,7 +6631,7 @@ Language Modes section of the [Rubinius
 README](https://github.com/rubinius/rubinius#readme) for more information on
 building and 1.9 mode.
 ----
-## Installation 1001_1500/000383_apneadiving_waterfall.md
+## Installation [1001_1500/000383_apneadiving_waterfall.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000383_apneadiving_waterfall.md)
 
 For installation, in your gemfile:
 
@@ -6639,7 +6639,7 @@ For installation, in your gemfile:
 
 then `bundle` as usual.
 ----
-## Installation 1001_1500/000382_wojteklu_depcheck.md
+## Installation [1001_1500/000382_wojteklu_depcheck.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000382_wojteklu_depcheck.md)
 
 Add this line to your application's Gemfile:
 
@@ -6659,7 +6659,7 @@ Or install the gem:
 gem install depcheck
 ```
 ----
-## Installation 1001_1500/000382_Nedomas_zapata.md
+## Installation [1001_1500/000382_Nedomas_zapata.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000382_Nedomas_zapata.md)
 
 It should be as easy as
 ```sh
@@ -6672,7 +6672,7 @@ or
 gem 'zapata', groups: %w(development test)
 ```
 ----
-## Installation 1001_1500/000382_nesquena_backburner.md
+## Installation [1001_1500/000382_nesquena_backburner.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000382_nesquena_backburner.md)
 
 First, you probably want to [install beanstalkd](http://kr.github.com/beanstalkd/download.html), which powers the job queues.
 Depending on your platform, this should be as simple as (for Ubuntu):
@@ -6691,7 +6691,7 @@ Or install it yourself as:
 
     $ gem install backburner
 ----
-## Installation 1001_1500/000380_gogotanaka_Rubype.md
+## Installation [1001_1500/000380_gogotanaka_Rubype.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000380_gogotanaka_Rubype.md)
 
 gem install rubype or add gem 'rubype' to your Gemfile.
 
@@ -6699,7 +6699,7 @@ And `require 'rubype'`, enjoy typed Ruby.
 
 This gem requires Ruby 2.0.0+.
 ----
-## Installation 1001_1500/000380_fotinakis_swagger-blocks.md
+## Installation [1001_1500/000380_fotinakis_swagger-blocks.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000380_fotinakis_swagger-blocks.md)
 
 Add this line to your application's Gemfile:
 
@@ -6707,7 +6707,7 @@ Add this line to your application's Gemfile:
 
 Or install directly with `gem install swagger-blocks`.
 ----
-## Installation 1001_1500/000378_andypike_rectify.md
+## Installation [1001_1500/000378_andypike_rectify.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000378_andypike_rectify.md)
 
 To install, add it to your `Gemfile`:
 
@@ -6721,9 +6721,9 @@ Then use Bundler to install it:
 bundle install
 ```
 ----
-## Installation 1001_1500/000374_iberianpig_fusuma.md
+## Installation [1001_1500/000374_iberianpig_fusuma.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000374_iberianpig_fusuma.md)
 ----
-## Installation 1001_1500/000374_searls_jasmine-rails.md
+## Installation [1001_1500/000374_searls_jasmine-rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000374_searls_jasmine-rails.md)
 
 First, add jasmine-rails to your Gemfile, like so
 
@@ -6747,12 +6747,12 @@ The generator will create the necessary configuration files and mount a test
 runner to [/specs](http://localhost:3000/specs) so that you can get started
 writing specs!
 ----
-## Installation 1001_1500/000374_tra_spawnling.md
+## Installation [1001_1500/000374_tra_spawnling.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000374_tra_spawnling.md)
 
 The name of the gem is "spawnling" (unfortunately somebody took the name "spawn" before
 I was able to convert this to a gem).
 ----
-## Installation 1001_1500/000372_heapsource_active_model_otp.md
+## Installation [1001_1500/000372_heapsource_active_model_otp.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000372_heapsource_active_model_otp.md)
 
 Add this line to your application's Gemfile:
 
@@ -6766,7 +6766,7 @@ Or install it yourself as follows:
 
     $ gem install active_model_otp
 ----
-## Installation 1001_1500/000372_stretcher_stretcher.md
+## Installation [1001_1500/000372_stretcher_stretcher.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000372_stretcher_stretcher.md)
 
 Add this line to your application's Gemfile:
 
@@ -6774,7 +6774,7 @@ Add this line to your application's Gemfile:
 gem 'stretcher'
 ```
 ----
-## Installation 1001_1500/000370_jekyll_jekyll-redirect-from.md
+## Installation [1001_1500/000370_jekyll_jekyll-redirect-from.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000370_jekyll_jekyll-redirect-from.md)
 
 Add this line to your application's Gemfile:
 
@@ -6807,7 +6807,7 @@ whitelist:
 
 Then run `jekyll <cmd> --safe` like normal.
 ----
-## Installation 1001_1500/000370_gael-ian_vagrant-bindfs.md
+## Installation [1001_1500/000370_gael-ian_vagrant-bindfs.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000370_gael-ian_vagrant-bindfs.md)
 
 vagrant-bindfs is distributed as a Ruby gem. 
 You can install it as any other Vagrant plugin with:
@@ -6817,11 +6817,11 @@ vagrant plugin install vagrant-bindfs
 ```
 
 ----
-## Installation 1001_1500/000370_lostboy_workless.md
+## Installation [1001_1500/000370_lostboy_workless.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000370_lostboy_workless.md)
 
 Add the workless gem and the delayed_job gem to your project Gemfile and update your bundle. Its is recommended to specify the gem version for delayed_job
 ----
-## Installation 1001_1500/000370_gotwalt_sonos.markdown
+## Installation [1001_1500/000370_gotwalt_sonos.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000370_gotwalt_sonos.markdown)
 
 Add this line to your application's Gemfile:
 
@@ -6841,13 +6841,13 @@ Or install it yourself as:
 $ gem install sonos
 ```
 ----
-## Installation 1001_1500/000370_seejohnrun_haste-client.md
+## Installation [1001_1500/000370_seejohnrun_haste-client.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000370_seejohnrun_haste-client.md)
 
 ``` bash
 gem install haste
 ```
 ----
-## Installation 1001_1500/000369_pcreux_csv-importer.md
+## Installation [1001_1500/000369_pcreux_csv-importer.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000369_pcreux_csv-importer.md)
 
 Add this line to your application's Gemfile:
 
@@ -6863,7 +6863,7 @@ Or install it yourself as:
 
     $ gem install csv-importer
 ----
-## Installation 1001_1500/000368_halogenandtoast_oath.md
+## Installation [1001_1500/000368_halogenandtoast_oath.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000368_halogenandtoast_oath.md)
 
 Oath was designed to work with Rails > 4.0. Add this line to your Gemfile:
 
@@ -6875,11 +6875,11 @@ Then inside of your ApplicationController add the following:
 
 And you're ready to start designing your authentication system.
 ----
-## Installation 1001_1500/000368_mdp_gibberish.markdown
+## Installation [1001_1500/000368_mdp_gibberish.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000368_mdp_gibberish.markdown)
 
     gem install gibberish
 ----
-## Installation 1001_1500/000366_rodjek_rspec-puppet.md
+## Installation [1001_1500/000366_rodjek_rspec-puppet.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000366_rodjek_rspec-puppet.md)
 
     gem install rspec-puppet
 
@@ -6887,7 +6887,7 @@ And you're ready to start designing your authentication system.
 > need to pin rspec itself to `~> 3.1.0`, as later rspec versions do not work
 > on old rubies anymore.
 ----
-## Installation 1001_1500/000366_mrkn_pycall.rb.md
+## Installation [1001_1500/000366_mrkn_pycall.rb.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000366_mrkn_pycall.rb.md)
 
 Add this line to your application's Gemfile:
 
@@ -6903,7 +6903,7 @@ Or install it yourself as:
 
     $ gem install --pre pycall
 ----
-## Installation 1001_1500/000366_froala_wysiwyg-rails.md
+## Installation [1001_1500/000366_froala_wysiwyg-rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000366_froala_wysiwyg-rails.md)
 
 Add this to your Gemfile:
 
@@ -6916,14 +6916,14 @@ and run `bundle install`.
 
 Note, you can include your own alternative Font Awesome implementation rather than the `font-awesome-sass` gem if you like. In that case, you'll need to modify/remove the import statements below to work with your implementation.
 ----
-## Installation 1001_1500/000366_emad-elsaid_rubrowser.md
+## Installation [1001_1500/000366_emad-elsaid_rubrowser.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000366_emad-elsaid_rubrowser.md)
 
 
 ```
 gem install rubrowser
 ```
 ----
-## Installation 1001_1500/000364_state-machines_state_machines.md
+## Installation [1001_1500/000364_state-machines_state_machines.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000364_state-machines_state_machines.md)
 
 Add this line to your application's Gemfile:
 
@@ -6937,7 +6937,7 @@ Or install it yourself as:
 
     $ gem install state_machines
 ----
-## Installation for jRuby 1001_1500/000364_SciRuby_iruby.md
+## Installation for jRuby [1001_1500/000364_SciRuby_iruby.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000364_SciRuby_iruby.md)
 
 Since jRuby is fully compatible with Ruby version 2.2, it is possible to use iruby with jRuby. 
 It can be helpful if you want to use java classes in your iruby notebook.
@@ -6957,7 +6957,7 @@ $ iruby register --force
 ```
 After that you can use iruby with jRuby in usual way.
 ----
-## Installation 1001_1500/000362_dwbutler_logstash-logger.md
+## Installation [1001_1500/000362_dwbutler_logstash-logger.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000362_dwbutler_logstash-logger.md)
 
 Add this line to your application's Gemfile:
 
@@ -6971,7 +6971,7 @@ Or install it yourself as:
 
     $ gem install logstash-logger
 ----
-## Installation 1001_1500/000362_guilhermesad_rspotify.md
+## Installation [1001_1500/000362_guilhermesad_rspotify.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000362_guilhermesad_rspotify.md)
 
 Add this line to your application's Gemfile:
 
@@ -6985,7 +6985,7 @@ Or install it yourself as:
 
     $ gem install rspotify
 ----
-## Installation 1001_1500/000362_philostler_rspec-sidekiq.md
+## Installation [1001_1500/000362_philostler_rspec-sidekiq.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000362_philostler_rspec-sidekiq.md)
 ```ruby
 # Gemfile
 group :test do
@@ -6996,7 +6996,7 @@ rspec-sidekiq requires ```sidekiq/testing``` by default so there is no need to i
 
 *IMPORTANT! This has the effect of not pushing enqueued jobs to Redis but to a ```job``` array to enable testing ([see the FAQ & Troubleshooting Wiki page][rspec_sidekiq_wiki_faq_&_troubleshooting]). Thus, only include ```gem "rspec-sidekiq"``` in environments where this behaviour is required, such as the ```test``` group.*
 ----
-## Installation ## 1001_1500/000362_DavyJonesLocker_ruby-destroyed_at.md
+## Installation ## [1001_1500/000362_DavyJonesLocker_ruby-destroyed_at.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000362_DavyJonesLocker_ruby-destroyed_at.md)
 
 Add the `destroyed_at` gem to your `Gemfile`
 
@@ -7034,7 +7034,7 @@ CREATE INDEX ON users WHERE destroyed_at IS NULL;
 CREATE INDEX ON users WHERE destroyed_at IS NOT NULL;
 ```
 ----
-## Installation 1001_1500/000361_chrishunt_github-auth.md
+## Installation [1001_1500/000361_chrishunt_github-auth.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000361_chrishunt_github-auth.md)
 
 Install the `github-auth` gem:
 
@@ -7042,7 +7042,7 @@ Install the `github-auth` gem:
 $ gem install github-auth
 ```
 ----
-## Installation 1001_1500/000361_capistrano_symfony.md
+## Installation [1001_1500/000361_capistrano_symfony.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000361_capistrano_symfony.md)
 
 Specify your dependencies: 
 ```
@@ -7078,17 +7078,17 @@ If you use composer you might want this:
 require "capistrano/composer"
 ```
 ----
-## Installation 1001_1500/000361_johnbintz_rack-livereload.md
+## Installation [1001_1500/000361_johnbintz_rack-livereload.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000361_johnbintz_rack-livereload.md)
 ----
-## Installation 1001_1500/000360_github_task_list.md
+## Installation [1001_1500/000360_github_task_list.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000360_github_task_list.md)
 
 Task Lists are packaged as both a RubyGem with both backend and frontend behavior, and a Bower package with just the frontend behavior.
 ----
-## Installation 1001_1500/000359_ThoughtWorksStudios_eb_deployer.md
+## Installation [1001_1500/000359_ThoughtWorksStudios_eb_deployer.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000359_ThoughtWorksStudios_eb_deployer.md)
 
     $ gem install eb_deployer
 ----
-## Installation 1001_1500/000358_mhfs_sidekiq-failures.md
+## Installation [1001_1500/000358_mhfs_sidekiq-failures.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000358_mhfs_sidekiq-failures.md)
 
 Add this line to your application's Gemfile:
 
@@ -7096,7 +7096,7 @@ Add this line to your application's Gemfile:
 gem 'sidekiq-failures'
 ```
 ----
-## Installation 1001_1500/000357_calonso_ruby-push-notifications.md
+## Installation [1001_1500/000357_calonso_ruby-push-notifications.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000357_calonso_ruby-push-notifications.md)
 
 Add this line to your application's Gemfile:
 
@@ -7110,7 +7110,7 @@ Or install it yourself as:
 
     $ gem install ruby-push-notifications
 ----
-## Installation 1001_1500/000356_palkan_test-prof.md
+## Installation [1001_1500/000356_palkan_test-prof.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000356_palkan_test-prof.md)
 
 Add `test-prof` gem to your application:
 
@@ -7122,7 +7122,7 @@ end
 
 And that's it)
 ----
-## Installation 1001_1500/000354_asakusarb_action_args.md
+## Installation [1001_1500/000354_asakusarb_action_args.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000354_asakusarb_action_args.md)
 
 Put this line in your Gemfile:
 ```ruby
@@ -7134,7 +7134,7 @@ Then bundle:
 % bundle
 ```
 ----
-## Installation 1001_1500/000354_fgrehm_letter_opener_web.md
+## Installation [1001_1500/000354_fgrehm_letter_opener_web.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000354_fgrehm_letter_opener_web.md)
 
 First add the gem to your development environment and run the `bundle` command to install it.
 
@@ -7144,7 +7144,7 @@ group :development do
 end
 ```
 ----
-## Installation 1001_1500/000353_rossta_montrose.md
+## Installation [1001_1500/000353_rossta_montrose.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000353_rossta_montrose.md)
 
 Add this line to your application's Gemfile:
 
@@ -7160,7 +7160,7 @@ Or install it yourself as:
 
     $ gem install montrose
 ----
-## Installation 1001_1500/000351_spikex_strongbox.md
+## Installation [1001_1500/000351_spikex_strongbox.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000351_spikex_strongbox.md)
 
 Include the gem in your Gemfile:
 
@@ -7175,7 +7175,7 @@ Still using 2.x without a Gemfile? Put the following in
 config.gem "strongbox"
 ```
 ----
-## Installation 1001_1500/000350_salkar_inkwell.md
+## Installation [1001_1500/000350_salkar_inkwell.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000350_salkar_inkwell.md)
 
 To get Inkwell from RubyGems, put the following line in the `Gemfile`.
 
@@ -7199,7 +7199,7 @@ $ rake inkwell:install:migrations
 
 and `rake db:migrate` them.
 ----
-## Installation 1001_1500/000350_Shopify_kubernetes-deploy.md
+## Installation [1001_1500/000350_Shopify_kubernetes-deploy.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000350_Shopify_kubernetes-deploy.md)
 
 1. [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-binary-via-curl) (requires v1.10.0 or higher) and make sure it is available in your $PATH
 2. Set up your [kubeconfig file](https://kubernetes.io/docs/tasks/access-application-cluster/authenticate-across-clusters-kubeconfig/) for access to your cluster(s).
@@ -7208,17 +7208,17 @@ and `rake db:migrate` them.
 
 
 ----
-## Installation 1001_1500/000349_bernerdschaefer_akephalos.md
+## Installation [1001_1500/000349_bernerdschaefer_akephalos.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000349_bernerdschaefer_akephalos.md)
 
     gem install akephalos
 ----
-## Installation 1001_1500/000349_fredwu_datamappify.md
+## Installation [1001_1500/000349_fredwu_datamappify.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000349_fredwu_datamappify.md)
 
 Add this line to your application's Gemfile:
 
     gem 'datamappify'
 ----
-## Installation 1001_1500/000348_usmanbashir_haikunator.md
+## Installation [1001_1500/000348_usmanbashir_haikunator.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000348_usmanbashir_haikunator.md)
 
 Add this line to your application's Gemfile:
 
@@ -7232,7 +7232,7 @@ Or install it yourself as:
 
     $ gem install haikunator
 ----
-## Installation 1001_1500/000348_weppos_publicsuffix-ruby.md
+## Installation [1001_1500/000348_weppos_publicsuffix-ruby.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000348_weppos_publicsuffix-ruby.md)
 
 You can install the gem manually:
 
@@ -7248,7 +7248,7 @@ gem 'public_suffix'
 
 If you are upgrading to 2.0, see [2.0-Upgrade.md](2.0-Upgrade.md).
 ----
-## Installation 1001_1500/000347_braintree_braintree_ruby.md
+## Installation [1001_1500/000347_braintree_braintree_ruby.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000347_braintree_braintree_ruby.md)
 
 ```ruby
 gem install braintree
@@ -7260,7 +7260,7 @@ Or add to your Gemfile:
 gem 'braintree'
 ```
 ----
-## Installation 1001_1500/000347_jekyll_jekyll-feed.md
+## Installation [1001_1500/000347_jekyll_jekyll-feed.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000347_jekyll_jekyll-feed.md)
 
 Add this line to your site's Gemfile:
 
@@ -7277,7 +7277,7 @@ plugins:
 
 :warning: If you are using Jekyll < 3.5.0 use the `gems` key instead of `plugins`.
 ----
-## Installation 1001_1500/000346_glebm_order_query.md
+## Installation [1001_1500/000346_glebm_order_query.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000346_glebm_order_query.md)
 
 Add to Gemfile:
 
@@ -7285,7 +7285,7 @@ Add to Gemfile:
 gem 'order_query', '~> 0.4.1'
 ```
 ----
-## Installation 1001_1500/000345_ko1_allocation_tracer.md
+## Installation [1001_1500/000345_ko1_allocation_tracer.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000345_ko1_allocation_tracer.md)
 
 Add this line to your application's Gemfile:
 
@@ -7299,7 +7299,7 @@ Or install it yourself as:
 
     $ gem install allocation_tracer
 ----
-## Installation 1001_1500/000345_bellycard_napa.md
+## Installation [1001_1500/000345_bellycard_napa.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000345_bellycard_napa.md)
 
 Napa is available as a gem, to install it run:
 
@@ -7319,7 +7319,7 @@ And run:
 $ bundle install
 ```
 ----
-## Installation 1001_1500/000341_barsoom_attr_extras.md
+## Installation [1001_1500/000341_barsoom_attr_extras.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000341_barsoom_attr_extras.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -7334,7 +7334,7 @@ Or install it yourself as:
     gem install attr_extras
 
 ----
-## Installation 1001_1500/000341_imanel_websocket-ruby.md
+## Installation [1001_1500/000341_imanel_websocket-ruby.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000341_imanel_websocket-ruby.md)
 
 WebSocket Ruby has no external dependencies, so it can be installed from source or directly from rubygems:
 
@@ -7348,7 +7348,7 @@ or via Gemfile:
 gem "websocket"
 ```
 ----
-## Installation 1001_1500/000340_tansengming_stripe-rails.md
+## Installation [1001_1500/000340_tansengming_stripe-rails.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000340_tansengming_stripe-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -7388,7 +7388,7 @@ alternate version to the helper to generate the appropriate tag:
 <%= stripe_javascript_tag(:v2) %>
 ```
 ----
-## Installation 1001_1500/000339_interagent_heroics.md
+## Installation [1001_1500/000339_interagent_heroics.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000339_interagent_heroics.md)
 
 Add this line to your application's Gemfile:
 
@@ -7402,7 +7402,7 @@ Or install it yourself as:
 
     $ gem install heroics
 ----
-## Installation 1001_1500/000339_gregnavis_active_record_doctor.md
+## Installation [1001_1500/000339_gregnavis_active_record_doctor.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000339_gregnavis_active_record_doctor.md)
 
 The preferred installation method is adding `active_record_doctor` to your
 `Gemfile`:
@@ -7417,7 +7417,7 @@ Then run:
 bundle install
 ```
 ----
-## Installation 1001_1500/000337_carrierwaveuploader_carrierwave-mongoid.md
+## Installation [1001_1500/000337_carrierwaveuploader_carrierwave-mongoid.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000337_carrierwaveuploader_carrierwave-mongoid.md)
 
 Install the latest release:
 
@@ -7442,7 +7442,7 @@ If in doubt, run `bundle update mongoid-grid_fs`
 gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
 ```
 ----
-## Installation 1001_1500/000336_jejacks0n_navigasmic.md
+## Installation [1001_1500/000336_jejacks0n_navigasmic.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000336_jejacks0n_navigasmic.md)
 
 Include the gem in your Gemfile and bundle to install the gem.  (Navigasmic requires Ruby 1.9+)
 
@@ -7456,12 +7456,12 @@ You can also get the initializer by running the install generator.
 rails generate navigasmic:install
 ```
 ----
-## Installation 1001_1500/000334_soundcloud_soundcloud-ruby.md
+## Installation [1001_1500/000334_soundcloud_soundcloud-ruby.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000334_soundcloud_soundcloud-ruby.md)
 ```sh
 gem install soundcloud
 ```
 ----
-## Installation 1001_1500/000331_NicosKaralis_pushmeup.md
+## Installation [1001_1500/000331_NicosKaralis_pushmeup.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000331_NicosKaralis_pushmeup.md)
 
     $ gem install pushmeup
     
@@ -7473,7 +7473,7 @@ and install it with
 
     $ bundle install
 ----
-## Installation 1001_1500/000329_amatsuda_stateful_enum.md
+## Installation [1001_1500/000329_amatsuda_stateful_enum.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000329_amatsuda_stateful_enum.md)
 
 Add this line to your Rails app's Gemfile:
 
@@ -7484,7 +7484,7 @@ gem 'stateful_enum'
 And bundle.
 
 ----
-## Installation 1001_1500/000328_ilyakatz_data-migrate.md
+## Installation [1001_1500/000328_ilyakatz_data-migrate.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000328_ilyakatz_data-migrate.md)
 Add the gem to your project
 
     # Gemfile
@@ -7497,7 +7497,7 @@ called `data_migrations` will be created in your database. This
 is to mirror the way the standard `db` rake tasks work.
 
 ----
-## Installation 1001_1500/000328_r7kamura_autodoc.md
+## Installation [1001_1500/000328_r7kamura_autodoc.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000328_r7kamura_autodoc.md)
 ```ruby
 gem "autodoc", group: :test
 ```
@@ -7508,7 +7508,7 @@ If you want to generate toc_html, you should install [redcarpet gem](https://git
 gem "redcarpet", group: :test
 ```
 ----
-## Installation 1001_1500/000327_mivok_markdownlint.md
+## Installation [1001_1500/000327_mivok_markdownlint.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000327_mivok_markdownlint.md)
 
 Markdownlint is written in ruby and is distributed as a rubygem. As long as
 you have a relatively up to date ruby on your system, markdownlint will be
@@ -7529,7 +7529,7 @@ Note that you will need [rake](https://github.com/ruby/rake)
 (`gem install rake`) and [bundler](https://github.com/bundler/bundler)
 (`gem install bundler`) in order to build from source.
 ----
-## Installation 1001_1500/000327_ClearFit_redtape.md
+## Installation [1001_1500/000327_ClearFit_redtape.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000327_ClearFit_redtape.md)
 
 Add this line to your application's Gemfile:
 
@@ -7543,7 +7543,7 @@ Or install it yourself as:
 
     $ gem install redtape
 ----
-## Installation 1001_1500/000327_maxim_skeptick.md
+## Installation [1001_1500/000327_maxim_skeptick.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000327_maxim_skeptick.md)
 
 Add this line to your application's Gemfile:
 
@@ -7557,7 +7557,7 @@ Or install it yourself as:
 
     $ gem install skeptick
 ----
-## Installation 1001_1500/000326_alindeman_zonebie.md
+## Installation [1001_1500/000326_alindeman_zonebie.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000326_alindeman_zonebie.md)
 
 If using Bundler (recommended), add to Gemfile:
 
@@ -7565,7 +7565,7 @@ If using Bundler (recommended), add to Gemfile:
 gem 'zonebie'
 ````
 ----
-## Installation 1001_1500/000325_aderyabin_sniffer.md
+## Installation [1001_1500/000325_aderyabin_sniffer.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000325_aderyabin_sniffer.md)
 
 Add this line to your application's Gemfile:
 
@@ -7581,7 +7581,7 @@ Or install it yourself as:
 
     $ gem install sniffer
 ----
-## Installation 1001_1500/000325_discourse_mini_racer.md
+## Installation [1001_1500/000325_discourse_mini_racer.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000325_discourse_mini_racer.md)
 
 Add this line to your application's Gemfile:
 
@@ -7601,7 +7601,7 @@ Or install it yourself as:
 **Note** using v8.h and compiling MiniRacer requires a C++11 standard compiler, more specifically clang 3.5 (or later) or gcc 4.8 (or later).
 
 ----
-## Installation 1001_1500/000324_phallstrom_slackistrano.md
+## Installation [1001_1500/000324_phallstrom_slackistrano.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000324_phallstrom_slackistrano.md)
 
 1. Add this line to your application's Gemfile:
 
@@ -7621,7 +7621,7 @@ Or install it yourself as:
    require 'slackistrano/capistrano'
    ```
 ----
-## Installation 1001_1500/000324_papertrail_papertrail-cli.md
+## Installation [1001_1500/000324_papertrail_papertrail-cli.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000324_papertrail_papertrail-cli.md)
 
 Install the gem (details on [RubyGems]), which includes a binary called
 "papertrail":
@@ -7629,7 +7629,7 @@ Install the gem (details on [RubyGems]), which includes a binary called
     $ [sudo] gem install papertrail
 
 ----
-## Installation 1001_1500/000323_digitalocean_droplet_kit.md
+## Installation [1001_1500/000323_digitalocean_droplet_kit.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000323_digitalocean_droplet_kit.md)
 
 Add this line to your application's Gemfile:
 
@@ -7643,7 +7643,7 @@ Or install it yourself as:
 
     $ gem install droplet_kit
 ----
-## Installation 1001_1500/000321_continuum_active_importer.md
+## Installation [1001_1500/000321_continuum_active_importer.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000321_continuum_active_importer.md)
 
 Add this line to your application's Gemfile:
 
@@ -7657,7 +7657,7 @@ Or install it yourself as:
 
     $ gem install active_importer
 ----
-## Installation 1001_1500/000320_svenfuchs_gem-release.md
+## Installation [1001_1500/000320_svenfuchs_gem-release.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000320_svenfuchs_gem-release.md)
 
 The gem provides a rubygems plugin, so it's just:
 
@@ -7746,7 +7746,7 @@ The gem `gem-release` adds the following commands to the rubygems `gem` command:
   * [gem release](#gem-release) - Releases one or all gems in this directory.
   * [gem tag](#gem-tag) - Tags the HEAD commit with the gem's current version.
 ----
-## Installation 1001_1500/000320_dtaniwaki_rack-dev-mark.md
+## Installation [1001_1500/000320_dtaniwaki_rack-dev-mark.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000320_dtaniwaki_rack-dev-mark.md)
 
 Add the rack-dev-mark gem to your Gemfile.
 
@@ -7756,7 +7756,7 @@ gem "rack-dev-mark"
 
 And run `bundle install`.
 ----
-## Installation 1001_1500/000320_nesquena_dante.md
+## Installation [1001_1500/000320_nesquena_dante.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000320_nesquena_dante.md)
 
 Add to your Gemfile:
 
@@ -7776,11 +7776,11 @@ Gem::Specification.new do |s|
 end
 ```
 ----
-## Installation  1001_1500/000320_thumblemonks_riot.markdown
+## Installation  [1001_1500/000320_thumblemonks_riot.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000320_thumblemonks_riot.markdown)
 
     gem install riot
 ----
-## Installation 1001_1500/000320_boazsegev_iodine.md
+## Installation [1001_1500/000320_boazsegev_iodine.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000320_boazsegev_iodine.md)
 
 To install iodine, simply install the the `iodine` gem:
 
@@ -7813,7 +7813,7 @@ $ CFLAGS="-DFIO_FORCE_MALLOC=1 -DHTTP_MAX_HEADER_COUNT=64" \
 
 More possible compile time options can be found in the [facil.io documentation](http://facil.io).
 ----
-## Installation 1001_1500/000319_fotinakis_jsonapi-serializers.md
+## Installation [1001_1500/000319_fotinakis_jsonapi-serializers.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000319_fotinakis_jsonapi-serializers.md)
 
 Add this line to your application's Gemfile:
 
@@ -7823,7 +7823,7 @@ gem 'jsonapi-serializers'
 
 Or install directly with `gem install jsonapi-serializers`.
 ----
-## Installation 1001_1500/000319_will-in-wi_letsencrypt-webfaction.md
+## Installation [1001_1500/000319_will-in-wi_letsencrypt-webfaction.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000319_will-in-wi_letsencrypt-webfaction.md)
 
 This utility works on [CentOS 6 and 7 boxes](https://docs.webfaction.com/user-guide/server.html#finding-your-server-s-operating-system). The CentOS 5 systems do not have a new enough OpenSSL to include the algorithms required. You may be able to make this work using rbenv and compiling openssl yourself. A tutorial for CentOS 5 is available here: https://github.com/will-in-wi/letsencrypt-webfaction/wiki/Install-custom-OpenSSL-and-Ruby-on-CentOS-5-host
 
@@ -7860,7 +7860,7 @@ Once you can connect to your site via `https` you might have broken images and C
 
 Finally, if you would like the `http` site to redirect to your `https`, follow the [Webfaction guidance](https://docs.webfaction.com/software/static.html#redirecting-from-http-to-https).
 ----
-## Installation 1001_1500/000318_palkan_logidze.md
+## Installation [1001_1500/000318_palkan_logidze.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000318_palkan_logidze.md)
 
 Add Logidze to your application's Gemfile:
 
@@ -7945,7 +7945,7 @@ rails generate logidze:model Post --update --whitelist=title body rating
 Logidze also supports associations versioning. It is experimental feature, and disabled by default. You can learn more
 in the [wiki](https://github.com/palkan/logidze/wiki/Associations-versioning).
 ----
-## Installation 1001_1500/000318_rubocop-rspec_rubocop-rspec.md
+## Installation [1001_1500/000318_rubocop-rspec_rubocop-rspec.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000318_rubocop-rspec_rubocop-rspec.md)
 
 Just install the `rubocop-rspec` gem
 
@@ -7959,7 +7959,7 @@ or if you use bundler put this in your `Gemfile`
 gem 'rubocop-rspec'
 ```
 ----
-## Installation 1001_1500/000318_infinitered_rmq.md
+## Installation [1001_1500/000318_infinitered_rmq.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000318_infinitered_rmq.md)
 
 RMQ **requires no other gems**. If you use stuff like **scale** and certain animations it will require some frameworks (like QuartzCore or CoreGraphics)
 
@@ -7984,7 +7984,7 @@ for **edge RMQ**, add this to your `Gemfile`:
 
 <br />
 ----
-## Installation 1001_1500/000318_chadrem_market_bot.markdown
+## Installation [1001_1500/000318_chadrem_market_bot.markdown](https://github.com/ts-3156/readmes/blob/master/1001_1500/000318_chadrem_market_bot.markdown)
 
 Add this line to your application's Gemfile to use the latest stable version:
 
@@ -7994,7 +7994,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1001_1500/000317_jasl_wx_pay.md
+## Installation [1001_1500/000317_jasl_wx_pay.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000317_jasl_wx_pay.md)
 
 Add this line to your Gemfile:
 
@@ -8014,7 +8014,7 @@ And then execute:
 $ bundle
 ```
 ----
-## Installation 1001_1500/000316_saturnflyer_casting.md
+## Installation [1001_1500/000316_saturnflyer_casting.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000316_saturnflyer_casting.md)
 
 If you are using Bundler, add this line to your application's Gemfile:
 
@@ -8030,7 +8030,7 @@ Or install it yourself as:
 
     $ gem install casting
 ----
-## Installation 1001_1500/000315_inossidabile_wash_out.md
+## Installation [1001_1500/000315_inossidabile_wash_out.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000315_inossidabile_wash_out.md)
 
 In your Gemfile, add this line:
 
@@ -8038,7 +8038,7 @@ In your Gemfile, add this line:
 
 Please read [release details](https://github.com/inossidabile/wash_out/releases) if you are upgrading. We break backward compatibility between large ticks but you can expect it to be specified at release notes.
 ----
-## Installation 1001_1500/000315_rudionrails_yell.md
+## Installation [1001_1500/000315_rudionrails_yell.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000315_rudionrails_yell.md)
 
 System wide:
 
@@ -8053,7 +8053,7 @@ gem "yell"
 ```
 
 ----
-## Installation 1001_1500/000315_exAspArk_batch-loader.md
+## Installation [1001_1500/000315_exAspArk_batch-loader.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000315_exAspArk_batch-loader.md)
 
 Add this line to your application's Gemfile:
 
@@ -8069,7 +8069,7 @@ Or install it yourself as:
 
     $ gem install batch-loader
 ----
-## Installation 1001_1500/000314_igrigorik_vimgolf.md
+## Installation [1001_1500/000314_igrigorik_vimgolf.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000314_igrigorik_vimgolf.md)
 
 You need :
 - ruby
@@ -8077,7 +8077,7 @@ You need :
 - mongodb
 - Seed database
 ----
-## Installation 1001_1500/000314_rwz_mock5.md
+## Installation [1001_1500/000314_rwz_mock5.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000314_rwz_mock5.md)
 
 This gem could be useful for testing, and maybe development purposes.
 Add it to the relevant groups in your Gemfile.
@@ -8088,9 +8088,9 @@ gem "mock5", groups: [:test, :development]
 
 and run `bundle`.
 ----
-## Installation 1001_1500/000313_symengine_symengine.md
+## Installation [1001_1500/000313_symengine_symengine.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000313_symengine_symengine.md)
 ----
-## Installation 1001_1500/000313_jarmo_require_all.md
+## Installation [1001_1500/000313_jarmo_require_all.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000313_jarmo_require_all.md)
 
 Add this line to your application's Gemfile:
 
@@ -8104,13 +8104,13 @@ Or install it yourself as:
 
     $ gem install require_all
 ----
-## Installation 1001_1500/000311_xdite_bootstrappers.md
+## Installation [1001_1500/000311_xdite_bootstrappers.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000311_xdite_bootstrappers.md)
 
 First install the bootstrappers gem:
 
     gem install bootstrappers
 ----
-## Installation 1001_1500/000311_tom-lord_regexp-examples.md
+## Installation [1001_1500/000311_tom-lord_regexp-examples.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000311_tom-lord_regexp-examples.md)
 
 Add this line to your application's Gemfile:
 
@@ -8126,7 +8126,7 @@ Or install it yourself as:
 
     $ gem install regexp-examples
 ----
-## Installation 1001_1500/000311_iridakos_table_flipper.md
+## Installation [1001_1500/000311_iridakos_table_flipper.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000311_iridakos_table_flipper.md)
 
 Add this line to your application's Gemfile:
 
@@ -8153,12 +8153,12 @@ NoMethodError: (╯°□°）╯︵ ┻━┻ : undefined method `do_something' 
 
 ![Screenshot](http://i.imgur.com/xRLGT50.png)
 ----
-## Installation 1001_1500/000311_alaingilbert_Turntable-API.md
+## Installation [1001_1500/000311_alaingilbert_Turntable-API.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000311_alaingilbert_Turntable-API.md)
     npm install ttapi
 ----
-## Installation 1001_1500/000310_guard_guard-jasmine.md
+## Installation [1001_1500/000310_guard_guard-jasmine.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000310_guard_guard-jasmine.md)
 ----
-## Installation 1001_1500/000310_Sandglaz_maktoub.md
+## Installation [1001_1500/000310_Sandglaz_maktoub.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000310_Sandglaz_maktoub.md)
 
   ```ruby
   # Add this line to your Gemfile
@@ -8167,7 +8167,7 @@ NoMethodError: (╯°□°）╯︵ ┻━┻ : undefined method `do_something' 
 
 Then `bundle install`
 ----
-## Installation 1001_1500/000310_gmailgem_gmail.md
+## Installation [1001_1500/000310_gmailgem_gmail.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000310_gmailgem_gmail.md)
 
 You can install it easy using rubygems:
 
@@ -8184,7 +8184,7 @@ gmail gem has the following dependencies (with Bundler all will be installed aut
 * mail
 * gmail_xoauth
 ----
-## Installation. 1001_1500/000309_puffer_puffer.md
+## Installation. [1001_1500/000309_puffer_puffer.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000309_puffer_puffer.md)
 
 You can install puffer as a gem:
 
@@ -8194,19 +8194,19 @@ Or in Gemfile:
 
 `gem "puffer"`
 ----
-## Installation 1001_1500/000309_paulsamuels_SBConstants.md
+## Installation [1001_1500/000309_paulsamuels_SBConstants.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000309_paulsamuels_SBConstants.md)
 
 ```sh
 $ gem install sbconstants
 ```
 ----
-## Installation 1001_1500/000309_meew0_discordrb.md
+## Installation [1001_1500/000309_meew0_discordrb.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000309_meew0_discordrb.md)
 ----
-## Installation 1001_1500/000307_mattmueller_foursquare2.md
+## Installation [1001_1500/000307_mattmueller_foursquare2.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000307_mattmueller_foursquare2.md)
 
     sudo gem install foursquare2
 ----
-## Installation 1001_1500/000306_jekyll_jekyll-compose.md
+## Installation [1001_1500/000306_jekyll_jekyll-compose.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000306_jekyll_jekyll-compose.md)
 
 Add this line to your application's Gemfile:
 
@@ -8216,7 +8216,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1001_1500/000305_platanus_activeadmin_addons.md
+## Installation [1001_1500/000305_platanus_activeadmin_addons.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000305_platanus_activeadmin_addons.md)
 
 Add this line to your application's Gemfile:
 
@@ -8238,7 +8238,7 @@ $ rails g activeadmin_addons:install
 
 Check [here](docs/install_generator.md) to see more information about this generator.
 ----
-## Installation 1001_1500/000305_namick_obfuscate_id.md
+## Installation [1001_1500/000305_namick_obfuscate_id.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000305_namick_obfuscate_id.md)
 
 Add the gem to your Gemfile.
 
@@ -8248,7 +8248,7 @@ Run bundler.
 
     bundle install
 ----
-## Installation 1001_1500/000304_apiqcms_kms.md
+## Installation [1001_1500/000304_apiqcms_kms.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000304_apiqcms_kms.md)
 
 1. Add to Gemfile
 
@@ -8279,7 +8279,7 @@ Run bundler.
 8. Run it using your favorite webserver - unicorn, puma, thin
 9. Open your browser at **http://localhost:3000/kms** and sign up first admin user.
 ----
-## Installation 1001_1500/000303_kamui_retriable.md
+## Installation [1001_1500/000303_kamui_retriable.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000303_kamui_retriable.md)
 
 Via command line:
 
@@ -8299,7 +8299,7 @@ In your Gemfile:
 gem 'retriable', '~> 3.1'
 ```
 ----
-## Installation 1001_1500/000303_railsgsoc_actionform.md
+## Installation [1001_1500/000303_railsgsoc_actionform.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000303_railsgsoc_actionform.md)
 
 Add this line to your `Gemfile`:
 
@@ -8307,7 +8307,7 @@ Add this line to your `Gemfile`:
 gem 'actionform'
 ```
 ----
-## Installation 1001_1500/000303_adomokos_light-service.md
+## Installation [1001_1500/000303_adomokos_light-service.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000303_adomokos_light-service.md)
 Add this line to your application's Gemfile:
 
     gem 'light-service'
@@ -8320,7 +8320,7 @@ Or install it yourself as:
 
     $ gem install light-service
 ----
-## Installation 1001_1500/000300_middleman_middleman-blog.md
+## Installation [1001_1500/000300_middleman_middleman-blog.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000300_middleman_middleman-blog.md)
 
 If you're just getting started, install the `middleman` gem and generate a new
 project:
@@ -8333,7 +8333,7 @@ middleman init MY_PROJECT --template=blog
 If you already have a Middleman project: Add `gem "middleman-blog"` to your
 `Gemfile` and run `bundle install`
 ----
-## Installation 1001_1500/000300_jimmycuadra_to_lang.md
+## Installation [1001_1500/000300_jimmycuadra_to_lang.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000300_jimmycuadra_to_lang.md)
 
 Simply run:
 
@@ -8341,7 +8341,7 @@ Simply run:
 gem install to_lang
 ```
 ----
-## Installation 1001_1500/000300_solnic_transproc.md
+## Installation [1001_1500/000300_solnic_transproc.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000300_solnic_transproc.md)
 
 Add this line to your application's Gemfile:
 
@@ -8357,7 +8357,7 @@ Or install it yourself as:
 
     $ gem install transproc
 ----
-## Installation 1001_1500/000299_honeybadger-io_incoming.md
+## Installation [1001_1500/000299_honeybadger-io_incoming.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000299_honeybadger-io_incoming.md)
 
 1. Add Incoming! to your Gemfile and run `bundle install`:
 
@@ -8370,7 +8370,7 @@ Or install it yourself as:
 3. Implement an HTTP endpoint to receive HTTP post hooks, and pass the
    request to your receiver. (see examples below)
 ----
-## Installation 1001_1500/000298_mwunsch_tumblr.md
+## Installation [1001_1500/000298_mwunsch_tumblr.md](https://github.com/ts-3156/readmes/blob/master/1001_1500/000298_mwunsch_tumblr.md)
 
 If you're on a Mac using [Homebrew](http://mxcl.github.com/homebrew/) and are just interested in the cli:
 
@@ -8382,9 +8382,9 @@ Or with gem:
 
 Alternatively, you can clone the repo, and run `rake install` -- this will build the gem, place it in the `pkg` directory, and install the gem to your system. You should then be able to `require 'tumblr'` and/or run `tumblr` from the command line.
 ----
-## Installation 1501_2000/000295_airbnb_hammerspace.md
+## Installation [1501_2000/000295_airbnb_hammerspace.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000295_airbnb_hammerspace.md)
 ----
-## Installation 1501_2000/000294_TrevorS_bootstrap3-datetimepicker-rails.md
+## Installation [1501_2000/000294_TrevorS_bootstrap3-datetimepicker-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000294_TrevorS_bootstrap3-datetimepicker-rails.md)
 
 Add these lines to your application's Gemfile:
 ```ruby
@@ -8434,7 +8434,7 @@ If you're using plain CSS, modify your `application.css`
 *= require bootstrap-datetimepicker
 ```
 ----
-## Installation 1501_2000/000292_jamis_castaway.md
+## Installation [1501_2000/000292_jamis_castaway.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000292_jamis_castaway.md)
 
 Castaway depends on a few external tools to do the heavy lifting. You'll need to
 make sure you have the following tools installed:
@@ -8453,7 +8453,7 @@ Once you've met those requirements, installing Castaway itself is simple:
 And you're good to go!
 
 ----
-## Installation 1501_2000/000291_alchaplinsky_polymer-rails.md
+## Installation [1501_2000/000291_alchaplinsky_polymer-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000291_alchaplinsky_polymer-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -8467,7 +8467,7 @@ Or install it yourself as:
 
     $ gem install polymer-rails
 ----
-## Installation 1501_2000/000291_meldium_breach-mitigation-rails.md
+## Installation [1501_2000/000291_meldium_breach-mitigation-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000291_meldium_breach-mitigation-rails.md)
 
 Add this line to your Rails Gemfile:
 
@@ -8484,7 +8484,7 @@ The length-hiding can be disabled by doing:
 For most Rails apps, that should be enough, but read on for the gory
 details...
 ----
-## Installation 1501_2000/000289_NoRedInk_rspec-retry.md
+## Installation [1501_2000/000289_NoRedInk_rspec-retry.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000289_NoRedInk_rspec-retry.md)
 
 Add this line to your application's Gemfile:
 
@@ -8527,7 +8527,7 @@ RSpec.configure do |config|
 end
 ```
 ----
-## Installation 1501_2000/000287_davidesantangelo_webinspector.md
+## Installation [1501_2000/000287_davidesantangelo_webinspector.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000287_davidesantangelo_webinspector.md)
 
 Add this line to your application's Gemfile:
 
@@ -8543,7 +8543,7 @@ Or install it yourself as:
 
     $ gem install webinspector
 ----
-## Installation 1501_2000/000287_lassebunk_dish.md
+## Installation [1501_2000/000287_lassebunk_dish.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000287_lassebunk_dish.md)
 
 Add this line to your application's *Gemfile*:
 
@@ -8561,7 +8561,7 @@ If you want a `to_dish` helper method added to your Hash and Array objects, you 
 
     gem "dish", require: "dish/ext"
 ----
-## Installation 1501_2000/000287_franckverrot_activevalidators.md
+## Installation [1501_2000/000287_franckverrot_activevalidators.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000287_franckverrot_activevalidators.md)
 
     gem install activevalidators
 
@@ -8594,16 +8594,16 @@ In a standard Ruby on Rails application, this line goes either in an initializer
 (`config/initializers/active_validators_activation.rb` for example), or directly
 within `config/application` right inside your `MyApp::Application` class definition.
 ----
-## Installation 1501_2000/000286_jenseng_hair_trigger.md
+## Installation [1501_2000/000286_jenseng_hair_trigger.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000286_jenseng_hair_trigger.md)
 
 If you are using Rails 3 or beyond, just add `gem 'hairtrigger'` to your
 Gemfile. For Rails 2, it's [slightly more involved](RAILS2.md)
 ----
-## Installation 1501_2000/000286_SaitoWu_linner.md
+## Installation [1501_2000/000286_SaitoWu_linner.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000286_SaitoWu_linner.md)
 
     $ gem install linner
 ----
-## Installation 1501_2000/000286_tylerhunt_rack-canonical-host.md
+## Installation [1501_2000/000286_tylerhunt_rack-canonical-host.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000286_tylerhunt_rack-canonical-host.md)
 
 Add this line to your application’s `Gemfile`:
 
@@ -8620,7 +8620,7 @@ Or install it yourself as:
     $ gem install rack-canonical-host
 
 ----
-## Installation 1501_2000/000285_weppos_tabs_on_rails.md
+## Installation [1501_2000/000285_weppos_tabs_on_rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000285_weppos_tabs_on_rails.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -8633,7 +8633,7 @@ And then execute `bundle` to install the dependencies:
 Use [Bundler](http://bundler.io/) and the `:git` option if you want to grab the latest version from the Git repository.
 
 ----
-## Installation 1501_2000/000285_roidrage_redis-session-store.md
+## Installation [1501_2000/000285_roidrage_redis-session-store.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000285_roidrage_redis-session-store.md)
 
 For Rails 3+, adding this to your `Gemfile` will do the trick.
 
@@ -8641,7 +8641,7 @@ For Rails 3+, adding this to your `Gemfile` will do the trick.
 gem 'redis-session-store'
 ```
 ----
-## Installation 1501_2000/000285_sorentwo_carrierwave-aws.md
+## Installation [1501_2000/000285_sorentwo_carrierwave-aws.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000285_sorentwo_carrierwave-aws.md)
 
 Add this line to your application's Gemfile:
 
@@ -8654,7 +8654,7 @@ Run the bundle command from your shell to install it:
 bundle install
 ```
 ----
-## Installation 1501_2000/000284_inossidabile_protector.md
+## Installation [1501_2000/000284_inossidabile_protector.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000284_inossidabile_protector.md)
 
 Add this line to your application's Gemfile:
 
@@ -8676,7 +8676,7 @@ Protector::Adapters::ActiveRecord.activate!
 
 Where "ActiveRecord" is the adapter you are about to use. It can be "Sequel", "DataMapper", "Mongoid".
 ----
-## Installation 1501_2000/000284_harrystech_seed_migration.md
+## Installation [1501_2000/000284_harrystech_seed_migration.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000284_harrystech_seed_migration.md)
 
 Add `gem 'seed_migration'` to your `Gemfile`:
 
@@ -8684,19 +8684,19 @@ Add `gem 'seed_migration'` to your `Gemfile`:
 gem 'seed_migration'
 ```
 ----
-## Installation 1501_2000/000283_meltingice_flickr-store.md
+## Installation [1501_2000/000283_meltingice_flickr-store.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000283_meltingice_flickr-store.md)
 
 ```
 $ gem install flickr-store
 ```
 ----
-## Installation 1501_2000/000283_janko-m_down.md
+## Installation [1501_2000/000283_janko-m_down.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000283_janko-m_down.md)
 
 ```rb
 gem "down", "~> 4.4"
 ```
 ----
-## Installation 1501_2000/000283_igor-alexandrov_wisepdf.md
+## Installation [1501_2000/000283_igor-alexandrov_wisepdf.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000283_igor-alexandrov_wisepdf.md)
 
 First, be sure to install [wkhtmltopdf](http://code.google.com/p/wkhtmltopdf/).
 Note that versions before 0.9.0 [have problems](http://code.google.com/p/wkhtmltopdf/issues/detail?id=82&q=vodnik) on some machines with reading/writing to streams.
@@ -8716,7 +8716,7 @@ then do:
 
     bundle install
 ----
-## Installation 1501_2000/000282_adjust_shrimp.md
+## Installation [1501_2000/000282_adjust_shrimp.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000282_adjust_shrimp.md)
 
 Add this line to your application's Gemfile:
 
@@ -8731,7 +8731,7 @@ Or install it yourself as:
     $ gem install shrimp
 
 ----
-## Installation 1501_2000/000281_weavenet_trello_cli.md
+## Installation [1501_2000/000281_weavenet_trello_cli.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000281_weavenet_trello_cli.md)
 
 Install the trello_cli gem
 
@@ -8741,7 +8741,7 @@ Or install using docker via the instructions provided by **@jamesmstone**.
 
     docker pull jamesmstone/trello
 ----
-## Installation 1501_2000/000281_tabulapdf_tabula-extractor.md
+## Installation [1501_2000/000281_tabulapdf_tabula-extractor.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000281_tabulapdf_tabula-extractor.md)
 
 `tabula-extractor` only works with JRuby 1.7 or newer. [Install JRuby](http://jruby.org/getting-started) and run
 
@@ -8750,7 +8750,7 @@ jruby -S gem install tabula-extractor
 ``
 
 ----
-## Installation 1501_2000/000281_andyw8_do_by.md
+## Installation [1501_2000/000281_andyw8_do_by.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000281_andyw8_do_by.md)
 
 Add this line to your application's Gemfile:
 
@@ -8760,7 +8760,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1501_2000/000281_n-rodriguez_ajax-datatables-rails.md
+## Installation [1501_2000/000281_n-rodriguez_ajax-datatables-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000281_n-rodriguez_ajax-datatables-rails.md)
 
 Add these lines to your application's Gemfile:
 
@@ -8783,7 +8783,7 @@ You can install jQuery DataTables :
 * with [Rails webpacker gem](https://github.com/rails/webpacker) (see [here](/doc/webpack.md) for more infos)
 
 ----
-## Installation 1501_2000/000281_assembler_attachinary.md
+## Installation [1501_2000/000281_assembler_attachinary.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000281_assembler_attachinary.md)
 
 First, make sure that you have [cloudinary gem](https://github.com/cloudinary/cloudinary_gem) installed and properly configured.
 
@@ -8812,7 +8812,7 @@ Finally, make sure that you have following line in head section of your applicat
 
 
 ----
-## Installation 1501_2000/000281_samvincent_rqrcode-rails3.md
+## Installation [1501_2000/000281_samvincent_rqrcode-rails3.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000281_samvincent_rqrcode-rails3.md)
 
 Add the following to your `Gemfile`.
 
@@ -8823,7 +8823,7 @@ You will also want to add the **mini_magick** gem to your application's `Gemfile
 
     gem 'mini_magick'
 ----
-## Installation 1501_2000/000281_SamSaffron_flamegraph.md
+## Installation [1501_2000/000281_SamSaffron_flamegraph.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000281_SamSaffron_flamegraph.md)
 
 Add this line to your application's Gemfile:
 
@@ -8841,7 +8841,7 @@ NOTE: For ruby 2.1+ you'll need to install a [stackprof](https://github.com/tmm1
 
     $ gem install stackprof
     ----
-## Installation 1501_2000/000279_jellymann_mittsu.md
+## Installation [1501_2000/000279_jellymann_mittsu.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000279_jellymann_mittsu.md)
 
 Install the prerequisites:
 
@@ -8876,7 +8876,7 @@ Or install it yourself as:
 
     $ gem install mittsu
 ----
-## Installation 1501_2000/000278_Genki-S_ttnt.md
+## Installation [1501_2000/000278_Genki-S_ttnt.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000278_Genki-S_ttnt.md)
 
 Add this line to your application's Gemfile:
 
@@ -8892,7 +8892,7 @@ Or install it yourself as:
 
     $ gem install ttnt
 ----
-## Installation 1501_2000/000278_Intrepidd_working_hours.md
+## Installation [1501_2000/000278_Intrepidd_working_hours.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000278_Intrepidd_working_hours.md)
 
 Gemfile:
 
@@ -8900,7 +8900,7 @@ Gemfile:
 gem 'working_hours'
 ```
 ----
-## Installation 1501_2000/000277_simonc_memfs.md
+## Installation [1501_2000/000277_simonc_memfs.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000277_simonc_memfs.md)
 
 Add this line to your application's Gemfile:
 
@@ -8914,7 +8914,7 @@ Or install it yourself as:
 
     $ gem install memfs
 ----
-## Installation 1501_2000/000277_laserlemon_periscope.md
+## Installation [1501_2000/000277_laserlemon_periscope.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000277_laserlemon_periscope.md)
 
 Periscope sits on top of your favorite ORM. Currently, the following ORMs are supported through individual gems extending Periscope:
 
@@ -8925,7 +8925,7 @@ Periscope sits on top of your favorite ORM. Currently, the following ORMs are su
 
 Simply add the gem to your bundle and you're off!
 ----
-## Installation 1501_2000/000277_rossta_serviceworker-rails.md
+## Installation [1501_2000/000277_rossta_serviceworker-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000277_rossta_serviceworker-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -8945,7 +8945,7 @@ To set up your Rails project for use with a Service Worker, you either use the
 Rails generator and edit the generated files as needed, or you can follow the
 manual installation steps.
 ----
-## Installation 1501_2000/000276_unixcharles_acme-client.md
+## Installation [1501_2000/000276_unixcharles_acme-client.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000276_unixcharles_acme-client.md)
 
 Via RubyGems:
 
@@ -8957,7 +8957,7 @@ Or add it to a Gemfile:
 gem 'acme-client'
 ```
 ----
-## Installation 1501_2000/000275_thoughtbot_proteus.md
+## Installation [1501_2000/000275_thoughtbot_proteus.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000275_thoughtbot_proteus.md)
 
 1. Install the Proteus gem using the [RubyGems](https://rubygems.org) package manager:
 
@@ -8971,7 +8971,7 @@ gem 'acme-client'
   proteus new middleman your-project-name
   ```
 ----
-## Installation 1501_2000/000275_github_rubocop-github.md
+## Installation [1501_2000/000275_github_rubocop-github.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000275_github_rubocop-github.md)
 
 **Gemfile**
 
@@ -8988,7 +8988,7 @@ inherit_gem:
     - config/rails.yml
 ```
 ----
-## Installation 1501_2000/000275_ko1_gc_tracer.md
+## Installation [1501_2000/000275_ko1_gc_tracer.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000275_ko1_gc_tracer.md)
 
 Add this line to your application's Gemfile:
 
@@ -9002,7 +9002,7 @@ Or install it yourself as:
 
     $ gem install gc_tracer
 ----
-## Installation 1501_2000/000274_ankane_hightop.md
+## Installation [1501_2000/000274_ankane_hightop.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000274_ankane_hightop.md)
 
 Add this line to your application’s Gemfile:
 
@@ -9010,7 +9010,7 @@ Add this line to your application’s Gemfile:
 gem 'hightop'
 ```
 ----
-## Installation ## 1501_2000/000274_DavyJonesLocker_capybara-email.md
+## Installation ## [1501_2000/000274_DavyJonesLocker_capybara-email.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000274_DavyJonesLocker_capybara-email.md)
 
 Add this line to your application's Gemfile:
 
@@ -9026,11 +9026,11 @@ Or install it yourself as:
 
     $ gem install capybara-email
 ----
-## Installation 1501_2000/000273_vmware_rbvmomi.md
+## Installation [1501_2000/000273_vmware_rbvmomi.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000273_vmware_rbvmomi.md)
 
     gem install rbvmomi
 ----
-## Installation 1501_2000/000271_tpitale_staccato.md
+## Installation [1501_2000/000271_tpitale_staccato.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000271_tpitale_staccato.md)
 
 Add this line to your application's Gemfile:
 
@@ -9044,7 +9044,7 @@ Or install it yourself as:
 
     $ gem install staccato
 ----
-## Installation 1501_2000/000270_chrisbranson_ruby_identicon.md
+## Installation [1501_2000/000270_chrisbranson_ruby_identicon.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000270_chrisbranson_ruby_identicon.md)
 
 Add this line to your application's Gemfile:
 
@@ -9058,7 +9058,7 @@ Or install it yourself as:
 
     $ gem install ruby_identicon
 ----
-## Installation 1501_2000/000270_ankane_multiverse.md
+## Installation [1501_2000/000270_ankane_multiverse.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000270_ankane_multiverse.md)
 
 Add this line to your application’s Gemfile:
 
@@ -9066,7 +9066,7 @@ Add this line to your application’s Gemfile:
 gem 'multiverse'
 ```
 ----
-## Installation 1501_2000/000270_codenize-tools_roadworker.md
+## Installation [1501_2000/000270_codenize-tools_roadworker.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000270_codenize-tools_roadworker.md)
 
 Add this line to your application's Gemfile:
 
@@ -9080,7 +9080,7 @@ Or install it yourself as:
 
     $ gem install roadworker
 ----
-## Installation 1501_2000/000270_ismasan_oat.md
+## Installation [1501_2000/000270_ismasan_oat.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000270_ismasan_oat.md)
 
 Add this line to your application's Gemfile:
 
@@ -9094,13 +9094,13 @@ Or install it yourself as:
 
     $ gem install oat
 ----
-## Installation 1501_2000/000269_cantino_reckon.md
+## Installation [1501_2000/000269_cantino_reckon.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000269_cantino_reckon.md)
 
 Assuming you have Ruby and [Rubygems](http://rubygems.org/pages/download) installed on your system, simply run
 
     (sudo) gem install reckon
 ----
-## Installation 1501_2000/000269_AgilionApps_classy_enum.md
+## Installation [1501_2000/000269_AgilionApps_classy_enum.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000269_AgilionApps_classy_enum.md)
 
 The gem is hosted at [rubygems.org](https://rubygems.org/gems/classy_enum)
 
@@ -9116,7 +9116,7 @@ You may need to add the enums path to **config/application.rb**:
 config.autoload_paths += %W(#{config.root}/app/enums)
 ```
 ----
-## Installation 1501_2000/000269_influxdata_influxdb-ruby.md
+## Installation [1501_2000/000269_influxdata_influxdb-ruby.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000269_influxdata_influxdb-ruby.md)
 
 ```
 $ [sudo] gem install influxdb
@@ -9124,19 +9124,19 @@ $ [sudo] gem install influxdb
 
 Or add it to your `Gemfile`, and run `bundle install`.
 ----
-## Installation 1501_2000/000269_hstove_rbtc_arbitrage.md
+## Installation [1501_2000/000269_hstove_rbtc_arbitrage.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000269_hstove_rbtc_arbitrage.md)
 
 Install it yourself as:
 
     $ gem install rbtc_arbitrage
 ----
-## Installation 1501_2000/000267_protobuf-ruby_beefcake.md
+## Installation [1501_2000/000267_protobuf-ruby_beefcake.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000267_protobuf-ruby_beefcake.md)
 
 ```shell
 gem install beefcake
 ```
 ----
-## Installation 1501_2000/000266_winston_cactus.md
+## Installation [1501_2000/000266_winston_cactus.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000266_winston_cactus.md)
 
 Install the Cactus gem manually or include it in your Rails Gemfile.
 
@@ -9156,7 +9156,7 @@ Finally, add some CSS specs (written in JavaScript) in `public/cactus_spec`. Fil
 Cactus.expect(".header", "font-size").toEqual("24px");
 Cactus.expect("p", "font-size").toEqual("12px");
 ```----
-## Installation 1501_2000/000264_chrishunt_desktop.md
+## Installation [1501_2000/000264_chrishunt_desktop.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000264_chrishunt_desktop.md)
 
 **desktop** can be installed from [RubyGems](http://rubygems.org/gems/desktop).
 
@@ -9164,7 +9164,7 @@ Cactus.expect("p", "font-size").toEqual("12px");
 $ gem install desktop
 ```
 ----
-## Installation 1501_2000/000264_soffes_hue.markdown
+## Installation [1501_2000/000264_soffes_hue.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000264_soffes_hue.markdown)
 
 Add this line to your application's Gemfile:
 
@@ -9184,9 +9184,9 @@ Or install it yourself as:
 $ gem install hue
 ```
 ----
-## Installation 1501_2000/000263_thoughtbot_fake_stripe.md
+## Installation [1501_2000/000263_thoughtbot_fake_stripe.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000263_thoughtbot_fake_stripe.md)
 ----
-## Installation 1501_2000/000263_hanami_router.md
+## Installation [1501_2000/000263_hanami_router.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000263_hanami_router.md)
 
 Add this line to your application's Gemfile:
 
@@ -9206,7 +9206,7 @@ Or install it yourself as:
 $ gem install hanami-router
 ```
 ----
-## Installation 1501_2000/000263_xcres_xcres.md
+## Installation [1501_2000/000263_xcres_xcres.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000263_xcres_xcres.md)
 
 `xcres` is built with Ruby and it will be installable with the default
 Ruby available on OS X. You can use a Ruby Version manager, if you know
@@ -9235,7 +9235,7 @@ $ xcres install
 ```
 
 ----
-## Installation 1501_2000/000262_rzane_baby_squeel.md
+## Installation [1501_2000/000262_rzane_baby_squeel.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000262_rzane_baby_squeel.md)
 
 Add this line to your application's Gemfile:
 
@@ -9251,7 +9251,7 @@ Or install it yourself as:
 
     $ gem install baby_squeel
 ----
-## Installation 1501_2000/000262_applift_fast_attributes.md
+## Installation [1501_2000/000262_applift_fast_attributes.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000262_applift_fast_attributes.md)
 
 Add this line to your application's Gemfile:
 
@@ -9265,7 +9265,7 @@ Or install it yourself as:
 
     $ gem install fast_attributes
 ----
-## Installation 1501_2000/000262_alphabetum_pandoc-ruby.md
+## Installation [1501_2000/000262_alphabetum_pandoc-ruby.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000262_alphabetum_pandoc-ruby.md)
 
 First, make sure to
 [install Pandoc](http://johnmacfarlane.net/pandoc/installing.html).
@@ -9282,7 +9282,7 @@ or install PandocRuby from [RubyGems](http://rubygems.org/gems/pandoc-ruby).
 gem install pandoc-ruby
 ```
 ----
-## Installation 1501_2000/000261_littlebtc_font-awesome-sass-rails.md
+## Installation [1501_2000/000261_littlebtc_font-awesome-sass-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000261_littlebtc_font-awesome-sass-rails.md)
 
 Add `font-awesome-sass-rails` gem to your `Gemfile`:
 
@@ -9302,11 +9302,11 @@ If you want to manage where the stylesheet will be used or just prefer SCSS, you
 
 You can also use it with the SASS-converted Bootstrap gem, like [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) or [anjlab-bootstrap-rails](https://github.com/anjlab/bootstrap-rails). Just require/import font-awesome right after bootstrap.
 ----
-## Installation 1501_2000/000261_clarete_s3sync.md
+## Installation [1501_2000/000261_clarete_s3sync.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000261_clarete_s3sync.md)
 
     $ gem install s3sync
 ----
-## Installation 1501_2000/000260_fredjean_middleman-s3_sync.md
+## Installation [1501_2000/000260_fredjean_middleman-s3_sync.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000260_fredjean_middleman-s3_sync.md)
 
 Add this line to your application's Gemfile:
 
@@ -9320,7 +9320,7 @@ Or install it yourself as:
 
     $ gem install middleman-s3_sync
 ----
-## Installation 1501_2000/000259_ncri_nested_form_fields.md
+## Installation [1501_2000/000259_ncri_nested_form_fields.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000259_ncri_nested_form_fields.md)
 
 Add this line to your application's Gemfile:
 
@@ -9334,11 +9334,11 @@ In your application.js file add:
 
     //= require nested_form_fields
 ----
-## Installation 1501_2000/000259_clemens_delocalize.markdown
+## Installation [1501_2000/000259_clemens_delocalize.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000259_clemens_delocalize.markdown)
 
 You can use delocalize as a gem. Using delocalize as a Rails plugin has been discontinued and is no supported. If you want/need to use delocalize as a plugin (I really don't see a reason why you'd want to), consider using the `0-2-stable` branch.
 ----
-## Installation 1501_2000/000257_eric_pilfer.md
+## Installation [1501_2000/000257_eric_pilfer.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000257_eric_pilfer.md)
 
 Using with Bundler is as simple as adding `pilfer` to your `Gemfile`.
 
@@ -9352,7 +9352,7 @@ Or install it locally like any other gem.
 $ gem install pilfer
 ```
 ----
-## Installation 1501_2000/000257_ucnv_pnglitch.md
+## Installation [1501_2000/000257_ucnv_pnglitch.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000257_ucnv_pnglitch.md)
 
 Add this line to your application's Gemfile:
 
@@ -9366,7 +9366,7 @@ Or install it yourself as:
 
     $ gem install pnglitch
 ----
-## Installation 1501_2000/000257_collectiveidea_delayed_job_active_record.md
+## Installation [1501_2000/000257_collectiveidea_delayed_job_active_record.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000257_collectiveidea_delayed_job_active_record.md)
 
 Add the gem to your Gemfile:
 
@@ -9380,13 +9380,13 @@ delayed_job table.
     rails g delayed_job:active_record
     rake db:migrate
 ----
-## Installation 1501_2000/000257_ms-ati_docile.md
+## Installation [1501_2000/000257_ms-ati_docile.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000257_ms-ati_docile.md)
 
 ``` bash
 $ gem install docile
 ```
 ----
-## Installation 1501_2000/000257_jamesmartin_inline_svg.md
+## Installation [1501_2000/000257_jamesmartin_inline_svg.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000257_jamesmartin_inline_svg.md)
 
 Add this line to your application's Gemfile:
 
@@ -9400,7 +9400,7 @@ Or install it yourself as:
 
     $ gem install inline_svg
 ----
-## Installation 1501_2000/000257_LendingHome_zero_downtime_migrations.md
+## Installation [1501_2000/000257_LendingHome_zero_downtime_migrations.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000257_LendingHome_zero_downtime_migrations.md)
 
 Simply add this gem to the project `Gemfile`.
 
@@ -9408,7 +9408,7 @@ Simply add this gem to the project `Gemfile`.
 gem "zero_downtime_migrations"
 ```
 ----
-## Installation 1501_2000/000256_clayh53_tufte-jekyll.md
+## Installation [1501_2000/000256_clayh53_tufte-jekyll.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000256_clayh53_tufte-jekyll.md)
 
 I'm not going to go into great detail here. I am just going to assume that anyone interested in either Jekyll, Edward Tufte's work or Github has some basic skills. I created this with Ruby 2.2.0 and Jekyll 2.5.3. There is absolutely nothing exotic going on here, so you can probably make any recent version of Jekyll work with this setup.
 
@@ -9424,7 +9424,7 @@ And then point your browser at localhost:4000/tufte-jekyll
 
 You can also use `jekyll serve -w --baseurl ''` to remove `/tufte-jekyll` from the url and serve your site directly from localhost:4000. This only affects your local preview. See [Setting your baseurl correctly](#setting-your-baseurl-correctly) for more details.
 ----
-## Installation 1501_2000/000256_patriciomacadden_hobbit.md
+## Installation [1501_2000/000256_patriciomacadden_hobbit.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000256_patriciomacadden_hobbit.md)
 
 Add this line to your application's Gemfile:
 
@@ -9446,13 +9446,13 @@ Or install it yourself as:
 $ gem install hobbit
 ```
 ----
-## Installation and usage 1501_2000/000256_Macrow_rails_kindeditor.md
+## Installation and usage [1501_2000/000256_Macrow_rails_kindeditor.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000256_Macrow_rails_kindeditor.md)
 ----
-## Installation 1501_2000/000255_collectiveidea_tinder.markdown
+## Installation [1501_2000/000255_collectiveidea_tinder.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000255_collectiveidea_tinder.markdown)
 
     gem install tinder
 ----
-## Installation 1501_2000/000255_amatsuda_html5_validators.md
+## Installation [1501_2000/000255_amatsuda_html5_validators.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000255_amatsuda_html5_validators.md)
 
 Put this line into your Gemfile:
 ```ruby
@@ -9464,7 +9464,7 @@ Then bundle:
 % bundle
 ```
 ----
-## Installation ## 1501_2000/000254_DavyJonesLocker_ember-appkit-rails.md
+## Installation ## [1501_2000/000254_DavyJonesLocker_ember-appkit-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000254_DavyJonesLocker_ember-appkit-rails.md)
 
 Include the gem in your `Gemfile`
 
@@ -9483,7 +9483,7 @@ rails g ember:bootstrap
 
 Then run your Rails server and visit `http://localhost:3000`. If you see `Welcome to Ember!` then you are good to go!
 ----
-## Installation 1501_2000/000253_ostinelli_apnotic.md
+## Installation [1501_2000/000253_ostinelli_apnotic.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000253_ostinelli_apnotic.md)
 Just install the gem:
 
 ```
@@ -9496,7 +9496,7 @@ Or add it to your Gemfile:
 gem 'apnotic'
 ```
 ----
-## Installation 1501_2000/000253_cmu-is-projects_ferry.md
+## Installation [1501_2000/000253_cmu-is-projects_ferry.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000253_cmu-is-projects_ferry.md)
 Add this line to your Rails application's Gemfile:
 ``` ruby
 gem 'ferry'
@@ -9517,7 +9517,7 @@ To view what Ferry can do for you just run:
 $ ferry --help
 ```
 ----
-## Installation 1501_2000/000253_markets_maily.md
+## Installation [1501_2000/000253_markets_maily.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000253_markets_maily.md)
 
 Add this line to you Gemfile:
 
@@ -9537,7 +9537,7 @@ This generator runs some tasks for you:
 * Adds an initializer (into `config/initializers/maily.rb`) to customize some settings
 * Adds a file (into `lib/maily_hooks.rb`) to define hooks
 ----
-## Installation 1501_2000/000252_jgaskins_perpetuity.md
+## Installation [1501_2000/000252_jgaskins_perpetuity.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000252_jgaskins_perpetuity.md)
 
 Add the following to your Gemfile and run `bundle` to install it.
 
@@ -9548,7 +9548,7 @@ gem 'perpetuity-postgres'                  # if using Postgres
 
 Note that you do not need to explicitly declare the `perpetuity` gem as a dependency. The database adapter takes care of that for you. It works just like including `rspec-rails` into your Rails app.
 ----
-## Installation 1501_2000/000252_senny_sablon.md
+## Installation [1501_2000/000252_senny_sablon.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000252_senny_sablon.md)
 
 Add this line to your application's Gemfile:
 
@@ -9557,7 +9557,7 @@ gem 'sablon'
 ```
 
 ----
-## Installation 1501_2000/000251_kiskolabs_humanizer.md
+## Installation [1501_2000/000251_kiskolabs_humanizer.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000251_kiskolabs_humanizer.md)
 
 Add `humanizer` to your Gemfile:
 
@@ -9572,7 +9572,7 @@ bundle
 rails g humanizer
 ```
 ----
-## Installation 1501_2000/000251_EthWorks_ethereum.rb.md
+## Installation [1501_2000/000251_EthWorks_ethereum.rb.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000251_EthWorks_ethereum.rb.md)
 
 Before installing gem make sure you meet all [prerequisites](https://github.com/marekkirejczyk/ethereum.rb/blob/master/PREREQUISITES.md), especially that you have:
 * compatible ethereum node installed
@@ -9595,7 +9595,7 @@ Or install it yourself as:
 
     $ gem install ethereum.rb
 ----
-## Installation 1501_2000/000250_pazdera_catpix.md
+## Installation [1501_2000/000250_pazdera_catpix.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000250_pazdera_catpix.md)
 
 Use **gem** to install Catpix from [RubyGems](https://rubygems.org/gems/catpix):
 
@@ -9610,14 +9610,14 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1501_2000/000249_amw_jpeg_camera.md
+## Installation [1501_2000/000249_amw_jpeg_camera.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000249_amw_jpeg_camera.md)
 
 You can load JpegCamera directly on any web page, but if you're writing Rails
 3.1 application consider using a gem. In either case you have an option
 of loading full library that includes HTML5 implementation with Flash fallback
 or HTML5 version only.
 ----
-## Installation 1501_2000/000249_netguru_react_webpack_rails.md
+## Installation [1501_2000/000249_netguru_react_webpack_rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000249_netguru_react_webpack_rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -9635,7 +9635,7 @@ Then run installation:
 
 *read more about [`install  generator`](https://github.com/netguru/react_webpack_rails/blob/master/docs/install_generator.md)*
 ----
-## Installation 1501_2000/000249_ka8725_migration_data.md
+## Installation [1501_2000/000249_ka8725_migration_data.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000249_ka8725_migration_data.md)
 
 Add this line to your application's Gemfile:
 
@@ -9649,7 +9649,7 @@ Or install it yourself as:
 
     $ gem install migration_data
 ----
-## Installation 1501_2000/000249_mizzy_specinfra.md
+## Installation [1501_2000/000249_mizzy_specinfra.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000249_mizzy_specinfra.md)
 
 Add this line to your application's Gemfile:
 
@@ -9667,12 +9667,12 @@ Or install it yourself as:
   gem install specinfra
   ```
 ----
-## Installation 1501_2000/000249_zverok_worldize.md
+## Installation [1501_2000/000249_zverok_worldize.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000249_zverok_worldize.md)
 
 It's gem, named `worldize`. Do your usual `[sudo] gem install worldize`
 or adding `gem 'worldize'` to Gemfile routine.
 ----
-## Installation 1501_2000/000248_csm123_starburst.md
+## Installation [1501_2000/000248_csm123_starburst.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000248_csm123_starburst.md)
 
 Add Starburst to your gemfile:
 
@@ -9705,7 +9705,7 @@ Add the following line to your application.js file (app/assets/javascripts/appli
 //= require starburst/starburst
 ```
 ----
-## Installation (Mac OS X) 1501_2000/000247_ecmendenhall_wgif.md
+## Installation (Mac OS X) [1501_2000/000247_ecmendenhall_wgif.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000247_ecmendenhall_wgif.md)
 **Update 2014/04/23:** One of WGif's dependencies requires ImageMagick to compile. Before installing, make sure you:
 
 ```sh
@@ -9741,7 +9741,7 @@ To install dependencies with [Homebrew](http://brew.sh/), just run
 $ wgif install
 ```
 ----
-## Installation 1501_2000/000246_apotonick_hooks.md
+## Installation [1501_2000/000246_apotonick_hooks.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000246_apotonick_hooks.md)
 
 In your Gemfile, do
 
@@ -9749,7 +9749,7 @@ In your Gemfile, do
 gem "hooks"
 ```
 ----
-## Installation 1501_2000/000246_antulik_pagelet_rails.md
+## Installation [1501_2000/000246_antulik_pagelet_rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000246_antulik_pagelet_rails.md)
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -9761,7 +9761,7 @@ Or install it yourself as:
 $ gem install pagelet_rails
 ```
 ----
-## Installation 1501_2000/000244_TrevorHinesley_abracadabra.md
+## Installation [1501_2000/000244_TrevorHinesley_abracadabra.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000244_TrevorHinesley_abracadabra.md)
 
 Add this line to your application's Gemfile:
 
@@ -9775,7 +9775,7 @@ Or install it yourself as:
 
     $ gem install abracadabra
 ----
-## Installation 1501_2000/000244_arsduo_batch_api.md
+## Installation [1501_2000/000244_arsduo_batch_api.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000244_arsduo_batch_api.md)
 
 Setting up the Batch API is simple.  Just add the gem to your middlewares:
 
@@ -9796,7 +9796,7 @@ end
 
 That's it!  Just fire up your curl, hit your endpoint with the right verb and a properly formatted request, and enjoy some batch API action.
 ----
-## Installation and usage 1501_2000/000243_ncuesta_dropzonejs-rails.md
+## Installation and usage [1501_2000/000243_ncuesta_dropzonejs-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000243_ncuesta_dropzonejs-rails.md)
 
 First add `dropzonejs-rails` to your Gemfile and, as you already know, `bundle` it and then restart your Rails app:
 
@@ -9827,7 +9827,7 @@ or
 And **Bam!** - you're all set.
 
 ----
-## Installation 1501_2000/000243_trptcolin_consistency_fail.md
+## Installation [1501_2000/000243_trptcolin_consistency_fail.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000243_trptcolin_consistency_fail.md)
 
 You can install the gem directly:
 
@@ -9838,9 +9838,9 @@ Or if you're using Bundler (which you probably are), add it to your Gemfile.
     gem 'consistency_fail'
 
 ----
-## Installation 1501_2000/000243_youpy_ruby-lastfm.md
+## Installation [1501_2000/000243_youpy_ruby-lastfm.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000243_youpy_ruby-lastfm.md)
 ----
-## Installation 1501_2000/000243_eval_envied.md
+## Installation [1501_2000/000243_eval_envied.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000243_eval_envied.md)
 
 Add this line to your application's Gemfile:
 
@@ -9858,13 +9858,13 @@ Add this line to your application's Gemfile:
 
     $ bundle exec envied init
 ----
-## Installation 1501_2000/000242_theunraveler_taskwarrior-web.md
+## Installation [1501_2000/000242_theunraveler_taskwarrior-web.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000242_theunraveler_taskwarrior-web.md)
 
 `gem install taskwarrior-web`
 
 This will install an executable called `task-web`
 ----
-## Installation 1501_2000/000241_devmynd_hstore_accessor.md
+## Installation [1501_2000/000241_devmynd_hstore_accessor.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000241_devmynd_hstore_accessor.md)
 
 Add this line to your application's Gemfile:
 
@@ -9880,7 +9880,7 @@ Or install it yourself as:
 
     $ gem install hstore_accessor
 ----
-## Installation 1501_2000/000241_code-mancers_rapidfire.md
+## Installation [1501_2000/000241_code-mancers_rapidfire.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000241_code-mancers_rapidfire.md)
 Add this line to your application's Gemfile:
 
 ```rb
@@ -9903,7 +9903,7 @@ If you want to customize rapidfire locales (i18n) files, you can do
 
     $ bundle exec rails generate rapidfire:locales
 ----
-## Installation 1501_2000/000241_huydx_facy.md
+## Installation [1501_2000/000241_huydx_facy.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000241_huydx_facy.md)
 Install it yourself as:
 ```
 $ gem install facy
@@ -9915,15 +9915,15 @@ and then refer to the [wiki page](https://github.com/huydx/facy/wiki/Installatio
 
 
 ----
-## Installation 1501_2000/000241_iain_fake_sqs.md
+## Installation [1501_2000/000241_iain_fake_sqs.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000241_iain_fake_sqs.md)
 
 ```
 gem install fake_sqs
 ```
 ----
-## Installation 1501_2000/000240_CalebFenton_dex-oracle.md
+## Installation [1501_2000/000240_CalebFenton_dex-oracle.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000240_CalebFenton_dex-oracle.md)
 ----
-## Installation 1501_2000/000239_zmbacker_enum_help.md
+## Installation [1501_2000/000239_zmbacker_enum_help.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000239_zmbacker_enum_help.md)
 
 Add this line to your application's Gemfile:
 
@@ -9937,14 +9937,14 @@ Or install it yourself as:
 
     $ gem install enum_help
 ----
-## Installation 1501_2000/000239_joecorcoran_judge.md
+## Installation [1501_2000/000239_joecorcoran_judge.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000239_joecorcoran_judge.md)
 
 Judge supports Rails 5.0+.
 If you require Rails 4 support, please use version 2.1.x.
 
 Judge relies on [Underscore.js](underscore) in general and [JSON2.js](json2) for browsers that lack proper JSON support. If your application already makes use of these files, you can safely ignore the versions provided with Judge.
 ----
-## Installation 1501_2000/000239_zverok_time_math2.md
+## Installation [1501_2000/000239_zverok_time_math2.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000239_zverok_time_math2.md)
 
 Install it like always:
 
@@ -9960,13 +9960,13 @@ gem 'time_math2', require: 'time_math'
 
 and `bundle install` it.
 ----
-## Installation 1501_2000/000239_Ruenzuo_cocoapods-amimono.md
+## Installation [1501_2000/000239_Ruenzuo_cocoapods-amimono.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000239_Ruenzuo_cocoapods-amimono.md)
 
 ```bash
 gem install cocoapods-amimono
 ````
 ----
-## Installation 1501_2000/000239_amatsuda_i18n_generators.md
+## Installation [1501_2000/000239_amatsuda_i18n_generators.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000239_amatsuda_i18n_generators.md)
 
 *   Rails 3 or higher (with Bundler)
 
@@ -9981,7 +9981,7 @@ only in development mode.
 Use 'i18n_generators' version '< 1.2'.
 
 ----
-## Installation 1501_2000/000239_KatanaCode_blogit.md
+## Installation [1501_2000/000239_KatanaCode_blogit.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000239_KatanaCode_blogit.md)
 
 Add these to your Gemfile
 
@@ -10030,7 +10030,7 @@ end
 Go to http://localhost:3000/blog and see your marvelous new blog.
 
 ----
-## Installation 1501_2000/000238_dansbits_lurn.md
+## Installation [1501_2000/000238_dansbits_lurn.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000238_dansbits_lurn.md)
 
 Add this line to your application's Gemfile:
 
@@ -10046,12 +10046,12 @@ Or install it yourself as:
 
     $ gem install lurn
 ----
-## Installation 1501_2000/000238_thoughtbot_backbone-support.md
+## Installation [1501_2000/000238_thoughtbot_backbone-support.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000238_thoughtbot_backbone-support.md)
 
 We recommend you use Backbone-Support with Rails 3.1 or higher in order to take
 advantage of the asset pipeline.
 ----
-## Installation 1501_2000/000237_piotrmurach_tty-command.md
+## Installation [1501_2000/000237_piotrmurach_tty-command.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000237_piotrmurach_tty-command.md)
 
 Add this line to your application's Gemfile:
 
@@ -10067,7 +10067,7 @@ Or install it yourself as:
 
     $ gem install tty-command
 ----
-## Installation 1501_2000/000237_hzamani_active_record-acts_as.md
+## Installation [1501_2000/000237_hzamani_active_record-acts_as.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000237_hzamani_active_record-acts_as.md)
 
 Add this line to your application's Gemfile:
 
@@ -10081,17 +10081,17 @@ Or install it yourself as:
 
     $ gem install active_record-acts_as
 ----
-## Installation 1501_2000/000236_kusnier_vagrant-persistent-storage.md
+## Installation [1501_2000/000236_kusnier_vagrant-persistent-storage.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000236_kusnier_vagrant-persistent-storage.md)
 
     $ vagrant plugin install vagrant-persistent-storage
 ----
-## Installation 1501_2000/000235_cbetta_dokkufy.md
+## Installation [1501_2000/000235_cbetta_dokkufy.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000235_cbetta_dokkufy.md)
 
 ```
 gem install dokkufy
 ```
 ----
-## Installation 1501_2000/000235_CocoaPods_Molinillo.md
+## Installation [1501_2000/000235_CocoaPods_Molinillo.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000235_CocoaPods_Molinillo.md)
 
 Add this line to your application's Gemfile:
 
@@ -10111,7 +10111,7 @@ Or install it yourself as:
 $ gem install molinillo
 ```
 ----
-## Installation 1501_2000/000235_bbatsov_powerpack.md
+## Installation [1501_2000/000235_bbatsov_powerpack.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000235_bbatsov_powerpack.md)
 
 Add this line to your application's `Gemfile` (if you're using `bundler`, that is):
 
@@ -10125,7 +10125,7 @@ Or install it yourself as:
 
     $ gem install powerpack
 ----
-## Installation 1501_2000/000235_watsonbox_pocketsphinx-ruby.md
+## Installation [1501_2000/000235_watsonbox_pocketsphinx-ruby.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000235_watsonbox_pocketsphinx-ruby.md)
 
 This gem depends on [Pocketsphinx](https://github.com/cmusphinx/pocketsphinx) (libpocketsphinx), and [Sphinxbase](https://github.com/cmusphinx/sphinxbase) (libsphinxbase and libsphinxad). The current stable versions (0.8) are from late 2012 and are now outdated. Build them manually from source, or on OSX the latest development (potentially unstable) versions can be installed using [Homebrew](http://brew.sh/) as follows ([more information here](https://github.com/watsonbox/homebrew-cmu-sphinx)).
 
@@ -10164,7 +10164,7 @@ Or install it yourself as:
     $ gem install pocketsphinx-ruby
 
 ----
-## Installation 1501_2000/000234_jayzes_cucumber-api-steps.md
+## Installation [1501_2000/000234_jayzes_cucumber-api-steps.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000234_jayzes_cucumber-api-steps.md)
 
 Add the following line to your Gemfile, preferably in the test or cucumber group:
 
@@ -10237,7 +10237,7 @@ Feature: API
 * Adam Elhardt
 * Gonzalo Bulnes Guilpain
 ----
-## Installation and Requirements 1501_2000/000233_mitchellh_virtualbox.md
+## Installation and Requirements [1501_2000/000233_mitchellh_virtualbox.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000233_mitchellh_virtualbox.md)
 
 First you need to install [VirtualBox](http://www.virtualbox.org/) which is available for
 Windows, Linux, and OS X. After installation, install the gem:
@@ -10248,16 +10248,16 @@ The gem uses the native COM interface with VirtualBox provides to communicate wi
 VirtualBox. On Windows, this is globally available. On Linux-based machines, the gem
 uses Ruby-FFI to talk to a dynamic library. No configuration should be necessary.
 ----
-## Installation 1501_2000/000233_rwz_nestive.md
+## Installation [1501_2000/000233_rwz_nestive.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000233_rwz_nestive.md)
 
 * add `gem 'nestive', '~> 0.5'` to your Gemfile
 * run `bundle`
 ----
-## Installation 1501_2000/000233_undercase_proof.md
+## Installation [1501_2000/000233_undercase_proof.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000233_undercase_proof.md)
 In your Gemfile:
 
     gem 'proof-rails', require: "proof"----
-## Installation 1501_2000/000232_renz45_mandrill_mailer.md
+## Installation [1501_2000/000232_renz45_mandrill_mailer.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000232_renz45_mandrill_mailer.md)
 Add this line to your application's Gemfile:
 
 ```
@@ -10276,7 +10276,7 @@ Or install it yourself as:
 $ gem install mandrill_mailer
 ```
 ----
-## Installation 1501_2000/000232_aki017_slack-ruby-gem.md
+## Installation [1501_2000/000232_aki017_slack-ruby-gem.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000232_aki017_slack-ruby-gem.md)
 
 Add this line to your application's Gemfile:
 
@@ -10290,8 +10290,8 @@ Or install it yourself as:
 
     $ gem install slack-api
 ----
-## Installation 1501_2000/000232_jekuno_milia.md----
-## Installation 1501_2000/000232_pzol_monadic.md
+## Installation [1501_2000/000232_jekuno_milia.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000232_jekuno_milia.md)----
+## Installation [1501_2000/000232_pzol_monadic.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000232_pzol_monadic.md)
 
 Add this line to your application's Gemfile:
 
@@ -10305,7 +10305,7 @@ Or install it yourself as:
 
     $ gem install monadic
 ----
-## Installation 1501_2000/000231_jsuchal_garelic.md
+## Installation [1501_2000/000231_jsuchal_garelic.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000231_jsuchal_garelic.md)
 
 It's easy as 1-2-3.
 
@@ -10325,7 +10325,7 @@ It's easy as 1-2-3.
 
 Enjoy!
 ----
-## Installation 1501_2000/000230_vanruby_canada.md
+## Installation [1501_2000/000230_vanruby_canada.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000230_vanruby_canada.md)
 
 Add this line to your application's Gemfile:
 
@@ -10341,7 +10341,7 @@ Or install it yourself as:
 
 Note: This gem requires Ruby 2.0.0 or higher.
 ----
-## Installation 1501_2000/000230_collectiveidea_interactor-rails.md
+## Installation [1501_2000/000230_collectiveidea_interactor-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000230_collectiveidea_interactor-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -10352,11 +10352,11 @@ gem "interactor-rails", "~> 2.0"
 Interactor Rails is compatible with Ruby 2.3, 2.4, or 2.5 on Rails 4.2, 5.0,
 5.1, or 5.2.
 ----
-## Installation 1501_2000/000230_railsware_caphub.md
+## Installation [1501_2000/000230_railsware_caphub.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000230_railsware_caphub.md)
 
     $ gem install caphub
 ----
-## Installation within an existing Rails app 1501_2000/000230_etewiah_property_web_builder.md
+## Installation within an existing Rails app [1501_2000/000230_etewiah_property_web_builder.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000230_etewiah_property_web_builder.md)
 
 Install into an existing Rails project by adding these lines in your applications's Gemfile:
 
@@ -10386,7 +10386,7 @@ rails pwb:db:seed
 rails pwb:db:seed_pages
 ```
 ----
-## Installation 1501_2000/000230_telegram-bot-rb_telegram-bot.md
+## Installation [1501_2000/000230_telegram-bot-rb_telegram-bot.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000230_telegram-bot-rb_telegram-bot.md)
 
 Add this line to your application's Gemfile:
 
@@ -10408,7 +10408,7 @@ Require if necessary:
 require 'telegram/bot'
 ```
 ----
-## Installation 1501_2000/000229_haml_html2haml.md
+## Installation [1501_2000/000229_haml_html2haml.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000229_haml_html2haml.md)
 
 Add this line to your application's Gemfile:
 
@@ -10422,10 +10422,10 @@ Or install it yourself as:
 
     $ gem install html2haml
 ----
-## Installation 1501_2000/000229_michaelfairley_method_decorators.md
+## Installation [1501_2000/000229_michaelfairley_method_decorators.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000229_michaelfairley_method_decorators.md)
 `gem install method_decorators`
 ----
-## Installation 1501_2000/000229_savonrb_httpi.md
+## Installation [1501_2000/000229_savonrb_httpi.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000229_savonrb_httpi.md)
 
 HTTPI is available through [Rubygems](https://rubygems.org/gems/httpi) and can be installed via:
 
@@ -10440,7 +10440,7 @@ gem 'httpi', '~> 2.1.0'
 ```
 
 ----
-## Installation 1501_2000/000229_fortytools_forty_facets.md
+## Installation [1501_2000/000229_fortytools_forty_facets.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000229_fortytools_forty_facets.md)
 
 Add this line to your application's Gemfile:
 
@@ -10454,7 +10454,7 @@ Or install it yourself as:
 
     $ gem install forty_facets
 ----
-## Installation 1501_2000/000228_proxylocal_proxylocal-gem.md
+## Installation [1501_2000/000228_proxylocal_proxylocal-gem.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000228_proxylocal_proxylocal-gem.md)
 
 ProxyLocal is a tool that runs on the command line.
 
@@ -10463,7 +10463,7 @@ and type:
 
     $ gem install proxylocal
 ----
-## Installation 1501_2000/000228_balvig_chili.md
+## Installation [1501_2000/000228_balvig_chili.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000228_balvig_chili.md)
 
 First add Chili to your app's Gemfile:
 
@@ -10473,14 +10473,14 @@ gem 'chili'
 
 and run `bundle`.
 ----
-## Installation 1501_2000/000228_michenriksen_birdwatcher.md
+## Installation [1501_2000/000228_michenriksen_birdwatcher.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000228_michenriksen_birdwatcher.md)
 ----
-## Installation 1501_2000/000228_github-archive_albino.md
+## Installation [1501_2000/000228_github-archive_albino.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000228_github-archive_albino.md)
 
     sudo easy_install pygments
     gem install albino
 ----
-## Installation 1501_2000/000228_railsware_global.md
+## Installation [1501_2000/000228_railsware_global.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000228_railsware_global.md)
 
 Add to Gemfile:
 
@@ -10488,7 +10488,7 @@ Add to Gemfile:
 gem 'global'
 ```
 ----
-## Installation 1501_2000/000228_qrush_motion-layout.md
+## Installation [1501_2000/000228_qrush_motion-layout.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000228_qrush_motion-layout.md)
 
 Add this line to your application's Gemfile:
 
@@ -10506,7 +10506,7 @@ Then in your `Rakefile`:
 
     require 'motion-layout'
 ----
-## Installation ## 1501_2000/000228_karmi_monittr.markdown
+## Installation ## [1501_2000/000228_karmi_monittr.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000228_karmi_monittr.markdown)
 
 The best way to install the gem is from the source:
 
@@ -10519,7 +10519,7 @@ Stable versions of the gem can be installed from Rubygems:
     $ gem install monittr
 
 ----
-## Installation 1501_2000/000227_rmm5t_strip_attributes.md
+## Installation [1501_2000/000227_rmm5t_strip_attributes.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000227_rmm5t_strip_attributes.md)
 
 Include the gem in your Gemfile:
 
@@ -10527,7 +10527,7 @@ Include the gem in your Gemfile:
 gem "strip_attributes"
 ```
 ----
-## Installation 1501_2000/000227_giginet_xcprofiler.md
+## Installation [1501_2000/000227_giginet_xcprofiler.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000227_giginet_xcprofiler.md)
 
 ```
 gem install xcprofiler
@@ -10535,7 +10535,7 @@ gem install xcprofiler
 
 xcprofiler is tested on latest Ruby 2.3/2.4.
 ----
-## Installation 1501_2000/000227_perfectline_validates_url.md
+## Installation [1501_2000/000227_perfectline_validates_url.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000227_perfectline_validates_url.md)
 
 ```    
 # add this to your Gemfile
@@ -10545,7 +10545,7 @@ gem "validate_url"
 sudo gem install validate_url
 ```
 ----
-## Installation 1501_2000/000227_intercom_intercom-rails.md
+## Installation [1501_2000/000227_intercom_intercom-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000227_intercom_intercom-rails.md)
 Add this to your Gemfile:
 
 ```ruby
@@ -10567,7 +10567,7 @@ rails generate intercom:config YOUR-APP-ID
 To make installing Intercom easy, where possible a `<script>` tag **will be automatically inserted before the closing `</body>` tag**. For most Rails apps, **you won't need to do any extra config**. Having trouble? Check out troubleshooting below.
 
 ----
-## Installation 1501_2000/000227_devmynd_jsonb_accessor.md
+## Installation [1501_2000/000227_devmynd_jsonb_accessor.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000227_devmynd_jsonb_accessor.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -10579,7 +10579,7 @@ And then execute:
 
     $ bundle install
 ----
-## Installation and Usage 1501_2000/000226_yuki24_rambulance.md
+## Installation and Usage [1501_2000/000226_yuki24_rambulance.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000226_yuki24_rambulance.md)
 
 Add this line to your application's Gemfile:
 
@@ -10597,7 +10597,7 @@ Rambulance only has support for `erb`. If you would like to use haml or slim tem
 
 Now you can start editing templates like `app/views/errors/not_found.html.erb`. Edit, run `rails server` and open [`localhost:3000/rambulance/not_found`](http://localhost:3000/rambulance/not_found)!
 ----
-## Installation (Rails) 1501_2000/000226_joshsusser_refraction.md
+## Installation (Rails) [1501_2000/000226_joshsusser_refraction.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000226_joshsusser_refraction.md)
 
 Refraction can be installed in a Rails application as a plugin.
 
@@ -10617,7 +10617,7 @@ purposes, but if your rules redirect to other servers that can be a problem.
 Put your rules in `config/initializers/refraction_rules.rb` (see example above). The file name
 doesn't actually matter, but convention is useful.
 ----
-## Installation 1501_2000/000225_willnet_gimei.md
+## Installation [1501_2000/000225_willnet_gimei.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000225_willnet_gimei.md)
 
 Add this line to your application's Gemfile:
 
@@ -10631,7 +10631,7 @@ Or install it yourself as:
 
     $ gem install gimei
 ----
-## Installation 1501_2000/000225_endofunky_oprah.md
+## Installation [1501_2000/000225_endofunky_oprah.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000225_endofunky_oprah.md)
 
 Add this line to your application's Gemfile:
 
@@ -10645,7 +10645,7 @@ And then execute:
 $ bundle
 ```
 ----
-## Installation 1501_2000/000224_hybridgroup_taskmapper.md
+## Installation [1501_2000/000224_hybridgroup_taskmapper.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000224_hybridgroup_taskmapper.md)
 
 Taskmapper is a Gem, so we can easily install it by using RubyGems:
 
@@ -10653,7 +10653,7 @@ Taskmapper is a Gem, so we can easily install it by using RubyGems:
 
 Taskmapper depends on [Hashie](http://github.com/intridea/hashie), which is an amazing library which makes converting objects to hashes, and the other way around, a joy. It should be installed automatically whenever installing taskmapper.
 ----
-## Installation ## 1501_2000/000224_Mange_roadie-rails.md
+## Installation ## [1501_2000/000224_Mange_roadie-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000224_Mange_roadie-rails.md)
 
 [Add this gem to your Gemfile as recommended by Rubygems][gem] and run `bundle install`.
 
@@ -10661,12 +10661,12 @@ Taskmapper depends on [Hashie](http://github.com/intridea/hashie), which is an a
 gem 'roadie-rails', '~> 0.0'
 ```
 ----
-## Installation 1501_2000/000223_nakiostudio_xcov.md
+## Installation [1501_2000/000223_nakiostudio_xcov.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000223_nakiostudio_xcov.md)
 ```
 sudo gem install xcov
 ```
 ----
-## Installation 1501_2000/000223_socketry_timers.md
+## Installation [1501_2000/000223_socketry_timers.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000223_socketry_timers.md)
 
 Add this line to your application's Gemfile:
 
@@ -10682,7 +10682,7 @@ Or install it yourself as:
 
 	$ gem install timers
 ----
-## Installation 1501_2000/000223_pauldix_sax-machine.md
+## Installation [1501_2000/000223_pauldix_sax-machine.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000223_pauldix_sax-machine.md)
 
 Add this line to your application's Gemfile:
 
@@ -10696,7 +10696,7 @@ And then execute:
 $ bundle
 ```
 ----
-## Installation 1501_2000/000222_rails_actionpack-page_caching.md
+## Installation [1501_2000/000222_rails_actionpack-page_caching.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000222_rails_actionpack-page_caching.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -10710,7 +10710,7 @@ And then execute:
 $ bundle
 ```
 ----
-## Installation 1501_2000/000221_pixielabs_letsencrypt-rails-heroku.md
+## Installation [1501_2000/000221_pixielabs_letsencrypt-rails-heroku.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000221_pixielabs_letsencrypt-rails-heroku.md)
 
 Add the gem to your Gemfile:
 
@@ -10749,7 +10749,7 @@ Rails.application.configure do
 end
 ```
 ----
-## Installation 1501_2000/000221_darkskyapp_forecast-ruby.md
+## Installation [1501_2000/000221_darkskyapp_forecast-ruby.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000221_darkskyapp_forecast-ruby.md)
 
 `gem install forecast_io`
 
@@ -10759,7 +10759,7 @@ or in your `Gemfile`
 gem 'forecast_io'
 ```
 ----
-## Installation 1501_2000/000221_eljojo_telegram_bot.md
+## Installation [1501_2000/000221_eljojo_telegram_bot.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000221_eljojo_telegram_bot.md)
 
 Add this line to your application's Gemfile (currently under development):
 
@@ -10771,7 +10771,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1501_2000/000220_zach-capalbo_flammarion.md
+## Installation [1501_2000/000220_zach-capalbo_flammarion.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000220_zach-capalbo_flammarion.md)
 
 First, you need to install [electron](http://electron.atom.io/) or [chrome](http://www.google.com/chrome)
 and make sure it's in your path. (*Note:* On Windows, currently only chrome
@@ -10785,7 +10785,7 @@ gem install flammarion
 
 or add it to your Gemfile.
 ----
-## Installation 1501_2000/000219_continuum_espinita.md
+## Installation [1501_2000/000219_continuum_espinita.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000219_continuum_espinita.md)
 
 In your gemfile
 
@@ -10799,12 +10799,12 @@ $ rake espinita:install:migrations
 $ rake db:migrate
 ```
 ----
-## Installation 1501_2000/000219_commonthread_flickr_fu.md
+## Installation [1501_2000/000219_commonthread_flickr_fu.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000219_commonthread_flickr_fu.md)
 ```bash
 sudo gem install flickr_fu
 ```
 ----
-## Installation 1501_2000/000219_singlebrook_utf8-cleaner.md
+## Installation [1501_2000/000219_singlebrook_utf8-cleaner.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000219_singlebrook_utf8-cleaner.md)
 
 Add this line to your application's Gemfile:
 
@@ -10823,13 +10823,13 @@ If you're not running Rails, you'll have to add the middleware to your config.ru
     require 'utf8-cleaner'
     use UTF8Cleaner::Middleware
 ----
-## Installation 1501_2000/000218_playgroundbooks_playgroundbook.md
+## Installation [1501_2000/000218_playgroundbooks_playgroundbook.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000218_playgroundbooks_playgroundbook.md)
 
 ```sh
 > [sudo] gem install playgroundbook
 ```
 ----
-## Installation 1501_2000/000218_joshwlewis_unitwise.md
+## Installation [1501_2000/000218_joshwlewis_unitwise.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000218_joshwlewis_unitwise.md)
 
 Add this line to your application's Gemfile:
 
@@ -10844,7 +10844,7 @@ Or install it yourself as:
     $ gem install unitwise
 
 ----
-## Installation 1501_2000/000218_kenn_jquery-rails-cdn.md
+## Installation [1501_2000/000218_kenn_jquery-rails-cdn.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000218_kenn_jquery-rails-cdn.md)
 
 Add this line to your application's Gemfile:
 
@@ -10852,7 +10852,7 @@ Add this line to your application's Gemfile:
 gem 'jquery-rails-cdn'
 ```
 ----
-## Installation 1501_2000/000218_state-machines_state_machines-activerecord.md
+## Installation [1501_2000/000218_state-machines_state_machines-activerecord.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000218_state-machines_state_machines-activerecord.md)
 
 Add this line to your application's Gemfile:
 
@@ -10866,7 +10866,7 @@ Or install it yourself as:
 
     $ gem install state_machines-activerecord
 ----
-## Installation with RubyGems 1501_2000/000218_FooBarWidget_daemon_controller.markdown
+## Installation with RubyGems [1501_2000/000218_FooBarWidget_daemon_controller.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000218_FooBarWidget_daemon_controller.markdown)
 
     gem install daemon_controller
 
@@ -10874,7 +10874,7 @@ This gem is signed using PGP with the [Phusion Software Signing key](http://www.
 
 You can verify the authenticity of the gem by following [The Complete Guide to Verifying Gems with rubygems-openpgp](http://www.rubygems-openpgp-ca.org/blog/the-complete-guide-to-verifying-gems-with-rubygems-openpgp.html).
 
-## Installation on Ubuntu 1501_2000/000218_FooBarWidget_daemon_controller.markdown
+## Installation on Ubuntu [1501_2000/000218_FooBarWidget_daemon_controller.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000218_FooBarWidget_daemon_controller.markdown)
 
 Use our [PPA](https://launchpad.net/~phusion.nl/+archive/misc):
 
@@ -10882,7 +10882,7 @@ Use our [PPA](https://launchpad.net/~phusion.nl/+archive/misc):
     sudo apt-get update
     sudo apt-get install ruby-daemon-controller
 
-## Installation on Debian 1501_2000/000218_FooBarWidget_daemon_controller.markdown
+## Installation on Debian [1501_2000/000218_FooBarWidget_daemon_controller.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000218_FooBarWidget_daemon_controller.markdown)
 
 Our Ubuntu Lucid packages are compatible with Debian 6.
 
@@ -10892,7 +10892,7 @@ Our Ubuntu Lucid packages are compatible with Debian 6.
     sudo apt-get update
     sudo apt-get install ruby-daemon-controller
 
-## Installation on RHEL, CentOS and Amazon Linux 1501_2000/000218_FooBarWidget_daemon_controller.markdown
+## Installation on RHEL, CentOS and Amazon Linux [1501_2000/000218_FooBarWidget_daemon_controller.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000218_FooBarWidget_daemon_controller.markdown)
 
 Enable our YUM repository:
 
@@ -10908,7 +10908,7 @@ Install our package:
 
     sudo yum install rubygem-daemon_controller
 ----
-## Installation 1501_2000/000217_hakirisec_hakiri_toolbelt.md
+## Installation [1501_2000/000217_hakirisec_hakiri_toolbelt.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000217_hakirisec_hakiri_toolbelt.md)
 
 Hakiri Toolbelt is a Ruby gem that can be installed with
 
@@ -10918,28 +10918,28 @@ $ gem install hakiri
 
 After it's installed, restart your command line and you should be good to go. Hakiri supports Ruby 1.8.7, 1.9.x and 2.0.x.
 ----
-## Installation 1501_2000/000217_oozou_ruby-prof-flamegraph.md
+## Installation [1501_2000/000217_oozou_ruby-prof-flamegraph.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000217_oozou_ruby-prof-flamegraph.md)
 
 ```ruby
 gem 'ruby-prof-flamegraph'
 ```
 
 ----
-## Installation 1501_2000/000216_carmen-ruby_carmen-rails.md
+## Installation [1501_2000/000216_carmen-ruby_carmen-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000216_carmen-ruby_carmen-rails.md)
 
 Just add carmen-rails to your Gemfile:
 
 ```ruby
 gem 'carmen-rails', '~> 1.0.0'
 ```----
-## Installation 1501_2000/000216_sandro_specjour.markdown
+## Installation [1501_2000/000216_sandro_specjour.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000216_sandro_specjour.markdown)
     gem install specjour
 ----
-## Installation 1501_2000/000215_sony_v8eval.md
+## Installation [1501_2000/000215_sony_v8eval.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000215_sony_v8eval.md)
 
 The installation takes several tens of minutes due to V8 build.
 ----
-## Installation 1501_2000/000215_MartinJNash_Royce.md
+## Installation [1501_2000/000215_MartinJNash_Royce.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000215_MartinJNash_Royce.md)
 
 Add this to your Gemfile.
 
@@ -10958,7 +10958,7 @@ Add this to a model.
     royce_roles %w[ owner editor administrator ]
 
 ----
-## Installation 1501_2000/000215_peek_peek-rblineprof.md
+## Installation [1501_2000/000215_peek_peek-rblineprof.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000215_peek_peek-rblineprof.md)
 
 Add this line to your application's Gemfile:
 
@@ -10972,7 +10972,7 @@ Or install it yourself as:
 
     $ gem install peek-rblineprof
 ----
-## Installation 1501_2000/000215_skinnyworm_omniauth-wechat-oauth2.md
+## Installation [1501_2000/000215_skinnyworm_omniauth-wechat-oauth2.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000215_skinnyworm_omniauth-wechat-oauth2.md)
 
 Add to your `Gemfile`:
 
@@ -10983,12 +10983,12 @@ gem "omniauth-wechat-oauth2"
 Then `bundle install`.
 
 ----
-## Installation 1501_2000/000215_ryantate_rturk.markdown
+## Installation [1501_2000/000215_ryantate_rturk.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000215_ryantate_rturk.markdown)
 
     # Requires Ruby >1.9.2
     gem install rturk
 ----
-## Installation 1501_2000/000215_chadrem_workers.md
+## Installation [1501_2000/000215_chadrem_workers.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000215_chadrem_workers.md)
 
 Add this line to your application's Gemfile:
 
@@ -11008,7 +11008,7 @@ Or install it yourself as:
 $ gem install workers
 ```
 ----
-## Installation 1501_2000/000215_typescript-ruby_typescript-rails.md
+## Installation [1501_2000/000215_typescript-ruby_typescript-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000215_typescript-ruby_typescript-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -11022,7 +11022,7 @@ Note: We need to install (if we haven't already) the Typescript definitions, [mo
 
     npm install --save-dev @types/node
 ----
-## Installation 1501_2000/000215_discourse_logster.md
+## Installation [1501_2000/000215_discourse_logster.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000215_discourse_logster.md)
 
 Add these lines to your application's Gemfile:
 
@@ -11049,7 +11049,7 @@ To run logster in other environments, in `config/application.rb`
 Logster.set_environments([:development, :staging, :production])
 ```
 ----
-## Installation 1501_2000/000214_papertrail_remote_syslog.md
+## Installation [1501_2000/000214_papertrail_remote_syslog.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000214_papertrail_remote_syslog.md)
 
 Install the gem, which includes a binary called "remote_syslog":
 
@@ -11060,9 +11060,9 @@ host/port to log to (see examples/[log_files.yml.example][sample config]). These
 specified as command-line arguments (below).
 
 
-## Installation 1501_2000/000214_papertrail_remote_syslog.md
+## Installation [1501_2000/000214_papertrail_remote_syslog.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000214_papertrail_remote_syslog.md)
 ----
-## Installation 1501_2000/000214_gemgento_rails_script.md
+## Installation [1501_2000/000214_gemgento_rails_script.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000214_gemgento_rails_script.md)
 
 Add this line to your application's Gemfile:
 
@@ -11102,7 +11102,7 @@ if using coffeescript (app/assets/javascripts/application.coffee):
 #= require_tree .
 ```
 ----
-## Installation 1501_2000/000214_tzinfo_tzinfo.md
+## Installation [1501_2000/000214_tzinfo_tzinfo.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000214_tzinfo_tzinfo.md)
 
 The TZInfo gem can be installed by running `gem install tzinfo` or by adding
 to `gem 'tzinfo'` to your `Gemfile` and running `bundle install`.
@@ -11112,7 +11112,7 @@ installed by running `gem install tzinfo-data` or by adding `gem 'tzinfo-data'`
 to your `Gemfile`.
 
 ----
-## Installation 1501_2000/000214_alno_irwi.md
+## Installation [1501_2000/000214_alno_irwi.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000214_alno_irwi.md)
 
 Add to your Gemfile:
 
@@ -11132,7 +11132,7 @@ Also it will add to your `routes.rb` something like:
 
     wiki_root '/wiki'
 ----
-## Installation 1501_2000/000213_girishso_pluck_to_hash.md
+## Installation [1501_2000/000213_girishso_pluck_to_hash.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000213_girishso_pluck_to_hash.md)
 
 Add this line to your application's Gemfile:
 
@@ -11148,7 +11148,7 @@ Or install it yourself as:
 
     $ gem install pluck_to_hash
 ----
-## Installation 1501_2000/000213_Locale_localeapp.md
+## Installation [1501_2000/000213_Locale_localeapp.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000213_Locale_localeapp.md)
 
 Note that the API key is actually never written to configuration files
 generated by the gem, but is expected to be set in the environment as
@@ -11159,7 +11159,7 @@ For convenience, the `install` command accepts a `-e` or
 so that you can use `foreman` or other tools supporting this
 convention.
 ----
-## Installation 1501_2000/000213_piotrmurach_tty-spinner.md
+## Installation [1501_2000/000213_piotrmurach_tty-spinner.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000213_piotrmurach_tty-spinner.md)
 
 Add this line to your application's Gemfile:
 
@@ -11175,7 +11175,7 @@ Or install it yourself as:
 
     $ gem install tty-spinner
 ----
-## Installation 1501_2000/000213_frozon_passbook.md
+## Installation [1501_2000/000213_frozon_passbook.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000213_frozon_passbook.md)
 
 Include the passbook gem in your project.
 
@@ -11184,7 +11184,7 @@ IE:  In your Gemfile
 gem 'passbook'
 ```
 ----
-## Installation ## 1501_2000/000213_nicotaing_yaml_record.md
+## Installation ## [1501_2000/000213_nicotaing_yaml_record.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000213_nicotaing_yaml_record.md)
 
 Install using rubygems:
 
@@ -11201,7 +11201,7 @@ gem 'yaml_record'
 gem 'yaml_record', :git => "git@github.com:Nico-Taing/yaml_record.git", :branch => "rails31"
 ```
 ----
-## Installation && Usage 1501_2000/000212_sickill_coloration.md
+## Installation && Usage [1501_2000/000212_sickill_coloration.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000212_sickill_coloration.md)
 
 You can use Coloration in two ways: online or on your local machine. The online
  version is available at [coloration.ku1ik.com](http://coloration.ku1ik.com/).
@@ -11213,7 +11213,7 @@ You can use Coloration in two ways: online or on your local machine. The online
 It gives you _tm2vim_, _tm2jedit_ and _tm2katepart_ binaries to do the
  conversion on command line.
 ----
-## Installation 1501_2000/000212_madzhuga_rails_workflow.md
+## Installation [1501_2000/000212_madzhuga_rails_workflow.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000212_madzhuga_rails_workflow.md)
 
 Add to your application's Gemfile:
 
@@ -11248,19 +11248,19 @@ RailsWorkflow.setup do |config|
   config.sql_dialect= 'mysql'
 end
 ```----
-## Installation 1501_2000/000211_panthomakos_timezone.markdown
+## Installation [1501_2000/000211_panthomakos_timezone.markdown](https://github.com/ts-3156/readmes/blob/master/1501_2000/000211_panthomakos_timezone.markdown)
 
 Use the [`timezone`](https://rubygems.org/gems/timezone) gem - available on RubyGems. Semantic versioning is used, so if you would like to remain up-to-date and avoid any backwards-incompatible changes, use the following in your `Gemfile`:
 
     gem 'timezone', '~> 1.0'
 ----
-## Installation 1501_2000/000211_sciurus_vagrant-mutate.md
+## Installation [1501_2000/000211_sciurus_vagrant-mutate.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000211_sciurus_vagrant-mutate.md)
 ----
-## Installation 1501_2000/000211_blahed_chainsaw.md
+## Installation [1501_2000/000211_blahed_chainsaw.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000211_blahed_chainsaw.md)
     
     gem install chainsaw
 ----
-## Installation 1501_2000/000211_summernote_summernote-rails.md
+## Installation [1501_2000/000211_summernote_summernote-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000211_summernote_summernote-rails.md)
 
 Environments:
 - Ruby v2.5.0
@@ -11287,11 +11287,11 @@ $ bundle install
 
 > **Note**: When you use simple_form with bootstrap, you should execute `rails g simple_form --bootstrap` in terminal. Especially, if you want to use Bootstrap version 4, you should create config/initializers/simple_form_bootstrap4.rb which you can reference in the **example** project in this repository.
 ----
-## Installation 1501_2000/000211_JustinLove_autoscaler.md
+## Installation [1501_2000/000211_JustinLove_autoscaler.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000211_JustinLove_autoscaler.md)
 
     gem install autoscaler
 ----
-## Installation 1501_2000/000210_orgsync_stoplight.md
+## Installation [1501_2000/000210_orgsync_stoplight.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000210_orgsync_stoplight.md)
 
 Add it to your Gemfile:
 
@@ -11310,7 +11310,7 @@ detailed list of changes.
 
 Stoplight works with all supported versions of Ruby (2.1 through 2.3).
 ----
-## Installation 1501_2000/000209_citusdata_activerecord-multi-tenant.md
+## Installation [1501_2000/000209_citusdata_activerecord-multi-tenant.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000209_citusdata_activerecord-multi-tenant.md)
 
 Add the following to your Gemfile:
 
@@ -11318,7 +11318,7 @@ Add the following to your Gemfile:
 gem 'activerecord-multi-tenant'
 ```
 ----
-## Installation 1501_2000/000207_intercom_intercom-ruby.md
+## Installation [1501_2000/000207_intercom_intercom-ruby.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000207_intercom_intercom-ruby.md)
 
     gem install intercom
 
@@ -11326,7 +11326,7 @@ Using bundler:
 
     gem 'intercom', '~> 3.7.1'
 ----
-## Installation 1501_2000/000207_lostisland_sawyer.md
+## Installation [1501_2000/000207_lostisland_sawyer.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000207_lostisland_sawyer.md)
 
 Add this line to your application's Gemfile:
 
@@ -11346,7 +11346,7 @@ Or install it yourself as:
 gem install sawyer
 ```
 ----
-## Installation 1501_2000/000206_collectiveidea_acts_as_geocodable.md
+## Installation [1501_2000/000206_collectiveidea_acts_as_geocodable.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000206_collectiveidea_acts_as_geocodable.md)
 
 Install as a gem
 
@@ -11362,7 +11362,7 @@ gem "acts_as_geocodable"
 
 [Graticule](http://github.com/collectiveidea/graticule) is used for all the heavy lifting and will be installed too.
 ----
-## Installation 1501_2000/000206_kernow_shortcode.md
+## Installation [1501_2000/000206_kernow_shortcode.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000206_kernow_shortcode.md)
 
 Add this line to your application's Gemfile:
 
@@ -11385,7 +11385,7 @@ $ gem install shortcode
 Shortcode is tested against ruby version 2.2, 2.3, and 2.4 as well as jruby (2.x compatible), it will not work with ruby 1.8 and is no longer tested against ruby 1.9. Shortcode rails integration is tested against
 Rails versions 4.1, 4.2, 5.0 and 5.1.
 ----
-## Installation 1501_2000/000206_aderyabin_localer.md
+## Installation [1501_2000/000206_aderyabin_localer.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000206_aderyabin_localer.md)
 
 Add this line to your application's Gemfile:
 
@@ -11401,7 +11401,7 @@ Or install it yourself as:
 
     $ gem install localer
 ----
-## Installation 1501_2000/000206_RubyMoney_monetize.md
+## Installation [1501_2000/000206_RubyMoney_monetize.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000206_RubyMoney_monetize.md)
 
 Add this line to your application's Gemfile:
 
@@ -11415,7 +11415,7 @@ Or install it yourself as:
 
     $ gem install monetize
 ----
-## Installation 1501_2000/000206_nicksieger_multipart-post.md
+## Installation [1501_2000/000206_nicksieger_multipart-post.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000206_nicksieger_multipart-post.md)
 
     gem install multipart-post 
     
@@ -11423,7 +11423,7 @@ or in your Gemfile
 
     gem 'multipart-post'
 ----
-## Installation 1501_2000/000205_thoughtbot_json_matchers.md
+## Installation [1501_2000/000205_thoughtbot_json_matchers.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000205_thoughtbot_json_matchers.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -11441,7 +11441,7 @@ Or install it yourself as:
 
     $ gem install json_matchers
 ----
-## Installation 1501_2000/000205_jetrockets_attrio.md
+## Installation [1501_2000/000205_jetrockets_attrio.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000205_jetrockets_attrio.md)
 
 Add this line to your application's Gemfile:
 
@@ -11455,11 +11455,11 @@ Or install it yourself as:
 
     $ gem install attrio
 ----
-## Installation 1501_2000/000204_bensie_sshkey.md
+## Installation [1501_2000/000204_bensie_sshkey.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000204_bensie_sshkey.md)
 
     gem install sshkey
 ----
-## Installation 1501_2000/000204_oivoodoo_devise_masquerade.md
+## Installation [1501_2000/000204_oivoodoo_devise_masquerade.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000204_oivoodoo_devise_masquerade.md)
 
 Add this line to your application's Gemfile:
 
@@ -11469,7 +11469,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1501_2000/000204_bootstrap-ruby_bootstrap-editable-rails.md
+## Installation [1501_2000/000204_bootstrap-ruby_bootstrap-editable-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000204_bootstrap-ruby_bootstrap-editable-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -11479,7 +11479,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 1501_2000/000204_DarthSim_carrierwave-bombshelter.md
+## Installation [1501_2000/000204_DarthSim_carrierwave-bombshelter.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000204_DarthSim_carrierwave-bombshelter.md)
 
 Add this line to your application's Gemfile:
 
@@ -11495,7 +11495,7 @@ Or install it yourself as:
 
     $ gem install carrierwave-bombshelter
 ----
-## Installation 1501_2000/000204_thoughtbot_paul_revere.md
+## Installation [1501_2000/000204_thoughtbot_paul_revere.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000204_thoughtbot_paul_revere.md)
 
 First, include the gem as normal in your Gemfile:
 
@@ -11520,7 +11520,7 @@ Copy built-in partials into your Rails application by running:
 
     rails generate paul_revere:views
 ----
-## Installation 1501_2000/000204_ankane_safely.md
+## Installation [1501_2000/000204_ankane_safely.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000204_ankane_safely.md)
 
 Add this line to your application’s Gemfile:
 
@@ -11528,7 +11528,7 @@ Add this line to your application’s Gemfile:
 gem 'safely_block'
 ```
 ----
-## Installation 1501_2000/000204_rails_coffee-rails.md
+## Installation [1501_2000/000204_rails_coffee-rails.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000204_rails_coffee-rails.md)
 
 Since Rails 3.1 Coffee-Rails is included in the default Gemfile when you create a new application. If you are upgrading to Rails 3.1 you must add the coffee-rails to your Gemfile:
 
@@ -11536,7 +11536,7 @@ Since Rails 3.1 Coffee-Rails is included in the default Gemfile when you create 
 gem 'coffee-rails'
 ~~~
 ----
-## Installation 2001_2500/000203_rvm_rvm-capistrano.md
+## Installation [2001_2500/000203_rvm_rvm-capistrano.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000203_rvm_rvm-capistrano.md)
 
 RVM / Capistrano integration is available as a separate gem
 
@@ -11551,7 +11551,7 @@ $ echo "gem 'rvm-capistrano'" >> Gemfile
 $ bundle install
 ```
 ----
-## Installation 2001_2500/000203_devnacho_mountain_view.md
+## Installation [2001_2500/000203_devnacho_mountain_view.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000203_devnacho_mountain_view.md)
 
 Add this line to your application's Gemfile:
 
@@ -11564,7 +11564,7 @@ Then execute:
 Mountain View supports Ruby 2.2+ and Rails 4.2+ (although it may work in older
 versions)
 ----
-## Installation 1501_2000/000203_whitequark_rack-utf8_sanitizer.md
+## Installation [1501_2000/000203_whitequark_rack-utf8_sanitizer.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000203_whitequark_rack-utf8_sanitizer.md)
 
 Add this line to your application's Gemfile:
 
@@ -11590,7 +11590,7 @@ For Rack apps, add this to `config.ru`:
 use Rack::UTF8Sanitizer
 ```
 ----
-## Installation 1501_2000/000203_zbruhnke_bloggy.md
+## Installation [1501_2000/000203_zbruhnke_bloggy.md](https://github.com/ts-3156/readmes/blob/master/1501_2000/000203_zbruhnke_bloggy.md)
 
 Add this line to your application's Gemfile:
 
@@ -11604,7 +11604,7 @@ Or install it yourself as:
 
     $ gem install bloggy
 ----
-## Installation 2001_2500/000203_simsicon_weibo_2.md
+## Installation [2001_2500/000203_simsicon_weibo_2.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000203_simsicon_weibo_2.md)
 
 I call it weibo_2 because someone else took the name weibo_oauth2.
 
@@ -11612,7 +11612,7 @@ I call it weibo_2 because someone else took the name weibo_oauth2.
 $ gem install weibo_2
 ```
 ----
-## Installation 2001_2500/000202_hisea_devise-bootstrap-views.md
+## Installation [2001_2500/000202_hisea_devise-bootstrap-views.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000202_hisea_devise-bootstrap-views.md)
 
 Make sure Bootstrap 4 is installed, either as a Ruby gem or using CDN:
 
@@ -11631,14 +11631,14 @@ And then execute:
 
     $ bundle install
 ----
-## Installation 2001_2500/000201_Dynamoid_Dynamoid.md
+## Installation [2001_2500/000201_Dynamoid_Dynamoid.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000201_Dynamoid_Dynamoid.md)
 
 Installing Dynamoid is pretty simple. First include the Gem in your Gemfile:
 
 ```ruby
 gem 'dynamoid'
 ```----
-## Installation 2001_2500/000201_yous_whiteglass.md
+## Installation [2001_2500/000201_yous_whiteglass.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000201_yous_whiteglass.md)
 
 Add this line to your Jekyll site's Gemfile:
 
@@ -11664,7 +11664,7 @@ Or install it yourself as:
 gem install jekyll-whiteglass
 ```
 ----
-## Installation 2001_2500/000201_cookpad_kuroko2.md
+## Installation [2001_2500/000201_cookpad_kuroko2.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000201_cookpad_kuroko2.md)
 
 ```bash
 $ rails new your_kuroko2_application --database=mysql --skip-turbolinks --skip-javascript -m https://raw.githubusercontent.com/cookpad/kuroko2/master/app_template.rb
@@ -11672,7 +11672,7 @@ $ rails new your_kuroko2_application --database=mysql --skip-turbolinks --skip-j
 
 And edits "config/kuroko2.yml"
 ----
-## Installation 2001_2500/000201_filestack_filestack-rails.md
+## Installation [2001_2500/000201_filestack_filestack-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000201_filestack_filestack-rails.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -11704,7 +11704,7 @@ config.filestack_rails.client_name = 'custom_client_name'
 ```
 The client name defaults to `"filestack_client"` and is injected into your client-side Javascript. This is because v3 of the File Picker lives in the Javascript of your web application.
 ----
-## Installation 2001_2500/000201_thoughtbot_climate_control.md
+## Installation [2001_2500/000201_thoughtbot_climate_control.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000201_thoughtbot_climate_control.md)
 
 Add this line to your application's Gemfile:
 
@@ -11718,7 +11718,7 @@ Or install it yourself as:
 
     $ gem install climate_control
 ----
-## Installation 2001_2500/000200_yujinakayama_guard-rubocop.md
+## Installation [2001_2500/000200_yujinakayama_guard-rubocop.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000200_yujinakayama_guard-rubocop.md)
 
 Please make sure to have [Guard](https://github.com/guard/guard) installed before continue.
 
@@ -11748,7 +11748,7 @@ Add the default Guard::RuboCop definition to your `Guardfile` by running:
 $ guard init rubocop
 ```
 ----
-## Installation 2001_2500/000200_buildkite_terminal.md
+## Installation [2001_2500/000200_buildkite_terminal.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000200_buildkite_terminal.md)
 
 If you have Go installed you can simply run the following command to install the `terminal-to-html` command into `$GOPATH/bin`:
 
@@ -11758,7 +11758,7 @@ $ go get github.com/buildkite/terminal/cmd/terminal-to-html
 
 You can also just download the standalone binary from [https://github.com/buildkite/terminal/releases](https://github.com/buildkite/terminal/releases)
 ----
-## Installation 2001_2500/000199_plataformatec_markerb.md
+## Installation [2001_2500/000199_plataformatec_markerb.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000199_plataformatec_markerb.md)
 
 Add it to your Gemfile, with either the `redcarpet` or `kramdown` parser:
 
@@ -11774,7 +11774,7 @@ Run the following command to install it:
 bundle install
 ```
 ----
-## Installation 2001_2500/000199_infused_dbf.md
+## Installation [2001_2500/000199_infused_dbf.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000199_infused_dbf.md)
 
 Install the gem manually:
 
@@ -11788,7 +11788,7 @@ Or add to your Gemfile:
 gem 'dbf'
 ```
 ----
-## Installation 2001_2500/000199_piotrmurach_tty-progressbar.md
+## Installation [2001_2500/000199_piotrmurach_tty-progressbar.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000199_piotrmurach_tty-progressbar.md)
 
 Add this line to your application's Gemfile:
 
@@ -11804,7 +11804,7 @@ Or install it yourself as:
 
     $ gem install tty-progressbar
 ----
-## Installation 2001_2500/000199_nebulab_simple_command.md
+## Installation [2001_2500/000199_nebulab_simple_command.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000199_nebulab_simple_command.md)
 
 Add this line to your application's Gemfile:
 
@@ -11820,7 +11820,7 @@ Or install it yourself as:
 
     $ gem install simple_command
 ----
-## Installation 2001_2500/000199_rails_protected_attributes.md
+## Installation [2001_2500/000199_rails_protected_attributes.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000199_rails_protected_attributes.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -11830,7 +11830,7 @@ And then execute:
 
     bundle install
 ----
-## Installation 2001_2500/000199_MightySignal_slackiq.md
+## Installation [2001_2500/000199_MightySignal_slackiq.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000199_MightySignal_slackiq.md)
 
 Add this line to your Gemfile:
 
@@ -11844,8 +11844,8 @@ Then run:
 bundle install
 ```
 ----
-## Installation 2001_2500/000198_domitry_nyaplot.md----
-## Installation 2001_2500/000197_erichmenge_signed_form.md
+## Installation [2001_2500/000198_domitry_nyaplot.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000198_domitry_nyaplot.md)----
+## Installation [2001_2500/000197_erichmenge_signed_form.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000197_erichmenge_signed_form.md)
 
 Add this line to your application's Gemfile:
 
@@ -11869,7 +11869,7 @@ ApplicationController < ActionController::Base
 end
 ```
 ----
-## Installation 2001_2500/000197_rails-engine_notifications.md
+## Installation [2001_2500/000197_rails-engine_notifications.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000197_rails-engine_notifications.md)
 
 ```ruby
 # Gemfile Rails ~> 5
@@ -11893,7 +11893,7 @@ $ rails g notifications:views
 $ rails g notifications:controllers
 ```
 ----
-## Installation 2001_2500/000197_jejacks0n_apitome.md
+## Installation [2001_2500/000197_jejacks0n_apitome.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000197_jejacks0n_apitome.md)
 
 Add it to your Gemfile.
 
@@ -11917,7 +11917,7 @@ end
 ```
 
 ----
-## Installation 2001_2500/000196_rainforestapp_fourchette.md
+## Installation [2001_2500/000196_rainforestapp_fourchette.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000196_rainforestapp_fourchette.md)
 
 You have two choices here, the easy path, or the manual path.
 
@@ -11937,7 +11937,7 @@ This will give you more flexibility to create before and after actions, though y
 6. configure the right environment variables (see [#configuration](#configuration))
 7. Enable your Fourchette instance
 ----
-## Installation 2001_2500/000196_lassebunk_dynamic_sitemaps.md
+## Installation [2001_2500/000196_lassebunk_dynamic_sitemaps.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000196_lassebunk_dynamic_sitemaps.md)
 
 Add this line to your application's Gemfile:
 
@@ -11957,7 +11957,7 @@ To generate a simple example config file in `config/sitemap.rb`:
 
 If you want to use version 1.0 (v1.0.8) of DynamicSitemaps, please see [v1.0.8](https://github.com/lassebunk/dynamic_sitemaps/tree/da0f78ddb1e6a471d6d5715d492295da99f5e682) of the project. Please note that this version isn't good for large sitemaps as it generates them dynamically on each request.
 ----
-## Installation 2001_2500/000195_jaredonline_google-authenticator.md
+## Installation [2001_2500/000195_jaredonline_google-authenticator.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000195_jaredonline_google-authenticator.md)
 
 Add this line to your application's Gemfile:
 
@@ -11971,7 +11971,7 @@ Or install it yourself as:
 
     $ gem install google-authenticator-rails
 ----
-## Installation 2001_2500/000195_thumblemonks_smurf.markdown
+## Installation [2001_2500/000195_thumblemonks_smurf.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000195_thumblemonks_smurf.markdown)
 
 You install Smurf as a gem:
 
@@ -11987,7 +11987,7 @@ Also make sure to at least have this setting in your production.rb:
 
     config.perform_caching = true
 ----
-## Installation ## 2001_2500/000195_DavyJonesLocker_client_side_validations-simple_form.md
+## Installation ## [2001_2500/000195_DavyJonesLocker_client_side_validations-simple_form.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000195_DavyJonesLocker_client_side_validations-simple_form.md)
 
 In your Gemfile add the following:
 
@@ -12028,7 +12028,7 @@ into `public/javascripts`. Otherwise the asset file will be copied into
 `app/assets/javascripts` (or whatever asset directory you have
 defined)
 ----
-## Installation 2001_2500/000194_yuroyoro_git-issue.markdown
+## Installation [2001_2500/000194_yuroyoro_git-issue.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000194_yuroyoro_git-issue.markdown)
 
     $ gem install git-issue
 
@@ -12039,7 +12039,7 @@ defined)
     $ gem install jeweler
     $ rake install
 ----
-## Installation 2001_2500/000194_mikker_passwordless.md
+## Installation [2001_2500/000194_mikker_passwordless.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000194_mikker_passwordless.md)
 
 Add the `passwordless` gem to your `Gemfile`:
 
@@ -12054,7 +12054,7 @@ $ bundle
 $ bin/rails passwordless:install:migrations
 ```
 ----
-## Installation 2001_2500/000193_basecamp_google_sign_in.md
+## Installation [2001_2500/000193_basecamp_google_sign_in.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000193_basecamp_google_sign_in.md)
 
 Add `google_sign_in` to your Rails app’s Gemfile and run `bundle install`:
 
@@ -12065,7 +12065,7 @@ gem 'google_sign_in'
 Google Sign-In for Rails requires Rails 5.2 or newer.
 
 ----
-## Installation 2001_2500/000193_Aufree_bootstrap-material-design.md
+## Installation [2001_2500/000193_Aufree_bootstrap-material-design.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000193_Aufree_bootstrap-material-design.md)
 
 Add this line to your application's Gemfile:
 
@@ -12079,14 +12079,14 @@ Or install it yourself as:
 
     $ gem install bootstrap-material-design
 ----
-## Installation 2001_2500/000193_soveran_mote.md
+## Installation [2001_2500/000193_soveran_mote.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000193_soveran_mote.md)
 
 You can install it using rubygems.
 
 ```
 $ gem install mote
 ```----
-## Installation 2001_2500/000193_waiting-for-dev_devise-jwt.md
+## Installation [2001_2500/000193_waiting-for-dev_devise-jwt.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000193_waiting-for-dev_devise-jwt.md)
 
 Add this line to your application's Gemfile:
 
@@ -12102,7 +12102,7 @@ Or install it yourself as:
 
     $ gem install devise-jwt
 ----
-## Installation 2001_2500/000192_spacialdb_fcm.md
+## Installation [2001_2500/000192_spacialdb_fcm.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000192_spacialdb_fcm.md)
 
     $ gem install fcm
 
@@ -12112,20 +12112,20 @@ or in your `Gemfile` just include it:
 gem 'fcm'
 ```
 ----
-## Installation 2001_2500/000192_mavenlink_brainstem.md
+## Installation [2001_2500/000192_mavenlink_brainstem.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000192_mavenlink_brainstem.md)
 
 Add this line to your application's Gemfile:
 
     gem 'brainstem'
 ----
-## Installation 2001_2500/000192_PerfectlyNormal_highcharts-rails.markdown
+## Installation [2001_2500/000192_PerfectlyNormal_highcharts-rails.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000192_PerfectlyNormal_highcharts-rails.markdown)
 
 Add the gem to the Gemfile
 
     gem "highcharts-rails"
     # The gem version mirrors the included version of Highcharts
 ----
-## Installation 2001_2500/000192_ccocchi_rabl-rails.md
+## Installation [2001_2500/000192_ccocchi_rabl-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000192_ccocchi_rabl-rails.md)
 
 Install as a gem :
 
@@ -12141,7 +12141,7 @@ gem 'rabl-rails'
 
 And that's it !
 ----
-## Installation 2001_2500/000192_vigetlabs_sprig.md
+## Installation [2001_2500/000192_vigetlabs_sprig.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000192_vigetlabs_sprig.md)
 
 Add into your Gemfile
 ```ruby
@@ -12149,7 +12149,7 @@ gem "sprig"
 ```
 Use `rails generate sprig:install` to create environment-specific and shared seed directories.
 ----
-## Installation 2001_2500/000191_alienfast_elastic-beanstalk.md
+## Installation [2001_2500/000191_alienfast_elastic-beanstalk.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000191_alienfast_elastic-beanstalk.md)
 
 Add this line to your application's Gemfile:
 
@@ -12163,7 +12163,7 @@ Or install it yourself as:
 
     $ gem install elastic-beanstalk
 ----
-## Installation 2001_2500/000191_jmazzi_crypt_keeper.md
+## Installation [2001_2500/000191_jmazzi_crypt_keeper.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000191_jmazzi_crypt_keeper.md)
 
 Add this line to your application's Gemfile:
 
@@ -12178,14 +12178,14 @@ Or install it yourself as:
     $ gem install crypt_keeper
 
 ----
-## Installation 2001_2500/000190_chesterhow_tale.md
+## Installation [2001_2500/000190_chesterhow_tale.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000190_chesterhow_tale.md)
 There are 3 ways to install this theme
 
 1. Install it as a Ruby Gem (for self-hosted sites)
 2. Install it with the `jekyll-remote-theme` plugin (for GitHub Pages hosted sites)
 3. Fork the project directly
 ----
-## Installation ## 2001_2500/000190_raw1z_amistad.markdown
+## Installation ## [2001_2500/000190_raw1z_amistad.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000190_raw1z_amistad.markdown)
 
 Add the following line in your Gemfile:
 
@@ -12195,7 +12195,7 @@ Then run:
 
     bundle install
 ----
-## Installation 2001_2500/000190_markolson_kickscraper.md
+## Installation [2001_2500/000190_markolson_kickscraper.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000190_markolson_kickscraper.md)
 
     $ gem install kickscraper
 
@@ -12208,7 +12208,7 @@ Or for use in another app, add it to your Gemfile
     gem 'kickscraper', :git => 'git://github.com/markolson/kickscraper.git' 
 
 ----
-## Installation 2001_2500/000189_jgraichen_rails-timeago.md
+## Installation [2001_2500/000189_jgraichen_rails-timeago.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000189_jgraichen_rails-timeago.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -12234,7 +12234,7 @@ Use the following to also include all available locale files:
 
     //= require rails-timeago-all
 ----
-## Installation 2001_2500/000189_ankane_field_test.md
+## Installation [2001_2500/000189_ankane_field_test.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000189_ankane_field_test.md)
 
 Add this line to your application’s Gemfile:
 
@@ -12258,13 +12258,13 @@ Be sure to [secure the dashboard](#security) in production.
 
 ![Screenshot](https://ankane.github.io/field_test/screenshot6.png)
 ----
-## Installation 2001_2500/000188_socky_socky-server-ruby.md
+## Installation [2001_2500/000188_socky_socky-server-ruby.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000188_socky_socky-server-ruby.md)
 
 ``` bash
 $ gem install socky-server --pre
 ```
 ----
-## Installation 2001_2500/000188_jkraemer_pdf-forms.md
+## Installation [2001_2500/000188_jkraemer_pdf-forms.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000188_jkraemer_pdf-forms.md)
 
 You'll need a working `pdftk` binary. Either get a binary package from
 http://www.pdflabs.com/tools/pdftk-server/ and install it, or run
@@ -12274,7 +12274,7 @@ After that, add `pdf-forms` to your Gemfile or manually install the gem. Nothing
 unusual here.
 
 ----
-## Installation 2001_2500/000188_flyerhzm_redis-sentinel.md
+## Installation [2001_2500/000188_flyerhzm_redis-sentinel.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000188_flyerhzm_redis-sentinel.md)
 
 Add this line to your application's Gemfile:
 
@@ -12293,7 +12293,7 @@ Or install it yourself as:
 
     $ gem install redis-sentinel
 ----
-## Installation 2001_2500/000187_lebedev-yury_carrierwave-base64.md
+## Installation [2001_2500/000187_lebedev-yury_carrierwave-base64.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000187_lebedev-yury_carrierwave-base64.md)
 
 Add the gem to your Gemfile:
 
@@ -12307,7 +12307,7 @@ Also add this if you need mongoid support:
 gem "carrierwave-mongoid"
 ```
 ----
-## Installation 2001_2500/000187_janfoeh_paperclip-optimizer.md
+## Installation [2001_2500/000187_janfoeh_paperclip-optimizer.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000187_janfoeh_paperclip-optimizer.md)
 
 Add this line to your application's Gemfile after the Paperclip gem:
 
@@ -12323,11 +12323,11 @@ If you wish to set global configuration settings, run
     
 to generate an initializer in config/initializers.
 ----
-## Installation 2001_2500/000187_at-import_animation-studio.md
+## Installation [2001_2500/000187_at-import_animation-studio.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000187_at-import_animation-studio.md)
 
 `gem install animation-studio`
 ----
-## Installation 2001_2500/000187_domnikl_highscore.md
+## Installation [2001_2500/000187_domnikl_highscore.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000187_domnikl_highscore.md)
 
 * `[sudo] gem install highscore`
 
@@ -12340,7 +12340,7 @@ To use word stemming, you need to have the `fast-stemmer` (C extension) or `stem
 * `[sudo] gem install fast-stemmer`
 * `[sudo] gem install stemmer`
 ----
-## Installation 2001_2500/000186_halo_macosvpn.md
+## Installation [2001_2500/000186_halo_macosvpn.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000186_halo_macosvpn.md)
 
 If you have [Homebrew](http://brew.sh) installed, you can simply start a Terminal and run:
 
@@ -12369,13 +12369,13 @@ build/Debug/macosvpn
 You can always run `macosvpn --version` to see the version currently installed on your system
 and compare it to [the latest available version](https://github.com/halo/macosvpn/releases) on Github.
 ----
-## Installation 2001_2500/000186_railsware_rack_session_access.md
+## Installation [2001_2500/000186_railsware_rack_session_access.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000186_railsware_rack_session_access.md)
 
 ```ruby
 gem install rack_session_access
 ```
 ----
-## Installation 2001_2500/000185_education_teachers_pet.md
+## Installation [2001_2500/000185_education_teachers_pet.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000185_education_teachers_pet.md)
 
 [Install Ruby 1.9.3+](https://www.ruby-lang.org/en/installation/), then run
 
@@ -12391,7 +12391,7 @@ gem update teachers_pet
 
 To use the latest-and-greatest code from this repository, see the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
 ----
-## Installation 2001_2500/000184_capistrano_laravel.md
+## Installation [2001_2500/000184_capistrano_laravel.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000184_capistrano_laravel.md)
 
 If managing your Capistrano deploy as a ruby project, add this line to your application's Gemfile:
 
@@ -12412,7 +12412,7 @@ Or install it yourself as:
 gem install capistrano-laravel
 ```
 ----
-## Installation 2001_2500/000184_forgecrafted_ruby-stylus.md
+## Installation [2001_2500/000184_forgecrafted_ruby-stylus.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000184_forgecrafted_ruby-stylus.md)
 
 If you have a `Gemfile`:
 
@@ -12432,11 +12432,11 @@ You can manually replace the Stylus code by placing another version of Stylus on
 
 **REMEMBER**, you still need the `node` command available on your runtime for this gem to work. This gem is also compatible with the Heroku Cedar stack, enabling asset compilation during the deployment of your apps. You can check the [Node.js wiki](https://github.com/joyent/node/wiki/Quick-and-easy-installation) for more info.
 ----
-## Installation 2001_2500/000184_lgromanowski_acme-plugin.md
+## Installation [2001_2500/000184_lgromanowski_acme-plugin.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000184_lgromanowski_acme-plugin.md)
 
 For detailed installation guide please visit [Installation-guide](https://github.com/lgromanowski/acme-plugin/wiki/Installation-guide) wiki page.
 ----
-## Installation 2001_2500/000184_ClosureTree_with_advisory_lock.md
+## Installation [2001_2500/000184_ClosureTree_with_advisory_lock.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000184_ClosureTree_with_advisory_lock.md)
 
 Add this line to your application's Gemfile:
 
@@ -12448,7 +12448,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 2001_2500/000183_webnuts_post_json.md
+## Installation [2001_2500/000183_webnuts_post_json.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000183_webnuts_post_json.md)
 
 Add the gem to your `Gemfile`:
 
@@ -12467,13 +12467,13 @@ That's it!
 
 (See POSTGRESQL_INSTALL.md if you need the install instructions for PostgreSQL with PLV8)
 ----
-## Installation 2001_2500/000183_jonmagic_grim.md
+## Installation [2001_2500/000183_jonmagic_grim.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000183_jonmagic_grim.md)
 
 ```bash
 $ gem install grim
 ```
 ----
-## Installation 2001_2500/000182_skyeagle_nested_set.md
+## Installation [2001_2500/000182_skyeagle_nested_set.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000182_skyeagle_nested_set.md)
 
 The plugin is available as a gem:
 
@@ -12483,7 +12483,7 @@ Or install as a plugin:
 
     rails plugin install git://github.com/skyeagle/nested_set.git
 ----
-## Installation 2001_2500/000182_chamnap_themes_on_rails.md
+## Installation [2001_2500/000182_chamnap_themes_on_rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000182_chamnap_themes_on_rails.md)
 
 The simplest way to install is to use Bundler.
 
@@ -12499,7 +12499,7 @@ Then, use Bundler to install the gem and its dependencies:
 
     $ bundle install
 ----
-## Installation 2001_2500/000182_castle_ruby-u2f.md
+## Installation [2001_2500/000182_castle_ruby-u2f.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000182_castle_ruby-u2f.md)
 
 Add the `u2f` gem to your `Gemfile`
 
@@ -12507,7 +12507,7 @@ Add the `u2f` gem to your `Gemfile`
 gem 'u2f'
 ```
 ----
-## Installation 2001_2500/000182_krautcomputing_services.md
+## Installation [2001_2500/000182_krautcomputing_services.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000182_krautcomputing_services.md)
 
 Add this line to your application's Gemfile:
 
@@ -12521,13 +12521,13 @@ Or install it yourself as:
 
     $ gem install services
 ----
-## Installation 2001_2500/000182_Shopify_turbograft.md
+## Installation [2001_2500/000182_Shopify_turbograft.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000182_Shopify_turbograft.md)
 
 * Replace `gem "turbolinks"` with `gem "turbograft"` in your Gemfile
 * Replace `//= require turbolinks` with `//= require turbograft` in _app/assets/javascripts/application.js_
 * Run `bundle install`
 ----
-## Installation — get your Cape on 2001_2500/000182_njonsson_cape.markdown
+## Installation — get your Cape on [2001_2500/000182_njonsson_cape.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000182_njonsson_cape.markdown)
 
 Install [the RubyGem](http://rubygems.org/gems/cape "Cape at RubyGems.org").
 
@@ -12541,7 +12541,7 @@ Or you may want to make Cape a dependency of your project by using [Bundler](htt
 
     gem 'cape', '~> 1'
 ----
-## Installation 2001_2500/000181_ejholmes_active_admin_editor.md
+## Installation [2001_2500/000181_ejholmes_active_admin_editor.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000181_ejholmes_active_admin_editor.md)
 
 Add the following to your `Gemfile`:
 
@@ -12561,9 +12561,9 @@ Then run the following to install the default intializer:
 $ rails g active_admin:editor
 ```
 ----
-## Installation 2001_2500/000181_russfrisch_modernizr-rails.md
+## Installation [2001_2500/000181_russfrisch_modernizr-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000181_russfrisch_modernizr-rails.md)
 ----
-## Installation 2001_2500/000181_piotrmurach_github_cli.md
+## Installation [2001_2500/000181_piotrmurach_github_cli.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000181_piotrmurach_github_cli.md)
 
 Add this line to your application's Gemfile:
 
@@ -12577,11 +12577,11 @@ Or install it yourself as:
 
     $ gem install github_cli
 ----
-## Installation 2001_2500/000181_lukaszkorecki_CoffeeTags.md
+## Installation [2001_2500/000181_lukaszkorecki_CoffeeTags.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000181_lukaszkorecki_CoffeeTags.md)
 
 `gem install CoffeeTags` (or `sudo gem install CoffeeTags`)
 ----
-## Installation 2001_2500/000181_tjackiw_obscenity.md
+## Installation [2001_2500/000181_tjackiw_obscenity.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000181_tjackiw_obscenity.md)
 
 Add this line to your application's Gemfile:
 
@@ -12601,7 +12601,7 @@ Or install it yourself as:
 gem install obscenity
 ```
 ----
-## Installation 2001_2500/000181_opal_opal-jquery.md
+## Installation [2001_2500/000181_opal_opal-jquery.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000181_opal_opal-jquery.md)
 
 Install opal-jquery from RubyGems:
 
@@ -12618,7 +12618,7 @@ gem 'opal-jquery'
 
 
 ----
-## Installation 2001_2500/000181_aetherknight_recursive-open-struct.md
+## Installation [2001_2500/000181_aetherknight_recursive-open-struct.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000181_aetherknight_recursive-open-struct.md)
 
 Available as a gem in rubygems, the default gem repository.
 
@@ -12633,9 +12633,9 @@ You may also install the gem manually:
     gem install recursive-open-struct
 
 ----
-## Installation 2001_2500/000181_activeadmin_activeadmin-mongoid.md
+## Installation [2001_2500/000181_activeadmin_activeadmin-mongoid.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000181_activeadmin_activeadmin-mongoid.md)
 ----
-## Installation 2001_2500/000180_pangloss_pacer.md
+## Installation [2001_2500/000180_pangloss_pacer.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000180_pangloss_pacer.md)
 
 Install dependencies:
 
@@ -12649,9 +12649,9 @@ Install Pacer:
 gem install pacer
 ```
 ----
-## Installation 2001_2500/000180_ondra-m_ruby-spark.md
+## Installation [2001_2500/000180_ondra-m_ruby-spark.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000180_ondra-m_ruby-spark.md)
 ----
-## Installation ## 2001_2500/000179_bcardarella_valid_attribute.md
+## Installation ## [2001_2500/000179_bcardarella_valid_attribute.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000179_bcardarella_valid_attribute.md)
 
 If you're using `RSpec` just add the `valid_attribute` to your `Gemfile` AFTER rspec gem.
 
@@ -12686,7 +12686,7 @@ gem 'minitest-matchers'
 require 'valid_attribute'
 ```
 ----
-## Installation 2001_2500/000179_forward3d_cap-ec2.md
+## Installation [2001_2500/000179_forward3d_cap-ec2.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000179_forward3d_cap-ec2.md)
 
     gem install cap-ec2
 
@@ -12699,11 +12699,11 @@ require "cap-ec2/capistrano"
 ```
 
 ----
-## Installation: 2001_2500/000178_jingweno_jekyll_and_hyde.markdown
+## Installation: [2001_2500/000178_jingweno_jekyll_and_hyde.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000178_jingweno_jekyll_and_hyde.markdown)
 
 	> gem install jekyll_and_hyde
 ----
-## Installation 2001_2500/000178_eagletmt_faml.md
+## Installation [2001_2500/000178_eagletmt_faml.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000178_eagletmt_faml.md)
 
 Add this line to your application's Gemfile:
 
@@ -12719,7 +12719,7 @@ Or install it yourself as:
 
     $ gem install faml
 ----
-## Installation 2001_2500/000178_iblue_d3-rails.md
+## Installation [2001_2500/000178_iblue_d3-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000178_iblue_d3-rails.md)
 
 Add this line to your `Gemfile`:
 
@@ -12734,7 +12734,7 @@ Then add it to your manifest file, most probably at
 
     //= require d3
 ----
-## Installation 2001_2500/000178_y310_kodama.md
+## Installation [2001_2500/000178_y310_kodama.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000178_y310_kodama.md)
 
 Add this line to your application's Gemfile:
 
@@ -12748,13 +12748,13 @@ Or install it yourself as:
 
     $ gem install kodama
 ----
-## Installation 2001_2500/000178_mtsmfm_language_server-ruby.md
+## Installation [2001_2500/000178_mtsmfm_language_server-ruby.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000178_mtsmfm_language_server-ruby.md)
 
 If you are using vscode, install [ruby-lsc](https://marketplace.visualstudio.com/items?itemName=mtsmfm.ruby-lsc) extension.
 ----
-## Installation 2001_2500/000178_apiaryio_apiary-client.md
+## Installation [2001_2500/000178_apiaryio_apiary-client.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000178_apiaryio_apiary-client.md)
 ----
-## Installation 2001_2500/000178_dmarkow_jquery-mobile-rails.md
+## Installation [2001_2500/000178_dmarkow_jquery-mobile-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000178_dmarkow_jquery-mobile-rails.md)
 
 Add this gem to your Gemfile:
 
@@ -12776,7 +12776,7 @@ And the same in your `application.css` manifest:
 
 __NOTE:__ You should probably remove Turbolinks from your `application.js` manifest, as it likely won't work well with jQuery Mobile.
 ----
-## Installation 2001_2500/000177_gevans_sidekiq-throttler.md
+## Installation [2001_2500/000177_gevans_sidekiq-throttler.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000177_gevans_sidekiq-throttler.md)
 
 Add this line to your application's Gemfile:
 
@@ -12792,7 +12792,7 @@ Or install it yourself as:
 
     $ gem install sidekiq-throttler
 ----
-## Installation 2001_2500/000177_aaronjensen_sass-media_query_combiner.md
+## Installation [2001_2500/000177_aaronjensen_sass-media_query_combiner.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000177_aaronjensen_sass-media_query_combiner.md)
 
 Requires Ruby >= 1.9.2.
 
@@ -12808,7 +12808,7 @@ Or install it yourself as:
 
     $ gem install sass-media_query_combiner
 ----
-## Installation 2001_2500/000177_SamSaffron_lru_redux.md
+## Installation [2001_2500/000177_SamSaffron_lru_redux.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000177_SamSaffron_lru_redux.md)
 
 Add this line to your application's Gemfile:
 
@@ -12826,7 +12826,7 @@ Ruby 1.8 - v0.8.4 is the last compatible release:
 
     gem 'lru_redux', '~> 0.8.4'
 ----
-## Installation 2001_2500/000176_collectiveidea_delayed_job_mongoid.md
+## Installation [2001_2500/000176_collectiveidea_delayed_job_mongoid.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000176_collectiveidea_delayed_job_mongoid.md)
 
 Add the gem to your Gemfile:
 
@@ -12842,15 +12842,15 @@ To generate `script/delayed_job`:
 
 That's it. Use [delayed_job](http://github.com/collectiveidea/delayed_job) as
 normal.----
-## Installation / Getting started 2001_2500/000176_benschwarz_amnesia.markdown
+## Installation / Getting started [2001_2500/000176_benschwarz_amnesia.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000176_benschwarz_amnesia.markdown)
 
     gem install amnesia
 ----
-## Installation 2001_2500/000176_mptre_rails-iphone-helpers.md
+## Installation [2001_2500/000176_mptre_rails-iphone-helpers.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000176_mptre_rails-iphone-helpers.md)
 
 Add this line to your application's Gemfile:
 ----
-## Installation 2001_2500/000175_nesaulov_surrealist.md
+## Installation [2001_2500/000175_nesaulov_surrealist.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000175_nesaulov_surrealist.md)
 Add this line to your application's Gemfile:
 
 ``` ruby
@@ -12866,7 +12866,7 @@ Or install it yourself as:
     $ gem install surrealist
 
 ----
-## Installation 2001_2500/000175_kostyantyn_hydra_attribute.md
+## Installation [2001_2500/000175_kostyantyn_hydra_attribute.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000175_kostyantyn_hydra_attribute.md)
 
 Add the following line to Gemfile:
 ```ruby
@@ -12912,7 +12912,7 @@ class CreateHydraAttributeTables < ActiveRecord::Migration
 end
 ```
 ----
-## Installation 2001_2500/000175_eagletmt_hako.md
+## Installation [2001_2500/000175_eagletmt_hako.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000175_eagletmt_hako.md)
 
 Add this line to your application's Gemfile:
 
@@ -12928,7 +12928,7 @@ Or install it yourself as:
 
     $ gem install hako
 ----
-## Installation 2001_2500/000175_jsanders_angular_rails_csrf.md
+## Installation [2001_2500/000175_jsanders_angular_rails_csrf.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000175_jsanders_angular_rails_csrf.md)
 
 Add this line to your application's *Gemfile*:
 
@@ -12940,11 +12940,11 @@ And then execute:
 
 That's it!
 ----
-## Installation 2001_2500/000175_jgv_area.md
+## Installation [2001_2500/000175_jgv_area.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000175_jgv_area.md)
 
 In your gemfile: `gem 'area'`
 ----
-## Installation 2001_2500/000175_bradurani_pg-eyeballs.md
+## Installation [2001_2500/000175_bradurani_pg-eyeballs.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000175_bradurani_pg-eyeballs.md)
 
 Add this line to your application's Gemfile:
 
@@ -12960,7 +12960,7 @@ Or install it yourself as:
 
     $ gem install pg-eyeballs
 ----
-## Installation 2001_2500/000174_capistrano_bundler.md
+## Installation [2001_2500/000174_capistrano_bundler.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000174_capistrano_bundler.md)
 
 Add these lines to your application's Gemfile **[Recommended]**:
 
@@ -12981,13 +12981,13 @@ Or install it yourself as:
 $ gem install capistrano-bundler
 ```
 ----
-## Installation 2001_2500/000174_supermarin_xclisten.md
+## Installation [2001_2500/000174_supermarin_xclisten.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000174_supermarin_xclisten.md)
 
 ```
 $ gem install xclisten
 ```
 ----
-## Installation 2001_2500/000174_tmlee_time_difference.md
+## Installation [2001_2500/000174_tmlee_time_difference.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000174_tmlee_time_difference.md)
 
 Add this line to your application's Gemfile:
 
@@ -13001,7 +13001,7 @@ And then execute:
 $ bundle install
 ```
 ----
-## Installation 2001_2500/000173_evrone_factory_girl-seeds.md
+## Installation [2001_2500/000173_evrone_factory_girl-seeds.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000173_evrone_factory_girl-seeds.md)
 
 Add this line to your application's Gemfile:
 
@@ -13011,13 +13011,13 @@ group :test do
 end
 ```
 ----
-## Installation 2001_2500/000173_mwunsch_rumoji.md
+## Installation [2001_2500/000173_mwunsch_rumoji.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000173_mwunsch_rumoji.md)
 
     gem install rumoji
 
 Note that rumoji has only been tested in Rubies >= 1.9!!!
 ----
-## Installation 2001_2500/000173_cupakromer_emoji-rspec.md
+## Installation [2001_2500/000173_cupakromer_emoji-rspec.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000173_cupakromer_emoji-rspec.md)
 
 **Note**: Stuck on Ruby 1.8.7? :grimacing: See [0.x version](#0x) end of life note.
 
@@ -13040,11 +13040,11 @@ If you want to always have it included, add it to the top of your `.rspec` file:
     # .rspec
     --require emoji-rspec
 ----
-## Installation 2001_2500/000172_nomad_nashville.md
+## Installation [2001_2500/000172_nomad_nashville.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000172_nomad_nashville.md)
 
     $ gem install nashville
 ----
-## Installation 2001_2500/000172_vitalie_webshot.md
+## Installation [2001_2500/000172_vitalie_webshot.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000172_vitalie_webshot.md)
 
 Download and install [PhantomJS](http://phantomjs.org/releases.html) version 2.X,
 add the directory containing the binary to your PATH.
@@ -13061,13 +13061,13 @@ Or install it yourself as:
 
     $ gem install webshot
 ----
-## Installation 2001_2500/000172_nov_json-jwt.md
+## Installation [2001_2500/000172_nov_json-jwt.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000172_nov_json-jwt.md)
 
 ```
 gem install json-jwt
 ```
 ----
-## Installation 2001_2500/000172_neoid-gem_neoid.md
+## Installation [2001_2500/000172_neoid-gem_neoid.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000172_neoid-gem_neoid.md)
 
 Add to your Gemfile and run the `bundle` command to install it.
 
@@ -13077,14 +13077,14 @@ gem 'neoid'
 
 **Requires Ruby 1.9.3 or later and Neo4j 1.9.8.**
 ----
-## Installation 2001_2500/000172_mmistakes_jekyll-theme-basically-basic.md
+## Installation [2001_2500/000172_mmistakes_jekyll-theme-basically-basic.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000172_mmistakes_jekyll-theme-basically-basic.md)
 
 If you're running Jekyll v3.5+ and self-hosting you can quickly install the 
 theme as a Ruby gem. If you're hosting with GitHub Pages you can install as a 
 remote theme or directly copy all of the theme files (see [structure](#structure) 
 below) into your project.
 ----
-## Installation 2001_2500/000171_trishume_pro.md
+## Installation [2001_2500/000171_trishume_pro.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000171_trishume_pro.md)
 
 `pro` is bundled as a Ruby gem. To install run:
 
@@ -13092,7 +13092,7 @@ below) into your project.
 
 You may also want to set your Pro Base. See the above section.
 ----
-## Installation 2001_2500/000171_kamilc_email_verifier.md
+## Installation [2001_2500/000171_kamilc_email_verifier.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000171_kamilc_email_verifier.md)
 
 Add this line to your application's Gemfile:
 
@@ -13107,7 +13107,7 @@ Or install it yourself as:
 
     $ gem install email_verifier
 ----
-## Installation 2001_2500/000171_capistrano_composer.md
+## Installation [2001_2500/000171_capistrano_composer.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000171_capistrano_composer.md)
 
 Add this line to your application's Gemfile:
 
@@ -13124,7 +13124,7 @@ Or install it yourself as:
 
     $ gem install capistrano-composer
 ----
-## Installation 2001_2500/000171_ahuth_emcee.md
+## Installation [2001_2500/000171_ahuth_emcee.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000171_ahuth_emcee.md)
 
 Add Emcee to your Gemfile:
 
@@ -13141,7 +13141,7 @@ Finally, run:
 This will insert `<%= html_import_tag "application" %>` into your application layout. Also,
 it will create 'components' directories under '/assets' and '/vendor/assets'.
 ----
-## Installation 2001_2500/000171_AccessLint_accesslint.rb.md
+## Installation [2001_2500/000171_AccessLint_accesslint.rb.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000171_AccessLint_accesslint.rb.md)
 
 First, install PhantomJS ([full guide](http://phantomjs.org/)). On OS X:
 
@@ -13151,13 +13151,13 @@ Then install the rubygem:
 
     $ gem install access_lint
 ----
-## Installation 2001_2500/000171_invernizzi_vagrant-scp.md
+## Installation [2001_2500/000171_invernizzi_vagrant-scp.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000171_invernizzi_vagrant-scp.md)
 
 You need to install the plugin, like so
 
     vagrant plugin install vagrant-scp
 ----
-## Installation 2001_2500/000170_brigade_haml-lint.md
+## Installation [2001_2500/000170_brigade_haml-lint.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000170_brigade_haml-lint.md)
 
 ```bash
 gem install haml_lint
@@ -13171,15 +13171,15 @@ gem 'haml_lint', require: false
 
 Then you can still use `haml-lint` from the command line, but its source code won't be auto-loaded inside your application.
 ----
-## Installation 2001_2500/000170_vasinov_jruby_mahout.md----
-## Installation 2001_2500/000170_byroot_bootscale.md
+## Installation [2001_2500/000170_vasinov_jruby_mahout.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000170_vasinov_jruby_mahout.md)----
+## Installation [2001_2500/000170_byroot_bootscale.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000170_byroot_bootscale.md)
 
 ```ruby
 # Gemfile
 gem 'bootscale', require: false
 ```
 ----
-## Installation 2001_2500/000170_khiav223577_deep_pluck.md
+## Installation [2001_2500/000170_khiav223577_deep_pluck.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000170_khiav223577_deep_pluck.md)
 
 Add this line to your application's Gemfile:
 
@@ -13195,9 +13195,9 @@ Or install it yourself as:
 
     $ gem install deep_pluck
 ----
-## Installation 2001_2500/000170_linjunpop_imessage.md
+## Installation [2001_2500/000170_linjunpop_imessage.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000170_linjunpop_imessage.md)
 ----
-## Installation 2001_2500/000170_bobbytables_table_cloth.md
+## Installation [2001_2500/000170_bobbytables_table_cloth.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000170_bobbytables_table_cloth.md)
 
 Add this line to your application's Gemfile:
 
@@ -13209,13 +13209,13 @@ And then execute:
 
     $ bundle
 ----
-## Installation 2001_2500/000169_mdespuits_dotify.md
+## Installation [2001_2500/000169_mdespuits_dotify.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000169_mdespuits_dotify.md)
 
 Run this command in the command line to install Dotify:
 
     $ gem install dotify
 
-## Installation 2001_2500/000169_mdespuits_dotify.md
+## Installation [2001_2500/000169_mdespuits_dotify.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000169_mdespuits_dotify.md)
 
 To install Dotify, you must first run `dotify install` in your terminal.
 
@@ -13239,9 +13239,9 @@ During the installation process, a Vim instance will open with a sample `.dotrc`
 
 Alternatively, you could run `dotify setup` to setup Dotify's configuration, followed by `dotify install` to add the initial files into Dotify.
 ----
-## Installation 2001_2500/000169_wingrunr21_flat-ui-sass.md
+## Installation [2001_2500/000169_wingrunr21_flat-ui-sass.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000169_wingrunr21_flat-ui-sass.md)
 ----
-## Installation 2001_2500/000169_matthewrobertson_ress.md
+## Installation [2001_2500/000169_matthewrobertson_ress.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000169_matthewrobertson_ress.md)
 
 Add this line to your application's Gemfile:
 
@@ -13255,7 +13255,7 @@ Run the generator:
 
     $ rails g ress:install
 ----
-## Installation 2001_2500/000168_ifad_data-confirm-modal.md
+## Installation [2001_2500/000168_ifad_data-confirm-modal.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000168_ifad_data-confirm-modal.md)
 
 Add this line to your application's Gemfile:
 
@@ -13274,7 +13274,7 @@ And then require the Javascript from your `application.js`:
 
     //= require data-confirm-modal
 ----
-## Installation 2001_2500/000168_skorks_escort.md
+## Installation [2001_2500/000168_skorks_escort.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000168_skorks_escort.md)
 
 Add this line to your application's Gemfile:
 
@@ -13288,7 +13288,7 @@ Or install it yourself as:
 
     $ gem install escort
 ----
-## Installation 2001_2500/000168_fgrehm_vagrant-notify.md
+## Installation [2001_2500/000168_fgrehm_vagrant-notify.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000168_fgrehm_vagrant-notify.md)
 
 Make sure you have Vagrant 1.4+ around and run:
 
@@ -13297,7 +13297,7 @@ $ vagrant plugin install vagrant-notify
 ```
 
 ----
-## Installation 2001_2500/000168_meltingice_git-lfs-s3.md
+## Installation [2001_2500/000168_meltingice_git-lfs-s3.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000168_meltingice_git-lfs-s3.md)
 
 Git LFS S3 is available on RubyGems.
 
@@ -13311,7 +13311,7 @@ Or add it to your Gemfile if you wish to bundle it as a part of another applicat
 gem 'git-lfs-s3'
 ```
 ----
-## Installation 2001_2500/000168_lml_commontator.md
+## Installation [2001_2500/000168_lml_commontator.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000168_lml_commontator.md)
 
 There are 4 steps you must follow to install commontator:
 
@@ -13376,13 +13376,13 @@ There are 4 steps you must follow to install commontator:
   *= require commontator/application
   ```
 ----
-## Installation 2001_2500/000168_zigotto_googl.markdown
+## Installation [2001_2500/000168_zigotto_googl.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000168_zigotto_googl.markdown)
 
 ```console
 gem install googl
 ```
 ----
-## Installation 2001_2500/000168_mobomo_green_onion.md
+## Installation [2001_2500/000168_mobomo_green_onion.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000168_mobomo_green_onion.md)
 
 If you want to use [capybara-webkit](https://github.com/thoughtbot/capybara-webkit), you'll need to get Qt built in your testing environment. [Follow these steps](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit) and `gem install capybara-webkit` to get it up and running. Overwise, you can just use `'selenium'` (or another driver) in the configuration block.
 
@@ -13398,7 +13398,7 @@ Or install it yourself as:
 
     gem install green_onion
 ----
-## Installation 2001_2500/000167_sosedoff_goodreads.md
+## Installation [2001_2500/000167_sosedoff_goodreads.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000167_sosedoff_goodreads.md)
 
 Install gem with rubygems:
 
@@ -13412,7 +13412,7 @@ Or manually:
 rake install
 ```
 ----
-## Installation 2001_2500/000167_dieb_browserlog.md
+## Installation [2001_2500/000167_dieb_browserlog.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000167_dieb_browserlog.md)
 
 The simplest way to install Browserlog is to use [Bundler](http://bundler.io).
 
@@ -13430,7 +13430,7 @@ end
 
 With this setup ``logs/development``, ``logs/staging``, ``logs/production`` and ``logs/test`` are automatically available on the browser.
 ----
-## Installation 2001_2500/000167_davidcelis_spec-me-maybe.md
+## Installation [2001_2500/000167_davidcelis_spec-me-maybe.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000167_davidcelis_spec-me-maybe.md)
 
 Add this line to your application's Gemfile:
 
@@ -13464,7 +13464,7 @@ RSpec.configure do |config|
 end
 ```
 ----
-## Installation 2001_2500/000167_jedcn_reveal-ck.md
+## Installation [2001_2500/000167_jedcn_reveal-ck.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000167_jedcn_reveal-ck.md)
 
 `reveal-ck` is delivered as a RubyGem, and so, you need Ruby 2.0+ and
 then installing should be as easy as:
@@ -13476,9 +13476,9 @@ reveal-ck by typing:
 
     reveal-ck --version
 ----
-## Installation 2001_2500/000166_torba-rb_torba.md
+## Installation [2001_2500/000166_torba-rb_torba.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000166_torba-rb_torba.md)
 ----
-## Installation 2001_2500/000165_Nexmo_nexmo-ruby.md
+## Installation [2001_2500/000165_Nexmo_nexmo-ruby.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000165_Nexmo_nexmo-ruby.md)
 
 To install the Ruby client library using Rubygems:
 
@@ -13489,7 +13489,7 @@ Alternatively you can clone the repository:
     git clone git@github.com:Nexmo/nexmo-ruby.git
 
 ----
-## Installation 2001_2500/000165_agoragames_stache.md
+## Installation [2001_2500/000165_agoragames_stache.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000165_agoragames_stache.md)
 
     gem "mustache" # or "handlebars"
     gem "stache"
@@ -13528,7 +13528,7 @@ Stache.template_base_path = File.join(Rails.root, "app", "şablon")
 Stache.template_cache = ActiveSupport::Cache::MemoryStore.new if Rails.env.production?
 ```
 ----
-## Installation 2001_2500/000165_gshutler_browser_details.md
+## Installation [2001_2500/000165_gshutler_browser_details.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000165_gshutler_browser_details.md)
 
 Add this line to your application's Gemfile:
 
@@ -13542,7 +13542,7 @@ Or install it yourself as:
 
     $ gem install browser_details
 ----
-## Installation 2001_2500/000165_socketry_async.md
+## Installation [2001_2500/000165_socketry_async.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000165_socketry_async.md)
 
 Add this line to your application's Gemfile:
 
@@ -13558,7 +13558,7 @@ Or install it yourself as:
 
 	$ gem install async
 ----
-## Installation 2001_2500/000165_gdotdesign_elm-github-install.md
+## Installation [2001_2500/000165_gdotdesign_elm-github-install.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000165_gdotdesign_elm-github-install.md)
 
 If you have ruby installed on your machine then you can install it directly from
 [rubygems.org](https://rubygems.org/gems/elm_install):
@@ -13589,7 +13589,7 @@ sudo npm i -g elm-github-install --unsafe-perm=true --allow-root
 There are also dependency free versions available for every release in the
 [releases page](https://github.com/gdotdesign/elm-github-install/releases).
 ----
-## Installation 2001_2500/000164_drecom_activerecord-turntable.md
+## Installation [2001_2500/000164_drecom_activerecord-turntable.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000164_drecom_activerecord-turntable.md)
 
 Add to Gemfile:
 
@@ -13611,7 +13611,7 @@ bundle exec rails g active_record:turntable:install
 
 generator creates `#{Rails.root}/config/turntable.yml`
 ----
-## Installation 2001_2500/000164_goshakkk_sleek.md
+## Installation [2001_2500/000164_goshakkk_sleek.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000164_goshakkk_sleek.md)
 
 The easiest way to install Sleek is to add it to your Gemfile:
 
@@ -13640,11 +13640,11 @@ Finally, create needed indexes:
 $ rake db:mongoid:create_indexes
 ```
 ----
-## Installation 2001_2500/000164_JacksonGariety_galileo.md
+## Installation [2001_2500/000164_JacksonGariety_galileo.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000164_JacksonGariety_galileo.md)
 
     gem install galileo
 ----
-## Installation 2001_2500/000164_capistrano_rbenv.md
+## Installation [2001_2500/000164_capistrano_rbenv.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000164_capistrano_rbenv.md)
 
 Add this line to your application's Gemfile:
 
@@ -13655,7 +13655,7 @@ And then execute:
 
     $ bundle install
 ----
-## Installation 2001_2500/000164_huobazi_carrierwave-qiniu.md
+## Installation [2001_2500/000164_huobazi_carrierwave-qiniu.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000164_huobazi_carrierwave-qiniu.md)
 
 Add the following to your application's Gemfile:
 
@@ -13671,7 +13671,7 @@ Or install it yourself as:
 
     $ gem install carrierwave-qiniu -v 1.1.5
 ----
-## Installation 2001_2500/000163_shvets_google-translate.md
+## Installation [2001_2500/000163_shvets_google-translate.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000163_shvets_google-translate.md)
 
 Add this line to your application's Gemfile:
 
@@ -13685,7 +13685,7 @@ Or install it yourself as:
 
     $ gem install google-translate
 ----
-## Installation 2001_2500/000163_savonrb_gyoku.md
+## Installation [2001_2500/000163_savonrb_gyoku.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000163_savonrb_gyoku.md)
 
 Gyoku is available through [Rubygems](http://rubygems.org/gems/gyoku) and can be installed via:
 
@@ -13700,9 +13700,9 @@ gem 'gyoku', '~> 1.0'
 ```
 
 ----
-## Installation 2001_2500/000163_jtescher_carrierwave-imageoptimizer.md
+## Installation [2001_2500/000163_jtescher_carrierwave-imageoptimizer.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000163_jtescher_carrierwave-imageoptimizer.md)
 ----
-## Installation 2001_2500/000162_middleman_middleman-syntax.md
+## Installation [2001_2500/000162_middleman_middleman-syntax.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000162_middleman_middleman-syntax.md)
 
 If you're just getting started, install the `middleman` gem and generate a new project:
 
@@ -13715,7 +13715,7 @@ If you already have a Middleman project: Add `gem "middleman-syntax"` to your `G
 
 **This plugin will not work on Ruby 1.8!** Rouge requires 1.9+, so we do too.
 ----
-## Installation in Rack app (that isn’t a Rails app) 2001_2500/000162_eliotsykes_rack-zippy.md
+## Installation in Rack app (that isn’t a Rails app) [2001_2500/000162_eliotsykes_rack-zippy.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000162_eliotsykes_rack-zippy.md)
 
 Add this line to your application's Gemfile:
 
@@ -13735,19 +13735,19 @@ In `config.ru`:
     use Rack::Zippy::AssetServer, asset_root
 
 ----
-## Installation 2001_2500/000162_tsabend_fus.md
+## Installation [2001_2500/000162_tsabend_fus.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000162_tsabend_fus.md)
 ```
 $ gem install fus
 ```
 ----
-## Installation with Bundler 2001_2500/000162_britg_sinatra-cross_origin.markdown
+## Installation with Bundler [2001_2500/000162_britg_sinatra-cross_origin.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000162_britg_sinatra-cross_origin.markdown)
     gem "sinatra-cross_origin", "~> 0.3.1"
 ----
-## Installation 2001_2500/000162_zweilove_css_splitter.md
+## Installation [2001_2500/000162_zweilove_css_splitter.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000162_zweilove_css_splitter.md)
 
 Install by putting `gem 'css_splitter'` into your Gemfile.
 ----
-## Installation 2001_2500/000162_ankane_notable.md
+## Installation [2001_2500/000162_ankane_notable.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000162_ankane_notable.md)
 
 Add this line to your application’s Gemfile:
 
@@ -13765,7 +13765,7 @@ rake db:migrate
 
 For a web interface, check out [Notable Web](https://github.com/ankane/notable_web).
 ----
-## Installation 2001_2500/000161_cookpad_expeditor.md
+## Installation [2001_2500/000161_cookpad_expeditor.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000161_cookpad_expeditor.md)
 
 Expeditor currently supports Ruby 2.1 and higher.
 
@@ -13783,7 +13783,7 @@ Or install it yourself as:
 
     $ gem install expeditor
 ----
-## Installation 2001_2500/000161_mmcclimon_mr_poole.md
+## Installation [2001_2500/000161_mmcclimon_mr_poole.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000161_mmcclimon_mr_poole.md)
 
 Add this line to your application's Gemfile:
 
@@ -13797,7 +13797,7 @@ Or install it yourself as:
 
     $ gem install mr_poole
 ----
-## Installation 2001_2500/000161_DruRly_gemrat.md
+## Installation [2001_2500/000161_DruRly_gemrat.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000161_DruRly_gemrat.md)
 
 Add this line to your application's Gemfile:
 
@@ -13811,7 +13811,7 @@ Or install it yourself as:
 
     $ gem install gemrat
 ----
-## Installation 2001_2500/000160_beanstalkd_beaneater.md
+## Installation [2001_2500/000160_beanstalkd_beaneater.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000160_beanstalkd_beaneater.md)
 
 Install beanstalkd:
 
@@ -13844,7 +13844,7 @@ gem 'beaneater'
 
 and run `bundle install` to install the dependency.
 ----
-## Installation 2001_2500/000160_pzol_deterministic.md
+## Installation [2001_2500/000160_pzol_deterministic.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000160_pzol_deterministic.md)
 
 Add this line to your application's Gemfile:
 
@@ -13858,20 +13858,20 @@ Or install it yourself as:
 
     $ gem install deterministic
 ----
-## Installation 2001_2500/000159_carbonfive_raygun.md
+## Installation [2001_2500/000159_carbonfive_raygun.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000159_carbonfive_raygun.md)
 
     $ gem install raygun
 ----
-## Installation 2001_2500/000159_jimeh_redistat.md
+## Installation [2001_2500/000159_jimeh_redistat.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000159_jimeh_redistat.md)
 
     gem install redistat
 
 If you are using Ruby 1.8.x, it's recommended you also install the
 `SystemTimer` gem, as the Redis gem will otherwise complain.
 ----
-## Installation 2001_2500/000159_numa08_git-gitlab.md
+## Installation [2001_2500/000159_numa08_git-gitlab.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000159_numa08_git-gitlab.md)
 ----
-## Installation 2001_2500/000158_tomykaira_rspec-parameterized.md
+## Installation [2001_2500/000158_tomykaira_rspec-parameterized.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000158_tomykaira_rspec-parameterized.md)
 
 Add this line to your application's Gemfile:
 
@@ -13885,17 +13885,17 @@ Or install it yourself as:
 
     $ gem install rspec-parameterized
 ----
-## Installation 2001_2500/000158_aaronrussell_compass-rgbapng.md
+## Installation [2001_2500/000158_aaronrussell_compass-rgbapng.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000158_aaronrussell_compass-rgbapng.md)
 
 Installation is simple via Ruby Gems. [Compass](http://compass-style.org/) and [ChunkyPNG](http://github.com/wvanbergen/chunky_png) are required.
 
     gem install compass-rgbapng
 ----
-## Installation 2001_2500/000158_bsiggelkow_jsonify.md
+## Installation [2001_2500/000158_bsiggelkow_jsonify.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000158_bsiggelkow_jsonify.md)
 
 `gem install jsonify`
 ----
-## Installation 2001_2500/000158_morshedalam_rename.md
+## Installation [2001_2500/000158_morshedalam_rename.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000158_morshedalam_rename.md)
 
 Add this line to your application's Gemfile:
 
@@ -13903,7 +13903,7 @@ Add this line to your application's Gemfile:
 gem 'rename'
 ```
 ----
-## Installation 2001_2500/000157_discourse_discourse_api.md
+## Installation [2001_2500/000157_discourse_discourse_api.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000157_discourse_discourse_api.md)
 
 Add this line to your application's Gemfile:
 
@@ -13917,7 +13917,7 @@ Or install it yourself as:
 
     $ gem install discourse_api
 ----
-## Installation 2001_2500/000157_sportngin_okcomputer.markdown
+## Installation [2001_2500/000157_sportngin_okcomputer.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000157_sportngin_okcomputer.markdown)
 
 Add this line to your application's Gemfile:
 
@@ -13931,7 +13931,7 @@ Or install it yourself as:
 
     $ gem install okcomputer
 ----
-## Installation 2001_2500/000157_sgruhier_foundation_rails_helper.md
+## Installation [2001_2500/000157_sgruhier_foundation_rails_helper.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000157_sgruhier_foundation_rails_helper.md)
 
 Add this line to your application's Gemfile:
 
@@ -13946,7 +13946,7 @@ And then execute:
 $ bundle
 ```
 ----
-## Installation 2001_2500/000157_myronmarston_mail_safe.md
+## Installation [2001_2500/000157_myronmarston_mail_safe.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000157_myronmarston_mail_safe.md)
 
 Load the gem in the appropriate environments using Rails' 3.2+ gem support.  For example, I'm loading this in Gemfile as:
 
@@ -13956,7 +13956,7 @@ IMPORTANT: Be sure not to load this in your production environment, otherwise, y
 recipients. In your test environment, you probably won't want this either. Rails ensures that no emails are ever sent in the
 test environment, and tests that check outbound email recipients may fail.
 ----
-## Installation 2001_2500/000157_robertomiranda_has_secure_token.md
+## Installation [2001_2500/000157_robertomiranda_has_secure_token.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000157_robertomiranda_has_secure_token.md)
 
 Add this line to your application's Gemfile:
 
@@ -13970,7 +13970,7 @@ Or install it yourself as:
 
     $ gem install has_secure_token
 ----
-## Installation 2001_2500/000157_forgecrafted_finishing_moves.md
+## Installation [2001_2500/000157_forgecrafted_finishing_moves.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000157_forgecrafted_finishing_moves.md)
 
 Gemfile
 ```
@@ -13982,7 +13982,7 @@ Command line
 gem install 'finishing_moves'
 ```
 ----
-## Installation 2001_2500/000157_ashmckenzie_percheron.md
+## Installation [2001_2500/000157_ashmckenzie_percheron.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000157_ashmckenzie_percheron.md)
 
 Add this line to your application's Gemfile:
 
@@ -14002,7 +14002,7 @@ Or install it yourself as:
 $ gem install percheron
 ```
 ----
-## Installation 2001_2500/000156_maxwell_screencap.md
+## Installation [2001_2500/000156_maxwell_screencap.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000156_maxwell_screencap.md)
 
 Add this line to your application's Gemfile:
 
@@ -14016,7 +14016,7 @@ Or install it yourself as:
 
     $ gem install screencap
 ----
-## Installation 2001_2500/000156_asenchi_scrolls.md
+## Installation [2001_2500/000156_asenchi_scrolls.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000156_asenchi_scrolls.md)
 
 Add this line to your application's Gemfile:
 
@@ -14030,7 +14030,7 @@ Or install it yourself as:
 
     $ gem install scrolls
 ----
-## Installation 2001_2500/000156_fog_fog-aws.md
+## Installation [2001_2500/000156_fog_fog-aws.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000156_fog_fog-aws.md)
 
 Add this line to your application's Gemfile:
 
@@ -14046,9 +14046,9 @@ Or install it yourself as:
 
     $ gem install fog-aws
 ----
-## Installation 2001_2500/000156_amatsuda_gem-src.md
+## Installation [2001_2500/000156_amatsuda_gem-src.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000156_amatsuda_gem-src.md)
 ----
-## Installation 2001_2500/000155_danielwestendorf_get_schwifty.md
+## Installation [2001_2500/000155_danielwestendorf_get_schwifty.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000155_danielwestendorf_get_schwifty.md)
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -14072,9 +14072,9 @@ $ rails generate get_schwifty:install
 Follow the instructions printed.
 
 ----
-## Installation 2001_2500/000155_stereobooster_jekyll-press.md
+## Installation [2001_2500/000155_stereobooster_jekyll-press.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000155_stereobooster_jekyll-press.md)
 ----
-## Installation 2001_2500/000155_tye_rubyception.md
+## Installation [2001_2500/000155_tye_rubyception.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000155_tye_rubyception.md)
 
 Add to your gemfile **in the development group**:
 ```ruby
@@ -14096,7 +14096,7 @@ Run your rails server and go to:<br>
 Your log entries will appear on the rubyception page in realtime. You
 must be using a browser that supports Websockets.
 ----
-## Installation 2001_2500/000155_envato_stack_master.md
+## Installation [2001_2500/000155_envato_stack_master.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000155_envato_stack_master.md)
 
 System-wide: `gem install stack_master`
 
@@ -14106,7 +14106,7 @@ With bundler:
 - Run `bundle install`
 - Run `bundle exec stack_master init` to generate a directory structure and stack_master.yml file
 ----
-## Installation 2001_2500/000155_netguru_picguard.md
+## Installation [2001_2500/000155_netguru_picguard.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000155_netguru_picguard.md)
 
 Add Picguard to your Gemfile:
 
@@ -14116,12 +14116,12 @@ gem 'picguard'
 
 And run `bundle install` within your app's directory.
 ----
-## Installation 2001_2500/000155_amatsuda_motorhead.md
+## Installation [2001_2500/000155_amatsuda_motorhead.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000155_amatsuda_motorhead.md)
 
 Bundle into your Rails app.
 
 ----
-## Installation 2001_2500/000155_rmosolgo_graphiql-rails.md
+## Installation [2001_2500/000155_rmosolgo_graphiql-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000155_rmosolgo_graphiql-rails.md)
 
 Add to your Gemfile:
 
@@ -14129,7 +14129,7 @@ Add to your Gemfile:
 gem "graphiql-rails"
 ```
 ----
-## Installation 2001_2500/000155_telcat_vagrant-proxmox.md
+## Installation [2001_2500/000155_telcat_vagrant-proxmox.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000155_telcat_vagrant-proxmox.md)
 
 Install using standard Vagrant plugin method:
 
@@ -14139,7 +14139,7 @@ $ vagrant plugin install vagrant-proxmox
 
 This will install the plugin from [RubGems.org](http://rubygems.org/).
 ----
-## Installation 2001_2500/000154_kciter_simple-slack-bot.md
+## Installation [2001_2500/000154_kciter_simple-slack-bot.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000154_kciter_simple-slack-bot.md)
 Add this line to your application's Gemfile:
 ```ruby
 gem 'simple-slack-bot'
@@ -14153,7 +14153,7 @@ Or install it yourself as:
 $ gem install simple-slack-bot
 ```
 ----
-## Installation 2001_2500/000154_averyvery_hieroglyph.md
+## Installation [2001_2500/000154_averyvery_hieroglyph.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000154_averyvery_hieroglyph.md)
 
 To install the current version from RubyGems:
 
@@ -14170,13 +14170,13 @@ To do a quick test run, just generate some example glyphs and create a MyFont fo
 
 	hieroglyph -e && hieroglyph
 ----
-## Installation 2001_2500/000154_wildlyinaccurate_jekyll-responsive-image.md
+## Installation [2001_2500/000154_wildlyinaccurate_jekyll-responsive-image.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000154_wildlyinaccurate_jekyll-responsive-image.md)
 
 This plugin can be installed in three steps:
 ----
-## Installation 2001_2500/000154_stevenharman_git_tracker.md
+## Installation [2001_2500/000154_stevenharman_git_tracker.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000154_stevenharman_git_tracker.md)
 ----
-## Installation 2001_2500/000154_planetargon_flash-message-conductor.md
+## Installation [2001_2500/000154_planetargon_flash-message-conductor.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000154_planetargon_flash-message-conductor.md)
 
 ***This branch is only used for Rails 3. Still using Rails 2? Use [https://github.com/planetargon/flash-message-conductor/tree/rails2](https://github.com/planetargon/flash-message-conductor/tree/rails2) instead.***
 
@@ -14194,17 +14194,17 @@ Or install it yourself as:
 
     gem install flash-message-conductor
 ----
-## Installation 2001_2500/000154_plasticine_middleman-imageoptim.md
+## Installation [2001_2500/000154_plasticine_middleman-imageoptim.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000154_plasticine_middleman-imageoptim.md)
 
 Go set up the [image_optim](https://github.com/toy/image_optim) external utilities, then;
 ----
-## Installation 2001_2500/000153_zinenko_vk-ruby.md
+## Installation [2001_2500/000153_zinenko_vk-ruby.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000153_zinenko_vk-ruby.md)
 
 ```.bash
 gem install vk-ruby
 ```
 ----
-## Installation 2001_2500/000153_Codaisseur_terminal-notifier-guard.markdown
+## Installation [2001_2500/000153_Codaisseur_terminal-notifier-guard.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000153_Codaisseur_terminal-notifier-guard.markdown)
 
 This version depends on the official [`terminal-notifier`](https://github.com/alloy/terminal-notifier).
 Install it with [Homebrew](http://brew.sh/) or see the official
@@ -14226,7 +14226,7 @@ Or add it to your Gemfile:
 gem 'terminal-notifier-guard', '~> 1.6.1'
 ```
 ----
-## Installation 2001_2500/000152_knife-block_knife-block.md
+## Installation [2001_2500/000152_knife-block_knife-block.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000152_knife-block_knife-block.md)
 
 If you've installed Chef via rubygems, homebrew, etc, then install using
 
@@ -14236,7 +14236,7 @@ If you've installed Chef via ChefDK, then install using
 
     chef gem install knife-block
 ----
-## Installation 2001_2500/000152_sandipransing_rails_tiny_mce.md
+## Installation [2001_2500/000152_sandipransing_rails_tiny_mce.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000152_sandipransing_rails_tiny_mce.md)
 
 Add this line to your application's Gemfile:
 
@@ -14252,7 +14252,7 @@ Or install it yourself as:
 
     $ gem install rails_tinymce
 ----
-## Installation 2001_2500/000152_jiripospisil_parsley-rails.md
+## Installation [2001_2500/000152_jiripospisil_parsley-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000152_jiripospisil_parsley-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -14262,7 +14262,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 2001_2500/000152_kbaum_browser-timezone-rails.md
+## Installation [2001_2500/000152_kbaum_browser-timezone-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000152_kbaum_browser-timezone-rails.md)
 
 Add it to your Gemfile.
 
@@ -14278,7 +14278,7 @@ Make sure you have each of the following entries in your application.js:
 ```
 That's it! No other configuration is needed as it's all done for you with this gem including setting up your application controller to start using your users' zones.
 ----
-## Installation 2001_2500/000152_rspec_rspec-its.md
+## Installation [2001_2500/000152_rspec_rspec-its.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000152_rspec_rspec-its.md)
 
 Add this line to your application's Gemfile:
 
@@ -14300,7 +14300,7 @@ And require it as:
 require 'rspec/its'
 ```
 ----
-## Installation 2001_2500/000151_Gazler_rapidash.md
+## Installation [2001_2500/000151_Gazler_rapidash.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000151_Gazler_rapidash.md)
 
 Add this line to your application's Gemfile:
 
@@ -14314,7 +14314,7 @@ Or install it yourself as:
 
     $ gem install rapidash
 ----
-## Installation 2001_2500/000151_dnsimple_dnsimple-ruby.md
+## Installation [2001_2500/000151_dnsimple_dnsimple-ruby.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000151_dnsimple_dnsimple-ruby.md)
 
 You can install the gem manually:
 
@@ -14328,7 +14328,7 @@ Or use Bundler and define it as a dependency in your Gemfile:
 gem 'dnsimple', '~> 4.0'
 ```
 ----
-## Installation 2001_2500/000151_theodi_csvlint.rb.md
+## Installation [2001_2500/000151_theodi_csvlint.rb.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000151_theodi_csvlint.rb.md)
 
 Add this line to your application's Gemfile:
 
@@ -14342,7 +14342,7 @@ Or install it yourself as:
 
     $ gem install csvlint
 ----
-## Installation 2001_2500/000151_yhirose_maxminddb.md
+## Installation [2001_2500/000151_yhirose_maxminddb.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000151_yhirose_maxminddb.md)
 
 Add this line to your application's Gemfile:
 
@@ -14362,7 +14362,7 @@ Or install it yourself as:
 $ gem install maxminddb
 ```
 ----
-## Installation 2001_2500/000151_rejeep_evm.md
+## Installation [2001_2500/000151_rejeep_evm.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000151_rejeep_evm.md)
 
 Default installation directory for EVM Emacs versions is
 `/usr/local/evm`. This can be changed with the `config` command:
@@ -14379,7 +14379,7 @@ $ sudo mkdir /usr/local/evm
 $ sudo chown $USER: /usr/local/evm
 ```
 ----
-## Installation 2001_2500/000151_motdotla_digitalocean.md
+## Installation [2001_2500/000151_motdotla_digitalocean.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000151_motdotla_digitalocean.md)
 
 Add this line to your application's Gemfile:
 
@@ -14410,7 +14410,7 @@ You can find your keys at [https://cloud.digitalocean.com/api_access](https://cl
 
 [![](https://raw2.github.com/scottmotte/digitalocean/master/example.png)](https://cloud.digitalocean.com/api_access)
 ----
-## Installation 2001_2500/000151_soffes_quesadilla.markdown
+## Installation [2001_2500/000151_soffes_quesadilla.markdown](https://github.com/ts-3156/readmes/blob/master/2001_2500/000151_soffes_quesadilla.markdown)
 
 Add this line to your application's Gemfile:
 
@@ -14427,7 +14427,7 @@ Or install it yourself as:
     $ gem install quesadilla
 
 ----
-## Installation 2001_2500/000151_cxn03651_write_xlsx.md
+## Installation [2001_2500/000151_cxn03651_write_xlsx.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000151_cxn03651_write_xlsx.md)
 
 Add this line to your application's Gemfile:
 
@@ -14441,7 +14441,7 @@ Or install it yourself as:
 
     $ gem install write_xlsx
 ----
-## Installation 2001_2500/000150_kytrinyx_etsy.md
+## Installation [2001_2500/000150_kytrinyx_etsy.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000150_kytrinyx_etsy.md)
 
 Installing the latest stable version is simple:
 
@@ -14453,7 +14453,7 @@ If you want to be on the bleeding edge, install from GitHub:
     $ cd etsy
     $ rake install
 ----
-## Installation 2001_2500/000150_yourabi_twitter-typeahead-rails.md
+## Installation [2001_2500/000150_yourabi_twitter-typeahead-rails.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000150_yourabi_twitter-typeahead-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -14472,9 +14472,9 @@ Or install it yourself as:
 
     $ gem install twitter-typeahead-rails
 ----
-## Installation 2001_2500/000150_leshill_hogan_assets.md
+## Installation [2001_2500/000150_leshill_hogan_assets.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000150_leshill_hogan_assets.md)
 ----
-## Installation 2001_2500/000150_airbnb_stemcell.md
+## Installation [2001_2500/000150_airbnb_stemcell.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000150_airbnb_stemcell.md)
 
 Add this line to your application's Gemfile:
 
@@ -14501,7 +14501,7 @@ $ gem build stemcell.gemspec
 $ gem install ./stemcell-0.4.3.gem
 ```
 ----
-## Installation 2001_2500/000150_abonas_kubeclient.md
+## Installation [2001_2500/000150_abonas_kubeclient.md](https://github.com/ts-3156/readmes/blob/master/2001_2500/000150_abonas_kubeclient.md)
 
 Add this line to your application's Gemfile:
 
@@ -14521,7 +14521,7 @@ Or install it yourself as:
 gem install kubeclient
 ```
 ----
-## Installation 2501_3000/000149_netguru_messenger-ruby.md
+## Installation [2501_3000/000149_netguru_messenger-ruby.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000149_netguru_messenger-ruby.md)
 
 Add this line to your application's Gemfile:
 
@@ -14537,7 +14537,7 @@ Or install it yourself as:
 
     $ gem install messenger-ruby
 ----
-## Installation 2501_3000/000149_kyuden_banken.md
+## Installation [2501_3000/000149_kyuden_banken.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000149_kyuden_banken.md)
 
 ``` ruby
 gem "banken"
@@ -14563,7 +14563,7 @@ rails g banken:install
 After generating your application loyalty, restart the Rails server so that Rails
 can pick up any classes in the new `app/loyalties/` directory.
 ----
-## Installation 2501_3000/000149_socketry_lightio.md
+## Installation [2501_3000/000149_socketry_lightio.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000149_socketry_lightio.md)
 
 Add this line to your application's Gemfile:
 
@@ -14579,7 +14579,7 @@ Or install it yourself as:
 
     $ gem install lightio
 ----
-## Installation 2501_3000/000149_miyucy_snappy.md
+## Installation [2501_3000/000149_miyucy_snappy.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000149_miyucy_snappy.md)
 
 Add this line to your application's Gemfile:
 
@@ -14593,7 +14593,7 @@ Or install it yourself as:
 
     $ gem install snappy
 ----
-## Installation 2501_3000/000148_saturnflyer_surrounded.md
+## Installation [2501_3000/000148_saturnflyer_surrounded.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000148_saturnflyer_surrounded.md)
 
 Add this line to your application's Gemfile:
 
@@ -14609,11 +14609,11 @@ Or install it yourself as:
 
     $ gem install surrounded
 
-## Installation for Rails 2501_3000/000148_saturnflyer_surrounded.md
+## Installation for Rails [2501_3000/000148_saturnflyer_surrounded.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000148_saturnflyer_surrounded.md)
 
 See [surrounded-rails](https://github.com/saturnflyer/surrounded-rails)
 ----
-## Installation 2501_3000/000148_rkrage_pg_party.md
+## Installation [2501_3000/000148_rkrage_pg_party.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000148_rkrage_pg_party.md)
 
 Add this line to your application's Gemfile:
 
@@ -14629,7 +14629,7 @@ Or install it yourself as:
 
     $ gem install pg_party
 ----
-## Installation 2501_3000/000148_clayallsopp_Walt.md
+## Installation [2501_3000/000148_clayallsopp_Walt.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000148_clayallsopp_Walt.md)
 
 First install the `Walt` gem:
 
@@ -14653,7 +14653,7 @@ app.pods do
 end
 ```
 ----
-## Installation 2501_3000/000148_djreimer_sequenced.md
+## Installation [2501_3000/000148_djreimer_sequenced.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000148_djreimer_sequenced.md)
 
 Add the gem to your Gemfile:
 
@@ -14663,7 +14663,7 @@ Install the gem with bundler:
 
     bundle install
 ----
-## Installation 2501_3000/000148_jdan_rubycards.md
+## Installation [2501_3000/000148_jdan_rubycards.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000148_jdan_rubycards.md)
 
 Add this line to your application's Gemfile:
 
@@ -14677,7 +14677,7 @@ Or install it yourself as:
 
     $ gem install rubycards
 ----
-## Installation 2501_3000/000148_ejfinneran_ratelimit.md
+## Installation [2501_3000/000148_ejfinneran_ratelimit.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000148_ejfinneran_ratelimit.md)
 
 Add this line to your application's Gemfile:
 
@@ -14697,7 +14697,7 @@ Or install it yourself as:
 $ gem install ratelimit
 ```
 ----
-## Installation 2501_3000/000147_postwill_postwill.md
+## Installation [2501_3000/000147_postwill_postwill.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_postwill_postwill.md)
 
 Add this line to your application's Gemfile:
 
@@ -14713,7 +14713,7 @@ Or install it yourself as:
 
     $ gem install postwill
 ----
-## Installation 2501_3000/000147_banister_funkify.md
+## Installation [2501_3000/000147_banister_funkify.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_banister_funkify.md)
 
 Add this line to your application's Gemfile:
 
@@ -14727,7 +14727,7 @@ Or install it yourself as:
 
     $ gem install funkify
 ----
-## Installation 2501_3000/000147_jpignata_temping.md
+## Installation [2501_3000/000147_jpignata_temping.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_jpignata_temping.md)
 
 In your Gemfile:
 
@@ -14765,7 +14765,7 @@ Alternatively you may want to just cleanup tables, but keep defined models:
 Temping.cleanup
 ```
 ----
-## Installation 2501_3000/000147_rmoriz_digital_ocean.md
+## Installation [2501_3000/000147_rmoriz_digital_ocean.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_rmoriz_digital_ocean.md)
 
 Add this line to your application's Gemfile:
 
@@ -14779,7 +14779,7 @@ Or install it yourself as:
 
     $ gem install digital_ocean
 ----
-## Installation 2501_3000/000147_rdp_specific_install.md
+## Installation [2501_3000/000147_rdp_specific_install.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_rdp_specific_install.md)
 
 Add this line to your application's Gemfile:
 
@@ -14793,7 +14793,7 @@ Or install it yourself as:
 
     $ gem install specific_install
 ----
-## Installation 2501_3000/000147_gazay_ids_please.md
+## Installation [2501_3000/000147_gazay_ids_please.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_gazay_ids_please.md)
 
 ```bash
 gem install ids_please
@@ -14805,9 +14805,9 @@ Or, put this in your Gemfile:
 gem 'ids_please'
 ```
 ----
-## Installation 2501_3000/000147_aron-bordin_neo-hpstr-jekyll-theme.md
+## Installation [2501_3000/000147_aron-bordin_neo-hpstr-jekyll-theme.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_aron-bordin_neo-hpstr-jekyll-theme.md)
 ----
-## Installation 2501_3000/000147_dabrorius_jobless.md
+## Installation [2501_3000/000147_dabrorius_jobless.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_dabrorius_jobless.md)
 
 You can install jobless via RubyGems
 
@@ -14818,13 +14818,13 @@ gem install jobless
 Then just create a new ruby file, require jobless and start coding. When you
 run that file your CV will be generated.
 ----
-## Installation 2501_3000/000147_mariusandra_aristotle.md
+## Installation [2501_3000/000147_mariusandra_aristotle.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000147_mariusandra_aristotle.md)
 
 Put this in your Gemfile
 
     gem 'aristotle'
 ----
-## Installation 2501_3000/000146_recurly_recurly-client-ruby.md
+## Installation [2501_3000/000146_recurly_recurly-client-ruby.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000146_recurly_recurly-client-ruby.md)
 
 Recurly is packaged as a Ruby gem. We recommend you install it with
 [Bundler](http://gembundler.com/) by adding the following line to your Gemfile:
@@ -14836,13 +14836,13 @@ gem 'recurly', '~> 2.17'
 Recurly will automatically use [Nokogiri](http://nokogiri.org/) (for a nice
 speed boost) if it's available and loaded in your app's environment.
 ----
-## Installation 2501_3000/000146_tyrauber_stock_quote.md
+## Installation [2501_3000/000146_tyrauber_stock_quote.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000146_tyrauber_stock_quote.md)
 
 To install the 'stock_quote' ruby gem:
 
 `gem install stock_quote`
 ----
-## Installation 2501_3000/000146_threedaymonk_htmlbeautifier.md
+## Installation [2501_3000/000146_threedaymonk_htmlbeautifier.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000146_threedaymonk_htmlbeautifier.md)
 
 This is a Ruby gem.
 To install the command-line tool (you may need `sudo`):
@@ -14857,7 +14857,7 @@ To use the gem with Bundler, add to your `Gemfile`:
 gem 'htmlbeautifier'
 ```
 ----
-## Installation 2501_3000/000146_dwbutler_groupify.md
+## Installation [2501_3000/000146_dwbutler_groupify.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000146_dwbutler_groupify.md)
 
 Add this line to your application's Gemfile:
 
@@ -14871,7 +14871,7 @@ Or install it yourself as:
 
     $ gem install groupify
 ----
-## Installation 2501_3000/000146_ryanb_mustard.md
+## Installation [2501_3000/000146_ryanb_mustard.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000146_ryanb_mustard.md)
 
 Add this line to your application's Gemfile and run the `bundle` command.
 
@@ -14880,17 +14880,17 @@ gem 'mustard', group: :test
 ```
 
 ----
-## Installation 2501_3000/000146_mgsnova_feature.md
+## Installation [2501_3000/000146_mgsnova_feature.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000146_mgsnova_feature.md)
 
         gem install feature
 ----
-## Installation 2501_3000/000145_bcoles_ssrf_proxy.md
+## Installation [2501_3000/000145_bcoles_ssrf_proxy.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000145_bcoles_ssrf_proxy.md)
 
 ```
 $ gem install ssrf_proxy
 ```
 ----
-## Installation 2501_3000/000145_rrrene_sparkr.md
+## Installation [2501_3000/000145_rrrene_sparkr.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000145_rrrene_sparkr.md)
 
 Add this line to your application's Gemfile:
 
@@ -14906,7 +14906,7 @@ Or install it yourself as:
 
 
 ----
-## Installation 2501_3000/000145_hassox_rails_warden.md
+## Installation [2501_3000/000145_hassox_rails_warden.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000145_hassox_rails_warden.md)
 
 Add this line to your application's Gemfile:
 
@@ -14926,7 +14926,7 @@ Or install it yourself as:
 $ gem install rails_warden
 ```
 ----
-## Installation :floppy_disk: 2501_3000/000145_pachacamac_busker.md
+## Installation :floppy_disk: [2501_3000/000145_pachacamac_busker.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000145_pachacamac_busker.md)
 
 Add this line to your application's Gemfile:
 
@@ -14942,7 +14942,7 @@ Or install it yourself as:
 
 Or copy the code into your project ... it's tiny!
 ----
-## Installation 2501_3000/000145_LunarLogic_gauguin.md
+## Installation [2501_3000/000145_LunarLogic_gauguin.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000145_LunarLogic_gauguin.md)
 
 Add this line to your application's Gemfile:
 
@@ -14958,13 +14958,13 @@ Or install it yourself as:
 
     $ gem install gauguin
 ----
-## Installation 2501_3000/000145_francesc_rails-translate-routes.md
+## Installation [2501_3000/000145_francesc_rails-translate-routes.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000145_francesc_rails-translate-routes.md)
 
 Add it to your Gemfile:
 
     gem 'rails-translate-routes'
 ----
-## Installation 2501_3000/000144_Gurpartap_aescrypt.md
+## Installation [2501_3000/000144_Gurpartap_aescrypt.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000144_Gurpartap_aescrypt.md)
 
 Add this line to your application's Gemfile:
 
@@ -14978,14 +14978,14 @@ Or install it yourself as:
 
     $ gem install aescrypt
 ----
-## Installation 2501_3000/000143_arches_marco-polo.md
+## Installation [2501_3000/000143_arches_marco-polo.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000143_arches_marco-polo.md)
 
     In your Gemfile: gem "marco-polo"
     $ bundle install
   
 **Note:** if you're using pry, make sure to list marco-polo AFTER pry-rails in your gemfile!
   ----
-## Installation 2501_3000/000143_MadRabbit_git-wayback-machine.md
+## Installation [2501_3000/000143_MadRabbit_git-wayback-machine.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000143_MadRabbit_git-wayback-machine.md)
 
 Add this line to your application's Gemfile:
 
@@ -15001,7 +15001,7 @@ Or install it yourself as:
 
     $ gem install git-wayback-machine
 ----
-## Installation 2501_3000/000143_byroot_activerecord-typedstore.md
+## Installation [2501_3000/000143_byroot_activerecord-typedstore.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000143_byroot_activerecord-typedstore.md)
 
 Add this line to your application's Gemfile:
 
@@ -15015,14 +15015,14 @@ Or install it yourself as:
 
     $ gem install activerecord-typedstore
 ----
-## Installation 2501_3000/000143_sprotheroe_vagrant-disksize.md
+## Installation [2501_3000/000143_sprotheroe_vagrant-disksize.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000143_sprotheroe_vagrant-disksize.md)
 
 
 ```shell
 vagrant plugin install vagrant-disksize
 ```
 ----
-## Installation 2501_3000/000143_jaipandya_wedding.md
+## Installation [2501_3000/000143_jaipandya_wedding.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000143_jaipandya_wedding.md)
 
 Command line install
 
@@ -15036,7 +15036,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 2501_3000/000142_le0pard_mongodb_logger.md
+## Installation [2501_3000/000142_le0pard_mongodb_logger.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000142_le0pard_mongodb_logger.md)
 
 1. Add the following to your Gemfile then refresh your dependencies by executing "bundle install" (or just simple "bundle"):
 
@@ -15121,7 +15121,7 @@ And then execute:
 
         rake mongodb_logger:assets:compile[public/assets]
 ----
-## Installation 2501_3000/000142_dry-rb_dry-monads.md
+## Installation [2501_3000/000142_dry-rb_dry-monads.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000142_dry-rb_dry-monads.md)
 
 Add this line to your application's Gemfile:
 
@@ -15141,9 +15141,9 @@ Or install it yourself as:
 $ gem install dry-monads
 ```
 ----
-## Installation 2501_3000/000142_damianFC_alexa-rubykit.md
+## Installation [2501_3000/000142_damianFC_alexa-rubykit.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000142_damianFC_alexa-rubykit.md)
 ----
-## Installation 2501_3000/000142_piotrmurach_rack-policy.md
+## Installation [2501_3000/000142_piotrmurach_rack-policy.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000142_piotrmurach_rack-policy.md)
 
 Add this line to your application's Gemfile:
 
@@ -15157,7 +15157,7 @@ Or install it yourself as:
 
     $ gem install rack-policy
 ----
-## Installation 2501_3000/000142_keolo_mixpanel_client.md
+## Installation [2501_3000/000142_keolo_mixpanel_client.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000142_keolo_mixpanel_client.md)
 
     gem install mixpanel_client
 
@@ -15165,7 +15165,7 @@ or if you use a Gemfile
 
     gem 'mixpanel_client'
 ----
-## Installation 2501_3000/000141_pat_riddle.markdown
+## Installation [2501_3000/000141_pat_riddle.markdown](https://github.com/ts-3156/readmes/blob/master/2501_3000/000141_pat_riddle.markdown)
 
 Riddle is available as a gem, so you can install it directly:
 
@@ -15175,7 +15175,7 @@ Or include it in a Gemfile:
 
     gem 'riddle', '~> 2.3.2'
 ----
-## Installation 2501_3000/000141_ankane_slowpoke.md
+## Installation [2501_3000/000141_ankane_slowpoke.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000141_ankane_slowpoke.md)
 
 Add this line to your application’s Gemfile:
 
@@ -15191,7 +15191,7 @@ rails generate slowpoke:install
 
 This creates a `public/503.html` you can customize.
 ----
-## Installation 2501_3000/000140_davydovanton_kan.md
+## Installation [2501_3000/000140_davydovanton_kan.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000140_davydovanton_kan.md)
 
 Add this line to your application's Gemfile:
 
@@ -15207,7 +15207,7 @@ Or install it yourself as:
 
     $ gem install kan
 ----
-## Installation 2501_3000/000140_GCorbel_activeform-rails.md
+## Installation [2501_3000/000140_GCorbel_activeform-rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000140_GCorbel_activeform-rails.md)
 
 Add this line to you Gemfile :
 
@@ -15217,7 +15217,7 @@ Add this line to you Gemfile :
 
 Please make sure you are running a compatible version of Ruby, see below.
 ----
-## Installation 2501_3000/000139_piotrmurach_loaf.md
+## Installation [2501_3000/000139_piotrmurach_loaf.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000139_piotrmurach_loaf.md)
 
 Add this line to your application's Gemfile:
 
@@ -15243,7 +15243,7 @@ Then run the generator:
 rails generate loaf:install
 ```
 ----
-## Installation 2501_3000/000139_capistrano_maintenance.md
+## Installation [2501_3000/000139_capistrano_maintenance.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000139_capistrano_maintenance.md)
 
 Add this line to your application's Gemfile:
 
@@ -15264,7 +15264,7 @@ Or install it yourself:
 $ gem install capistrano-maintenance
 ```
 ----
-## Installation 2501_3000/000139_jjyr_minidown.md
+## Installation [2501_3000/000139_jjyr_minidown.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000139_jjyr_minidown.md)
 
 Add this line to your application's Gemfile:
 
@@ -15278,7 +15278,7 @@ Or install it yourself as:
 
     $ gem install minidown
 ----
-## Installation 2501_3000/000139_boazsegev_plezi.md
+## Installation [2501_3000/000139_boazsegev_plezi.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000139_boazsegev_plezi.md)
 
 Add this line to your application's Gemfile:
 
@@ -15294,7 +15294,7 @@ Or install it yourself as:
 
     $ gem install plezi
 ----
-## Installation 2501_3000/000139_pythonicrubyist_creek.md
+## Installation [2501_3000/000139_pythonicrubyist_creek.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000139_pythonicrubyist_creek.md)
 
 Creek can be used from the command line or as part of a Ruby web framework. To install the gem using terminal, run the following command:
 
@@ -15308,7 +15308,7 @@ To use it in Rails, add this line to your Gemfile:
 gem 'creek'
 ```
 ----
-## Installation 2501_3000/000139_yolk_valvat.md
+## Installation [2501_3000/000139_yolk_valvat.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000139_yolk_valvat.md)
 
 Add it to your Gemfile:
 
@@ -15326,21 +15326,21 @@ Or install it yourself as:
 
     $ gem install valvat
 ----
-## Installation 2501_3000/000138_ongaeshi_milkode.md
+## Installation [2501_3000/000138_ongaeshi_milkode.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000138_ongaeshi_milkode.md)
 
     $ gem install milkode
 
 When you faild to install Rroonga, Please refer.
 * [File: install — rroonga - Ranguba](http://ranguba.org/rroonga/en/file.install.html)
 ----
-## Installation 2501_3000/000138_faye_websocket-driver-ruby.md
+## Installation [2501_3000/000138_faye_websocket-driver-ruby.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000138_faye_websocket-driver-ruby.md)
 
 ```
 $ gem install websocket-driver
 ```
 
 ----
-## Installation 2501_3000/000138_Leadformance_hstore_translate.md
+## Installation [2501_3000/000138_Leadformance_hstore_translate.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000138_Leadformance_hstore_translate.md)
 
 gem install hstore_translate
 
@@ -15361,7 +15361,7 @@ For ActiveRecord < 4.0 you'll also want to add:
 gem 'activerecord-postgres-hstore', '~> 0.7.0'
 ```
 ----
-## Installation 2501_3000/000138_barsoom_traco.md
+## Installation [2501_3000/000138_barsoom_traco.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000138_barsoom_traco.md)
 
 Add this to your `Gemfile`:
 
@@ -15376,7 +15376,7 @@ Then run
 to install it.
 
 ----
-## Installation 2501_3000/000138_tiagopog_jsonapi-utils.md
+## Installation [2501_3000/000138_tiagopog_jsonapi-utils.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000138_tiagopog_jsonapi-utils.md)
 
 Support:
 
@@ -15401,7 +15401,7 @@ And then execute:
 $ bundle
 ```
 ----
-## Installation 2501_3000/000138_ndea_notifyor.md
+## Installation [2501_3000/000138_ndea_notifyor.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000138_ndea_notifyor.md)
 
 Add this line to your Gemfile:
 
@@ -15419,18 +15419,18 @@ And then execute:
 
     $ bundle install
 ----
-## Installation 2501_3000/000138_ooyala_retries.md
+## Installation [2501_3000/000138_ooyala_retries.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000138_ooyala_retries.md)
 
 You can get the gem with `gem install retries` or simply add `gem "retries"` to your Gemfile if you're using
 bundler.
 ----
-## Installation 2501_3000/000138_cowbell_active_model-errors_details.md
+## Installation [2501_3000/000138_cowbell_active_model-errors_details.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000138_cowbell_active_model-errors_details.md)
 
 ```
 gem install "active_model-errors_details"
 ```
 ----
-## Installation 2501_3000/000137_agoragames_activity_feed.markdown
+## Installation [2501_3000/000137_agoragames_activity_feed.markdown](https://github.com/ts-3156/readmes/blob/master/2501_3000/000137_agoragames_activity_feed.markdown)
 
 `gem install activity_feed`
 
@@ -15441,20 +15441,20 @@ or:
 Make sure your redis server is running! Redis configuration is outside the scope of this README, but
 check out the [Redis documentation](http://redis.io/documentation).
 ----
-## Installation 2501_3000/000137_alistairstead_Magentify.md
+## Installation [2501_3000/000137_alistairstead_Magentify.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000137_alistairstead_Magentify.md)
 
     $ gem install magentify
 ----
-## Installation 2501_3000/000137_sferik_multi_xml.md
+## Installation [2501_3000/000137_sferik_multi_xml.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000137_sferik_multi_xml.md)
     gem install multi_xml
 ----
-## Installation 2501_3000/000136_ivantsepp_annotate_gem.md
+## Installation [2501_3000/000136_ivantsepp_annotate_gem.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000136_ivantsepp_annotate_gem.md)
 
 ```
 $ gem install annotate_gem
 ```
 ----
-## Installation ## 2501_3000/000136_tpitale_mail_room.md
+## Installation ## [2501_3000/000136_tpitale_mail_room.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000136_tpitale_mail_room.md)
 
 Add this line to your application's Gemfile:
 
@@ -15470,13 +15470,13 @@ Or install it yourself as:
 
 You will also need to install `faraday` or `letter_opener` if you use the `postback` or `letter_opener` delivery methods, respectively.
 ----
-## Installation 2501_3000/000136_frenesim_schema_to_scaffold.md
+## Installation [2501_3000/000136_frenesim_schema_to_scaffold.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000136_frenesim_schema_to_scaffold.md)
 
 Assuming that you have rubygems-bundler installed, just type:
 
     gem install schema_to_scaffold
 ----
-## Installation 2501_3000/000136_adamcooke_authie.md
+## Installation [2501_3000/000136_adamcooke_authie.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000136_adamcooke_authie.md)
 
 As usual, just pop this in your Gemfile:
 
@@ -15492,7 +15492,7 @@ rake authie:install:migrations
 rake db:migrate
 ```
 ----
-## Installation 2501_3000/000136_soffes_unmarkdown.markdown
+## Installation [2501_3000/000136_soffes_unmarkdown.markdown](https://github.com/ts-3156/readmes/blob/master/2501_3000/000136_soffes_unmarkdown.markdown)
 
 Add this line to your application's Gemfile:
 
@@ -15508,7 +15508,7 @@ Or install it yourself as:
 
     $ gem install unmarkdown
 ----
-## Installation 2501_3000/000136_guidomb_carthage_cache.md
+## Installation [2501_3000/000136_guidomb_carthage_cache.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000136_guidomb_carthage_cache.md)
 
 Add this line to your application's Gemfile:
 
@@ -15524,7 +15524,7 @@ Or install it yourself as:
 
     $ gem install carthage_cache
 ----
-## Installation 2501_3000/000135_street-address-rb_street-address.md
+## Installation [2501_3000/000135_street-address-rb_street-address.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000135_street-address-rb_street-address.md)
 
 ```shell
     gem install StreetAddress
@@ -15542,7 +15542,7 @@ or from Gemfile
     gem 'StreetAddress', :require => "street_address"
 ```
 ----
-## Installation 2501_3000/000135_mezis_fuzzily.md
+## Installation [2501_3000/000135_mezis_fuzzily.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000135_mezis_fuzzily.md)
 
 Add this line to your application's Gemfile:
 
@@ -15556,7 +15556,7 @@ Or install it yourself as:
 
     $ gem install fuzzily
 ----
-## Installation 2501_3000/000135_tech-angels_vandamme.md
+## Installation [2501_3000/000135_tech-angels_vandamme.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000135_tech-angels_vandamme.md)
 
 Add this line to your application's Gemfile:
 
@@ -15570,7 +15570,7 @@ Or install it yourself as:
 
     $ gem install vandamme
 ----
-## Installation 2501_3000/000135_werein_x-editable-rails.md
+## Installation [2501_3000/000135_werein_x-editable-rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000135_werein_x-editable-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -15584,7 +15584,7 @@ Or install it yourself as:
 
     $ gem install x-editable-rails
 ----
-## Installation 2501_3000/000135_bdmac_strong_password.md
+## Installation [2501_3000/000135_bdmac_strong_password.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000135_bdmac_strong_password.md)
 
 NOTE: StrongPassword requires the use of Ruby 2.0.  Upgrade if you haven't already!
 
@@ -15600,7 +15600,7 @@ Or install it yourself as:
 
     $ gem install strong_password
 ----
-## Installation 2501_3000/000134_maximeg_email_inquire.md
+## Installation [2501_3000/000134_maximeg_email_inquire.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_maximeg_email_inquire.md)
 
 Add this line to your application's Gemfile:
 
@@ -15616,7 +15616,7 @@ Or install it yourself as:
 
     $ gem install email_inquire
 ----
-## Installation 2501_3000/000134_k0kubun_rack-user_agent.md
+## Installation [2501_3000/000134_k0kubun_rack-user_agent.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_k0kubun_rack-user_agent.md)
 
 Add this line to your application's Gemfile:
 
@@ -15624,7 +15624,7 @@ Add this line to your application's Gemfile:
 gem 'rack-user_agent'
 ```
 ----
-## Installation 2501_3000/000134_musaffa_file_validators.md
+## Installation [2501_3000/000134_musaffa_file_validators.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_musaffa_file_validators.md)
 
 Add the following to your Gemfile:
 
@@ -15632,7 +15632,7 @@ Add the following to your Gemfile:
 gem 'file_validators'
 ```
 ----
-## Installation 2501_3000/000134_solnic_coercible.md
+## Installation [2501_3000/000134_solnic_coercible.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_solnic_coercible.md)
 
 Add this line to your application's Gemfile:
 
@@ -15646,10 +15646,10 @@ Or install it yourself as:
 
     $ gem install coercible
 ----
-## Installation 2501_3000/000134_wpeterson_heroku-vector.md
+## Installation [2501_3000/000134_wpeterson_heroku-vector.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_wpeterson_heroku-vector.md)
 
 ----
-## Installation 2501_3000/000134_monterail_grape-kaminari.md
+## Installation [2501_3000/000134_monterail_grape-kaminari.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_monterail_grape-kaminari.md)
 
 Add this line to your application's Gemfile:
 
@@ -15669,7 +15669,7 @@ Or install it yourself as:
 $ gem install grape-kaminari
 ```
 ----
-## Installation 2501_3000/000134_rails_rails-html-sanitizer.md
+## Installation [2501_3000/000134_rails_rails-html-sanitizer.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_rails_rails-html-sanitizer.md)
 
 Add this line to your application's Gemfile:
 
@@ -15683,7 +15683,7 @@ Or install it yourself as:
 
     $ gem install rails-html-sanitizer
 ----
-## Installation 2501_3000/000134_joonty_pessimize.md
+## Installation [2501_3000/000134_joonty_pessimize.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_joonty_pessimize.md)
 
 You don't need to add it to your Gemfile - it's best kept as a system-wide gem. All you need to do is install it from the command line:
 
@@ -15691,13 +15691,13 @@ You don't need to add it to your Gemfile - it's best kept as a system-wide gem. 
 
 This installs the command line tool `pessimize`.
 ----
-## Installation 2501_3000/000134_babel_ruby-babel-transpiler.md
+## Installation [2501_3000/000134_babel_ruby-babel-transpiler.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000134_babel_ruby-babel-transpiler.md)
 
 ``` sh
 $ gem install babel-transpiler
 ```
 ----
-## Installation 2501_3000/000133_ndea_rimportor.md
+## Installation [2501_3000/000133_ndea_rimportor.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000133_ndea_rimportor.md)
 
 Add this line to your application's Gemfile:
 
@@ -15713,11 +15713,11 @@ Or install it yourself as:
 
     $ gem install rimportor
 ----
-## Installation 2501_3000/000133_zmoazeni_harvested.md
+## Installation [2501_3000/000133_zmoazeni_harvested.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000133_zmoazeni_harvested.md)
 
     gem install harvested
 ----
-## Installation 2501_3000/000133_joshuajansen_bulma-rails.md
+## Installation [2501_3000/000133_joshuajansen_bulma-rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000133_joshuajansen_bulma-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -15727,7 +15727,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 2501_3000/000132_bankscrap_bankscrap.md
+## Installation [2501_3000/000132_bankscrap_bankscrap.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000132_bankscrap_bankscrap.md)
 
 Installation from RubyGems:
 
@@ -15747,7 +15747,7 @@ Or, if you're using Bundler, just add the following to your Gemfile:
 
 Note that you only need to install the gem for your selected bank – the main gem (`bankscrap`) will be installed as a dependency.
 ----
-## Installation 2501_3000/000132_infosimples_deathbycaptcha.md
+## Installation [2501_3000/000132_infosimples_deathbycaptcha.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000132_infosimples_deathbycaptcha.md)
 
 Add this line to your application's Gemfile:
 
@@ -15763,7 +15763,7 @@ Or install it yourself as:
 
     $ gem install deathbycaptcha
 ----
-## Installation 2501_3000/000132_jfairbank_chroma.md
+## Installation [2501_3000/000132_jfairbank_chroma.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000132_jfairbank_chroma.md)
 
 Add this line to your application's Gemfile:
 
@@ -15779,7 +15779,7 @@ Or install it yourself as:
 
     $ gem install chroma
 ----
-## Installation 2501_3000/000132_metaskills_store_configurable.md
+## Installation [2501_3000/000132_metaskills_store_configurable.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000132_metaskills_store_configurable.md)
 
 Install the gem with bundler. We follow a semantic versioning format that tracks ActiveRecord's minor version. So this means to use the latest 3.2.x version of StoreConfigurable with any ActiveRecord 3.2 version.
 
@@ -15790,7 +15790,7 @@ gem 'store_configurable', '~> 4.0.0'
 Our `4.0.x` versions target both Rails 4.0 and 4.1 only.
 
 ----
-## Installation 2501_3000/000131_splattael_libnotify.md
+## Installation [2501_3000/000131_splattael_libnotify.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_splattael_libnotify.md)
 
 ```bash
 gem install libnotify
@@ -15802,7 +15802,7 @@ You'll need libnotify. On Debian just type:
 apt-get install libnotify1
 ```
 ----
-## Installation 2501_3000/000131_baschtl_devise-token_authenticatable.md
+## Installation [2501_3000/000131_baschtl_devise-token_authenticatable.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_baschtl_devise-token_authenticatable.md)
 
 Add this line to your application's Gemfile:
 
@@ -15816,7 +15816,7 @@ Or install it yourself as:
 
     $ gem install devise-token_authenticatable
 ----
-## Installation 2501_3000/000131_ID25_rails_emoji_picker.md
+## Installation [2501_3000/000131_ID25_rails_emoji_picker.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_ID25_rails_emoji_picker.md)
 
 Add this line to your application's Gemfile:
 
@@ -15824,7 +15824,7 @@ Add this line to your application's Gemfile:
 gem 'rails_emoji_picker'
 ```
 ----
-## Installation 2501_3000/000131_teohm_require_reloader.md
+## Installation [2501_3000/000131_teohm_require_reloader.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_teohm_require_reloader.md)
 
 Add this line to your application's Gemfile:
 
@@ -15835,7 +15835,7 @@ And then execute:
     $ bundle
 
 ----
-## Installation 2501_3000/000131_ruby-grape_grape-rabl.md
+## Installation [2501_3000/000131_ruby-grape_grape-rabl.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_ruby-grape_grape-rabl.md)
 
 Add the `grape` and `grape-rabl` gems to Gemfile.
 
@@ -15848,7 +15848,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 2501_3000/000131_kvokka_pp_sql.md
+## Installation [2501_3000/000131_kvokka_pp_sql.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_kvokka_pp_sql.md)
 
 add in Gemfile
 ```
@@ -15860,7 +15860,7 @@ And then execute:
 $ bundle
 ```
 ----
-## Installation 2501_3000/000131_cllns_material_design_lite-rails.md
+## Installation [2501_3000/000131_cllns_material_design_lite-rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_cllns_material_design_lite-rails.md)
 
 To your Rails application's Gemfile, add
 
@@ -15872,7 +15872,7 @@ And then run
 
     $ bundle
 ----
-## Installation 2501_3000/000131_cryo28_sidekiq_status.md
+## Installation [2501_3000/000131_cryo28_sidekiq_status.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_cryo28_sidekiq_status.md)
 
 Add this line to your application's Gemfile:
 
@@ -15884,7 +15884,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 2501_3000/000131_wildbit_postmark-gem.md
+## Installation [2501_3000/000131_wildbit_postmark-gem.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_wildbit_postmark-gem.md)
 
 You can use the library with or without a Bundler.
 
@@ -15900,13 +15900,13 @@ Without Bundler:
 gem install postmark
 ```
 ----
-## Installation 2501_3000/000131_joshsusser_informal.md
+## Installation [2501_3000/000131_joshsusser_informal.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000131_joshsusser_informal.md)
 
 It's a Ruby gem, so just install it with `gem install informal`, add it to your
 bundler Gemfile, or do whatever you like to do with gems. There is nothing to
 configure.
 ----
-## Installation 2501_3000/000130_alexgenco_neovim-ruby.md
+## Installation [2501_3000/000130_alexgenco_neovim-ruby.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000130_alexgenco_neovim-ruby.md)
 
 Add this line to your application's Gemfile:
 
@@ -15920,7 +15920,7 @@ Or install it yourself as:
 
     $ gem install neovim
 ----
-## Installation and Setup  2501_3000/000130_drewblessing_gitlab-cli.md
+## Installation and Setup  [2501_3000/000130_drewblessing_gitlab-cli.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000130_drewblessing_gitlab-cli.md)
 
 _How do I get started?_ 
 
@@ -15959,7 +15959,7 @@ _How can I add the repo bin path to my environment PATH variable?_
 Place it in your ~/.bash_profile file.  You should end up with something like this:
 `export PATH=$PATH:/path/to/gitlab-cli/repo/bin/`
 ----
-## Installation and usage 2501_3000/000130_MaximeD_gem_updater.md
+## Installation and usage [2501_3000/000130_MaximeD_gem_updater.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000130_MaximeD_gem_updater.md)
 
 ```
 gem install gem_updater
@@ -15977,7 +15977,7 @@ This will use the generated message as a commit message template, allowing you
 to edit before commit.
 
 ----
-## Installation 2501_3000/000130_jpatokal_mediawiki-gateway.md
+## Installation [2501_3000/000130_jpatokal_mediawiki-gateway.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000130_jpatokal_mediawiki-gateway.md)
 
 To install MediaWiki::Gateway, execute the command:
 
@@ -15997,7 +15997,7 @@ and then execute the command:
 $ bundle
 ```
 ----
-## Installation 2501_3000/000130_github_github-ldap.md
+## Installation [2501_3000/000130_github_github-ldap.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000130_github_github-ldap.md)
 
 Add this line to your application's Gemfile:
 
@@ -16011,7 +16011,7 @@ Or install it yourself as:
 
     $ gem install github-ldap
 ----
-## Installation 2501_3000/000130_gzigzigzeo_sidekiq-grouping.md
+## Installation [2501_3000/000130_gzigzigzeo_sidekiq-grouping.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000130_gzigzigzeo_sidekiq-grouping.md)
 
 Add this line to your application's Gemfile:
 
@@ -16025,7 +16025,7 @@ Or install it yourself as:
 
     $ gem install sidekiq-grouping
 ----
-## Installation 2501_3000/000129_dtaniwaki_mandriller.md
+## Installation [2501_3000/000129_dtaniwaki_mandriller.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000129_dtaniwaki_mandriller.md)
 
 Add the mandriller gem to your Gemfile.
 
@@ -16050,7 +16050,7 @@ config.action_mailer.smtp_settings = {
 }
 ```
 ----
-## Installation 2501_3000/000129_BPScott_breakup.md
+## Installation [2501_3000/000129_BPScott_breakup.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000129_BPScott_breakup.md)
 
 Breakup is compatible with both the origial ruby version of Sass and libsass.
 It is available as a rubygem and an npm package. If you don't wish to use either
@@ -16059,7 +16059,7 @@ of these package managers you can also copy
 `@import` it from there, as Breakup is written in pure SCSS and has no external
 dependencies.
 ----
-## Installation 2501_3000/000129_capistrano_npm.md
+## Installation [2501_3000/000129_capistrano_npm.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000129_capistrano_npm.md)
 
 Add this line to your application's Gemfile:
 
@@ -16076,7 +16076,7 @@ Or install it yourself as:
 
     $ gem install capistrano-npm
 ----
-## Installation 2501_3000/000128_instructure_ims-lti.md
+## Installation [2501_3000/000128_instructure_ims-lti.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000128_instructure_ims-lti.md)
 
 Add this line to your application's Gemfile:
 
@@ -16090,7 +16090,7 @@ Or install it yourself as:
 
     $ gem install lti
 ----
-## Installation 2501_3000/000128_ko1_yomikomu.md
+## Installation [2501_3000/000128_ko1_yomikomu.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000128_ko1_yomikomu.md)
 
 Add this line to your application's Gemfile:
 
@@ -16106,7 +16106,7 @@ Or install it yourself as:
 
     $ gem install yomikomu
 ----
-## Installation 2501_3000/000128_kaize_validates.md
+## Installation [2501_3000/000128_kaize_validates.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000128_kaize_validates.md)
 
 Add this line to your application's Gemfile:
 
@@ -16120,7 +16120,7 @@ Or install it yourself as:
 $ gem install 'validates'
 ```
 ----
-## Installation 2501_3000/000128_jekyll_jekyll-gist.md
+## Installation [2501_3000/000128_jekyll_jekyll-gist.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000128_jekyll_jekyll-gist.md)
 
 Add this line to your application's Gemfile:
 
@@ -16143,8 +16143,8 @@ plugins:
 
 💡 If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
 ----
-## Installation 2501_3000/000128_nickryand_vagrant-multi-putty.md----
-## Installation 2501_3000/000128_lisinge_valid_email2.md
+## Installation [2501_3000/000128_nickryand_vagrant-multi-putty.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000128_nickryand_vagrant-multi-putty.md)----
+## Installation [2501_3000/000128_lisinge_valid_email2.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000128_lisinge_valid_email2.md)
 
 Add this line to your application's Gemfile:
 
@@ -16160,7 +16160,7 @@ Or install it yourself as:
 
     $ gem install valid_email2
 ----
-## Installation 2501_3000/000128_kvokka_onotole.md
+## Installation [2501_3000/000128_kvokka_onotole.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000128_kvokka_onotole.md)
 
 First install the onotole gem add this in `Gemfile` and `bundle`
 
@@ -16198,7 +16198,7 @@ List of gems you always can get with `onotole --gems` command. Also,
 
 *NB: if you install custom gems, default user gem pack will not be installed.
 ----
-## Installation 2501_3000/000127_peczenyj_MooseX.md
+## Installation [2501_3000/000127_peczenyj_MooseX.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000127_peczenyj_MooseX.md)
 
 Add this line to your application's Gemfile:
 
@@ -16214,7 +16214,7 @@ Or install it yourself as:
 
 You need ruby 2.0.x or superior.
 ----
-## Installation 2501_3000/000127_digitalocean_kartograph.md
+## Installation [2501_3000/000127_digitalocean_kartograph.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000127_digitalocean_kartograph.md)
 
 Add this line to your application's Gemfile:
 
@@ -16224,7 +16224,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 2501_3000/000127_henrylawson_photish.md
+## Installation [2501_3000/000127_henrylawson_photish.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000127_henrylawson_photish.md)
 
 Photish is available across all platforms as a [Ruby Gem](#ruby-gem). The
 recommended installation is the [Ruby Gem](#ruby-gem) as not all features are
@@ -16243,7 +16243,7 @@ Instructions are provided for each platform native installation:
 - [Linux Binaries](#linux-binaries)
 - [Windows Binaries](#windows-binaries)
 ----
-## Installation 2501_3000/000127_kickstarter_cfn-flow.md
+## Installation [2501_3000/000127_kickstarter_cfn-flow.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000127_kickstarter_cfn-flow.md)
 
 Via [rubygems](https://rubygems.org/gems/cfn-flow):
 ```
@@ -16252,7 +16252,7 @@ gem install cfn-flow
 
 The `git` command is also needed.
 ----
-## Installation 2501_3000/000127_sosedoff_grooveshark.md
+## Installation [2501_3000/000127_sosedoff_grooveshark.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000127_sosedoff_grooveshark.md)
 
 Install gem from rubygems:
 
@@ -16272,7 +16272,7 @@ And install bundle:
 bundle install
 ```
 ----
-## Installation 2501_3000/000126_ybur-yug_gkv.md
+## Installation [2501_3000/000126_ybur-yug_gkv.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000126_ybur-yug_gkv.md)
 
 Add this line to your application's Gemfile:
 
@@ -16288,7 +16288,7 @@ Or install it yourself as:
 
     $ gem install gkv
 ----
-## Installation 2501_3000/000126_kenn_memstat.md
+## Installation [2501_3000/000126_kenn_memstat.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000126_kenn_memstat.md)
 
 Add this line to your application's Gemfile:
 
@@ -16302,7 +16302,7 @@ Or install it yourself as:
 $ gem install memstat
 ```
 ----
-## Installation 2501_3000/000126_jasonfb_nondestructive_migrations.md
+## Installation [2501_3000/000126_jasonfb_nondestructive_migrations.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000126_jasonfb_nondestructive_migrations.md)
 To add to your Rails project, follow these steps.
 
 1) Add this to your gemfile.
@@ -16353,13 +16353,13 @@ rake data:migrate
 
 You get three additional rake tasks that operate and have the same syntax as the schema migrations, but operate only on the data migrations. 
 ----
-## Installation 2501_3000/000126_ucnv_aviglitch.md
+## Installation [2501_3000/000126_ucnv_aviglitch.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000126_ucnv_aviglitch.md)
 
 ```sh
   gem install aviglitch
 ```
 ----
-## Installation 2501_3000/000126_trade-informatics_caracal.md
+## Installation [2501_3000/000126_trade-informatics_caracal.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000126_trade-informatics_caracal.md)
 
 Add this line to your application's Gemfile:
 
@@ -16374,7 +16374,7 @@ bundle install
 ```
 
 ----
-## Installation 2501_3000/000126_waterlink_rack-reverse-proxy.md
+## Installation [2501_3000/000126_waterlink_rack-reverse-proxy.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000126_waterlink_rack-reverse-proxy.md)
 The gem is available on rubygems.  Assuming you have a recent version of Rubygems you should just be able to install it via:
 
 ```
@@ -16387,7 +16387,7 @@ For your Gemfile use:
 gem "rack-reverse-proxy", require: "rack/reverse_proxy"
 ```
 ----
-## Installation 2501_3000/000126_nathanvda_on_the_spot.markdown
+## Installation [2501_3000/000126_nathanvda_on_the_spot.markdown](https://github.com/ts-3156/readmes/blob/master/2501_3000/000126_nathanvda_on_the_spot.markdown)
 
 Inside your `Gemfile` add the following:
 
@@ -16399,7 +16399,7 @@ Run the installation task:
 
 This will copy the default translation files, and for rails 3.0 it will also copy the needed assets (javascript files).
 ----
-## Installation 2501_3000/000126_hyperoslo_capistrano-foreman.md
+## Installation [2501_3000/000126_hyperoslo_capistrano-foreman.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000126_hyperoslo_capistrano-foreman.md)
 
     $ gem install capistrano-foreman
 
@@ -16423,7 +16423,7 @@ set :foreman_options, ->{ {
 
 See [exporting options](http://ddollar.github.io/foreman/#EXPORTING) for an exhaustive list of foreman options.
 ----
-## Installation 2501_3000/000125_airblade_chartjs-ror.md
+## Installation [2501_3000/000125_airblade_chartjs-ror.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000125_airblade_chartjs-ror.md)
 
 Add this line to your application's Gemfile:
 
@@ -16450,7 +16450,7 @@ Choose the appropriate one in your javascript manifest:
 Please note Chart.js [no longer supports IE8 and below](https://github.com/chartjs/Chart.js/issues/2396#issuecomment-215233106).
 
 ----
-## Installation 2501_3000/000125_simplabs_rails_api_auth.md
+## Installation [2501_3000/000125_simplabs_rails_api_auth.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000125_simplabs_rails_api_auth.md)
 
 To install the engine simply add to the application's `Gemfile`
 
@@ -16471,11 +16471,11 @@ rake db:migrate
 
 as well to migrate the database.
 ----
-## Installation 2501_3000/000125_gowalla_boxer.md
+## Installation [2501_3000/000125_gowalla_boxer.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000125_gowalla_boxer.md)
 
 Install the [boxer gem](http://rubygems.org/gems/boxer).
 ----
-## Installation 2501_3000/000125_leejarvis_hound.md
+## Installation [2501_3000/000125_leejarvis_hound.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000125_leejarvis_hound.md)
 
 Add Hound to your `Gemfile` and run `bundle install`:
 
@@ -16493,7 +16493,7 @@ rails generate hound:install
 This will create a new migration file. Run `rake db:migrate` to add
 this table.
 ----
-## Installation 2501_3000/000125_fnando_coupons.md
+## Installation [2501_3000/000125_fnando_coupons.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000125_fnando_coupons.md)
 
 Add this line to your application's Gemfile:
 
@@ -16517,7 +16517,7 @@ Or install it yourself as:
 
     $ gem install coupons
 ----
-## Installation 2501_3000/000124_rob-murray_five-star.md
+## Installation [2501_3000/000124_rob-murray_five-star.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_rob-murray_five-star.md)
 
 Add this line to your application's Gemfile:
 
@@ -16534,7 +16534,7 @@ Or install it yourself as:
     $ gem install five-star
 
 ----
-## Installation inside a Rails app 2501_3000/000124_BaseSecrete_redis_dashboard.md
+## Installation inside a Rails app [2501_3000/000124_BaseSecrete_redis_dashboard.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_BaseSecrete_redis_dashboard.md)
 
 Add this line in your Gemfile:
 ```ruby
@@ -16558,7 +16558,7 @@ RedisDashboard.urls = ["redis://localhost"]
 
 Finally visit http://localhost/redis_dashboard/.
 ----
-## Installation 2501_3000/000124_coderbydesign_chart-js-rails.md
+## Installation [2501_3000/000124_coderbydesign_chart-js-rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_coderbydesign_chart-js-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -16583,7 +16583,7 @@ Add this to your application.js file:
 //= require Chart.min
 ```
 ----
-## Installation 2501_3000/000124_stefankroes_scribble.md
+## Installation [2501_3000/000124_stefankroes_scribble.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_stefankroes_scribble.md)
 
 Add this line to your application's Gemfile:
 
@@ -16597,7 +16597,7 @@ Or install it yourself as:
 
     $ gem install scribble
 ----
-## Installation 2501_3000/000124_infinum_cookies_eu.md
+## Installation [2501_3000/000124_infinum_cookies_eu.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_infinum_cookies_eu.md)
 
 Add this line to your application's Gemfile:
 
@@ -16627,7 +16627,7 @@ Or, if you have application.scss:
 
 Remember to restart your server!
 ----
-## Installation 2501_3000/000124_ncri_ajaxify_rails.md
+## Installation [2501_3000/000124_ncri_ajaxify_rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_ncri_ajaxify_rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -16641,9 +16641,9 @@ In your application.js file add:
 
     //= require ajaxify_rails
 ----
-## Installation 2501_3000/000124_activemerchant_offsite_payments.md
+## Installation [2501_3000/000124_activemerchant_offsite_payments.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_activemerchant_offsite_payments.md)
 ----
-## Installation 2501_3000/000124_nesquena_sheet_mapper.md
+## Installation [2501_3000/000124_nesquena_sheet_mapper.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_nesquena_sheet_mapper.md)
 
 Setup in Gemfile:
 
@@ -16655,14 +16655,14 @@ gem 'sheet_mapper'
 
 and then `require 'sheet_mapper'` and you are done!
 ----
-## Installation 2501_3000/000124_nruth_show_me_the_cookies.md
+## Installation [2501_3000/000124_nruth_show_me_the_cookies.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_nruth_show_me_the_cookies.md)
 
 Add to your gemfile's test group:
 
     gem "show_me_the_cookies"
 
 ----
-## Installation 2501_3000/000124_ranjib_etcd-ruby.md
+## Installation [2501_3000/000124_ranjib_etcd-ruby.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000124_ranjib_etcd-ruby.md)
 
 Add this line to your application's Gemfile:
 
@@ -16676,7 +16676,7 @@ Or install it yourself as:
 
     $ gem install etcd
 ----
-## Installation 2501_3000/000123_hanami_validations.md
+## Installation [2501_3000/000123_hanami_validations.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000123_hanami_validations.md)
 
 Add this line to your application's Gemfile:
 
@@ -16696,7 +16696,7 @@ Or install it yourself as:
 $ gem install hanami-validations
 ```
 ----
-## Installation 2501_3000/000123_Shopify_active_fulfillment.md
+## Installation [2501_3000/000123_Shopify_active_fulfillment.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000123_Shopify_active_fulfillment.md)
 
 Add to your gem file, and run `bundle install`.
 
@@ -16704,7 +16704,7 @@ Add to your gem file, and run `bundle install`.
 gem 'active_fulfillment'
 ```
 ----
-## Installation 2501_3000/000123_yukas_traver.md
+## Installation [2501_3000/000123_yukas_traver.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000123_yukas_traver.md)
 
 ```shell
 gem install traver
@@ -16718,13 +16718,13 @@ gem 'traver'
 
 and run `bundle install` from your shell.
 ----
-## Installation 2501_3000/000122_rap1ds_ruby-possibly.md
+## Installation [2501_3000/000122_rap1ds_ruby-possibly.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_rap1ds_ruby-possibly.md)
 
 ```ruby
 gem install possibly
 ```
 ----
-## Installation 2501_3000/000122_open-uri-redirections_open_uri_redirections.md
+## Installation [2501_3000/000122_open-uri-redirections_open_uri_redirections.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_open-uri-redirections_open_uri_redirections.md)
 
 Add this line to your application's Gemfile:
 
@@ -16742,7 +16742,7 @@ Or install it yourself as:
 $ gem install open_uri_redirections
 ```
 ----
-## Installation 2501_3000/000122_jekyll_mercenary.md
+## Installation [2501_3000/000122_jekyll_mercenary.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_jekyll_mercenary.md)
 
 Add this line to your application's Gemfile:
 
@@ -16758,12 +16758,12 @@ Or install it yourself as:
 
 **Note: Mercenary may not work with Ruby < 1.9.3.**
 ----
-## Installation 2501_3000/000122_jcasimir_locale_setter.md
+## Installation [2501_3000/000122_jcasimir_locale_setter.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_jcasimir_locale_setter.md)
 
 Currently, LocaleSetter only supports Rails 3.2 and up. If you want 3.0 or
 3\.1 support, please file an Issue and we can work it out.
 ----
-## Installation 2501_3000/000122_nielsenramon_kickster.md
+## Installation [2501_3000/000122_nielsenramon_kickster.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_nielsenramon_kickster.md)
 
 If you haven't installed the following tools then go ahead and do so (make sure you have [Homebrew](https://brew.sh/) installed):
 
@@ -16790,7 +16790,7 @@ Setup your environment:
 
 You can push your project to any branch except `gh-pages`. For `sitename.github.io` repo users make sure to use another branch than `master`.
 ----
-## Installation 2501_3000/000122_buttercloud_stripe_tester.md
+## Installation [2501_3000/000122_buttercloud_stripe_tester.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_buttercloud_stripe_tester.md)
 
 Add this line to your application's Gemfile:
 ```ruby
@@ -16805,11 +16805,11 @@ Or install it yourself as:
 $ gem install stripe_tester
 ```
 ----
-## Installation 2501_3000/000122_amatsuda_rfd.md
+## Installation [2501_3000/000122_amatsuda_rfd.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_amatsuda_rfd.md)
 
     % gem install rfd
 ----
-## Installation 2501_3000/000122_xinminlabs_newrelic-grape.md
+## Installation [2501_3000/000122_xinminlabs_newrelic-grape.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_xinminlabs_newrelic-grape.md)
 
 Add this line to your application's Gemfile:
 
@@ -16834,13 +16834,13 @@ If you're using Rails, make sure that you've told rack to start the agent for Gr
     run YourApplication::Application
 
 ----
-## Installation 2501_3000/000122_donmelton_magneto.md
+## Installation [2501_3000/000122_donmelton_magneto.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000122_donmelton_magneto.md)
 
 Magneto is [available as a gem](https://rubygems.org/gems/magneto) which you can install like this:
 
     sudo gem install magneto
 ----
-## Installation 2501_3000/000121_vinhnglx_active_bootstrap_skin.md
+## Installation [2501_3000/000121_vinhnglx_active_bootstrap_skin.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000121_vinhnglx_active_bootstrap_skin.md)
 
 - Add the gem to your Gemfile:
 
@@ -16851,9 +16851,9 @@ gem 'bootstrap-sass'
 gem 'active_bootstrap_skin'
 ```
 ----
-## Installation 2501_3000/000121_DAddYE_leveldb.md
+## Installation [2501_3000/000121_DAddYE_leveldb.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000121_DAddYE_leveldb.md)
 ----
-## Installation 2501_3000/000121_k0kubun_activerecord-precount.md
+## Installation [2501_3000/000121_k0kubun_activerecord-precount.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000121_k0kubun_activerecord-precount.md)
 
 Add this line to your application's Gemfile:
 
@@ -16861,11 +16861,11 @@ Add this line to your application's Gemfile:
 gem 'activerecord-precount'
 ```
 ----
-## Installation 2501_3000/000121_wjessop_Scamp.md
+## Installation [2501_3000/000121_wjessop_Scamp.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000121_wjessop_Scamp.md)
 
 `gem install scamp` or put `gem 'scamp'` in your Gemfile.
 ----
-## Installation 2501_3000/000121_gjtorikian_commonmarker.md
+## Installation [2501_3000/000121_gjtorikian_commonmarker.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000121_gjtorikian_commonmarker.md)
 
 Add this line to your application's Gemfile:
 
@@ -16879,7 +16879,7 @@ Or install it yourself as:
 
     $ gem install commonmarker
 ----
-## Installation 2501_3000/000121_RubyMoney_eu_central_bank.md
+## Installation [2501_3000/000121_RubyMoney_eu_central_bank.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000121_RubyMoney_eu_central_bank.md)
 
 ```
 gem install eu_central_bank
@@ -16891,7 +16891,7 @@ In case you're using older ruby (< 2.1) you need nokogiri < 1.6.8, so add this t
 gem 'nokogiri', '1.6.8'
 ```
 ----
-## Installation 2501_3000/000121_shine60vn_adminlte-rails.md
+## Installation [2501_3000/000121_shine60vn_adminlte-rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000121_shine60vn_adminlte-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -16905,14 +16905,14 @@ Or install it yourself as:
 
     $ gem install adminlte-rails
 ----
-## Installation 2501_3000/000120_cyx_shield.md
+## Installation [2501_3000/000120_cyx_shield.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000120_cyx_shield.md)
 
 You can install it using rubygems:
 
 ```
 gem install shield
 ```----
-## Installation 2501_3000/000120_domgetter_dare.md
+## Installation [2501_3000/000120_domgetter_dare.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000120_domgetter_dare.md)
 
 ```bash
 $ gem install dare
@@ -16933,7 +16933,7 @@ gamename$
 
 Which will create a game.js file and an game.html file.  Open game.html in your favorite browser, and play your game!
 ----
-## Installation 2501_3000/000120_fd_json_select.md
+## Installation [2501_3000/000120_fd_json_select.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000120_fd_json_select.md)
 
 From your terminal:
 
@@ -16947,12 +16947,12 @@ In your `Gemfile`:
 gem 'json_select'
 ```
 ----
-## Installation: 2501_3000/000120_cpjolicoeur_bb-ruby.md
+## Installation: [2501_3000/000120_cpjolicoeur_bb-ruby.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000120_cpjolicoeur_bb-ruby.md)
 
     gem install bb-ruby
 
 ----
-## Installation 2501_3000/000120_codykrieger_ace-rails-ap.md
+## Installation [2501_3000/000120_codykrieger_ace-rails-ap.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000120_codykrieger_ace-rails-ap.md)
 
 In your Gemfile, add:
 
@@ -16977,7 +16977,7 @@ To include a theme or mode, add them in your application.js file:
 
 Workers and modes don't need to be included in your application.js file, as they can also be loaded dynamically (see below).
 ----
-## Installation 2501_3000/000120_baweaver_izzy.md
+## Installation [2501_3000/000120_baweaver_izzy.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000120_baweaver_izzy.md)
 
 Add this line to your application's Gemfile:
 
@@ -16991,7 +16991,7 @@ Or install it yourself as:
 
     $ gem install izzy
 ----
-## Installation 2501_3000/000120_zorab47_active_admin-sortable_tree.md
+## Installation [2501_3000/000120_zorab47_active_admin-sortable_tree.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000120_zorab47_active_admin-sortable_tree.md)
 
 1. Add SortableTree to your Gemfile; then `bundle install`
     ```ruby
@@ -17010,11 +17010,11 @@ Or install it yourself as:
     @import "active_admin/sortable";
     ```
 ----
-## Installation 2501_3000/000120_mojolingo_sippy_cup.markdown
+## Installation [2501_3000/000120_mojolingo_sippy_cup.markdown](https://github.com/ts-3156/readmes/blob/master/2501_3000/000120_mojolingo_sippy_cup.markdown)
 
 If you do not have Ruby 2.3.3 available (check using `ruby --version`), we recommend installing Ruby with [RVM](http://rvm.io)
 ----
-## Installation 2501_3000/000119_akshayrawat_dj_mon.md
+## Installation [2501_3000/000119_akshayrawat_dj_mon.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_akshayrawat_dj_mon.md)
 
 Add this line to your application's Gemfile:
 
@@ -17028,7 +17028,7 @@ Or install it yourself as:
 
     $ gem install dj_mon
 ----
-## Installation 2501_3000/000119_gcao_aspector.md
+## Installation [2501_3000/000119_gcao_aspector.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_gcao_aspector.md)
 
 ```bash
 gem install aspector
@@ -17040,11 +17040,11 @@ or put it inside of your Gemfile:
 gem 'aspector'
 ```
 ----
-## Installation 2501_3000/000119_erniebrodeur_ruby-beautify.md
+## Installation [2501_3000/000119_erniebrodeur_ruby-beautify.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_erniebrodeur_ruby-beautify.md)
 
   `gem install ruby-beautify`
 ----
-## Installation 2501_3000/000119_Semantic-Org_Semantic-UI-Rails-LESS.md
+## Installation [2501_3000/000119_Semantic-Org_Semantic-UI-Rails-LESS.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_Semantic-Org_Semantic-UI-Rails-LESS.md)
 
 Add this block to your application's Gemfile:
 
@@ -17083,7 +17083,7 @@ Require `semantic_ui/semantic_ui.css` in `app/assets/application.css`:
     *= require semantic_ui/semantic_ui
     ...
 ----
-## Installation 2501_3000/000119_activeadmin-plugins_active_admin_theme.md
+## Installation [2501_3000/000119_activeadmin-plugins_active_admin_theme.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_activeadmin-plugins_active_admin_theme.md)
 As active_skin is the css theme for the [activeadmin](https://github.com/activeadmin/activeadmin) administration framework - you have to install if first.
 
 Having active admin installed add the following line to your application's Gemfile:
@@ -17101,7 +17101,7 @@ Or install it yourself as:
 
     $ gem install active_admin_theme
 ----
-## Installation 2501_3000/000119_SchemaPlus_schema_validations.md
+## Installation [2501_3000/000119_SchemaPlus_schema_validations.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_SchemaPlus_schema_validations.md)
 
 Simply add schema_validations to your Gemfile.
 
@@ -17109,7 +17109,7 @@ Simply add schema_validations to your Gemfile.
 gem "schema_validations"
 ```
     ----
-## Installation 2501_3000/000119_envato_double_entry.md
+## Installation [2501_3000/000119_envato_double_entry.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_envato_double_entry.md)
 
 In your application's `Gemfile`, add:
 
@@ -17136,12 +17136,12 @@ rake db:migrate
 ```
 
 ----
-## Installation 2501_3000/000119_CocoaPods_cocoapods-try.md
+## Installation [2501_3000/000119_CocoaPods_cocoapods-try.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_CocoaPods_cocoapods-try.md)
 
     $ gem install cocoapods-try
 
 ----
-## Installation 2501_3000/000119_qcam_worque.md
+## Installation [2501_3000/000119_qcam_worque.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_qcam_worque.md)
 
 **DO NOT add this to your Gemfile**
 
@@ -17149,7 +17149,7 @@ Install it by
 
     $ gem install worque
 ----
-## Installation 2501_3000/000119_ruby-av_paperclip-av-transcoder.md
+## Installation [2501_3000/000119_ruby-av_paperclip-av-transcoder.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000119_ruby-av_paperclip-av-transcoder.md)
 
 Add this line to your application's Gemfile:
 
@@ -17163,7 +17163,7 @@ Or install it yourself as:
 
     $ gem install paperclip-av-transcoder
 ----
-## Installation 2501_3000/000118_calonso_rails-push-notifications.md
+## Installation [2501_3000/000118_calonso_rails-push-notifications.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_calonso_rails-push-notifications.md)
 To install the gem simply add this line to your Gemfile
 
     gem 'rails-push-notifications', '~> 0.2.0'
@@ -17177,13 +17177,13 @@ Once you have it installed, you need to generate the database migrations in orde
     $ rails generate rails_push_notifications:migrations
     $ rake db:migrate
 ----
-## Installation 2501_3000/000118_janko-m_as-duration.md
+## Installation [2501_3000/000118_janko-m_as-duration.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_janko-m_as-duration.md)
 
 ```ruby
 gem 'as-duration'
 ```
 ----
-## Installation 2501_3000/000118_qrush_motion-settings-bundle.md
+## Installation [2501_3000/000118_qrush_motion-settings-bundle.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_qrush_motion-settings-bundle.md)
 
 Add this line to your application's Gemfile:
 
@@ -17197,7 +17197,7 @@ Or install it yourself as:
 
     gem install motion-settings-bundle
 ----
-## Installation 2501_3000/000118_GemHQ_money-tree.md
+## Installation [2501_3000/000118_GemHQ_money-tree.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_GemHQ_money-tree.md)
 
 Add this line to your application's Gemfile:
 
@@ -17211,7 +17211,7 @@ Or install it yourself as:
 
     $ gem install money-tree
 ----
-## Installation 2501_3000/000118_alloy_lowdown.md
+## Installation [2501_3000/000118_alloy_lowdown.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_alloy_lowdown.md)
 
 Add this line to your application's Gemfile:
 
@@ -17225,12 +17225,12 @@ Or install it yourself, for instance for the command-line usage, as:
 $ gem install lowdown
 ```
 ----
-## Installation 2501_3000/000118_SebastianSzturo_dokku-cli.md
+## Installation [2501_3000/000118_SebastianSzturo_dokku-cli.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_SebastianSzturo_dokku-cli.md)
 ```
 $ gem install dokku-cli
 ```
 ----
-## Installation 2501_3000/000118_adamcooke_fake-person.md
+## Installation [2501_3000/000118_adamcooke_fake-person.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_adamcooke_fake-person.md)
 
 Just put the following in your Gemfile and run `bundle`.
 
@@ -17238,7 +17238,7 @@ Just put the following in your Gemfile and run `bundle`.
 gem "fake_person", "~> 1.0"
 ```
 ----
-## Installation 2501_3000/000118_hanami_utils.md
+## Installation [2501_3000/000118_hanami_utils.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_hanami_utils.md)
 
 Add this line to your application's Gemfile:
 
@@ -17254,7 +17254,7 @@ Or install it yourself as:
 
     $ gem install hanami-utils
 ----
-## Installation 2501_3000/000118_kishikawakatsumi_xcjobs.md
+## Installation [2501_3000/000118_kishikawakatsumi_xcjobs.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_kishikawakatsumi_xcjobs.md)
 
 Add this line to your application's Gemfile:
 
@@ -17270,7 +17270,7 @@ Or install it yourself as:
 
     $ gem install xcjobs
 ----
-## Installation 2501_3000/000118_gjtorikian_graphql-docs.md
+## Installation [2501_3000/000118_gjtorikian_graphql-docs.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_gjtorikian_graphql-docs.md)
 
 Add this line to your application's Gemfile:
 
@@ -17286,25 +17286,25 @@ Or install it yourself as:
 
     $ gem install graphql-docs
 ----
-## Installation 2501_3000/000118_mattbrictson_chandler.md
+## Installation [2501_3000/000118_mattbrictson_chandler.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_mattbrictson_chandler.md)
 ----
-## Installation 2501_3000/000118_maoueh_nugrant.md
+## Installation [2501_3000/000118_maoueh_nugrant.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000118_maoueh_nugrant.md)
 ----
-## Installation 2501_3000/000117_gshutler_useragent.md
+## Installation [2501_3000/000117_gshutler_useragent.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000117_gshutler_useragent.md)
 
     gem install useragent
 ----
-## Installation 2501_3000/000117_ua-parser_uap-ruby.md
+## Installation [2501_3000/000117_ua-parser_uap-ruby.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000117_ua-parser_uap-ruby.md)
 
 ```bash
 $ gem install user_agent_parser
 ```
 ----
-## Installation 2501_3000/000117_stripe-contrib_stripe-cli.md
+## Installation [2501_3000/000117_stripe-contrib_stripe-cli.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000117_stripe-contrib_stripe-cli.md)
 
     $ gem install stripe-cli
 ----
-## Installation 2501_3000/000117_altmetric_embiggen.md
+## Installation [2501_3000/000117_altmetric_embiggen.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000117_altmetric_embiggen.md)
 
 ```
 gem install embiggen -v '~> 1.5'
@@ -17316,7 +17316,7 @@ Or, in your `Gemfile`:
 gem 'embiggen', '~> 1.5'
 ```
 ----
-## Installation 2501_3000/000117_jadb_capcake.md
+## Installation [2501_3000/000117_jadb_capcake.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000117_jadb_capcake.md)
 
 Add this line to your application's Gemfile:
 
@@ -17343,7 +17343,7 @@ At any time, for help:
 
     $ cap -T
 ----
-## Installation 2501_3000/000116_middleman-contrib_middleman-sync.md
+## Installation [2501_3000/000116_middleman-contrib_middleman-sync.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000116_middleman-contrib_middleman-sync.md)
 
 ```ruby
 gem 'middleman-sync', '~> 4.0'
@@ -17364,7 +17364,7 @@ configure :build do
 end
 ```
 ----
-## Installation 2501_3000/000116_xero-gateway_xero_gateway.md
+## Installation [2501_3000/000116_xero-gateway_xero_gateway.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000116_xero-gateway_xero_gateway.md)
 
 Just add the `xero_gateway` gem to your Gemfile, like so:
 
@@ -17372,7 +17372,7 @@ Just add the `xero_gateway` gem to your Gemfile, like so:
   gem 'xero_gateway'
 ```
 ----
-## Installation 2501_3000/000116_yammer_model_attribute.md
+## Installation [2501_3000/000116_yammer_model_attribute.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000116_yammer_model_attribute.md)
 
 Add this line to your application's Gemfile:
 
@@ -17388,7 +17388,7 @@ Or install it yourself as:
 
     $ gem install model_attribute
 ----
-## Installation 2501_3000/000116_razum2um_lurker.md
+## Installation [2501_3000/000116_razum2um_lurker.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000116_razum2um_lurker.md)
 
 Add my public key:
 
@@ -17405,12 +17405,12 @@ Inject into `test_helper.rb` or `spec_helper.rb`:
 
     require 'lurker/spec_helper'
 ----
-## Installation 2501_3000/000116_arr2036_omnigollum.md
+## Installation [2501_3000/000116_arr2036_omnigollum.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000116_arr2036_omnigollum.md)
 ```sh
 $ gem install omnigollum
 ```
 ----
-## Installation 2501_3000/000116_jsonapi-rb_jsonapi-rails.md
+## Installation [2501_3000/000116_jsonapi-rb_jsonapi-rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000116_jsonapi-rb_jsonapi-rails.md)
 
 Add the following to your application's Gemfile:
 ```ruby
@@ -17421,7 +17421,7 @@ And then execute:
 $ bundle
 ```
 ----
-## Installation ## 2501_3000/000116_ihoka_viewtastic.md
+## Installation ## [2501_3000/000116_ihoka_viewtastic.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000116_ihoka_viewtastic.md)
 
 Install the gem
 
@@ -17431,7 +17431,7 @@ Load the gem in your `environment.rb` file
 
     config.gem "viewtastic"
 ----
-## Installation 2501_3000/000116_railsware_smt_rails.md
+## Installation [2501_3000/000116_railsware_smt_rails.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000116_railsware_smt_rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -17445,7 +17445,7 @@ Or install it yourself as:
 
     $ gem install smt_rails
 ----
-## Installation 3001_3500/000115_allenan_human_time.md
+## Installation [3001_3500/000115_allenan_human_time.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000115_allenan_human_time.md)
 
 Add this line to your application's Gemfile:
 
@@ -17461,17 +17461,17 @@ Or install it yourself as:
 
     $ gem install human_time
 ----
-## Installation 3001_3500/000115_barelyknown_linotype.md
+## Installation [3001_3500/000115_barelyknown_linotype.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000115_barelyknown_linotype.md)
 
     $ gem install linotype
 ----
-## Installation 3001_3500/000115_bogdan_diffbench.md
+## Installation [3001_3500/000115_bogdan_diffbench.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000115_bogdan_diffbench.md)
 
 ``` sh
 gem install diffbench
 ```
 ----
-## Installation 2501_3000/000115_shugo_textbringer.md
+## Installation [2501_3000/000115_shugo_textbringer.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000115_shugo_textbringer.md)
 
     $ gem install textbringer
 
@@ -17481,9 +17481,9 @@ Install ncursesw before installing curses.gem, on which textbringer depends.
     $ sudo apt-get install libncursesw5-dev
     $ gem install curses
 ----
-## Installation 3001_3500/000115_daviddarnes_alembic.md
+## Installation [3001_3500/000115_daviddarnes_alembic.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000115_daviddarnes_alembic.md)
 ----
-## Installation 2501_3000/000115_pazdera_scriptster.md
+## Installation [2501_3000/000115_pazdera_scriptster.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000115_pazdera_scriptster.md)
 
 Add this line to your application's Gemfile:
 
@@ -17498,7 +17498,7 @@ Or install it yourself as:
     $ gem install scriptster
 
 ----
-## Installation 2501_3000/000115_yammer_circuitbox.md
+## Installation [2501_3000/000115_yammer_circuitbox.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000115_yammer_circuitbox.md)
 
 Add this line to your application's Gemfile:
 
@@ -17512,11 +17512,11 @@ Or install it yourself as:
 
     $ gem install circuitbox
 ----
-## Installation 2501_3000/000115_thebrianemory_corneal.md
+## Installation [2501_3000/000115_thebrianemory_corneal.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000115_thebrianemory_corneal.md)
 
     gem install corneal
 ----
-## Installation 2501_3000/000115_unsplash_unsplash_rb.md
+## Installation [2501_3000/000115_unsplash_unsplash_rb.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000115_unsplash_unsplash_rb.md)
 
 Add this line to your application's Gemfile:
 
@@ -17532,7 +17532,7 @@ Or install it yourself as:
 
     $ gem install unsplash
 ----
-## Installation 2501_3000/000115_zaru_webpush.md
+## Installation [2501_3000/000115_zaru_webpush.md](https://github.com/ts-3156/readmes/blob/master/2501_3000/000115_zaru_webpush.md)
 
 Add this line to your application's Gemfile:
 
@@ -17548,7 +17548,7 @@ Or install it yourself as:
 
     $ gem install webpush
 ----
-## Installation 3001_3500/000114_tompesman_push-core.md
+## Installation [3001_3500/000114_tompesman_push-core.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_tompesman_push-core.md)
 
 Add to your `GemFile`
 
@@ -17575,9 +17575,9 @@ To generate the migration and the configuration files run:
     rails g push
     bundle exec rake db:migrate
 ----
-## Installation 3001_3500/000114_follmann_middleman-favicon-maker.md
+## Installation [3001_3500/000114_follmann_middleman-favicon-maker.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_follmann_middleman-favicon-maker.md)
 ----
-## Installation 3001_3500/000114_oelmekki_activerecord_any_of.md
+## Installation [3001_3500/000114_oelmekki_activerecord_any_of.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_oelmekki_activerecord_any_of.md)
 
 In your Gemfile :
 
@@ -17589,11 +17589,11 @@ Activerecord_any_of supports rails >= 3.2.13 and rails-4 (let me know if tests
 pass for rails < 3.2.13, I may edit gem dependencies).
 
 ----
-## Installation 3001_3500/000114_rodjek_puppet-profiler.md
+## Installation [3001_3500/000114_rodjek_puppet-profiler.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_rodjek_puppet-profiler.md)
 
     gem install puppet-profiler
 ----
-## Installation 3001_3500/000114_ruby-grape_grape-active_model_serializers.md
+## Installation [3001_3500/000114_ruby-grape_grape-active_model_serializers.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_ruby-grape_grape-active_model_serializers.md)
 
 Add the `grape` and `grape-active_model_serializers` gems to Gemfile and run `bundle install`.
 
@@ -17603,7 +17603,7 @@ gem 'grape-active_model_serializers'
 
 See [UPGRADING](UPGRADING.md) if you're upgrading from a previous version.
 ----
-## Installation 3001_3500/000114_agoragames_amico.md
+## Installation [3001_3500/000114_agoragames_amico.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_agoragames_amico.md)
 
 `gem install amico`
 
@@ -17616,7 +17616,7 @@ gem 'amico'
 Make sure your redis server is running! Redis configuration is outside the scope of this README, but
 check out the [Redis documentation](http://redis.io/documentation).
 ----
-## Installation 3001_3500/000114_txus_explain.md
+## Installation [3001_3500/000114_txus_explain.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_txus_explain.md)
 
 Install Rubinius if you don't have it yet:
 
@@ -17627,7 +17627,7 @@ Install explain as a gem:
 
     $ gem install explain
 ----
-## Installation 3001_3500/000114_samuelkadolph_unicorn-rails.md
+## Installation [3001_3500/000114_samuelkadolph_unicorn-rails.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_samuelkadolph_unicorn-rails.md)
 
 Add this line to your application's `Gemfile`:
 
@@ -17637,9 +17637,9 @@ And then execute:
 
     $ bundle install
 ----
-## Installation 3001_3500/000114_seanchas116_ruby-qml.md
+## Installation [3001_3500/000114_seanchas116_ruby-qml.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_seanchas116_ruby-qml.md)
 ----
-## Installation ## 3001_3500/000114_johnsonj_progressive_render.md
+## Installation ## [3001_3500/000114_johnsonj_progressive_render.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_johnsonj_progressive_render.md)
 
 Add this line to your application's Gemfile and run `bundle install`
 
@@ -17660,7 +17660,7 @@ If you plan on using the default placeholder, add this to your `application.css`
  *= require progressive_render
  */
 ```----
-## Installation 3001_3500/000114_kosmatov_sidekiq-benchmark.md
+## Installation [3001_3500/000114_kosmatov_sidekiq-benchmark.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000114_kosmatov_sidekiq-benchmark.md)
 
 Add this line to your application's Gemfile:
 
@@ -17670,7 +17670,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 3001_3500/000113_litaio_lita-slack.md
+## Installation [3001_3500/000113_litaio_lita-slack.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000113_litaio_lita-slack.md)
 
 Add **lita-slack** to your Lita instance's Gemfile:
 
@@ -17678,7 +17678,7 @@ Add **lita-slack** to your Lita instance's Gemfile:
 gem "lita-slack"
 ```
 ----
-## Installation 3001_3500/000113_markmcconachie_normalize-rails.md
+## Installation [3001_3500/000113_markmcconachie_normalize-rails.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000113_markmcconachie_normalize-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -17688,7 +17688,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 3001_3500/000113_revett_collectd.md
+## Installation [3001_3500/000113_revett_collectd.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000113_revett_collectd.md)
 
 Add this line to your application's Gemfile:
 
@@ -17704,16 +17704,16 @@ Or install it yourself as:
 
     $ gem install collectd
 ----
-## Installation 3001_3500/000113_lucek_avatarly.md
+## Installation [3001_3500/000113_lucek_avatarly.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000113_lucek_avatarly.md)
 
 Avatarly requires ImageMagick to be installed.
 ----
-## Installation 3001_3500/000113_EDMC_api-versions.md
+## Installation [3001_3500/000113_EDMC_api-versions.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000113_EDMC_api-versions.md)
 In your Gemfile:
 
     gem "api-versions", "~> 1.0"
 ----
-## Installation 3001_3500/000113_capistrano_rvm.md
+## Installation [3001_3500/000113_capistrano_rvm.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000113_capistrano_rvm.md)
 
 Add this line to your application's Gemfile:
 
@@ -17725,12 +17725,12 @@ And then execute:
 
     $ bundle install
 ----
-## Installation 3001_3500/000113_r7kamura_weak_parameters.md
+## Installation [3001_3500/000113_r7kamura_weak_parameters.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000113_r7kamura_weak_parameters.md)
 ```ruby
 gem "weak_parameters"
 ```
 ----
-## Installation 3001_3500/000112_amatsuda_kawaii_validation.md
+## Installation [3001_3500/000112_amatsuda_kawaii_validation.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000112_amatsuda_kawaii_validation.md)
 
 Gemfile:
 
@@ -17740,7 +17740,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 3001_3500/000112_abitdodgy_words_counted.md
+## Installation [3001_3500/000112_abitdodgy_words_counted.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000112_abitdodgy_words_counted.md)
 
 Add this line to your application's Gemfile:
 
@@ -17754,7 +17754,7 @@ Or install it yourself as:
 
     $ gem install words_counted
 ----
-## Installation 3001_3500/000112_kalys_capistrano-nginx-unicorn.md
+## Installation [3001_3500/000112_kalys_capistrano-nginx-unicorn.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000112_kalys_capistrano-nginx-unicorn.md)
 
 Add this line to your application's Gemfile:
 
@@ -17768,13 +17768,13 @@ Or install it yourself as:
 
     $ gem install capistrano-nginx-unicorn
 ----
-## Installation 3001_3500/000112_nashby_garlicjs-rails.md
+## Installation [3001_3500/000112_nashby_garlicjs-rails.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000112_nashby_garlicjs-rails.md)
 
 Add this line to your application's Gemfile:
 
     gem 'garlicjs-rails'
 ----
-## Installation 3001_3500/000112_chriswarren_doorkeeper-jwt.md
+## Installation [3001_3500/000112_chriswarren_doorkeeper-jwt.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000112_chriswarren_doorkeeper-jwt.md)
 
 Add this line to your application's Gemfile:
 
@@ -17790,11 +17790,11 @@ Or install it yourself as:
 
     $ gem install doorkeeper-jwt
 ----
-## Installation 3001_3500/000112_Kerrick_google.md
+## Installation [3001_3500/000112_Kerrick_google.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000112_Kerrick_google.md)
 
     gem install google # Requires Ruby 1.9
 ----
-## Installation 3001_3500/000111_Eric-Guo_weui-rails.md
+## Installation [3001_3500/000111_Eric-Guo_weui-rails.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000111_Eric-Guo_weui-rails.md)
 
 Add this line to your application's Gemfile:
 
@@ -17804,7 +17804,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 3001_3500/000111_digitalocean_resource_kit.md
+## Installation [3001_3500/000111_digitalocean_resource_kit.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000111_digitalocean_resource_kit.md)
 
 Add this line to your application's Gemfile:
 
@@ -17818,7 +17818,7 @@ Or install it yourself as:
 
     $ gem install resource_kit
 ----
-## Installation 3001_3500/000111_netlify_jekyll-srcset.md
+## Installation [3001_3500/000111_netlify_jekyll-srcset.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000111_netlify_jekyll-srcset.md)
 
 Add this line to your Gemfile:
 
@@ -17841,7 +17841,7 @@ gems:
   - jekyll-srcset
 ```
 ----
-## Installation 3001_3500/000111_kickstarter_ipcat-ruby.md
+## Installation [3001_3500/000111_kickstarter_ipcat-ruby.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000111_kickstarter_ipcat-ruby.md)
 
 With bundler:
 
@@ -17856,13 +17856,13 @@ Or with rubygems:
 gem install ipcat
 ```
 ----
-## Installation 3001_3500/000111_pengwynn_rdio-cli.md
+## Installation [3001_3500/000111_pengwynn_rdio-cli.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000111_pengwynn_rdio-cli.md)
 
 ```
 gem install rdio-cli
 ```
 ----
-## Installation 3001_3500/000110_seanho_SimpleView.md
+## Installation [3001_3500/000110_seanho_SimpleView.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000110_seanho_SimpleView.md)
 
 Add the gem to your Gemfile
 
@@ -17883,9 +17883,9 @@ end
 
 ```
 ----
-## Installation 3001_3500/000110_bagwanpankaj_humongous.markdown
+## Installation [3001_3500/000110_bagwanpankaj_humongous.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000110_bagwanpankaj_humongous.markdown)
 ----
-## Installation 3001_3500/000110_avdgaag_rpub.md
+## Installation [3001_3500/000110_avdgaag_rpub.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000110_avdgaag_rpub.md)
 
 Rpub is distributed as a Ruby gem, which should be installed on most Macs and
 Linux systems. Once you have ensured you have a working installation of Ruby
@@ -17900,13 +17900,13 @@ You can verify the gem has installed correctly by checking its version number:
 If this generates an error, something has gone wrong. You should see something
 along the lines of `rpub 1.0.0`.
 ----
-## Installation 3001_3500/000110_curtis_honeypot-captcha.markdown
+## Installation [3001_3500/000110_curtis_honeypot-captcha.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000110_curtis_honeypot-captcha.markdown)
 
 In your Gemfile, simply add
 
     gem 'honeypot-captcha'
 ----
-## Installation 3001_3500/000110_ashfurrow_danger-ruby-swiftlint.md
+## Installation [3001_3500/000110_ashfurrow_danger-ruby-swiftlint.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000110_ashfurrow_danger-ruby-swiftlint.md)
 
 Add this line to your Gemfile:
 
@@ -17916,7 +17916,7 @@ gem 'danger-swiftlint'
 
 SwiftLint also needs to be installed before you run Danger, which you can do [via Homebrew](https://github.com/realm/SwiftLint#installation) or a [Brewfile](https://github.com/Homebrew/homebrew-bundle). On CI, this is done for you when the gem is installed.
 ----
-## Installation 3001_3500/000110_flogic_object_daddy.markdown
+## Installation [3001_3500/000110_flogic_object_daddy.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000110_flogic_object_daddy.markdown)
 
 Presuming your version of Rails has git plugin installation support:
 
@@ -17928,7 +17928,7 @@ Otherwise, you can install object_daddy by hand:
 2. Run the object_daddy/install.rb Ruby script.
 
 ----
-## Installation 3001_3500/000110_exAspArk_graphql-guard.md
+## Installation [3001_3500/000110_exAspArk_graphql-guard.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000110_exAspArk_graphql-guard.md)
 
 Add this line to your application's Gemfile:
 
@@ -17944,7 +17944,7 @@ Or install it yourself as:
 
     $ gem install graphql-guard
 ----
-## Installation 3001_3500/000109_middleman_middleman-livereload.md
+## Installation [3001_3500/000109_middleman_middleman-livereload.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_middleman_middleman-livereload.md)
 
 If you're just getting started, install the `middleman` gem and generate a new project:
 
@@ -17955,7 +17955,7 @@ middleman init MY_PROJECT
 
 If you already have a Middleman project: Add `gem "middleman-livereload", "~> 3.4.3"` to your `Gemfile` and run `bundle install`
 ----
-## Installation and Usage 3001_3500/000109_eldr-rb_eldr.md
+## Installation and Usage [3001_3500/000109_eldr-rb_eldr.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_eldr-rb_eldr.md)
 
 To install Eldr add the following to your gemfile:
 
@@ -18000,7 +18000,7 @@ I have already built and released extensions for many common tasks:
 - [eldr-responders](https://github.com/eldr-rb/eldr-responders): rails-responder like helpers
 - [eldr-action](https://github.com/eldr-rb/eldr-action): Action Objects
 ----
-## Installation 3001_3500/000109_skorks_nesty.md
+## Installation [3001_3500/000109_skorks_nesty.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_skorks_nesty.md)
 
 Add this line to your application's Gemfile:
 
@@ -18014,11 +18014,11 @@ Or install it yourself as:
 
     $ gem install nesty
 ----
-## Installation 3001_3500/000109_focuslight_focuslight.md
+## Installation [3001_3500/000109_focuslight_focuslight.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_focuslight_focuslight.md)
 
 Install focuslight with Ruby 2.1 or later. 
 ----
-## Installation ## 3001_3500/000109_paulca_configurable_engine.md
+## Installation ## [3001_3500/000109_paulca_configurable_engine.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_paulca_configurable_engine.md)
 
 Configurable is available as a Ruby gem. Simply add it to your Rails 4 app's `Gemfile`:
 
@@ -18032,7 +18032,7 @@ Then run the `configurable_engine:install` generator:
 $ rails generate configurable_engine:install
 ```
 ----
-## Installation 3001_3500/000109_lavmeiker_capistrano-wpcli.md
+## Installation [3001_3500/000109_lavmeiker_capistrano-wpcli.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_lavmeiker_capistrano-wpcli.md)
 
 Add this line to your application's Gemfile:
 
@@ -18046,7 +18046,7 @@ Or install it yourself as:
 
     $ gem install capistrano-wpcli
 ----
-## Installation 3001_3500/000109_weltschmerz1_entangled.md
+## Installation [3001_3500/000109_weltschmerz1_entangled.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_weltschmerz1_entangled.md)
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -18067,7 +18067,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 3001_3500/000109_leoasis_activerecord-futures.md
+## Installation [3001_3500/000109_leoasis_activerecord-futures.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_leoasis_activerecord-futures.md)
 
 Add this line to your application's Gemfile:
 
@@ -18081,10 +18081,10 @@ Or install it yourself as:
 
     $ gem install activerecord-futures
 ----
-## Installation 3001_3500/000109_express42_zabbixapi.md
+## Installation [3001_3500/000109_express42_zabbixapi.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_express42_zabbixapi.md)
     gem install zabbixapi
 ----
-## Installation 3001_3500/000109_sufleR_sql_query.md
+## Installation [3001_3500/000109_sufleR_sql_query.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000109_sufleR_sql_query.md)
 
 Add this line to your application's Gemfile:
 
@@ -18098,7 +18098,7 @@ Or install it yourself as:
 
     $ gem install sql_query
 ----
-## Installation 3001_3500/000108_untra_polyglot.md
+## Installation [3001_3500/000108_untra_polyglot.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000108_untra_polyglot.md)
 Add jekyll-polyglot to your `Gemfile` if you are using Bundler:
 ```Ruby
 group :jekyll_plugins do
@@ -18112,7 +18112,7 @@ plugins:
   - jekyll-polyglot
 ```
 ----
-## Installation 3001_3500/000108_panorama-ed_order_as_specified.md
+## Installation [3001_3500/000108_panorama-ed_order_as_specified.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000108_panorama-ed_order_as_specified.md)
 
 Add this line to your application's Gemfile:
 
@@ -18128,7 +18128,7 @@ Or install it yourself as:
 
     $ gem install order_as_specified
 ----
-## Installation 3001_3500/000108_mwerner_spigot.md
+## Installation [3001_3500/000108_mwerner_spigot.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000108_mwerner_spigot.md)
 
 Add this line to your application's Gemfile:
 
@@ -18142,11 +18142,11 @@ Or install it yourself as:
 
     $ gem install spigot
 ----
-## Installation 3001_3500/000107_pacuna_dckerize.md
+## Installation [3001_3500/000107_pacuna_dckerize.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000107_pacuna_dckerize.md)
 
     $ gem install dckerize
 ----
-## Installation 3001_3500/000107_mattolson_heroku_rails_deflate.md
+## Installation [3001_3500/000107_mattolson_heroku_rails_deflate.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000107_mattolson_heroku_rails_deflate.md)
 
 * Add the gem to your app
 
@@ -18176,13 +18176,13 @@ Or install it yourself as:
 ```
 
 ----
-## Installation 3001_3500/000107_tobie_pdoc.markdown
+## Installation [3001_3500/000107_tobie_pdoc.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000107_tobie_pdoc.markdown)
 
 PDoc depends on Rake, your choice of markdown parser, and treetop, all of which can be obtained through RubyGems:
 
     gem install rake bluecloth treetop
     ----
-## Installation 3001_3500/000107_burtlo_yard-cucumber.md
+## Installation [3001_3500/000107_burtlo_yard-cucumber.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000107_burtlo_yard-cucumber.md)
 
 YARD-Cucumber requires the following gems installed:
 
@@ -18198,7 +18198,7 @@ $ gem install yard-cucumber
 
 (Add `sudo` if you're installing under a POSIX system as root)
 ----
-## Installation 3001_3500/000107_shaiguitar_haml-i18n-extractor.md
+## Installation [3001_3500/000107_shaiguitar_haml-i18n-extractor.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000107_shaiguitar_haml-i18n-extractor.md)
 
 `gem install haml-i18n-extractor`
 
@@ -18206,7 +18206,7 @@ If you want the latest code aka edge, you can also simply clone this repo and in
 
 `gem uninstall -x haml-i18n-extractor; rm *gem; gem build *gemspec; gem install --local *gem`
 ----
-## Installation 3001_3500/000107_plaid_plaid-ruby.md
+## Installation [3001_3500/000107_plaid_plaid-ruby.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000107_plaid_plaid-ruby.md)
 
 Add this line to your application's Gemfile:
 
@@ -18224,7 +18224,7 @@ Or install it yourself as:
 
 The gem supports Ruby 2.2+ only.
 ----
-## Installation 3001_3500/000107_activeadmin-plugins_active_admin_import.md
+## Installation [3001_3500/000107_activeadmin-plugins_active_admin_import.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000107_activeadmin-plugins_active_admin_import.md)
 
 Add this line to your application's Gemfile:
 
@@ -18242,14 +18242,14 @@ And then execute:
     $ bundle
 
 ----
-## Installation 3001_3500/000107_amakawa_redic.md
+## Installation [3001_3500/000107_amakawa_redic.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000107_amakawa_redic.md)
 
 You can install it using rubygems.
 
 ```
 $ gem install redic
 ```----
-## Installation 3001_3500/000106_heroku_platform-api.md
+## Installation [3001_3500/000106_heroku_platform-api.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000106_heroku_platform-api.md)
 
 Add this line to your application's Gemfile:
 
@@ -18269,11 +18269,11 @@ Or install it yourself as:
 gem install platform-api
 ```
 ----
-## Installation 3001_3500/000106_north_Style-Prototypes.md
+## Installation [3001_3500/000106_north_Style-Prototypes.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000106_north_Style-Prototypes.md)
 
 For setting up a new Style Prototype generator, see [these instructions](https://github.com/north/generator-Style-Prototype#installation).
 ----
-## Installation 3001_3500/000106_mvz_happymapper.md
+## Installation [3001_3500/000106_mvz_happymapper.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000106_mvz_happymapper.md)
 
 Install via rubygems:
 
@@ -18291,7 +18291,7 @@ Run Bundler to install the gem:
 
     $ bundle install
 ----
-## Installation 3001_3500/000106_keithpitt_vendor.markdown
+## Installation [3001_3500/000106_keithpitt_vendor.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000106_keithpitt_vendor.markdown)
 
 If you have [RVM](http://beginrescueend.com/rvm/install/) installed, simply run:
 
@@ -18305,7 +18305,7 @@ Otherwise, you'll need to:
 $ sudo gem install vendor
 ```
 ----
-## Installation 3001_3500/000105_steventen_sql_tracker.md
+## Installation [3001_3500/000105_steventen_sql_tracker.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000105_steventen_sql_tracker.md)
 
 Add this line to your application's Gemfile:
 
@@ -18321,7 +18321,7 @@ And then execute:
     $ bundle
 
 ----
-## Installation 3001_3500/000105_adamcooke_rails-safe-tasks.md
+## Installation [3001_3500/000105_adamcooke_rails-safe-tasks.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000105_adamcooke_rails-safe-tasks.md)
 
 To install, just add to your Gemfile and run `bundle`.
 
@@ -18329,7 +18329,7 @@ To install, just add to your Gemfile and run `bundle`.
 gem 'rails_safe_tasks', '~> 1.0'
 ```
 ----
-## Installation 3001_3500/000105_printercu_rails_stuff.md
+## Installation [3001_3500/000105_printercu_rails_stuff.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000105_printercu_rails_stuff.md)
 
 Add this line to your application's Gemfile:
 
@@ -18345,7 +18345,7 @@ Or install it yourself as:
 
     $ gem install rails_stuff
 ----
-## Installation 3001_3500/000105_metaware_underlock.md
+## Installation [3001_3500/000105_metaware_underlock.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000105_metaware_underlock.md)
 
 Add this line to your application's Gemfile:
 
@@ -18361,12 +18361,12 @@ Or install it yourself as:
 
     $ gem install underlock
 ----
-## Installation 3001_3500/000105_zerowidth_ringleader.md
+## Installation [3001_3500/000105_zerowidth_ringleader.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000105_zerowidth_ringleader.md)
 
     $ gem install ringleader
     $ ringleader --help
 ----
-## Installation 3001_3500/000105_mattpolito_paratrooper.md
+## Installation [3001_3500/000105_mattpolito_paratrooper.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000105_mattpolito_paratrooper.md)
 
 Add this line to your application's Gemfile:
 
@@ -18388,7 +18388,7 @@ install it yourself with
 gem install paratrooper
 ```
 ----
-## Installation 3001_3500/000105_samtgarson_vueport.md
+## Installation [3001_3500/000105_samtgarson_vueport.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000105_samtgarson_vueport.md)
 
 Add this line to your application's Gemfile:
 
@@ -18420,7 +18420,7 @@ bundle exec foreman start -f Procfile.dev
 
 to boot the Webpack Dev server and your Rails app!
 ----
-## Installation 3001_3500/000104_leemachin_ask_awesomely.md
+## Installation [3001_3500/000104_leemachin_ask_awesomely.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_leemachin_ask_awesomely.md)
 
 Prepare your best [Jamie Oliver](https://en.wikipedia.org/wiki/Jamie_Oliver) impression and bang this in yer Gemfile:
 
@@ -18446,12 +18446,12 @@ Then include it in your code like this:
 require "ask_awesomely"
 ```
 ----
-## Installation 3001_3500/000104_salesking_sepa_king.md
+## Installation [3001_3500/000104_salesking_sepa_king.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_salesking_sepa_king.md)
 
     gem install sepa_king
 
 ----
-## Installation 3001_3500/000104_palkan_n_plus_one_control.md
+## Installation [3001_3500/000104_palkan_n_plus_one_control.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_palkan_n_plus_one_control.md)
 
 Add this line to your application's Gemfile:
 
@@ -18465,7 +18465,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 3001_3500/000104_imikimi_literate_randomizer.md
+## Installation [3001_3500/000104_imikimi_literate_randomizer.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_imikimi_literate_randomizer.md)
 
 Add this line to your application's Gemfile:
 
@@ -18479,7 +18479,7 @@ Or install it yourself as:
 
     $ gem install literate_randomizer
 ----
-## Installation 3001_3500/000104_Sharagoz_rails_exception_handler.markdown
+## Installation [3001_3500/000104_Sharagoz_rails_exception_handler.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_Sharagoz_rails_exception_handler.markdown)
 Add the line below to your gemfile and run bundler
 
 ```
@@ -18494,7 +18494,7 @@ rails g rails_exception_handler:install
 
 Open config/initializers/rails_exception_handler.rb, have a quick look and read on.
 ----
-## Installation 3001_3500/000104_melekes_valle.md
+## Installation [3001_3500/000104_melekes_valle.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_melekes_valle.md)
 
 Add this line to your application's Gemfile:
 
@@ -18510,7 +18510,7 @@ Or install it yourself:
 
 If you are using other framework than Rails (e.g. Sinatra), call `Valle::Hooks.init` method during the boot process.
 ----
-## Installation 3001_3500/000104_evrone_capistrano-team_notifications.md
+## Installation [3001_3500/000104_evrone_capistrano-team_notifications.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_evrone_capistrano-team_notifications.md)
 
 Add this line to your application's Gemfile:
 
@@ -18524,7 +18524,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 3001_3500/000104_stephskardal_rails_admin_import.md
+## Installation [3001_3500/000104_stephskardal_rails_admin_import.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_stephskardal_rails_admin_import.md)
 
 * First, add to Gemfile:
 
@@ -18569,7 +18569,7 @@ cannot :import, :all
 can :import, [User, Model1, Model2]
 ```
 ----
-## Installation 3001_3500/000104_marjinal1st_medium-editor-rails.md
+## Installation [3001_3500/000104_marjinal1st_medium-editor-rails.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000104_marjinal1st_medium-editor-rails.md)
 
 Include **medium-editor-rails** in your Rails project's Gemfile:
 
@@ -18583,7 +18583,7 @@ And then execute:
 bundle install
 ```
 ----
-## Installation 3001_3500/000103_makandra_spreewald.md
+## Installation [3001_3500/000103_makandra_spreewald.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000103_makandra_spreewald.md)
 
 Add this line to your application's Gemfile:
 
@@ -18598,7 +18598,7 @@ Or install it yourself as:
     $ gem install spreewald
 
 ----
-## Installation 3001_3500/000103_simi_mongoid_paranoia.md
+## Installation [3001_3500/000103_simi_mongoid_paranoia.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000103_simi_mongoid_paranoia.md)
 
 Add this line to your application's Gemfile:
 
@@ -18606,7 +18606,7 @@ Add this line to your application's Gemfile:
 gem 'mongoid_paranoia'
 ```
 ----
-## Installation 3001_3500/000103_ndbroadbent_libreconv.md
+## Installation [3001_3500/000103_ndbroadbent_libreconv.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000103_ndbroadbent_libreconv.md)
 
 Add this line to your application's Gemfile:
 
@@ -18620,7 +18620,7 @@ Or install it yourself as:
 
     $ gem install libreconv
 ----
-## Installation 3001_3500/000103_ruby-formatter_rufo.md
+## Installation [3001_3500/000103_ruby-formatter_rufo.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000103_ruby-formatter_rufo.md)
 
 Add this line to your application's Gemfile:
 
@@ -18636,7 +18636,7 @@ Or install it system wide with:
 
     $ gem install rufo
 ----
-## Installation 3001_3500/000103_mokolabs_trucker.md
+## Installation [3001_3500/000103_mokolabs_trucker.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000103_mokolabs_trucker.md)
 
 1. Install the trucker gem
   ```bash
@@ -18757,12 +18757,12 @@ Or install it system wide with:
   rake db:migrate:posts
   ```
 ----
-## Installation 3001_3500/000103_visoft_ruby_odata.md
+## Installation [3001_3500/000103_visoft_ruby_odata.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000103_visoft_ruby_odata.md)
 You can install ruby_odata as a gem using:
 
     gem install ruby_odata
 ----
-## Installation 3001_3500/000103_piotrmurach_rspec-benchmark.md
+## Installation [3001_3500/000103_piotrmurach_rspec-benchmark.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000103_piotrmurach_rspec-benchmark.md)
 
 Add this line to your application's Gemfile:
 
@@ -18778,12 +18778,12 @@ Or install it yourself as:
 
     $ gem install rspec-benchmark
 ----
-## Installation 3001_3500/000103_dmarcotte_github-markdown-preview.md
+## Installation [3001_3500/000103_dmarcotte_github-markdown-preview.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000103_dmarcotte_github-markdown-preview.md)
 ```
 gem install github-markdown-preview
 ```
 ----
-## Installation 3001_3500/000102_elabs_serial.md
+## Installation [3001_3500/000102_elabs_serial.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000102_elabs_serial.md)
 
 Add this line to your application's Gemfile:
 
@@ -18795,7 +18795,7 @@ And then execute:
 
     $ bundle
 ----
-## Installation 3001_3500/000102_ifad_chronomodel.md
+## Installation [3001_3500/000102_ifad_chronomodel.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000102_ifad_chronomodel.md)
 
 Add this line to your application's Gemfile:
 
@@ -18806,7 +18806,7 @@ And then execute:
     $ bundle
 
 ----
-## Installation 3001_3500/000102_spreedly_spreedly-gem.md
+## Installation [3001_3500/000102_spreedly_spreedly-gem.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000102_spreedly_spreedly-gem.md)
 
 If you're using bundler, add the gem to your Gemfile:
 
@@ -18817,31 +18817,31 @@ Otherwise gem install:
     $ gem install spreedly
 
 ----
-## Installation 3001_3500/000102_balinterdi_i15r.markdown
+## Installation [3001_3500/000102_balinterdi_i15r.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000102_balinterdi_i15r.markdown)
 ----
-## Installation 3001_3500/000102_mattwynne_ssh-forever.markdown
+## Installation [3001_3500/000102_mattwynne_ssh-forever.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000102_mattwynne_ssh-forever.markdown)
 
     gem install ssh-forever
 ----
-## Installation 3001_3500/000102_michelson_BigBroda.md
+## Installation [3001_3500/000102_michelson_BigBroda.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000102_michelson_BigBroda.md)
 
 Add 'bigbroda' to your application's Gemfile or install it yourself as:
 
     $ gem install bigbroda
 ----
-## Installation 3001_3500/000102_voxpupuli_vagrant-librarian-puppet.md
+## Installation [3001_3500/000102_voxpupuli_vagrant-librarian-puppet.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000102_voxpupuli_vagrant-librarian-puppet.md)
 
 ``` bash
 vagrant plugin install vagrant-librarian-puppet
 ```
 ----
-## Installation 3001_3500/000102_seratch_rspec-kickstarter.md
+## Installation [3001_3500/000102_seratch_rspec-kickstarter.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000102_seratch_rspec-kickstarter.md)
 
 https://rubygems.org/gems/rspec-kickstarter
 
     gem install rspec-kickstarter
 ----
-## Installation 3001_3500/000101_capistrano_passenger.md
+## Installation [3001_3500/000101_capistrano_passenger.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_capistrano_passenger.md)
 
 Add this line to your application's Gemfile:
 
@@ -18861,13 +18861,13 @@ Or install it yourself as:
 $ gem install capistrano-passenger
 ```
 ----
-## Installation 3001_3500/000101_iphoting_ovpnmcgen.rb.md
+## Installation [3001_3500/000101_iphoting_ovpnmcgen.rb.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_iphoting_ovpnmcgen.rb.md)
 
 Install the production version from Rubygems.org:
 
     $ gem install ovpnmcgen.rb
 ----
-## Installation 3001_3500/000101_Shopify_verdict.md
+## Installation [3001_3500/000101_Shopify_verdict.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_Shopify_verdict.md)
 
 Add this line to your application's Gemfile, and run `bundle install`:
 
@@ -18875,21 +18875,21 @@ Add this line to your application's Gemfile, and run `bundle install`:
 
 If you're using Rails, the Railtie will handle setting the logger to `Rails.logger` and the experiments directory to `app/experiments`. It will also load the rake tasks for you (run `bundle exec rake -T | grep experiments:` for options).
 ----
-## Installation 3001_3500/000101_lyonrb_biceps.md
+## Installation [3001_3500/000101_lyonrb_biceps.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_lyonrb_biceps.md)
 
 Biceps heavily uses the convention over configuration principle.
 To install it, you just need to add it to your Gemfile.
 
     gem 'biceps'
 ----
-## Installation 3001_3500/000101_shuber_proxy.markdown
+## Installation [3001_3500/000101_shuber_proxy.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_shuber_proxy.markdown)
 
 	script/plugin install git://github.com/shuber/proxy.git
 	OR
 	gem install proxy
 
 ----
-## Installation 3001_3500/000101_octopress_ink.md
+## Installation [3001_3500/000101_octopress_ink.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_octopress_ink.md)
 
 Add this line to your application's Gemfile:
 
@@ -18903,7 +18903,7 @@ Or install it yourself as:
 
     $ gem install octopress-ink
 ----
-## Installation 3001_3500/000101_jvillarejo_spyme.md
+## Installation [3001_3500/000101_jvillarejo_spyme.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_jvillarejo_spyme.md)
 
 Add this line to your application's Gemfile:
 
@@ -18918,7 +18918,7 @@ Lastly, include the javascript file in `app/assets/javascripts/application.js` a
 //= require spyme
 ```
 ----
-## Installation & Usage 3001_3500/000101_endoze_mina-multistage.md
+## Installation & Usage [3001_3500/000101_endoze_mina-multistage.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_endoze_mina-multistage.md)
 
 Add this line to your application's Gemfile:
 
@@ -19000,13 +19000,13 @@ $ mina production deploy
 ```
 
 ----
-## Installation 3001_3500/000101_chrishunt_rubiks-cube.md
+## Installation [3001_3500/000101_chrishunt_rubiks-cube.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000101_chrishunt_rubiks-cube.md)
 
 ```bash
 $ gem install rubiks_cube
 ```
 ----
-## Installation 3001_3500/000100_maccman_sinatra-pubsub.md
+## Installation [3001_3500/000100_maccman_sinatra-pubsub.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_maccman_sinatra-pubsub.md)
 
 Add this line to your application's Gemfile:
 
@@ -19020,7 +19020,7 @@ Or install it yourself as:
 
     $ gem install sinatra-pubsub
 ----
-## Installation 3001_3500/000100_matiasgagliano_action_access.md
+## Installation [3001_3500/000100_matiasgagliano_action_access.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_matiasgagliano_action_access.md)
 
 Add `action_access` to the app's Gemfile, run the `bundle` command and restart
 any running server.
@@ -19031,7 +19031,7 @@ gem 'action_access'
 ```
 
 ----
-## Installation 3001_3500/000100_aserafin_grape_logging.md
+## Installation [3001_3500/000100_aserafin_grape_logging.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_aserafin_grape_logging.md)
 
 Add this line to your application's Gemfile:
 
@@ -19045,14 +19045,14 @@ Or install it yourself as:
 
     $ gem install grape_logging
 ----
-## Installation 3001_3500/000100_sferik_mtgox.md
+## Installation [3001_3500/000100_sferik_mtgox.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_sferik_mtgox.md)
     gem install mtgox
 ----
-## Installation 3001_3500/000100_AlexanderZaytsev_domp.md
+## Installation [3001_3500/000100_AlexanderZaytsev_domp.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_AlexanderZaytsev_domp.md)
 
     $ gem install domp
 ----
-## Installation 3001_3500/000100_dalibor_octoshark.md
+## Installation [3001_3500/000100_dalibor_octoshark.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_dalibor_octoshark.md)
 
 Add this line to your application's Gemfile:
 
@@ -19073,7 +19073,7 @@ $ gem install octoshark
 ```
 
 ----
-## Installation 3001_3500/000100_dylanvaughn_aws_cf_signer.md
+## Installation [3001_3500/000100_dylanvaughn_aws_cf_signer.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_dylanvaughn_aws_cf_signer.md)
 
 In your Gemfile.
 
@@ -19083,11 +19083,11 @@ Or on your system.
 
     gem install aws_cf_signer
 ----
-## Installation 3001_3500/000100_yob_em-ftpd.markdown
+## Installation [3001_3500/000100_yob_em-ftpd.markdown](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_yob_em-ftpd.markdown)
 
     gem install em-ftpd
 ----
-## Installation 3001_3500/000100_sonots_activerecord-refresh_connection.md
+## Installation [3001_3500/000100_sonots_activerecord-refresh_connection.md](https://github.com/ts-3156/readmes/blob/master/3001_3500/000100_sonots_activerecord-refresh_connection.md)
 
 Add the following to your `Gemfile`:
 
